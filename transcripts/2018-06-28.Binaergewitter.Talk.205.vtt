@@ -1,0 +1,6115 @@
+WEBVTT
+
+00:00:06.400 --> 00:00:12.880
+<v Unbekannt>Binärgewitter, der Podcast rund um Webtechnologie und um
+
+00:00:13.200 --> 00:00:13.760
+<v Unbekannt>Talk.
+
+00:00:17.760 --> 00:00:23.680
+<v l33tname>Hallihallo und herzlich willkommen zu Beginn Binärgewitter Talk 205 heute mit Felix.
+
+00:00:24.640 --> 00:00:25.920
+<v l33tname>Hallo, das bin ich.
+
+00:00:26.080 --> 00:00:27.200
+<v l33tname>Und Felix?
+
+00:00:27.600 --> 00:00:28.880
+<v Felix>Hallo, das bin ich.
+
+00:00:29.120 --> 00:00:30.080
+<v l33tname>Und Markus.
+
+00:00:30.560 --> 00:00:32.320
+<v Markus>Sommernachts-Afterburner Traum.
+
+00:00:32.720 --> 00:00:33.600
+<v l33tname>Bitte was?
+
+00:00:34.080 --> 00:00:34.480
+<v l33tname>Naja.
+
+00:00:34.800 --> 00:00:39.600
+<v Markus>Ja, gestern Abend und alles vorbei und heute haben wir Binärgewitter und alles ist großartig.
+
+00:00:39.760 --> 00:00:41.680
+<v Felix>Achso, ja, das stimmt.
+
+00:00:42.320 --> 00:00:43.600
+<v Felix>Ist da was passiert, oder?
+
+00:00:43.760 --> 00:00:45.920
+<v l33tname>Hat jemand heimlich Fußball geschaut, ne?
+
+00:00:47.200 --> 00:00:49.120
+<v Felix>Ist die Schweiz bestimmt noch drin, oder?
+
+00:00:49.520 --> 00:00:52.000
+<v Markus>Die letzten paar Minuten ist die Schweiz noch drin.
+
+00:00:52.080 --> 00:00:57.120
+<v l33tname>Tja, wir können auch Fußball spielen im Gegensatz zu anderen Ländern, habe ich mir sagen lassen.
+
+00:00:57.680 --> 00:00:59.600
+<v Felix>Die das verlernt haben anscheinend.
+
+00:00:59.840 --> 00:01:01.760
+<v Felix>Aber jetzt ist, das war genug Fußball.
+
+00:01:02.000 --> 00:01:02.640
+<v Felix>Genug Fußball.
+
+00:01:04.320 --> 00:01:06.640
+<v l33tname>Kommen wir zum Toten der Woche?
+
+00:01:07.200 --> 00:01:07.680
+<v l33tname>Haben wir Toten.
+
+00:01:07.920 --> 00:01:09.520
+<v l33tname>Die deutschen Fußball beispielsweise?
+
+00:01:09.760 --> 00:01:12.160
+<v Felix>Ah, jetzt, wir hatten gesagt, genug Fuß.
+
+00:01:12.560 --> 00:01:13.360
+<v Felix>Oh, Burn!
+
+00:01:19.760 --> 00:01:20.240
+<v Felix>Genau.
+
+00:01:20.400 --> 00:01:22.240
+<v Felix>Was haben wir als Toten?
+
+00:01:22.960 --> 00:01:23.440
+<v Felix>Wir haben.
+
+00:01:24.080 --> 00:01:24.800
+<v Felix>CPUs?
+
+00:01:25.200 --> 00:01:31.280
+<v Felix>Wir haben, also, in der letzten Zeit war es ja so, CPUs sind immer langsamer geworden.
+
+00:01:31.520 --> 00:01:37.520
+<v Felix>Dank irgendwelchen krassen Angriffen auf CPU quasi
+
+00:01:37.600 --> 00:01:38.880
+<v Felix>Funktionalitäten.
+
+00:01:39.120 --> 00:01:40.960
+<v Felix>Und es wird nur schlimmer.
+
+00:01:41.360 --> 00:01:45.200
+<v Felix>Jetzt nehmen die uns auch noch das Hyper-Threading weg.
+
+00:01:47.440 --> 00:01:51.040
+<v Felix>Und zwar, es gibt einen Angriff, der nennt sich TL-Bleed.
+
+00:01:52.240 --> 00:01:58.560
+<v Felix>Und dieser Angriff funktioniert wie vorher auch das, wie hießen die anderen Dinger?
+
+00:01:58.720 --> 00:01:59.440
+<v Felix>Die hatten auch einen Hart.
+
+00:01:59.600 --> 00:02:00.160
+<v Felix>Heartbleed.
+
+00:02:00.400 --> 00:02:01.280
+<v Felix>Heartbleed?
+
+00:02:01.520 --> 00:02:03.280
+<v l33tname>Ist ja nicht Heartbleed oder so?
+
+00:02:03.600 --> 00:02:05.760
+<v Felix>Heartbleed war ja das andere TLS-Ding, oder?
+
+00:02:05.920 --> 00:02:06.800
+<v l33tname>Ah, stimmt.
+
+00:02:06.960 --> 00:02:12.320
+<v Felix>Nee, aber das TL hat nichts mit TLS zu tun, sondern mit dem Translation
+
+00:02:12.560 --> 00:02:18.800
+<v Felix>Look-Acide-Buffer, der quasi auch wieder so ein Buffer ist in deinem CPU,
+
+00:02:18.880 --> 00:02:20.880
+<v Felix>genauso, wie heißt denn das andere Ding CS?
+
+00:02:24.080 --> 00:02:29.600
+<v Felix>Ähnlich wie Meltdown, wo quasi über
+
+00:02:29.600 --> 00:02:34.960
+<v Felix>Timing-Angriffe der Buffer, also dieser
+
+00:02:35.920 --> 00:02:42.480
+<v Felix>Look-Aside-Buffer ausgelesen werden kann und dass das quasi ein anderer
+
+00:02:42.560 --> 00:02:46.160
+<v Felix>Prozess raten kann, was in diesem Buffer steht.
+
+00:02:46.320 --> 00:02:52.480
+<v Felix>Und das ist natürlich eine blöde Sache, wenn man in diesem Buffer irgendwelche kryptografischen Schlüssel
+
+00:02:54.560 --> 00:02:55.600
+<v Felix>verarbeitet.
+
+00:02:56.560 --> 00:03:00.800
+<v Felix>Und es funktioniert über Hyper-Threading,
+
+00:03:00.880 --> 00:03:05.440
+<v Felix>also wenn Hyper-Threading auf dem Gerät aktiviert ist, hat man die Möglichkeit,
+
+00:03:06.080 --> 00:03:09.200
+<v Felix>diesen Angriff gegebenenfalls anzuwenden.
+
+00:03:09.760 --> 00:03:15.360
+<v Felix>Und ist natürlich blöd, weil Hyper-Threading ist ja schon eine coole Sache.
+
+00:03:15.440 --> 00:03:21.680
+<v Felix>Dann hast du anstatt zwei CPUs, hast du auf einmal vier CPUs und das ist fast auch doppelt so schnell.
+
+00:03:22.000 --> 00:03:25.040
+<v l33tname>Aber funktioniert das auch wirklich so gut?
+
+00:03:25.200 --> 00:03:29.680
+<v l33tname>Also ich habe mich nie damit so wirklich auseinandergesetzt, aber es klingt halt so ein bisschen zu gut,
+
+00:03:29.760 --> 00:03:32.240
+<v l33tname>um wahr zu sein, dass das wirklich gut funktioniert.
+
+00:03:32.480 --> 00:03:33.440
+<v Felix>War es Hyper-Threading?
+
+00:03:33.760 --> 00:03:36.320
+<v Felix>Hyper-Threading funktioniert schon relativ lange, relativ gut.
+
+00:03:36.480 --> 00:03:42.160
+<v Felix>Das ist quasi so, dass du ja, also dein
+
+00:03:43.120 --> 00:03:49.920
+<v Felix>Betriebssystem sieht zwei separate Kerne und mit Hyper-Threading ist es
+
+00:03:49.920 --> 00:03:56.720
+<v Felix>dann so, dass da in dem CPU bestimmte Pipelines
+
+00:03:56.880 --> 00:04:02.320
+<v Felix>parallel sind und die können dann besser irgendwie abgearbeitet werden und es wird,
+
+00:04:02.800 --> 00:04:07.840
+<v Felix>wir gucken mal, Gewinn Performance,
+
+00:04:08.080 --> 00:04:10.720
+<v Felix>Gewinn, Hyper-Threading.
+
+00:04:10.800 --> 00:04:13.040
+<v Felix>Ich glaube, das kommt ein bisschen auf die Anwendung an.
+
+00:04:13.280 --> 00:04:18.320
+<v Felix>Im High-Performance-Computing, wenn du quasi so besonders viele Rechenoperationen hast,
+
+00:04:18.640 --> 00:04:25.040
+<v Felix>die die MMU mitbenutzen würden, dann wäre das Hyper-Threading gegebenenfalls ein bisschen problematisch,
+
+00:04:25.360 --> 00:04:30.560
+<v Felix>weil sich dann diese zwei Threads eine, eine Rechenunit teilen müssten,
+
+00:04:30.800 --> 00:04:35.360
+<v Felix>aber wenn du dann halt auch bestimmte andere Kerne hast, die mehr MMUs haben,
+
+00:04:35.440 --> 00:04:41.600
+<v Felix>also für jeden logischen Kern dann auch noch eine, dann würde das auch noch funktionieren.
+
+00:04:41.840 --> 00:04:43.520
+<v Felix>Würde es dann quasi immer noch schnell sein.
+
+00:04:43.680 --> 00:04:49.600
+<v Felix>Und Hyper-Threading Technology sagt, Wikipedia sagt hier,
+
+00:04:50.560 --> 00:04:55.680
+<v Felix>ist sehr gut, sehr viele bunte, sehr viele bunte Dinge und macht es schneller.
+
+00:04:58.240 --> 00:05:03.440
+<v Felix>Also ich weiß nicht 100% genau, wie es funktioniert und ich denke,
+
+00:05:03.920 --> 00:05:08.000
+<v Felix>es ist jetzt auch gar nicht so relevant.
+
+00:05:09.120 --> 00:05:12.800
+<v Felix>Problematisch ist halt nur, dass dein Computer schon wieder langsamer wird.
+
+00:05:13.760 --> 00:05:18.640
+<v l33tname>Also ich habe nur gelesen, OpenBSD ist ja dann irgendwie darauf hingegangen.
+
+00:05:18.720 --> 00:05:23.040
+<v l33tname>Also es war ja nichts wirklich veröffentlicht und sie sind dann aber irgendwie hingegangen und haben gesagt,
+
+00:05:23.200 --> 00:05:27.040
+<v l33tname>es kommt was und wir disablen jetzt einfach mal Hyper-Threading zu generieren.
+
+00:05:27.360 --> 00:05:29.520
+<v Felix>Das ist ja auch schon wieder echt ein Arschloch-Move, ja.
+
+00:05:30.000 --> 00:05:36.160
+<v Felix>Also das kann man so machen, aber ob man das so machen sollte, ist echt eine andere Frage.
+
+00:05:37.600 --> 00:05:39.840
+<v Felix>Und was denkt ihr?
+
+00:05:41.840 --> 00:05:43.760
+<v l33tname>Mehr als auf CPUs vielleicht?
+
+00:05:44.080 --> 00:05:50.240
+<v Markus>Ich glaube einfach, das ist so die Rückforderung dessen, was man bisher über Gebühr genutzt hat.
+
+00:05:50.480 --> 00:05:55.680
+<v Markus>Es ist einfach ohne Security Zeug implementiert worden und dafür hat man mehr Performance zu sehen bekommen,
+
+00:05:55.920 --> 00:06:00.720
+<v Markus>als man unter Berücksichtigung des eigentlich Notwendigen hätte sehen können.
+
+00:06:01.200 --> 00:06:03.280
+<v Markus>Und das pendelt sich dann einfach ein.
+
+00:06:03.360 --> 00:06:07.760
+<v Markus>Ja, klar, müssen wir jetzt wieder Performance hergeben, die wir vorher hatten oder die zur Verfügung stand.
+
+00:06:08.160 --> 00:06:12.320
+<v Markus>Aber dafür bauen wir vielleicht auch wieder etwas sicherere Systeme.
+
+00:06:13.200 --> 00:06:17.200
+<v l33tname>Also gut, mal eine generelle Frage, also wann hattet ihr das letzte Mal ein System,
+
+00:06:17.280 --> 00:06:23.040
+<v l33tname>wo ihr gedacht habt, die CPU könnte aber ein bisschen größer sein, mal abgesehen von irgendwelchen komischen
+
+00:06:23.040 --> 00:06:28.960
+<v l33tname>Edge Cases wie ich kompiliere gerade mal ein Linux-Kernel oder so, wo man halt irgendwie nie genug Cores,
+
+00:06:29.440 --> 00:06:34.800
+<v l33tname>die genug schnell sind, haben kann oder irgendwie vielleicht noch so 3D-Rendering,
+
+00:06:34.880 --> 00:06:37.120
+<v l33tname>was nicht auf der GPU schon läuft.
+
+00:06:37.440 --> 00:06:42.240
+<v Markus>Aber sonst, also mir fällt tatsächlich immer noch sehr schwer,
+
+00:06:42.480 --> 00:06:48.240
+<v Markus>wirklich zu sagen, wo es in der Performance hakt, aber die Gesamtperformance meines Systems geht mir jeden Tag
+
+00:06:48.240 --> 00:06:51.120
+<v Markus>auf den Sack und ich habe wirklich kein Low-End-System.
+
+00:06:52.880 --> 00:06:54.160
+<v Markus>Behaupte ich nun mal.
+
+00:06:55.280 --> 00:06:59.200
+<v Markus>Das ist einfach, ja, mehr CPU wird das wahrscheinlich nicht alleine lösen.
+
+00:06:59.280 --> 00:07:05.680
+<v Markus>Das muss man dann immer kombinieren mit mehr Bandbreite auf dem Bus und mehr Speicher und mehr drumherum.
+
+00:07:06.320 --> 00:07:08.720
+<v Markus>Aber mehr CPU hilft da schon immer, klar?
+
+00:07:09.200 --> 00:07:10.640
+<v Markus>Dass man mehr wegarbeiten kann.
+
+00:07:10.960 --> 00:07:12.720
+<v l33tname>Mehr ist mehr, aber ja.
+
+00:07:12.880 --> 00:07:16.400
+<v l33tname>Ich habe jetzt nicht so das Problem, also ich habe nicht so das Gefühl,
+
+00:07:16.480 --> 00:07:22.000
+<v l33tname>dass in meinem tagtäglichen Gebrauch meiner meiner Computer,
+
+00:07:22.080 --> 00:07:25.600
+<v l33tname>dass die irgendwie die CPU zu langsam wäre oder dass ich ihn irgendwie.
+
+00:07:25.840 --> 00:07:30.080
+<v l33tname>Also halt eben genau in den Edge Cases, wo du halt einen Linux-Kernel kompilierst,
+
+00:07:30.720 --> 00:07:37.040
+<v l33tname>wo du halt echt immer gern mehr und mehr hättest, aber jetzt so für normal habe ich nie das Gefühl,
+
+00:07:37.200 --> 00:07:39.760
+<v l33tname>dass meine Systeme irgendwie zu langsam wären.
+
+00:07:40.000 --> 00:07:42.080
+<v l33tname>Aber logisch, mehr geht natürlich immer.
+
+00:07:42.800 --> 00:07:48.480
+<v Markus>Ja, und es ist tatsächlich, wenn ich eine IDE habe, die laggt beim Tippen, das nervt mich kolossal.
+
+00:07:49.440 --> 00:07:51.760
+<v Felix>Was nutzt du denn eine IDE, die laggt beim Tippen?
+
+00:07:52.000 --> 00:07:52.240
+<v Felix>Ja.
+
+00:07:55.280 --> 00:08:01.920
+<v Markus>Wenn ich zwischen Fenstern wechsle und es ist einfach nicht direkt da, das nervt so Zeug.
+
+00:08:02.080 --> 00:08:07.600
+<v Markus>Und ich habe halt, eben, das ist das Schwierige mit wirklich zu ergründen, wo der Performance-Lack herkommt.
+
+00:08:08.000 --> 00:08:14.800
+<v Markus>Ich habe jetzt bei dem MacBook Pro das Problem oder das Gefühl und auch durch Internetartikel
+
+00:08:14.800 --> 00:08:18.160
+<v Markus>unterstützt, dass es an dem externen Monitor liegt.
+
+00:08:18.320 --> 00:08:21.840
+<v Markus>Jetzt habe ich mal diese Geschichte ausprobiert, den Monitor nicht zu skalieren,
+
+00:08:21.920 --> 00:08:27.040
+<v Markus>sondern in der optimalen Auflösung, in Anführungsstriche, zu benutzen.
+
+00:08:27.360 --> 00:08:30.640
+<v Markus>Das Zeug wird mir gerade sehr groß dargestellt, was ich so angucke,
+
+00:08:30.800 --> 00:08:34.320
+<v Markus>aber es hilft auch nicht wirklich viel und es frustriert mich.
+
+00:08:34.960 --> 00:08:36.480
+<v Markus>Es kann einfach nicht sein.
+
+00:08:37.680 --> 00:08:38.000
+<v Markus>Okay.
+
+00:08:39.360 --> 00:08:46.080
+<v Felix>Also ich muss auch sagen, CPUs sollten einfach niemals langsamer werden und schon gar nicht,
+
+00:08:46.160 --> 00:08:48.720
+<v Felix>wenn die jetzt, wenn quasi Software mal beschissene wird.
+
+00:08:50.800 --> 00:08:51.840
+<v Felix>Das ist halt das Ding, ja.
+
+00:08:51.920 --> 00:08:57.920
+<v Felix>Also wenn die Software schneller beschissen wird, als der CPU schnell wird, dann ist es halt ein Problem.
+
+00:08:58.160 --> 00:09:02.880
+<v Felix>Und wenn jetzt quasi wir beschissene Software haben, aber wieder beschissene CPUs,
+
+00:09:02.960 --> 00:09:04.880
+<v Felix>dann ist es quasi ein Worst-Case-Szenario.
+
+00:09:06.400 --> 00:09:13.360
+<v Felix>Und ja, vielleicht muss man jetzt mal ein bisschen schauen, dass wieder Performance quasi
+
+00:09:13.760 --> 00:09:19.440
+<v Felix>in der Software optimiert wird und nicht mehr quasi einfach nur mit mehr Code schlagen wird und mehr Features
+
+00:09:19.440 --> 00:09:25.280
+<v Felix>dazukommen, die gegebenenfalls dann halt die Ressourcen, so viele Ressourcen
+
+00:09:25.600 --> 00:09:29.200
+<v Felix>nutzen, die man jetzt nicht mehr hat.
+
+00:09:29.440 --> 00:09:33.760
+<v Felix>Ich habe es nachgegoogelt, also das Internet ist ein bisschen gespalten.
+
+00:09:33.840 --> 00:09:37.840
+<v Felix>Es kommt, also wie viel Hyper-Threading wirklich an Performance bringt.
+
+00:09:38.080 --> 00:09:42.560
+<v Felix>Im Durchschnitt soll man, also ein Typ im Internet hat gesagt, im Durchschnitt,
+
+00:09:44.320 --> 00:09:47.040
+<v Felix>ich denke, man sollte es immer dazu sagen.
+
+00:09:47.520 --> 00:09:52.000
+<v Felix>Im Durchschnitt 20% kann man quasi Performance-Gewinn sagen.
+
+00:09:52.160 --> 00:09:56.560
+<v Felix>Ein anderer Typ im Internet hat gesagt 50% und ein anderer Typ hat gesagt,
+
+00:09:57.600 --> 00:10:00.880
+<v Felix>in bestimmten Fällen bis zu nahe 100% mehr Performance.
+
+00:10:01.360 --> 00:10:06.720
+<v l33tname>Aber das ist halt so, wenn du dagegen optimierst, dann wirst du natürlich das voll ausnutzen können.
+
+00:10:06.800 --> 00:10:09.680
+<v l33tname>Die Frage ist halt, was ist dagegen optimiert?
+
+00:10:09.760 --> 00:10:15.600
+<v l33tname>Und ich nehme an, das ist halt irgendwie so wenig bis nix und die OpenBSD-Jungs haben mir irgendwie auch
+
+00:10:15.600 --> 00:10:22.320
+<v l33tname>gesagt, so ja, der Performance Impact ist halt so klein
+
+00:10:22.320 --> 00:10:23.760
+<v l33tname>bis nicht existent.
+
+00:10:24.080 --> 00:10:25.520
+<v Felix>Das ist aber auch Quatsch.
+
+00:10:26.480 --> 00:10:27.520
+<v l33tname>Ich weiß es halt nicht.
+
+00:10:27.600 --> 00:10:34.480
+<v l33tname>Die Frage ist halt, wie viel extra Aufwand du hast, deinen Code irgendwie zu optimieren oder
+
+00:10:34.480 --> 00:10:35.600
+<v l33tname>ob das einfach ist.
+
+00:10:35.680 --> 00:10:38.000
+<v Felix>Deshalb das einfach CPU benutzt, meinst du?
+
+00:10:38.240 --> 00:10:43.840
+<v l33tname>Ja, ob dir das einfach einen Vorteil bringt, wenn du Hyper-Threading hast,
+
+00:10:43.920 --> 00:10:48.800
+<v l33tname>ohne dass du viel dazu machen musst, einfach halt irgendwie dein Programm ordentlich Multithreading
+
+00:10:50.000 --> 00:10:50.800
+<v l33tname>unterstützen musst.
+
+00:10:52.320 --> 00:10:56.160
+<v Felix>Deine Software immer noch aus den 70ern ist und ein Core benutzt, naja,
+
+00:10:56.240 --> 00:11:00.320
+<v Felix>klar, ist halt ein Scheiße, dann hilft dir natürlich Hyper-Threading auch nichts.
+
+00:11:00.400 --> 00:11:04.640
+<v Felix>Aber wenn du ein halbwegs modernes System hast mit halbwegs moderner Software drauf,
+
+00:11:04.880 --> 00:11:08.560
+<v Felix>die halbwegs modern geschrieben ist, so, dann haben wir drei halbwegs,
+
+00:11:08.640 --> 00:11:12.800
+<v Felix>also quasi Vierteln, Achtelwegs.
+
+00:11:13.040 --> 00:11:19.280
+<v Felix>Und ja, also ich denke, also wenn man, was war das FreeBSD?
+
+00:11:19.760 --> 00:11:21.600
+<v Felix>Oder welche waren das OpenBSD?
+
+00:11:21.760 --> 00:11:22.480
+<v Felix>OpenBSD.
+
+00:11:22.640 --> 00:11:26.160
+<v Felix>Also wenn man quasi solche alten Leute bei OpenBSD hat und die sagen,
+
+00:11:26.240 --> 00:11:28.080
+<v Felix>dass sie es nicht brauchen, dann kann das schon sein.
+
+00:11:28.320 --> 00:11:31.040
+<v Felix>Ja, also dann würde ich das jetzt mal nicht in Frage stellen.
+
+00:11:31.520 --> 00:11:32.560
+<v Felix>Aber es ist halt.
+
+00:11:33.040 --> 00:11:38.800
+<v l33tname>Also sie haben bei OpenBSD, glaube ich, auch lange auf Multi-Threading und so verzichtet,
+
+00:11:38.880 --> 00:11:41.920
+<v l33tname>weil sie aus Sicherheitsbedenken halt gesagt haben.
+
+00:11:42.560 --> 00:11:44.800
+<v Felix>Jetzt haben sie implementiert, jetzt machen sie es wieder aus, oder was?
+
+00:11:46.320 --> 00:11:51.840
+<v l33tname>Die extra Performance schenken wir uns jetzt mal,
+
+00:11:52.160 --> 00:11:55.760
+<v l33tname>wir machen das halt einfach mal sicher.
+
+00:11:56.480 --> 00:11:59.600
+<v l33tname>Und wenn es dann sicher ist, schauen wir, ob wir es schnell sicher machen können.
+
+00:11:59.680 --> 00:12:01.920
+<v l33tname>Und wenn nicht, dann ist es halt einfach nur sicher.
+
+00:12:02.400 --> 00:12:04.880
+<v l33tname>Ist auch ein Ansatz, finde ich okay.
+
+00:12:06.000 --> 00:12:09.040
+<v l33tname>Das kommt halt drauf an für was.
+
+00:12:10.160 --> 00:12:13.360
+<v Felix>Wie lange, wann wann haben die jetzt Implemente?
+
+00:12:14.800 --> 00:12:14.960
+<v Felix>Was?
+
+00:12:15.200 --> 00:12:16.000
+<v Felix>Multi-Treading?
+
+00:12:16.640 --> 00:12:17.680
+<v Felix>Ja, Hyper-Treading.
+
+00:12:18.080 --> 00:12:19.360
+<v Felix>Multi, Hyper Threading.
+
+00:12:22.800 --> 00:12:27.040
+<v Felix>Weil, wenn man jetzt danach googelt, dann findet man immer bloß, dass es deaktiviert wurde,
+
+00:12:27.120 --> 00:12:28.960
+<v Felix>aber nicht, wenn sie es aktiviert haben.
+
+00:12:31.040 --> 00:12:31.840
+<v Felix>Bla bla bla.
+
+00:12:32.000 --> 00:12:34.000
+<v Felix>Security, security, security, security.
+
+00:12:34.400 --> 00:12:34.800
+<v Felix>Mann.
+
+00:12:35.920 --> 00:12:36.720
+<v Felix>Security.
+
+00:12:41.280 --> 00:12:43.920
+<v Felix>In Threading.
+
+00:12:44.160 --> 00:12:46.640
+<v Felix>Hier, R-Threads, a new thread, ne.
+
+00:12:47.280 --> 00:12:48.720
+<v Felix>Nee, keine Ahnung, ich finde das jetzt nicht.
+
+00:12:48.960 --> 00:12:52.560
+<v l33tname>Also irgendwie Reddit, Reddit sagt wohl so 2012.
+
+00:12:52.960 --> 00:12:53.360
+<v l33tname>Na gut.
+
+00:12:53.840 --> 00:12:57.440
+<v l33tname>Haben sie so Multicore angefangen zu unterstützen.
+
+00:12:58.400 --> 00:13:00.640
+<v Felix>Multicore haben die angefangen zu unterstützen.
+
+00:13:00.720 --> 00:13:02.080
+<v l33tname>Ja, und davor haben sie halt einfach.
+
+00:13:02.320 --> 00:13:06.960
+<v l33tname>Ja, aber ich finde den Ansatz irgendwie schon auch ganz cool, wenn du sagst,
+
+00:13:07.040 --> 00:13:13.840
+<v l33tname>okay, wir schauen, dass unsere Dinge erstmal sicher sind und wenn wir irgendwie uns nicht in der Lage
+
+00:13:13.840 --> 00:13:17.760
+<v l33tname>fühlen, das irgendwie sicher zu implementieren, dann machen wir es halt lieber nicht,
+
+00:13:17.920 --> 00:13:22.320
+<v l33tname>anstelle dass wir so wie Intel hingehen und irgendwie Feature und Feature und Feature bauen,
+
+00:13:22.480 --> 00:13:24.560
+<v l33tname>was alles so ein bisschen kaputt ist.
+
+00:13:27.680 --> 00:13:32.720
+<v l33tname>Ich weiß ja nicht, jetzt hast du halt eine CPU, wo du irgendwie wieder ein Microcode-Update drauf bekommst und
+
+00:13:32.720 --> 00:13:34.320
+<v l33tname>weniger Performance hast.
+
+00:13:34.640 --> 00:13:38.400
+<v l33tname>Was halt irgendwie auch unbefriedigend ist und bei OpenBSD ist es halt andersrum,
+
+00:13:38.560 --> 00:13:44.240
+<v l33tname>es ist halt so, es ist halt immer scheiße langsam, bis du dann halt mal irgendwie zehn Jahre später als alle
+
+00:13:44.240 --> 00:13:50.480
+<v l33tname>anderen halt irgendwie das auch unterstützen und dafür ist es dann halt sicher und gerade beim ersten Mal
+
+00:13:50.480 --> 00:13:50.880
+<v l33tname>richtig.
+
+00:13:51.680 --> 00:13:52.000
+<v l33tname>Okay.
+
+00:13:53.280 --> 00:13:53.600
+<v l33tname>Tja.
+
+00:13:55.280 --> 00:13:57.760
+<v Felix>Wer benutzt gerade OpenBSD?
+
+00:13:57.840 --> 00:13:59.920
+<v Felix>Also gibt es große Firmen?
+
+00:14:01.600 --> 00:14:02.160
+<v Felix>Ein paar.
+
+00:14:02.800 --> 00:14:03.280
+<v Felix>Ein paar.
+
+00:14:03.680 --> 00:14:05.680
+<v l33tname>OpenBSD, das ist eine gute Frage.
+
+00:14:06.000 --> 00:14:06.960
+<v Felix>Gibt es bestimmt.
+
+00:14:07.520 --> 00:14:13.040
+<v Felix>Also ich weiß, dass auf der PlayStation 4 und PlayStation 3 FreeBSD läuft.
+
+00:14:13.200 --> 00:14:17.600
+<v l33tname>Ja, also FreeBSD ist glaube ich schon sehr viel weiter verbreitet,
+
+00:14:17.680 --> 00:14:22.240
+<v l33tname>aber OpenBSD ist halt halt gerade so, weil sie den Fokus so sehr auf Sicherheit legen,
+
+00:14:22.400 --> 00:14:28.240
+<v l33tname>halt cool, wenn auf irgendwelchen Edge-Systemen und Routern und so Kram.
+
+00:14:31.920 --> 00:14:36.560
+<v l33tname>Weil sie halt sich auch nicht zu schade sind, irgendwie Dinge wieder rauszulöschen.
+
+00:14:37.440 --> 00:14:41.840
+<v l33tname>Also die gehen halt auch aktiv hin und sagen, ja, wir haben hier Dinge,
+
+00:14:42.000 --> 00:14:48.640
+<v l33tname>wir haben hier Code drin und der irgendwie niemand meldet sich und maintaint den
+
+00:14:50.480 --> 00:14:53.200
+<v l33tname>auf unserem Standard, dann kommt der halt raus.
+
+00:14:53.680 --> 00:14:55.200
+<v l33tname>Dann ist das Feature halt weg.
+
+00:14:55.360 --> 00:14:57.760
+<v l33tname>Dann werden halt auch Features rausgelöscht.
+
+00:14:58.400 --> 00:15:02.720
+<v Felix>Das heißt aber, du musst dann quasi, wenn du das dann benutzen würdest,
+
+00:15:02.960 --> 00:15:08.560
+<v Felix>dann müsstest du für immer quasi deren Shitbackporten auf deinen auf deine eigenen Branch.
+
+00:15:09.200 --> 00:15:10.880
+<v l33tname>Ja, oder du kannst nicht mehr machen.
+
+00:15:11.200 --> 00:15:14.720
+<v l33tname>Oder du kannst halt, wenn du irgendwie so als Firma, kannst du dann halt hingehen und sagen,
+
+00:15:14.800 --> 00:15:17.440
+<v l33tname>ja, okay, wir bauen die Dinge hin.
+
+00:15:19.280 --> 00:15:25.840
+<v l33tname>Ja, wir stellen halt irgendjemanden an, der das für uns irgendwie im Hauptbranch
+
+00:15:25.840 --> 00:15:32.080
+<v l33tname>pflegt und dann kannst du immer das Neueste benutzen und das ist halt für alle sicher und gut verfügbar.
+
+00:15:32.160 --> 00:15:37.280
+<v l33tname>Und ja, sonst kannst du dir natürlich immer selber irgendwelche Patches obendrauf frickeln,
+
+00:15:37.440 --> 00:15:39.040
+<v l33tname>hält dich halt niemand davon ab.
+
+00:15:40.560 --> 00:15:45.440
+<v l33tname>Aber ich wüsste jetzt nicht, dass es irgendwie von großen Firmen, die das irgendwie.
+
+00:15:46.800 --> 00:15:53.760
+<v l33tname>So wie bei FreeBSD, wo es ja irgendwie Netflix gibt und eben die PlayStation und
+
+00:15:53.760 --> 00:15:55.520
+<v l33tname>so, was drauf läuft.
+
+00:15:56.160 --> 00:16:02.320
+<v l33tname>Aber viele, viele, also sehr viele Dinge kommen halt irgendwie von OpenBSD.
+
+00:16:02.400 --> 00:16:09.120
+<v l33tname>Also dieses Libre SSL beispielsweise, dieses Open SSL-Klon-Ding,
+
+00:16:09.200 --> 00:16:13.840
+<v l33tname>wo sie halt auch ganz viele Dinge rausgelöscht haben und verschlankt haben.
+
+00:16:13.920 --> 00:16:17.200
+<v l33tname>Oder halt, was man irgendwie immer braucht, dieses SSH.
+
+00:16:20.320 --> 00:16:21.760
+<v Felix>Wer hat da schon mal von gehört?
+
+00:16:21.840 --> 00:16:24.880
+<v Felix>Ich habe gehört, das ist ein sehr gutes Stück Software.
+
+00:16:26.080 --> 00:16:28.480
+<v Markus>Solide abgehangen, zuverlässig, vielseitig benutzt.
+
+00:16:29.120 --> 00:16:31.120
+<v Felix>Aber es geht ja aber auch noch weiter, das ist ja das Coole eigentlich.
+
+00:16:31.360 --> 00:16:37.200
+<v l33tname>Und das ist halt auch irgendwie so aus dem OpenBSD-Projekt und das wird auch immer noch,
+
+00:16:37.280 --> 00:16:40.560
+<v l33tname>glaube ich, im OpenBSD-Projekt irgendwie weiterentwickelt.
+
+00:16:41.200 --> 00:16:43.680
+<v l33tname>Und ist halt eigentlich ganz geil.
+
+00:16:44.160 --> 00:16:45.600
+<v l33tname>Das haben sie sonst noch so gemacht.
+
+00:16:45.760 --> 00:16:51.040
+<v l33tname>Es gibt noch so das PF, das ist so eine Firewall,
+
+00:16:51.280 --> 00:16:55.520
+<v l33tname>so ein bisschen wie hieß denn das unter Linux?
+
+00:16:56.240 --> 00:16:57.120
+<v Felix>Netfater?
+
+00:16:58.720 --> 00:16:59.120
+<v Felix>Ja, nein.
+
+00:17:02.240 --> 00:17:06.640
+<v l33tname>Das ist halt im Prinzip IP-Tables, aber halt in cool, weil man da Regeln schreiben kann,
+
+00:17:06.800 --> 00:17:08.640
+<v l33tname>die man lesen kann und versteht.
+
+00:17:08.880 --> 00:17:11.040
+<v Felix>Aber da gibt es jetzt auch was Neues von Linux.
+
+00:17:11.280 --> 00:17:15.680
+<v l33tname>Ja, eben unter Linux gibt es was ähnliches, aber mir fällt es gerade nicht mehr ein, wie es heißt.
+
+00:17:16.400 --> 00:17:17.680
+<v l33tname>Wo man die Regeln halt dann auch.
+
+00:17:17.840 --> 00:17:18.560
+<v l33tname>NF-Tables.
+
+00:17:18.800 --> 00:17:20.880
+<v l33tname>Ja, das könnte NF-Tables gewesen sein.
+
+00:17:21.120 --> 00:17:27.040
+<v l33tname>Wo man die Regeln halt auch verständlich aufschreiben kann und es funktioniert halt einfach.
+
+00:17:27.600 --> 00:17:29.360
+<v l33tname>Oder so T-MUX.
+
+00:17:29.840 --> 00:17:31.600
+<v l33tname>T-MUX war glaube ich auch.
+
+00:17:31.840 --> 00:17:36.160
+<v l33tname>Von Open kommt irgendwie auch aus der OpenBSD-Welt.
+
+00:17:36.480 --> 00:17:38.080
+<v l33tname>Also die machen schon coole Dinge.
+
+00:17:38.320 --> 00:17:39.120
+<v l33tname>Ja, auf jeden Fall.
+
+00:17:39.520 --> 00:17:41.680
+<v l33tname>Kann man sich nicht meckern.
+
+00:17:42.000 --> 00:17:43.120
+<v l33tname>Sollen sie weitermachen.
+
+00:17:43.680 --> 00:17:45.600
+<v l33tname>Nur schon wegen OpenSSR.
+
+00:17:45.920 --> 00:17:47.840
+<v Felix>Ja, genau, einfach nur deswegen.
+
+00:17:48.400 --> 00:17:49.120
+<v Felix>Sehr cool.
+
+00:17:49.360 --> 00:17:55.760
+<v Felix>Okay, also aber auch nicht so gut für jetzt Hyper-Threading, weil natürlich dieses Hyper-Threading-Ding schon
+
+00:17:55.760 --> 00:17:58.960
+<v Felix>wieder ein Problem ist, was sie jetzt auf einmal alle wieder haben.
+
+00:17:59.920 --> 00:18:01.520
+<v Felix>Und ja.
+
+00:18:02.000 --> 00:18:05.520
+<v l33tname>Also alle, die Hyper-Threading haben, ich nehme mal an, so ARM-CPUs und so,
+
+00:18:06.480 --> 00:18:11.280
+<v l33tname>sind da nicht so davon betroffen, weil ich habe jetzt irgendwie noch nie ein Arm-CPO mit Hyper-Threading
+
+00:18:11.280 --> 00:18:11.760
+<v l33tname>gesehen.
+
+00:18:11.920 --> 00:18:13.040
+<v l33tname>Oder gibt's das?
+
+00:18:15.600 --> 00:18:16.800
+<v l33tname>Macht das überhaupt Sinn?
+
+00:18:16.880 --> 00:18:19.760
+<v l33tname>Macht man da nicht einfach irgendwie drei Kurs mehr drauf?
+
+00:18:21.840 --> 00:18:22.720
+<v l33tname>Weiß ich nicht.
+
+00:18:23.840 --> 00:18:28.800
+<v Felix>Also bei AMD gibt es.
+
+00:18:29.520 --> 00:18:31.040
+<v Felix>AMD hat auch Hyper-Threading.
+
+00:18:31.440 --> 00:18:33.680
+<v Markus>Ja, aber das sind ja auch X86-Prozessoren.
+
+00:18:36.400 --> 00:18:38.080
+<v Felix>Ja, das ist korrekt.
+
+00:18:38.960 --> 00:18:39.760
+<v Felix>Okay, warte.
+
+00:18:39.840 --> 00:18:40.880
+<v Felix>Hyper-Threading.
+
+00:18:43.280 --> 00:18:44.720
+<v Markus>Das ist eine Intel-Technologie.
+
+00:18:44.800 --> 00:18:47.440
+<v Markus>Also wenn ich mich recht entsinne, hat Intel das erfunden.
+
+00:18:50.800 --> 00:18:54.080
+<v l33tname>Damit sie nicht mehr Kurs auf ihre CPUs bauen müssen.
+
+00:18:54.240 --> 00:18:54.560
+<v l33tname>Genau.
+
+00:18:54.960 --> 00:19:01.440
+<v Markus>Ja, um nochmal so einmal so einen Hebel zu haben, warum sie mehr Kores hätten.
+
+00:19:02.080 --> 00:19:04.720
+<v l33tname>Marketing so, haha, wir haben jetzt alle Kores.
+
+00:19:05.840 --> 00:19:08.880
+<v Felix>Ja, es hat ja auch schon einen reellen Impact, also das ist es ja nicht.
+
+00:19:09.600 --> 00:19:13.600
+<v Markus>Genau, es ist ein hardware gegossenes, simultanes Multithreading.
+
+00:19:13.840 --> 00:19:14.320
+<v Markus>Genau.
+
+00:19:16.080 --> 00:19:19.280
+<v Felix>Genau, es ist quasi Multithreading auf dem CPU.
+
+00:19:21.840 --> 00:19:22.160
+<v Felix>Ja.
+
+00:19:23.520 --> 00:19:24.400
+<v Felix>Okay, warte.
+
+00:19:27.600 --> 00:19:29.520
+<v Felix>Ja, genau, es ist ein typisches Interding.
+
+00:19:29.760 --> 00:19:31.200
+<v Felix>Aber trotzdem hat es AMD auch.
+
+00:19:33.360 --> 00:19:33.920
+<v Felix>Lizenzen.
+
+00:19:34.640 --> 00:19:35.840
+<v Felix>Lizenzen und so.
+
+00:19:39.360 --> 00:19:42.560
+<v Felix>Aber zum Beispiel die AMD Risen, die haben.
+
+00:19:43.440 --> 00:19:44.800
+<v Felix>Doch, die haben halt rein.
+
+00:19:47.190 --> 00:19:48.550
+<v Felix>Ja gut, egal, egal, egal.
+
+00:19:49.190 --> 00:19:55.990
+<v l33tname>Ja, andere Leute haben auch und die sind vermutlich dann auch von gleichen Problemen betroffen wie Intel,
+
+00:19:56.470 --> 00:19:56.710
+<v l33tname>oder?
+
+00:19:57.190 --> 00:19:57.510
+<v l33tname>Scheiße.
+
+00:19:59.670 --> 00:20:03.510
+<v Felix>Also je nachdem, wie dieses Buffering quasi implementiert ist.
+
+00:20:04.230 --> 00:20:09.110
+<v Felix>Also du hast ja quasi diesen Side-Buffer und wenn der sicher implementiert sein sollte,
+
+00:20:09.270 --> 00:20:15.910
+<v Felix>dass quasi andere Threads diesen Buffer nicht quasi durch Timing-Angriffe
+
+00:20:15.910 --> 00:20:19.270
+<v Felix>auslesen können, dann wäre das ja prinzipiell kein Problem.
+
+00:20:19.350 --> 00:20:22.310
+<v Felix>Aber dadurch, das jetzt gerade halt so ist, ist doof.
+
+00:20:23.190 --> 00:20:24.550
+<v l33tname>Tja, was werden wir daraus?
+
+00:20:24.710 --> 00:20:26.470
+<v l33tname>Dinge sicher implementieren oder so.
+
+00:20:27.030 --> 00:20:28.630
+<v Felix>Aber dafür müsste man ja darüber nachdenken.
+
+00:20:28.950 --> 00:20:31.110
+<v Felix>Dieses Timing-Ding ist ja ein relativ neuer Angriff.
+
+00:20:31.430 --> 00:20:34.150
+<v Felix>Da hätte man ja quasi vorher schon wissen müssen, dass es ein Problem ist.
+
+00:20:35.350 --> 00:20:39.990
+<v l33tname>Darum gibt es ja irgendwie die ersten Timing-Papers irgendwie schon vor zehn Jahren oder so.
+
+00:20:41.670 --> 00:20:42.150
+<v l33tname>Timing.
+
+00:20:42.470 --> 00:20:44.070
+<v l33tname>So dumm, da müssen wir lesen und so.
+
+00:20:44.550 --> 00:20:46.390
+<v Felix>Echt mal Lesenstag doch wohl.
+
+00:20:48.230 --> 00:20:54.550
+<v Felix>So, was entsprechend erfreulich ist, nachdem wir jetzt so lange über traurige Sachen geredet haben.
+
+00:20:54.950 --> 00:20:57.430
+<v l33tname>Erfreulich würde ich jetzt nicht sagen, aber okay.
+
+00:20:57.750 --> 00:20:59.350
+<v Felix>Ich denke, das sollten wir testen.
+
+00:20:59.670 --> 00:21:00.710
+<v Felix>AOL Instant Messenger.
+
+00:21:01.830 --> 00:21:03.430
+<v Felix>Aur Instant Messenger.
+
+00:21:03.670 --> 00:21:06.950
+<v l33tname>Schreibt mal in die Kommentare, ob das erfreulich ist, AMD.
+
+00:21:08.150 --> 00:21:09.430
+<v l33tname>Wenn man es nur schon hört.
+
+00:21:10.070 --> 00:21:14.390
+<v Markus>AM, AOL Instant Messenger, nicht der AMD Instant.
+
+00:21:15.590 --> 00:21:17.110
+<v Markus>Das sollte man AMD mal vorschlagen.
+
+00:21:17.190 --> 00:21:19.830
+<v Markus>Es wäre ein guter Raum für einen neuen Messenger.
+
+00:21:21.270 --> 00:21:22.070
+<v Markus>Google vielleicht?
+
+00:21:22.310 --> 00:21:24.310
+<v l33tname>Die bauen auch immer neue Messenger.
+
+00:21:25.750 --> 00:21:26.790
+<v Felix>Jedenfalls.
+
+00:21:27.030 --> 00:21:29.670
+<v Felix>Aber Instant Messenger, wir haben ihn schon für tot erklärt.
+
+00:21:29.910 --> 00:21:31.990
+<v Felix>Aber er kommt zurück aus der Asche.
+
+00:21:32.150 --> 00:21:38.230
+<v Felix>Nachdem der Server abgeschaltet wurde, haben irgendwelche Freaks quasi so einen
+
+00:21:38.790 --> 00:21:44.150
+<v Felix>Private Server aufgebaut und jetzt kann man den zum Glück wieder benutzen.
+
+00:21:44.310 --> 00:21:46.790
+<v Felix>Das Projekt nennt sich IM Phoenix.
+
+00:21:47.910 --> 00:21:53.590
+<v Felix>Und wie Phoenix aus der Asche kommt der AOS den Messenger in deinen Computer rein.
+
+00:21:54.150 --> 00:21:56.950
+<v Felix>Die Webseite sieht auf jeden Fall auch ungefähr so aus.
+
+00:21:57.590 --> 00:21:59.590
+<v Felix>Wie man sich das vorstellt, die hatte.
+
+00:21:59.990 --> 00:22:04.790
+<v Felix>Auch eine DDNS-Adresse, das heißt, das kommt quasi von irgendeinem Typen von zu Hause.
+
+00:22:05.750 --> 00:22:07.830
+<v Felix>So, warte, ich paste das hier mal auf ein.
+
+00:22:08.150 --> 00:22:09.270
+<v l33tname>60 User online.
+
+00:22:09.670 --> 00:22:10.310
+<v l33tname>60.
+
+00:22:10.870 --> 00:22:11.750
+<v Felix>Das ist verrückt, oder?
+
+00:22:12.870 --> 00:22:15.030
+<v Felix>Ich glaube, davor hatte es gar nicht mehr so viele User.
+
+00:22:16.950 --> 00:22:17.430
+<v Felix>Krass.
+
+00:22:18.550 --> 00:22:24.790
+<v Felix>Jedenfalls, du kannst quasi, wir haben jetzt, ich denke, also so wie ich das verstanden habe,
+
+00:22:25.350 --> 00:22:30.470
+<v Felix>haben sie das Protokoll reverse engineert und dafür deinen Server geschrieben und dann kannst du quasi deine
+
+00:22:30.470 --> 00:22:33.270
+<v Felix>Software so anpassen, dass es diesen neuen Server benutzt.
+
+00:22:34.230 --> 00:22:35.270
+<v Felix>Und bäm!
+
+00:22:36.630 --> 00:22:38.390
+<v Felix>kannst du wieder chatten.
+
+00:22:38.710 --> 00:22:40.230
+<v Felix>Was du ja vorhin noch nicht konntest.
+
+00:22:43.430 --> 00:22:44.950
+<v Felix>Weil's geht.
+
+00:22:48.790 --> 00:22:55.670
+<v Markus>Das so wie dieser Microsoft-Typ neulich, der da irgendeine Microsoft-Software die ganze Zeit mitgepflegt
+
+00:22:55.750 --> 00:22:55.830
+<v Markus>hat.
+
+00:22:55.910 --> 00:22:56.230
+<v Markus>Was war es?
+
+00:22:56.390 --> 00:22:57.910
+<v Markus>Ah, der Dateimanager, genau.
+
+00:23:00.790 --> 00:23:01.910
+<v Felix>Das ist so ein Typ, ja.
+
+00:23:03.430 --> 00:23:06.150
+<v Felix>Das geht sogar mit AIM Lite.
+
+00:23:06.790 --> 00:23:07.590
+<v Felix>Voll super.
+
+00:23:07.830 --> 00:23:10.070
+<v Markus>Ja, und Pigeon ist wahrscheinlich auch kompatibel.
+
+00:23:10.230 --> 00:23:10.790
+<v Markus>Sehr schön.
+
+00:23:10.950 --> 00:23:13.110
+<v Felix>Ja, geil, stimmt.
+
+00:23:14.390 --> 00:23:15.830
+<v l33tname>Nein, einfach nicht.
+
+00:23:15.990 --> 00:23:16.150
+<v l33tname>Doch.
+
+00:23:16.390 --> 00:23:16.790
+<v l33tname>Warum?
+
+00:23:16.950 --> 00:23:17.270
+<v l33tname>Warum?
+
+00:23:18.150 --> 00:23:18.790
+<v l33tname>Was meint ihr?
+
+00:23:19.190 --> 00:23:21.990
+<v l33tname>Ah ja, genau, weil es nicht genug Messenger gibt.
+
+00:23:23.030 --> 00:23:23.430
+<v l33tname>Richtig?
+
+00:23:23.670 --> 00:23:24.230
+<v l33tname>Ja, genau.
+
+00:23:24.310 --> 00:23:25.990
+<v Felix>Also es braucht noch einen Messenger.
+
+00:23:26.310 --> 00:23:27.590
+<v Felix>Es braucht noch den einen.
+
+00:23:27.910 --> 00:23:28.470
+<v Felix>Den einen.
+
+00:23:28.790 --> 00:23:29.750
+<v Felix>Den einen Messenger.
+
+00:23:29.830 --> 00:23:30.710
+<v Felix>Nee, es ist einfach.
+
+00:23:31.350 --> 00:23:34.710
+<v Felix>Das geht ja eigentlich nie um die Technologie, es geht immer nur um die Leute, die da sind.
+
+00:23:35.030 --> 00:23:39.590
+<v Felix>Und wenn da coole Leute sind, zerliert man sich halt einen AW Instant Messenger.
+
+00:23:40.550 --> 00:23:42.070
+<v Felix>Das muss man jetzt angucken.
+
+00:23:43.110 --> 00:23:43.590
+<v Felix>Na dann.
+
+00:23:43.990 --> 00:23:50.790
+<v Felix>Zum Beispiel, Knusbrichtet ein Hitler, der Tumblr an der Seite dieses Chatfensters ist einfach
+
+00:23:50.790 --> 00:23:51.350
+<v Felix>wunderbar.
+
+00:23:51.430 --> 00:23:52.390
+<v Felix>Die Leute sind toll.
+
+00:23:52.470 --> 00:23:57.030
+<v Felix>Und ich, also das Chatfenster ist so quasi aus dem letzten Jahrtausend noch,
+
+00:23:57.430 --> 00:24:00.470
+<v Felix>wo man sich so sein iFrame so einbinden konnte.
+
+00:24:02.070 --> 00:24:05.430
+<v Felix>Aber es ist scheißegal, weil die Leute sind lustig.
+
+00:24:05.590 --> 00:24:07.990
+<v Markus>iFrames sind topmoderne Technologie.
+
+00:24:08.230 --> 00:24:09.750
+<v Felix>Profitechnologie ist das.
+
+00:24:09.910 --> 00:24:12.950
+<v Markus>Ja, jetzt hier Web 5.0.
+
+00:24:14.390 --> 00:24:17.030
+<v Markus>Da gibt es ja die Post-Message API.
+
+00:24:17.110 --> 00:24:20.390
+<v Markus>Da sind die iFrames einen ganz neuen Lebensstandard erreicht.
+
+00:24:20.550 --> 00:24:21.670
+<v Felix>Was können die dann?
+
+00:24:23.750 --> 00:24:29.910
+<v Markus>Du kannst tatsächlich zwischen dem Parent-Frame und dem Client-Frame jetzt vernünftig Informationen
+
+00:24:29.910 --> 00:24:30.390
+<v Markus>austauschen.
+
+00:24:31.030 --> 00:24:31.590
+<v Markus>Das ist ja krass.
+
+00:24:31.910 --> 00:24:38.310
+<v Markus>Ohne großartige Hacks fahren zu müssen, was den Informationsaustausch auch vertraulicher macht und
+
+00:24:38.310 --> 00:24:39.190
+<v Markus>zuverlässiger.
+
+00:24:39.590 --> 00:24:43.830
+<v Markus>Und du kannst dann tatsächlich das, was du über iFrame einbettest, besser dagegen absichern,
+
+00:24:43.910 --> 00:24:49.190
+<v Markus>dass du da irgendwo dir ein Hijackt irgendwas Frame anhandelst oder auch nicht.
+
+00:24:49.990 --> 00:24:55.670
+<v Markus>Also das Post Message, wenn man iFrames nutzen muss, ist das Post Message API definitiv einen guten Blick
+
+00:24:55.670 --> 00:24:56.150
+<v Markus>wert.
+
+00:24:56.310 --> 00:25:03.030
+<v Markus>Gerade wenn man so versucht, Software zu integrieren und dann einen
+
+00:25:03.030 --> 00:25:09.030
+<v Markus>Integrationsweg sucht, wo man dann doch meistens zwischen dem Umsystem und dem zu integrierenden System
+
+00:25:09.030 --> 00:25:15.590
+<v Markus>irgendwelche Informationen hin und herschieben will, dann ist Post Message das Post Message API sehr
+
+00:25:16.390 --> 00:25:17.990
+<v Markus>eine sehr gute Option.
+
+00:25:19.430 --> 00:25:19.750
+<v Markus>Ja.
+
+00:25:20.550 --> 00:25:24.070
+<v Markus>Aber trotzdem versucht keine iFrames zu nutzen.
+
+00:25:25.270 --> 00:25:28.710
+<v Felix>Wenn ihr die Chance habt, ist es die falsche Lösung.
+
+00:25:28.950 --> 00:25:29.270
+<v Felix>Ja.
+
+00:25:30.390 --> 00:25:35.270
+<v Felix>Es sieht am Anfang danach aus, als könnte es euer Problem lösen, aber es schafft nur noch viel mehr Probleme,
+
+00:25:35.510 --> 00:25:36.710
+<v Felix>die ihr dann auch lösen müsst.
+
+00:25:36.870 --> 00:25:37.670
+<v Felix>Die gehen nicht weg.
+
+00:25:38.150 --> 00:25:43.110
+<v Markus>Third-Party-Cookies, Dritteinbieter-Domain.
+
+00:25:43.750 --> 00:25:47.110
+<v Felix>Überhaupt i-Frames einbetten mit Security-Quatsch und so.
+
+00:25:47.670 --> 00:25:52.150
+<v Markus>Die Security-Mechanismen der Browser arbeiten immer gegen euch, wenn ihr iFrames benutzt.
+
+00:25:52.230 --> 00:25:52.470
+<v Markus>Immer.
+
+00:25:53.590 --> 00:25:56.310
+<v Felix>Also, weil keiner will, dass ihr iFrames benutzt.
+
+00:25:57.750 --> 00:26:03.430
+<v Felix>Und euer Browser und euer Webserver will euch auch das Gefühl nicht nehmen, dass es so ist, ja.
+
+00:26:05.910 --> 00:26:06.790
+<v Felix>Weil es so ist.
+
+00:26:06.950 --> 00:26:07.670
+<v Felix>Ganz einfach.
+
+00:26:08.230 --> 00:26:09.590
+<v Markus>Ja, so ist es.
+
+00:26:09.910 --> 00:26:10.470
+<v Markus>Das stimmt.
+
+00:26:10.630 --> 00:26:14.710
+<v Markus>Genug der Warnungen von iFrames und anderen Dingen.
+
+00:26:15.830 --> 00:26:16.870
+<v Felix>Mehr Dinge.
+
+00:26:17.270 --> 00:26:19.030
+<v Markus>Mehr Dinge aus der Vergangenheit.
+
+00:26:20.070 --> 00:26:21.030
+<v Felix>Die wiederkommen.
+
+00:26:22.390 --> 00:26:27.270
+<v Markus>Die Fliesenleger des digitalen Zeitalters werden einfach nicht aussterben.
+
+00:26:27.590 --> 00:26:29.110
+<v Felix>Alles kommt zurück.
+
+00:26:30.230 --> 00:26:31.590
+<v Markus>Warum sage ich Fliesenleger?
+
+00:26:31.750 --> 00:26:36.790
+<v Markus>Lotus Notes ist eine Software, die von ihrem Grunddesign her schon immer in Kacheln organisiert war,
+
+00:26:36.870 --> 00:26:41.190
+<v Markus>lange bevor Windows mit seinem Redesign die Kacheln zurück auf den Desktop geholt hat.
+
+00:26:41.590 --> 00:26:48.470
+<v Markus>Lotus Notes-Anwendungen waren immer Kacheln und deswegen sag man da auch halt so die Fliesenleger oder die
+
+00:26:48.950 --> 00:26:50.710
+<v Markus>Kachel, die Kachelheinys.
+
+00:26:51.190 --> 00:26:52.070
+<v Felix>Kachelheinies.
+
+00:26:52.230 --> 00:26:53.510
+<v Felix>Aber es sah auch so aus, ja.
+
+00:26:54.070 --> 00:26:57.590
+<v Felix>Es sah auch aus, als würde es von solchen Leuten dann auch verwendet werden.
+
+00:26:58.310 --> 00:27:01.430
+<v Felix>Leute, die halt, da kam halt mal so ein IBM-Typ vorbei, hat gesagt,
+
+00:27:01.510 --> 00:27:06.230
+<v Felix>ja, Lotus, los, löst alle eure Probleme hier in dieser Fliesenlegerfirma.
+
+00:27:06.790 --> 00:27:12.710
+<v Felix>Und dann so, und dann erstmal ein riesiges Mainframe bekommen für die drei Mitarbeiter.
+
+00:27:12.950 --> 00:27:14.790
+<v Markus>Nee, nee, Notes ist nicht Mainframe.
+
+00:27:15.430 --> 00:27:15.590
+<v Markus>Nichts.
+
+00:27:16.470 --> 00:27:18.630
+<v Felix>Ich kann trotzdem mal auf dem Mainframe starten, oder?
+
+00:27:19.030 --> 00:27:23.590
+<v Markus>Kann man bestimmt irgendwie, weil auf dem Mainframe läuft der Linux und der Notes-Server läuft auf Linux,
+
+00:27:23.670 --> 00:27:26.150
+<v Markus>dann kann man da auch Notes auf dem Mainframe laufen lassen zu schauen.
+
+00:27:26.950 --> 00:27:27.270
+<v Markus>Ja.
+
+00:27:27.830 --> 00:27:33.110
+<v Markus>Aber also das Erschrecken ist wirklich, wie viele unternehmenskritische Anwendungen tatsächlich noch in Notes
+
+00:27:33.110 --> 00:27:34.550
+<v Markus>implementiert sind und laufen.
+
+00:27:34.790 --> 00:27:36.870
+<v Markus>Wie groß dieser Markt tatsächlich immer noch ist.
+
+00:27:37.110 --> 00:27:43.510
+<v Markus>Und da wird auch tatsächlich zurzeit viel Geld wohl ausgegeben, um da Migrationen anzustoßen oder auch
+
+00:27:43.510 --> 00:27:45.430
+<v Markus>anzustoßen und wieder zurückzunehmen.
+
+00:27:45.670 --> 00:27:48.310
+<v Markus>Das ist ein Geben und Nehmen.
+
+00:27:48.550 --> 00:27:49.670
+<v Markus>Ein Geben und Nehmen.
+
+00:27:49.750 --> 00:27:55.430
+<v Markus>Und wenn man so versucht, sich einfach mit aktueller Softwareentwicklung und dazugehöriger Technologie zu
+
+00:27:55.430 --> 00:27:58.710
+<v Markus>beschäftigen, ist man ganz schön überrascht, wenn man einem dann mal berichtet wird,
+
+00:27:58.870 --> 00:28:01.030
+<v Markus>was in der Szene tatsächlich noch läuft.
+
+00:28:01.910 --> 00:28:02.630
+<v Markus>Das stimmt.
+
+00:28:02.710 --> 00:28:04.390
+<v Felix>Einfach nicht so genau hingucken.
+
+00:28:04.710 --> 00:28:09.510
+<v Felix>Aber dann ist halt die Frage, ob dieses SAP-Shit es quasi wirklich besser wäre.
+
+00:28:11.030 --> 00:28:15.430
+<v Markus>Die Frage ist, ob SAP direkt wirklich der Konkurrent dazu ist,
+
+00:28:15.510 --> 00:28:20.230
+<v Markus>weil Nodes war ja erstmal eine sehr umfassende, gründlich umgesetzte Group,
+
+00:28:20.950 --> 00:28:22.630
+<v Markus>die nicht weiterentwickelt wurde.
+
+00:28:22.790 --> 00:28:24.630
+<v Markus>So, und dann hat man sowas.
+
+00:28:26.630 --> 00:28:27.910
+<v Markus>Ja, sehr richtig, die fertig war.
+
+00:28:27.990 --> 00:28:29.510
+<v Markus>Genau so muss man es formulieren.
+
+00:28:29.750 --> 00:28:35.590
+<v Markus>Und mit Outlook konnte Microsoft das, was Notes konnte, nicht erschlagen und deswegen haben sie dann
+
+00:28:35.590 --> 00:28:39.910
+<v Markus>irgendwann den SharePoint, also nicht wirklich deswegen, aber man kann das vielleicht so darstellen,
+
+00:28:40.470 --> 00:28:46.390
+<v Markus>den SharePoint aus der Taufe gehoben und haben dann angefangen, viele Notes-Kacheln mit SharePoint-Anwendungen
+
+00:28:46.390 --> 00:28:47.910
+<v Markus>abzulösen.
+
+00:28:48.310 --> 00:28:54.630
+<v Markus>Irgendwann hat zu SharePoint sich der Treffen, viel treffender Name SharePointless
+
+00:28:54.790 --> 00:28:55.750
+<v Markus>durchgesetzt.
+
+00:28:56.870 --> 00:29:03.430
+<v Markus>Und daraufhin hat Microsoft versucht, es mit Dynamics weiterzuentwickeln oder das Ganze in Dynamics zu
+
+00:29:03.430 --> 00:29:04.150
+<v Markus>überführen.
+
+00:29:04.630 --> 00:29:07.430
+<v Markus>Was immerhin eine Weiterentwicklung ist.
+
+00:29:07.510 --> 00:29:11.190
+<v Markus>Das Problem von Nodes war ganz einfach, dass IBM irgendwann gesagt hat, ja, ist fertig.
+
+00:29:11.350 --> 00:29:12.630
+<v Markus>So, und dann wurde da eigentlich.
+
+00:29:12.950 --> 00:29:14.870
+<v Felix>Leute brauchen keine anderen Probleme.
+
+00:29:15.430 --> 00:29:16.230
+<v Felix>Ja, genau.
+
+00:29:16.310 --> 00:29:21.830
+<v Markus>Und das ist echt schade gewesen, weil ich denke, wenn die da weiterentwickelt hätten,
+
+00:29:22.710 --> 00:29:27.270
+<v Markus>dann hätte das noch eine ordentliche Konkurrenz zu dem, was Microsoft da so bietet,
+
+00:29:27.430 --> 00:29:27.750
+<v Markus>sein können.
+
+00:29:28.390 --> 00:29:30.470
+<v Markus>Aktuell ist es das wahrscheinlich eher nicht.
+
+00:29:30.870 --> 00:29:34.470
+<v Markus>Aber das ist ja genau der Artikel, den du hier rausgesucht hast.
+
+00:29:35.350 --> 00:29:42.150
+<v Markus>Notes Domino wurde ja verkauft von IBM an HCL und die versuchen jetzt mit viel Enthusiasmus
+
+00:29:43.110 --> 00:29:45.590
+<v Markus>aufbruchstimmung zu verbreiten.
+
+00:29:47.350 --> 00:29:50.070
+<v Markus>Klarzumachen, dass sie den richtigen Enthusiasmus haben.
+
+00:29:50.390 --> 00:29:56.630
+<v Felix>Und dann wird dieser ganze alte Müll, den dann irgendwie noch Leute in ihrem Keller vergraben gefunden haben
+
+00:29:56.710 --> 00:29:59.990
+<v Felix>auf einen alten Node-Server, wird dann dahin migriert oder wie funktioniert das?
+
+00:30:01.270 --> 00:30:05.990
+<v Markus>Nee, die wollen ja den, also du musst ja nicht großartig migrieren, du musst deine Version migrieren.
+
+00:30:06.310 --> 00:30:11.590
+<v Markus>Aber also inhaltlich, was die jetzt mit der Neuentwicklung da wissen machen wollen, weiß ich nicht.
+
+00:30:12.230 --> 00:30:17.830
+<v Markus>Da bin ich, ich hab, ich hab das nur so mitbekommen, was in der Szene los ist.
+
+00:30:17.910 --> 00:30:19.830
+<v Markus>Was technologisch da passiert, nicht wirklich.
+
+00:30:20.070 --> 00:30:26.390
+<v Markus>Vielleicht eine interessante Seitennotiz ist, dass der Erfinder von Nodes und
+
+00:30:27.590 --> 00:30:31.750
+<v Markus>das Datenformat, mit dem Notes arbeitet, ist auch ein Datenbankformat.
+
+00:30:31.910 --> 00:30:35.830
+<v Markus>Und das wurde lange Zeit einfach nicht von den Leuten, die SQL gemacht haben,
+
+00:30:35.910 --> 00:30:39.030
+<v Markus>nicht ernst genommen, weil Notes eine dokumentenbasierte Datenbank ist.
+
+00:30:39.670 --> 00:30:40.950
+<v Felix>Und das kam auch wieder.
+
+00:30:41.510 --> 00:30:47.350
+<v Markus>Genau, und das kam wieder mit diversen Vertretern der NoSQL-Sparte.
+
+00:30:47.670 --> 00:30:54.390
+<v Markus>Und es war tatsächlich, der Vater von Lotus Notes Domino war an dieser NoSQL-Bewegung wieder beteiligt.
+
+00:30:54.550 --> 00:31:00.230
+<v Markus>Der hat, ich weiß nicht mehr genau, welche von dem, aber der hat auch da wieder,
+
+00:31:00.710 --> 00:31:05.510
+<v Markus>oder der hat dann eben Lotus Notes Domino verlassen, um was Neues zu machen.
+
+00:31:05.590 --> 00:31:09.430
+<v Markus>Und das war eines, einer dieser großen Namen in der NoSQL-Szene.
+
+00:31:09.590 --> 00:31:12.550
+<v Markus>Jetzt ist mir natürlich empfallen, welcher das war.
+
+00:31:13.830 --> 00:31:14.470
+<v Markus>Der eine.
+
+00:31:15.510 --> 00:31:16.710
+<v Markus>Der eine, ja, genau.
+
+00:31:16.790 --> 00:31:20.470
+<v Markus>Aber da schließt sich, das ist ein ganz interessanter Zirkelschluss und vor allem auch dieses,
+
+00:31:20.870 --> 00:31:25.990
+<v Markus>dass in der Hochphase von SQL immer so Not so belächelt wurde, ja, ist ja keine richtige Datenbank.
+
+00:31:26.150 --> 00:31:32.230
+<v Markus>Und dann kommt diese große Welle der NoSQL-Datenbank und der Urheber von Lotus Notes Domino ist da natürlich
+
+00:31:32.230 --> 00:31:32.550
+<v Markus>wieder dabei.
+
+00:31:32.790 --> 00:31:37.830
+<v Felix>Der lacht da einfach nur in seinem Kämmerchen.
+
+00:31:39.750 --> 00:31:41.190
+<v Felix>So ein böses Lachen.
+
+00:31:41.430 --> 00:31:48.390
+<v Felix>Auch wunderschön die neue Versionsnummer 9.0.1 Feature Pack 10
+
+00:31:48.550 --> 00:31:50.390
+<v Felix>Interim Fix 1.
+
+00:31:50.630 --> 00:31:54.790
+<v Felix>Das ist einfach so geil, so richtig wunderbar.
+
+00:31:55.190 --> 00:31:55.830
+<v Felix>Enterprise ready.
+
+00:31:56.230 --> 00:31:57.590
+<v Felix>Enterprise Business.
+
+00:31:57.910 --> 00:32:03.590
+<v Felix>Dass du direkt weißt, keine Ahnung, das Update, wenn ich das jetzt mache, dauert es den nächsten Tag bestimmt.
+
+00:32:04.070 --> 00:32:05.750
+<v Felix>So hört sich das halt an.
+
+00:32:07.830 --> 00:32:10.870
+<v Felix>Weil solche Enterprise-Updates, die brauchen einfach mal einen kompletten Tag.
+
+00:32:11.670 --> 00:32:15.590
+<v Felix>Und danach muss der Server noch gestartet werden und das Backup zurückgespielt.
+
+00:32:17.110 --> 00:32:20.790
+<v l33tname>Du bist viel zu optimistisch, das geht irgendwie so vielleicht eine Woche,
+
+00:32:20.950 --> 00:32:26.710
+<v l33tname>um zu updaten und dann nochmal irgendwie dreieinhalb Monate, um das ganze System dann wieder zu validieren und
+
+00:32:26.710 --> 00:32:28.550
+<v l33tname>dass man es wieder einsetzen kann oder so.
+
+00:32:28.870 --> 00:32:29.830
+<v Felix>Das ist doch okay.
+
+00:32:31.110 --> 00:32:33.430
+<v Felix>Geht ins Maintenance-Window rein.
+
+00:32:35.190 --> 00:32:40.470
+<v Felix>Unsere Lotus-Nose-Applikation ist für die nächsten dreieinhalb Monate leider nicht erreichbar.
+
+00:32:41.030 --> 00:32:43.190
+<v Felix>Bitte benutzen Sie Gmail.
+
+00:32:44.230 --> 00:32:45.110
+<v l33tname>Oh no.
+
+00:32:46.390 --> 00:32:46.870
+<v l33tname>Wunderschön.
+
+00:32:46.950 --> 00:32:48.230
+<v Felix>Aber ich finde es auch toll.
+
+00:32:48.310 --> 00:32:52.070
+<v Felix>Es ist einfach so Retro und so New Retro.
+
+00:32:52.230 --> 00:32:53.830
+<v Felix>Das ist genau das, was die Welt braucht.
+
+00:32:54.310 --> 00:32:59.190
+<v l33tname>Genau, man muss sich gar nicht an neue Dinge gewöhnen, man kann einfach warten, bis die alten wiederkommen.
+
+00:32:59.350 --> 00:33:02.790
+<v Felix>Richtig, das ist so wie mit Klamotten eigentlich, mit so Modetrends.
+
+00:33:02.870 --> 00:33:04.230
+<v Felix>Irgendwann kommen die Dinge wieder.
+
+00:33:04.390 --> 00:33:09.030
+<v Felix>Irgendjemand greift die dann raus, findet irgendwie den Source-Code auf einer alten Diskette oder so.
+
+00:33:09.190 --> 00:33:10.710
+<v Felix>Und dann geht's weiter.
+
+00:33:13.910 --> 00:33:16.630
+<v Markus>Hast du schon mal überlegt, Geschichten zu schreiben?
+
+00:33:17.110 --> 00:33:17.430
+<v Markus>Ich.
+
+00:33:19.030 --> 00:33:19.830
+<v Markus>Noch nicht.
+
+00:33:21.350 --> 00:33:23.830
+<v Felix>Aber sollte ich vielleicht.
+
+00:33:26.710 --> 00:33:27.030
+<v Felix>Okay.
+
+00:33:27.830 --> 00:33:28.230
+<v Felix>Weiter.
+
+00:33:28.470 --> 00:33:29.750
+<v Felix>So, das sind die Untoten.
+
+00:33:31.430 --> 00:33:33.750
+<v Felix>Ich finde zwei wunderschöne Untote.
+
+00:33:34.870 --> 00:33:35.190
+<v Felix>Ja.
+
+00:33:35.750 --> 00:33:37.830
+<v Markus>Wir leben auf ewig weiter.
+
+00:33:38.230 --> 00:33:39.430
+<v Felix>In unseren Herzen.
+
+00:33:39.830 --> 00:33:40.390
+<v Felix>Sowieso.
+
+00:33:40.630 --> 00:33:42.390
+<v Felix>Und auf irgendwelchen Disketten.
+
+00:33:46.790 --> 00:33:50.710
+<v Felix>Doch, das ist unser Vermächnis an die Zukunft.
+
+00:33:50.870 --> 00:33:53.430
+<v Felix>Ao Institut, Matzenger und Lotus Notes.
+
+00:33:53.670 --> 00:33:57.270
+<v Markus>Wenn wir so lange in die Vergangenheit geguckt haben, was passiert denn heutzutage so?
+
+00:33:57.510 --> 00:33:58.230
+<v Markus>Was passiert denn so?
+
+00:33:58.310 --> 00:33:58.790
+<v Markus>Erzähl es mal so.
+
+00:34:00.950 --> 00:34:07.030
+<v l33tname>YouTube hat die, das habt ihr bestimmt gesehen, hat alle Blender-Videos mal so aus Versehen
+
+00:34:07.030 --> 00:34:08.070
+<v l33tname>gesperrt.
+
+00:34:08.710 --> 00:34:10.470
+<v Felix>Und warum?
+
+00:34:10.870 --> 00:34:17.590
+<v l33tname>Tja, es gibt so ein paar, also sie haben das alles schön aufgeschrieben und sie sind
+
+00:34:17.590 --> 00:34:18.870
+<v l33tname>jetzt auch wieder online.
+
+00:34:20.630 --> 00:34:24.950
+<v l33tname>Und anscheinend die Blender Foundation hat gesagt, ja,
+
+00:34:25.270 --> 00:34:30.150
+<v l33tname>also es ist ein ziemlich großer, ein verhältnismäßig großer Account,
+
+00:34:31.670 --> 00:34:35.750
+<v l33tname>der aber gesagt hat, ja, wir wollen eigentlich kein Geld mit unseren Videos machen.
+
+00:34:36.230 --> 00:34:38.470
+<v l33tname>Das ist halt irgendwie nicht so der Standard.
+
+00:34:38.630 --> 00:34:43.510
+<v l33tname>Also sobald du irgendwie halt so ein paar tausend Subscriber hast oder so,
+
+00:34:43.670 --> 00:34:47.990
+<v l33tname>klickst du normalerweise auf das Ding, wo du sagst, ja, und jetzt will ich noch ein bisschen Geld machen.
+
+00:34:48.470 --> 00:34:53.830
+<v l33tname>Das heißt, du erlaubst halt irgendwie YouTube Werbung davor zu schalten und bekommst dann irgend so einen
+
+00:34:53.830 --> 00:34:56.630
+<v l33tname>Prozentsatz von Klicks.
+
+00:34:57.030 --> 00:35:00.310
+<v l33tname>Wenn YouTube Geld machst, bekommst du halt auch ein bisschen was davon ab.
+
+00:35:01.190 --> 00:35:04.470
+<v l33tname>Und die Blender Foundation, weil sie halt so Open Source und Blanplub,
+
+00:35:04.550 --> 00:35:07.030
+<v l33tname>haben sie gesagt, ja, nee, wir wollen kein Geld machen.
+
+00:35:09.030 --> 00:35:15.750
+<v l33tname>Und irgendwie hat das wohl dazu geführt, dass es mit einem neuen Subscription-System,
+
+00:35:16.070 --> 00:35:22.870
+<v l33tname>was YouTube ausgerollt hat, dass irgendwie alle Videos in ein State
+
+00:35:22.870 --> 00:35:25.110
+<v l33tname>gesetzt wurden, wo sie nicht mehr angezeigt wurden.
+
+00:35:25.590 --> 00:35:30.150
+<v l33tname>Und dann haben sie sich halt beim Support gemeldet und Support hat dann auch gesagt, keine Ahnung.
+
+00:35:30.390 --> 00:35:30.870
+<v l33tname>Keine Ahnung.
+
+00:35:31.110 --> 00:35:33.110
+<v Felix>Geben wir ein unseres nächstes Level weiter.
+
+00:35:33.510 --> 00:35:39.590
+<v l33tname>Genau, und dann hat das so ein Momentchen gedauert, bis alle Videos wieder online waren.
+
+00:35:39.990 --> 00:35:44.710
+<v l33tname>Weil ich nehme an, es ist halt auch so ein richtiger Edge Case,
+
+00:35:45.030 --> 00:35:51.590
+<v l33tname>den halt vermutlich niemand so genau ausprobiert hat,
+
+00:35:51.750 --> 00:35:56.550
+<v l33tname>weil halt alle diese größeren Channels, die halt irgendwie Werbung schalten können,
+
+00:35:56.870 --> 00:35:58.790
+<v l33tname>halt auch einfach Werbung schalten.
+
+00:35:59.510 --> 00:36:02.230
+<v Felix>Mit unseren 13 Subscribern wären wir auch noch nicht reich, oder?
+
+00:36:02.790 --> 00:36:03.510
+<v Felix>Ich glaube nicht.
+
+00:36:04.230 --> 00:36:11.190
+<v l33tname>Ich glaube, mit 13 Subscribern bist du noch nicht mal, darfst du noch nicht mal Werbung
+
+00:36:11.190 --> 00:36:11.910
+<v l33tname>schalten oder so.
+
+00:36:12.310 --> 00:36:14.230
+<v Felix>Ich glaube auch bei 1000 Subscribern ist es nicht.
+
+00:36:14.390 --> 00:36:21.350
+<v l33tname>Ja, das ist irgendwie so bei 1000 Subscribern und dann brauchst du aber auch zusätzlich noch irgendwie
+
+00:36:21.350 --> 00:36:22.230
+<v l33tname>Watchtime.
+
+00:36:23.590 --> 00:36:24.790
+<v Felix>Was ist ein Watchtime?
+
+00:36:24.950 --> 00:36:27.830
+<v Felix>Achso, das ist diese Zeit, dass du die Leute bezahlt, oder was?
+
+00:36:28.790 --> 00:36:33.990
+<v l33tname>Die Zeit, die Leute tatsächlich auf deinen Videos verbracht haben.
+
+00:36:34.950 --> 00:36:41.350
+<v l33tname>Brauchst du irgendwie eine gewisse Anzahl pro Monat, dass du überhaupt irgendwie
+
+00:36:42.070 --> 00:36:43.190
+<v l33tname>monetarisieren darfst.
+
+00:36:43.510 --> 00:36:44.470
+<v l33tname>Monetarisieren darfst.
+
+00:36:44.550 --> 00:36:45.750
+<v l33tname>Ja, das haben sie irgendwie geändert.
+
+00:36:45.830 --> 00:36:48.710
+<v l33tname>Und irgendwie 1000 Subscriber oder irgend sowas.
+
+00:36:51.270 --> 00:36:53.990
+<v l33tname>Genau, das ist zum Beispiel passiert.
+
+00:36:54.950 --> 00:36:55.270
+<v l33tname>Okay.
+
+00:36:56.470 --> 00:36:58.710
+<v Felix>Und die A, die sind jetzt umgezogen auf PeerTube.
+
+00:36:59.110 --> 00:37:00.950
+<v l33tname>Genau, die sind auch auf PeerTube, genau.
+
+00:37:01.190 --> 00:37:02.630
+<v l33tname>Wenn ihr diese komischen.
+
+00:37:03.030 --> 00:37:03.590
+<v l33tname>Video.
+
+00:37:05.910 --> 00:37:07.750
+<v l33tname>Video.blender.org.
+
+00:37:08.070 --> 00:37:12.950
+<v Felix>Und das ist PeerTube, das war dieses Torrent Video Dingens.
+
+00:37:16.790 --> 00:37:17.750
+<v l33tname>Mit Blockchain.
+
+00:37:18.950 --> 00:37:19.910
+<v Felix>War da Blockchain mit drin?
+
+00:37:20.070 --> 00:37:20.470
+<v Felix>Ich glaube nicht.
+
+00:37:22.470 --> 00:37:28.710
+<v l33tname>Das mit Blockchain war, glaube ich, D-Tube, wenn ich das richtig in Erinnerung habe.
+
+00:37:29.430 --> 00:37:30.550
+<v Unbekannt>Das ist D-Tube.
+
+00:37:31.670 --> 00:37:32.150
+<v Unbekannt>Genau.
+
+00:37:33.750 --> 00:37:40.710
+<v l33tname>Das ist irgendwie basierend auf diesem, wie es das Mastodon und so drauf aufbaut,
+
+00:37:40.790 --> 00:37:42.390
+<v l33tname>dieses Subscription.
+
+00:37:44.230 --> 00:37:46.630
+<v l33tname>Offene Standard-Ding sie.
+
+00:37:47.670 --> 00:37:52.870
+<v Felix>Okay, aber irgendwie sehe ich immer nur acht Videos oder haben die wirklich nur acht Videos?
+
+00:37:54.230 --> 00:37:55.270
+<v Felix>Das ist eine gute Frage.
+
+00:37:55.430 --> 00:37:56.950
+<v Felix>Das kann ich mir nicht vorstellen, ehrlich gesagt.
+
+00:37:57.190 --> 00:38:01.510
+<v l33tname>Ich glaube, das irgendwie auch nicht so ganz, aber vielleicht haben sie einfach nicht mehr.
+
+00:38:01.750 --> 00:38:03.350
+<v Felix>Vielleicht haben sie gerade mal angefangen.
+
+00:38:03.590 --> 00:38:05.510
+<v Unbekannt>Ja, einfach nicht alles.
+
+00:38:07.110 --> 00:38:08.230
+<v Felix>Ja, das Peer-Tube.
+
+00:38:09.350 --> 00:38:11.110
+<v Markus>Du siehst wahrscheinlich nur 8 Trending.
+
+00:38:11.910 --> 00:38:14.870
+<v Markus>Die suchen für dich einfach die Most Trending Topics raus.
+
+00:38:15.110 --> 00:38:17.830
+<v Felix>Aber bei Recently Edit sind die gleichen.
+
+00:38:20.230 --> 00:38:21.030
+<v Felix>Also keine Ahnung.
+
+00:38:21.350 --> 00:38:21.670
+<v Felix>Ups.
+
+00:38:22.230 --> 00:38:23.030
+<v Markus>Nein, bei mir nicht.
+
+00:38:23.270 --> 00:38:23.750
+<v Markus>Echt nicht?
+
+00:38:23.830 --> 00:38:27.510
+<v Felix>Bei mir sind tatsächlich beides mal die gleichen, die sind halt anders gemischt, aber es sind die gleichen.
+
+00:38:29.430 --> 00:38:31.030
+<v Felix>100%ig die gleichen, man.
+
+00:38:34.870 --> 00:38:37.830
+<v l33tname>Hören Sie auch heute, wie wir auf Videoseiten rumklicken.
+
+00:38:37.990 --> 00:38:41.270
+<v l33tname>Das beste Podcast-Material, glaube ich.
+
+00:38:41.830 --> 00:38:44.870
+<v Felix>Bei Local sind auch die 8 nur anders gemischt, ich verstehe es nicht.
+
+00:38:45.910 --> 00:38:46.630
+<v Felix>Ist ja auch, glaube ich.
+
+00:38:47.430 --> 00:38:49.750
+<v Markus>Du musst dir wahrscheinlich einen Account machen, ansonsten funktioniert das.
+
+00:38:50.070 --> 00:38:51.030
+<v Felix>Wo kann ich mir einen Account machen?
+
+00:38:51.110 --> 00:38:53.350
+<v Felix>Ich kann nirgendwo auf Account machen klicken.
+
+00:38:53.910 --> 00:38:54.630
+<v Felix>Login.
+
+00:38:54.870 --> 00:38:55.830
+<v Felix>Hä, wo denn?
+
+00:38:55.990 --> 00:38:57.510
+<v Markus>Da ist ein riesen Login-Button.
+
+00:38:57.830 --> 00:38:58.870
+<v Markus>So ein orangener.
+
+00:39:00.070 --> 00:39:01.190
+<v Felix>Rechts, links?
+
+00:39:01.590 --> 00:39:01.990
+<v Felix>Links.
+
+00:39:02.230 --> 00:39:06.390
+<v Markus>Über dem Video Trending Recently Edit Local, da oben drüber ist, ein Login-Button.
+
+00:39:06.630 --> 00:39:11.830
+<v l33tname>Ja, aber ich glaube, da musst du auf Peer-Tube gehen und nicht aufs Blender-Dingsi.
+
+00:39:12.470 --> 00:39:18.950
+<v l33tname>Weil das ist ja so mit diesem Federation, das Video.blender.org ist halt eine Instanz von
+
+00:39:18.950 --> 00:39:25.430
+<v l33tname>PeerTube, die von Blender gehostet wird und das PeerTube, PeerTube ist dann halt eine Instanz,
+
+00:39:25.510 --> 00:39:27.270
+<v l33tname>wo du dich auch einloggen kannst und so.
+
+00:39:27.430 --> 00:39:28.630
+<v l33tname>Nehme ich jetzt mal an.
+
+00:39:29.190 --> 00:39:30.550
+<v Felix>Also mein Sitz so aus.
+
+00:39:40.950 --> 00:39:41.350
+<v Felix>Stimmt.
+
+00:39:45.950 --> 00:39:47.150
+<v Felix>Wunderschön gut.
+
+00:39:48.350 --> 00:39:50.430
+<v Felix>So, ja gut, dann ist so.
+
+00:39:50.510 --> 00:39:57.310
+<v Felix>Also es ist also ich denke auch, dass es funktionieren kann, wenn du dein Zeug selber hostest und dann mit
+
+00:39:57.310 --> 00:40:04.190
+<v Felix>diesem Federation quasi auch ein bisschen bei dem Streaming unter die Arme von den anderen gegriffen bekommst.
+
+00:40:04.510 --> 00:40:06.190
+<v Felix>Weil das ist ja, glaube ich, die Idee, oder?
+
+00:40:06.270 --> 00:40:10.830
+<v Felix>Dass es nicht nur alles auf einen Server hämmert, sondern halt so verteilt.
+
+00:40:11.310 --> 00:40:18.190
+<v l33tname>Wobei ich glaube, dass ihr Hauptargument ist halt, dass es halt dezentral ist und darum nicht
+
+00:40:18.350 --> 00:40:19.790
+<v l33tname>so wie bei YouTube halt irgendwie.
+
+00:40:20.110 --> 00:40:22.910
+<v Felix>Wo du einfach sagen, okay, gibt es keine Videos mehr für euch.
+
+00:40:23.230 --> 00:40:28.430
+<v l33tname>Eine Company sagen kann, so, lol knop, dein Content wollen wir nicht und du kannst einfach hingehen und sagen,
+
+00:40:28.510 --> 00:40:32.110
+<v l33tname>ha, ich hoste halt meinen eigenen Content.
+
+00:40:32.350 --> 00:40:33.710
+<v l33tname>Genau, ich hoste mein Content halt.
+
+00:40:34.430 --> 00:40:35.390
+<v l33tname>Ja, genau.
+
+00:40:35.790 --> 00:40:42.350
+<v l33tname>Und wenn er dann halt so richtig illegal ist, dann wirst du dann halt verklagt über das Rechtssystem.
+
+00:40:42.430 --> 00:40:48.350
+<v l33tname>Also du kannst halt trotzdem nicht machen, was du willst, aber du kannst halt Dinge hosten,
+
+00:40:48.430 --> 00:40:51.870
+<v l33tname>die eine Firma wie YouTube halt einfach hingehen kann und sagen kann,
+
+00:40:52.030 --> 00:40:53.550
+<v l33tname>das gefällt uns einfach nicht.
+
+00:40:53.950 --> 00:40:57.550
+<v Felix>Ja, also wo sie dann einfach das Hausrecht wirken lassen kann.
+
+00:40:57.710 --> 00:40:57.950
+<v Felix>Genau.
+
+00:40:58.110 --> 00:41:04.430
+<v l33tname>Und das kannst du darüber halt ausheben und sagen, tja, dann mache ich jetzt halt mein eigenes YouTube.
+
+00:41:05.390 --> 00:41:05.710
+<v l33tname>Okay.
+
+00:41:07.550 --> 00:41:07.870
+<v l33tname>Okay.
+
+00:41:09.630 --> 00:41:10.910
+<v Felix>Was ist das nächste?
+
+00:41:11.310 --> 00:41:12.110
+<v Felix>Podcast?
+
+00:41:12.830 --> 00:41:14.830
+<v Felix>Wir podcasten ja auch über YouTube.
+
+00:41:15.070 --> 00:41:16.670
+<v Felix>Müssen wir uns jetzt eine Runde schlecht fühlen?
+
+00:41:16.830 --> 00:41:17.230
+<v Felix>Nee, oder?
+
+00:41:17.870 --> 00:41:18.590
+<v Felix>Ich glaube auch nicht.
+
+00:41:18.750 --> 00:41:18.910
+<v Felix>Okay.
+
+00:41:19.150 --> 00:41:19.950
+<v Felix>Alles klar, nice.
+
+00:41:20.350 --> 00:41:22.750
+<v l33tname>Wir haben ja auch IceCast.
+
+00:41:23.630 --> 00:41:24.190
+<v l33tname>Aha, stimmt.
+
+00:41:25.390 --> 00:41:29.950
+<v Felix>Genau, die Leute, die die coolen Leute benutzen den IceCast-Stream.
+
+00:41:30.110 --> 00:41:30.510
+<v Felix>Genau.
+
+00:41:32.510 --> 00:41:34.750
+<v Markus>Google ist a little bit late to the game now.
+
+00:41:35.150 --> 00:41:35.550
+<v Markus>Genau.
+
+00:41:35.950 --> 00:41:39.550
+<v l33tname>Sie haben jetzt gemerkt, so, Podcasting ist das neue heiße Ding.
+
+00:41:39.790 --> 00:41:42.510
+<v l33tname>Und haben sich jetzt auch einen Podcast-Client gebaut.
+
+00:41:42.750 --> 00:41:47.870
+<v l33tname>Vielleicht machen sie das wie bei den Messengern und es gibt es jetzt alle eineinhalb Jahre einen neuen
+
+00:41:47.870 --> 00:41:48.990
+<v l33tname>Podcast-Player.
+
+00:41:49.630 --> 00:41:50.350
+<v l33tname>Könnte sein.
+
+00:41:50.510 --> 00:41:52.270
+<v l33tname>Also sie hatten, glaube ich, auch schon einen.
+
+00:41:52.350 --> 00:41:53.630
+<v l33tname>Ich habe den auch schon mal.
+
+00:41:55.390 --> 00:41:56.350
+<v l33tname>Hatten sie nicht irgendwas?
+
+00:41:56.910 --> 00:41:58.030
+<v l33tname>Hatte Google nicht was?
+
+00:41:58.270 --> 00:41:58.590
+<v l33tname>Nein.
+
+00:41:58.750 --> 00:42:05.230
+<v l33tname>Ich dachte, ich hätte schon mal irgendwas auf meinem Android benutzt, was so von Google war und so weiter.
+
+00:42:05.390 --> 00:42:10.590
+<v Markus>Vielleicht hatte dir irgendein Handy-Anbieter da schon einmal einen Podcast-Catcher drauf installiert,
+
+00:42:10.750 --> 00:42:12.190
+<v Markus>der hat Sony oder sowas gemacht, oder so?
+
+00:42:12.670 --> 00:42:14.430
+<v l33tname>Das kann natürlich gut sein.
+
+00:42:14.670 --> 00:42:19.150
+<v l33tname>Wobei, seit ich halt, ich benutze halt dieses Beyond-Pod,
+
+00:42:19.550 --> 00:42:25.550
+<v l33tname>wo man zwar auch ein bisschen Geld dafür zahlt, aber es hat halt genau diese Features und genau diese
+
+00:42:25.550 --> 00:42:28.110
+<v l33tname>Settings, die ich halt haben will und brauche.
+
+00:42:28.910 --> 00:42:33.470
+<v l33tname>Dann habe ich halt irgendwie einmal den ein bisschen Geld in den Hut geworfen, ist auch nicht super teuer.
+
+00:42:34.670 --> 00:42:36.990
+<v l33tname>Und seit da benutze ich halt das.
+
+00:42:39.230 --> 00:42:42.830
+<v l33tname>Aber Google hat jetzt auch einen Podcast-Client.
+
+00:42:43.550 --> 00:42:48.110
+<v l33tname>Es ist irgendwie aktuell habe ich so das Gefühl, es sprechen irgendwie wieder alle über Podcasts.
+
+00:42:48.270 --> 00:42:50.430
+<v l33tname>Es ist irgendwie so voll das Hype-Ding.
+
+00:42:50.910 --> 00:42:52.670
+<v Markus>Schöne Grüße aus der Filterblase.
+
+00:42:54.190 --> 00:42:54.750
+<v Markus>Das stimmt.
+
+00:42:54.990 --> 00:42:56.750
+<v Felix>Habt ihr auch dieses Podcasts?
+
+00:42:56.990 --> 00:42:58.910
+<v l33tname>Habt ihr auch diese Podcasts.
+
+00:42:59.150 --> 00:42:59.710
+<v l33tname>Genau.
+
+00:42:59.950 --> 00:43:05.230
+<v l33tname>Und heißen die auch alle irgendwie irgendwelche lustigen Namen und dann mit Cast am Ende.
+
+00:43:05.550 --> 00:43:06.190
+<v l33tname>Cast.
+
+00:43:06.750 --> 00:43:07.710
+<v Felix>Cast-Antenna-Pod.
+
+00:43:08.590 --> 00:43:09.390
+<v Felix>Antenna-Pod.
+
+00:43:09.550 --> 00:43:10.510
+<v Felix>Antenna-Podcast.
+
+00:43:10.670 --> 00:43:13.070
+<v Felix>Ich hab Antenna-Pod habe ich auch.
+
+00:43:13.870 --> 00:43:15.550
+<v Felix>Das ist okay, der funktioniert.
+
+00:43:16.510 --> 00:43:18.830
+<v Felix>Der funktioniert auch schon vor lange schon.
+
+00:43:19.710 --> 00:43:21.230
+<v l33tname>Ja, der ist echt auch okay.
+
+00:43:21.390 --> 00:43:24.910
+<v l33tname>Den habe ich auch mal eine Zeit lang ausprobiert.
+
+00:43:25.070 --> 00:43:28.110
+<v l33tname>Das hat halt einfach so ein paar der Settings, die ich irgendwie.
+
+00:43:29.070 --> 00:43:32.590
+<v l33tname>Es geht vielleicht mittlerweile oder es ging vielleicht auch damals schon,
+
+00:43:32.750 --> 00:43:37.470
+<v l33tname>aber in Beyond Pod war mir halt einfach so vom User-Interface und so einfach klar,
+
+00:43:37.710 --> 00:43:40.830
+<v l33tname>wo ich die Dinge einstellen muss, die ich einstellen wollte.
+
+00:43:41.150 --> 00:43:42.270
+<v Felix>Bei Einstellungen, man.
+
+00:43:42.670 --> 00:43:43.710
+<v l33tname>Bei Einstellungen.
+
+00:43:43.950 --> 00:43:44.670
+<v l33tname>Oh no.
+
+00:43:45.390 --> 00:43:46.430
+<v Felix>Das war zwar einfach.
+
+00:43:46.670 --> 00:43:52.670
+<v l33tname>So irgendwie mit Auto-Downloads und wann welche Dinge gelöscht werden sollen und so ein Kram.
+
+00:43:53.390 --> 00:43:55.870
+<v l33tname>Das ging da irgendwie einfach einfacher und ja.
+
+00:43:56.270 --> 00:44:01.950
+<v Felix>Ist ja auch okay, du hast ja damit jemanden irgendwie seine Arbeit unterstützt.
+
+00:44:02.110 --> 00:44:03.230
+<v Felix>Ist ja auch in Ordnung.
+
+00:44:03.390 --> 00:44:06.990
+<v l33tname>Und es ist, äh, ja, so ein bisschen Vielfalt schadet ja auch nicht.
+
+00:44:07.230 --> 00:44:07.790
+<v l33tname>Ich denke auch.
+
+00:44:08.350 --> 00:44:12.030
+<v Felix>Es dürft nicht alle das gleiche benutzen, weil dann wird es quasi am Ende scheiße.
+
+00:44:14.670 --> 00:44:15.870
+<v Felix>Jeder braucht seine Nische.
+
+00:44:16.030 --> 00:44:19.710
+<v Felix>So, genau, Google Podcast hat schon mal jemand runtergeladen.
+
+00:44:19.950 --> 00:44:20.430
+<v Felix>Nö.
+
+00:44:20.750 --> 00:44:21.230
+<v Felix>Nein.
+
+00:44:21.550 --> 00:44:23.470
+<v l33tname>Aber es braucht man das?
+
+00:44:23.710 --> 00:44:24.430
+<v l33tname>Weiß ich nicht.
+
+00:44:24.670 --> 00:44:28.910
+<v l33tname>Ich finde es interessant, dass sie sowas machen, dass sie es auch irgendwie gemerkt haben.
+
+00:44:29.390 --> 00:44:35.870
+<v l33tname>Aber ob das dann so, ich meine, der Apple Podcast-Client ist ja irgendwie auch nur so
+
+00:44:36.430 --> 00:44:38.590
+<v l33tname>meh, maximal.
+
+00:44:39.070 --> 00:44:41.310
+<v Markus>Also redest du von iTunes?
+
+00:44:41.550 --> 00:44:46.910
+<v l33tname>Nein, die haben ja auf dem iPhone gibt es ja tatsächlich so ein so ein
+
+00:44:47.070 --> 00:44:48.590
+<v l33tname>Podcast-Client-App.
+
+00:44:49.230 --> 00:44:49.550
+<v l33tname>Stimmt.
+
+00:44:50.190 --> 00:44:51.230
+<v Markus>Ja, ich erinnere mich dunkel.
+
+00:44:51.310 --> 00:44:53.710
+<v Markus>Ich habe gerade keinen i-Device in Reichweite.
+
+00:44:54.110 --> 00:44:58.030
+<v l33tname>Ja, ich habe da mal so ein bisschen drin rumgeklickt und es war auch nur so,
+
+00:44:58.110 --> 00:45:01.230
+<v l33tname>ja, und ich habe auch noch niemanden gehört oder gesehen, der gesagt,
+
+00:45:01.310 --> 00:45:04.350
+<v l33tname>tja, das ist der beste Podcast-Client, den es so gibt.
+
+00:45:04.750 --> 00:45:05.790
+<v l33tname>Benutzt den.
+
+00:45:07.070 --> 00:45:10.350
+<v l33tname>Ja, und jetzt hat Google hat halt einfach nachgezogen und gesagt, tja,
+
+00:45:10.430 --> 00:45:12.670
+<v l33tname>wir bauen jetzt halt auch so einen Podcast-Client.
+
+00:45:13.950 --> 00:45:18.670
+<v l33tname>Wird sich zeigen, ob der irgendwas taugt, ob der irgendwie sich durchsetzt.
+
+00:45:21.150 --> 00:45:24.430
+<v Markus>Client, diese Podcast-App, nur 3,4 Sterne.
+
+00:45:25.070 --> 00:45:29.150
+<v Felix>Sie macht wohl noch nicht mal automatisches Runterladen von neuen Episoden und das ist ja schon echt ein paar.
+
+00:45:29.470 --> 00:45:31.070
+<v l33tname>Ja, das ist halt echt schwach.
+
+00:45:32.190 --> 00:45:33.630
+<v Markus>Das macht meinen Antenna-Pod aber auch nicht mehr.
+
+00:45:33.710 --> 00:45:35.790
+<v Markus>Ich muss allerdings zugeben, ich habe noch nicht wirklich nachgeguckt, ob es nicht so gut ist.
+
+00:45:35.950 --> 00:45:38.270
+<v Felix>Ja, meine macht es aber, was meine Einstellung liegt.
+
+00:45:38.590 --> 00:45:40.590
+<v Felix>Also das gleiche Ding hatte ich ja auch.
+
+00:45:40.750 --> 00:45:42.990
+<v Felix>Ich habe mir gedacht, so, ach naja.
+
+00:45:43.870 --> 00:45:46.110
+<v l33tname>Das bestimmt so ein Setting, was man halt irgendwo.
+
+00:45:46.590 --> 00:45:48.830
+<v Felix>Genau, kaum bestimmt in den Settings machen oder so.
+
+00:45:48.910 --> 00:45:52.430
+<v Felix>Vielleicht soll ich Björn-Pod nehmen, wo es klar ist, wo das steht.
+
+00:45:52.670 --> 00:45:54.590
+<v l33tname>Ja, soll ich dir sagen, wo es ist?
+
+00:45:54.670 --> 00:45:56.510
+<v l33tname>Es bestimmt oder Einstellungen.
+
+00:45:56.670 --> 00:46:00.270
+<v Felix>Okay, ich gucke da mal nach, das ist eine gute Idee, da habe ich es nicht geschaffen.
+
+00:46:03.310 --> 00:46:08.830
+<v Felix>NQ from front, Headphone Disconnect, Bluetooth Reconnect, Rewind Skip Time.
+
+00:46:09.070 --> 00:46:11.150
+<v l33tname>Genau, das war halt so ein bisschen mein Problem.
+
+00:46:11.870 --> 00:46:13.470
+<v Felix>Heap Skipped Episodes.
+
+00:46:13.550 --> 00:46:14.190
+<v Felix>Nee, nee, nee, nee.
+
+00:46:14.510 --> 00:46:16.590
+<v Felix>Du kannst NQ Downloads.
+
+00:46:16.830 --> 00:46:20.270
+<v Felix>Hier, Update-Intervall or Time of Day.
+
+00:46:21.150 --> 00:46:22.350
+<v Felix>Da kann man es machen.
+
+00:46:22.590 --> 00:46:24.830
+<v Felix>Aber ich glaube, der macht das nur ab und zu.
+
+00:46:25.790 --> 00:46:30.910
+<v Felix>Und da gerade halt in Stromsparmodus oder sowas und dann macht das halt nicht.
+
+00:46:31.710 --> 00:46:33.230
+<v Felix>Automatic Download hier.
+
+00:46:34.190 --> 00:46:35.390
+<v Felix>Und hier ist eigentlich alles da.
+
+00:46:35.630 --> 00:46:37.550
+<v Felix>Achso, ich habe einen Wi-Fi-Filter.
+
+00:46:39.470 --> 00:46:40.750
+<v Felix>Naja, keine Ahnung.
+
+00:46:40.910 --> 00:46:43.310
+<v Felix>Also kann man bestimmt irgendwo in diesen Einstellungen einstellen.
+
+00:46:43.630 --> 00:46:44.990
+<v l33tname>Findet man bestimmt irgendwo.
+
+00:46:45.470 --> 00:46:46.430
+<v l33tname>Geht bestimmt.
+
+00:46:47.950 --> 00:46:48.430
+<v l33tname>Tja.
+
+00:46:49.870 --> 00:46:55.870
+<v l33tname>Gut, kommen wir zu vielleicht ein bisschen cooleren Sachen, die man auch so benutzen will.
+
+00:46:56.590 --> 00:46:57.310
+<v l33tname>Erzähl mal.
+
+00:46:57.550 --> 00:46:59.870
+<v l33tname>Python 3.7 ist da.
+
+00:47:00.590 --> 00:47:03.950
+<v Felix>Oh, Python 3.7, was ist denn das Neue bei Python 3.7?
+
+00:47:04.270 --> 00:47:05.150
+<v l33tname>Was ist denn das Neue?
+
+00:47:05.870 --> 00:47:06.910
+<v Felix>Was ist denn das Killer-Feature?
+
+00:47:07.230 --> 00:47:14.030
+<v l33tname>Das Killer-Feature sind wohl die Dicts, die jetzt endlich sortiert
+
+00:47:14.030 --> 00:47:14.510
+<v l33tname>bleiben.
+
+00:47:14.750 --> 00:47:15.390
+<v l33tname>Irgendwie.
+
+00:47:15.630 --> 00:47:15.870
+<v l33tname>Echt?
+
+00:47:16.670 --> 00:47:18.750
+<v Felix>Du brauchst nicht extra sorted Dicts oder was?
+
+00:47:18.990 --> 00:47:19.950
+<v Felix>Aber wie funktioniert das?
+
+00:47:20.190 --> 00:47:20.830
+<v Felix>Wie weiß er, wie.
+
+00:47:21.310 --> 00:47:24.590
+<v l33tname>Nein, die Insert Order ist preserved.
+
+00:47:24.670 --> 00:47:30.750
+<v l33tname>Also wenn du ein Dikt machst und dann Dinge einfügst, dann ist es garantiert,
+
+00:47:30.830 --> 00:47:34.990
+<v l33tname>dass es in der Reihenfolge sind, die du eingefügt hast, wie du sie eingefügt hast.
+
+00:47:35.070 --> 00:47:39.550
+<v l33tname>Und vorher war es wohl so nicht garantiert war.
+
+00:47:40.830 --> 00:47:43.790
+<v Felix>Es war zwar nie garantiert, aber alle haben gewusst, dass es quasi so ist.
+
+00:47:44.350 --> 00:47:50.030
+<v l33tname>Es war zwar, glaube ich, meistens so, aber es war halt nicht unbedingt.
+
+00:47:50.430 --> 00:47:51.950
+<v Felix>Du hattest da zwei Möglichkeiten.
+
+00:47:52.110 --> 00:47:56.430
+<v Felix>Einmal sorted Dick, quasi ein extra Ding, was voll blöd war zu benutzen.
+
+00:47:56.750 --> 00:48:02.190
+<v Felix>Und zweites Ding war einfach als JSON rausrendern mit Sort-Keys.
+
+00:48:02.270 --> 00:48:03.790
+<v Felix>Und dann war es auch immer sortiert.
+
+00:48:03.870 --> 00:48:07.950
+<v Felix>Aber dann war es halt nicht so sortiert, wie du es wünschst, sondern halt nach.
+
+00:48:09.630 --> 00:48:11.550
+<v Felix>Ja, also nach Name.
+
+00:48:12.750 --> 00:48:15.870
+<v Felix>Ja, aber es ist doch cool, wenn es das jetzt automatisch das Richtige macht.
+
+00:48:16.430 --> 00:48:16.990
+<v Felix>Ciao, ciao.
+
+00:48:17.310 --> 00:48:21.230
+<v Felix>Bei Python 3.6 gab es ja dieses tolle String-Formatting.
+
+00:48:21.310 --> 00:48:24.750
+<v Felix>Ich habe mir auch ein bisschen was für Python 3.7 wie sowas erhofft.
+
+00:48:24.830 --> 00:48:27.950
+<v Felix>Irgendwas richtig cooles, wo man so denkt so, boah, ist cool.
+
+00:48:28.990 --> 00:48:30.350
+<v Felix>Ah, Bild ein Breakpoint.
+
+00:48:30.750 --> 00:48:31.310
+<v Felix>War das das?
+
+00:48:31.870 --> 00:48:33.950
+<v Felix>Ja, ja, Breakpoint, das ist super nice.
+
+00:48:34.830 --> 00:48:37.310
+<v Felix>Das kam erst mit 3.7, das ist ein cooles Feature.
+
+00:48:37.550 --> 00:48:41.790
+<v Felix>Du kannst nämlich jetzt einfach sagen, Breakpoint, Klammer aufklammer zu und er macht dein Breakpoint.
+
+00:48:41.950 --> 00:48:45.390
+<v Felix>Und das ist nicht mehr dieses Import PDB, PDB, Set Trace.
+
+00:48:47.310 --> 00:48:48.910
+<v Felix>Sondern einfach nur Breakpoint.
+
+00:48:49.150 --> 00:48:49.870
+<v Felix>Das ist sehr nice.
+
+00:48:50.110 --> 00:48:50.830
+<v Felix>Das ist sehr, sehr cool.
+
+00:48:51.070 --> 00:48:51.790
+<v Felix>Das ist super.
+
+00:48:52.670 --> 00:48:54.350
+<v Felix>Warte, kann ich hier mal dazu machen.
+
+00:48:55.150 --> 00:48:57.710
+<v Felix>Können alle direkt benutzen und ist total entspannt.
+
+00:48:58.190 --> 00:48:59.230
+<v l33tname>Ja, also alle.
+
+00:48:59.390 --> 00:49:00.430
+<v l33tname>Alle, die auf Python.
+
+00:49:01.150 --> 00:49:03.070
+<v Felix>Python 3.7 sind also quasi niemand.
+
+00:49:03.550 --> 00:49:09.070
+<v l33tname>Und nicht alle, die noch irgendwie so auf Python 2.7 rumhängen, die.
+
+00:49:09.390 --> 00:49:10.670
+<v Felix>Ah, die sind, da ist eh nichts mehr.
+
+00:49:11.070 --> 00:49:12.590
+<v l33tname>Die haben halt einfach verloren.
+
+00:49:12.830 --> 00:49:13.790
+<v Felix>Nee, ist doch so.
+
+00:49:13.870 --> 00:49:17.710
+<v Felix>Also Leute, die jetzt noch Python 2.7 benutzen, shame on you.
+
+00:49:18.110 --> 00:49:20.190
+<v Felix>Wegen euch geht das Internet nicht weiter.
+
+00:49:21.710 --> 00:49:23.390
+<v l33tname>Das ist nicht okay.
+
+00:49:24.430 --> 00:49:25.550
+<v Felix>Nicht okay, genau.
+
+00:49:25.950 --> 00:49:27.390
+<v l33tname>Einfach mal upgraden.
+
+00:49:27.950 --> 00:49:28.590
+<v l33tname>Genau.
+
+00:49:28.830 --> 00:49:34.190
+<v Felix>Python, wenn dann direkt auf Python 3, also mindestens 3.6.
+
+00:49:34.590 --> 00:49:36.590
+<v Felix>3.7 ist schon cool mit Breakpoint und so.
+
+00:49:36.670 --> 00:49:40.670
+<v Felix>Aber Python 3.6 mit Stringformatting best.
+
+00:49:41.470 --> 00:49:43.310
+<v Felix>Bestes, wo gibt es auf der ganzen Welt.
+
+00:49:44.830 --> 00:49:46.430
+<v Felix>Plus 1 und like von mir.
+
+00:49:46.830 --> 00:49:47.310
+<v Felix>Genau.
+
+00:49:47.710 --> 00:49:48.670
+<v l33tname>Das ist super.
+
+00:49:49.790 --> 00:49:50.910
+<v Felix>FreeBSD.
+
+00:49:51.550 --> 00:49:52.190
+<v Felix>FreeBSD.
+
+00:49:52.910 --> 00:49:53.630
+<v Felix>Yes, FreeBSD.
+
+00:49:53.870 --> 00:49:56.590
+<v Felix>Das hätte auch hätte zu Untoten der Woche.
+
+00:49:58.510 --> 00:50:04.270
+<v Felix>Dass die immer noch was machen, nachdem die jetzt ihre internen Probleme hier noch haben.
+
+00:50:05.550 --> 00:50:06.110
+<v Felix>Ich weiß gar nicht.
+
+00:50:06.270 --> 00:50:13.150
+<v l33tname>FreeBSD, es gibt doch diese Statistik, wie viel Prozent des Internet irgendwie von welchem OS gepowert
+
+00:50:13.150 --> 00:50:13.470
+<v l33tname>wird.
+
+00:50:14.350 --> 00:50:17.790
+<v l33tname>Und FreeBSD ist da, glaube ich, immer ganz weit vorne dabei.
+
+00:50:19.310 --> 00:50:25.390
+<v l33tname>Weil so Netflix und sonst so ein paar große irgendwie.
+
+00:50:26.270 --> 00:50:30.750
+<v l33tname>Naja, auf jeden Fall gibt es, wo ich auch schon mal gesagt habe,
+
+00:50:30.830 --> 00:50:36.110
+<v l33tname>dass ihr die RCS ausprobieren könnt, gibt es jetzt die L2.
+
+00:50:36.590 --> 00:50:37.310
+<v l33tname>Das ist jetzt hier.
+
+00:50:38.270 --> 00:50:40.030
+<v l33tname>So mit Neuwatch.
+
+00:50:40.350 --> 00:50:41.310
+<v Felix>Was kann das cooles?
+
+00:50:41.390 --> 00:50:43.870
+<v Felix>Erzähl mal das Killer-Feature von 11.2.
+
+00:50:44.670 --> 00:50:45.950
+<v l33tname>Das Killer-Feature.
+
+00:50:47.870 --> 00:50:50.110
+<v l33tname>Das DWatch ist ganz nett.
+
+00:50:50.910 --> 00:50:51.870
+<v l33tname>Habe ich mir.
+
+00:50:52.590 --> 00:50:53.470
+<v Felix>Okay, was kann das?
+
+00:50:53.870 --> 00:50:56.750
+<v l33tname>Benutze ich zwar irgendwie selber nicht so richtig, aber das ist so.
+
+00:50:57.070 --> 00:50:58.350
+<v Felix>Das ist so wie D-Trace, oder?
+
+00:50:58.590 --> 00:50:59.070
+<v Felix>Ja, genau.
+
+00:50:59.230 --> 00:51:04.350
+<v l33tname>Und wenn ich das richtig verstanden habe, ist das halt so ein Wrapper um D-Trace herum,
+
+00:51:04.750 --> 00:51:09.630
+<v l33tname>um so in laufende Binaries reinzuschauen und so.
+
+00:51:10.510 --> 00:51:15.550
+<v l33tname>Und das sind, wenn man auf der Plattform halt irgendwie entwickelt, ist das super cool.
+
+00:51:16.670 --> 00:51:21.310
+<v l33tname>Dann so ein bisschen halt das übliche neue Kleinversion,
+
+00:51:21.870 --> 00:51:27.870
+<v l33tname>neues OpenSSL, weil das alte hat vermutlich Bugs und Security-Issues.
+
+00:51:28.190 --> 00:51:29.150
+<v Felix>Das neue Model.
+
+00:51:29.390 --> 00:51:31.790
+<v Felix>Das gleiche Dinge haben wir nur anders.
+
+00:51:32.110 --> 00:51:35.390
+<v l33tname>Genau, das Open SSH wieder mal ein bisschen nachgezogen.
+
+00:51:35.630 --> 00:51:42.190
+<v l33tname>Wenn man das mit GUI benutzt, dann hat es irgendwie eine neue KD-Version und eine geupdatete
+
+00:51:42.190 --> 00:51:43.470
+<v l33tname>GNOME-Version.
+
+00:51:45.470 --> 00:51:48.430
+<v Felix>Okay, also nicht so richtig super porn-mäßig.
+
+00:51:48.670 --> 00:51:52.590
+<v l33tname>Nichts Spektakuläres, aber halt so.
+
+00:51:53.390 --> 00:51:57.070
+<v l33tname>Was halt auch heißt, man kann es einfach installieren und es geht halt nichts kaputt.
+
+00:51:57.470 --> 00:51:59.070
+<v l33tname>Ist auch schon ganz nettes.
+
+00:51:59.630 --> 00:52:00.910
+<v l33tname>Wenn es halt immer so riesig ist.
+
+00:52:01.230 --> 00:52:02.430
+<v Felix>Standard kann auch nichts kaputt gehen.
+
+00:52:02.590 --> 00:52:04.750
+<v l33tname>Genau, wenn sich halt nur so kleine Ansatz.
+
+00:52:05.070 --> 00:52:10.910
+<v l33tname>Wenn sich nur so kleine Dinge ändern, ist die Chance, dass man das installiert und das ganze System fliegt
+
+00:52:11.070 --> 00:52:12.430
+<v l33tname>auseinander halt immer so klein.
+
+00:52:12.590 --> 00:52:15.790
+<v Felix>Das ist ein bisschen so wie, also Gegensatz von Ubuntu.
+
+00:52:16.510 --> 00:52:18.670
+<v Felix>Wo dann quasi einfach immer alles explodiert.
+
+00:52:18.750 --> 00:52:21.470
+<v Felix>Aber alle wissen es, deswegen ist es okay, kann es aber neu inszenieren.
+
+00:52:22.830 --> 00:52:23.150
+<v Felix>Ja.
+
+00:52:25.390 --> 00:52:26.510
+<v Felix>Was gibt es hier noch?
+
+00:52:26.830 --> 00:52:31.790
+<v l33tname>Dann, genau, einmal ausnahmsweise nicht amerikanische Wissenschaftler herausgefunden,
+
+00:52:31.870 --> 00:52:33.230
+<v l33tname>sondern deutsche Wissenschaftler.
+
+00:52:33.470 --> 00:52:35.390
+<v Felix>Deutsche Wissenschaftler, was haben die herausgefunden?
+
+00:52:35.630 --> 00:52:42.430
+<v l33tname>Genau, und zwar haben sie herausgefunden, wie man diese Tracking Pixel defeated, ähm schlägt.
+
+00:52:42.830 --> 00:52:43.150
+<v l33tname>Ja.
+
+00:52:43.550 --> 00:52:44.430
+<v l33tname>Wegmacht.
+
+00:52:44.670 --> 00:52:45.550
+<v l33tname>Und zwar geht es doch.
+
+00:52:45.870 --> 00:52:46.190
+<v l33tname>Was haben Sie?
+
+00:52:46.350 --> 00:52:48.910
+<v Felix>Haben Sie ein Edding in Ihrer Schublade gefunden?
+
+00:52:50.430 --> 00:52:53.070
+<v Felix>Wie haben Sie diese Tracking Pixels weggeedit?
+
+00:52:53.630 --> 00:52:58.670
+<v l33tname>Sie haben, hier, mein Link ist rumweg geeditiert worden.
+
+00:52:58.750 --> 00:53:00.670
+<v l33tname>Ich habe hier das Toolkit auch verlinkt.
+
+00:53:00.990 --> 00:53:06.190
+<v l33tname>Sie haben da irgendwie so ein bisschen Python-Code, glaube ich, geschrieben,
+
+00:53:06.350 --> 00:53:13.150
+<v l33tname>wo man dann die gescannten Dokumente wieder durch, ich glaube die PDFs dann durchrattern
+
+00:53:13.230 --> 00:53:16.990
+<v l33tname>lassen kann und diese Tracking Pixel dann wieder.
+
+00:53:17.310 --> 00:53:24.030
+<v Felix>Ah, das geht auf quasi, wenn du es eingescannt hast, wenn du diese PFs ausgedruckt hast und die dann
+
+00:53:24.030 --> 00:53:25.310
+<v Felix>eingescannst wieder.
+
+00:53:25.550 --> 00:53:30.510
+<v l33tname>Genau, vielleicht noch kurz für Kontext, also wenn man mit gewissen Druckern,
+
+00:53:31.790 --> 00:53:38.590
+<v l33tname>auch nicht ganz allen, aber mit den meisten sowas ausdruckt, dann hat es halt in
+
+00:53:38.590 --> 00:53:43.710
+<v l33tname>einer Ecke hat es halt so fast unsichtbar fürs Auge halt so,
+
+00:53:44.350 --> 00:53:46.030
+<v l33tname>ich glaube, gelbe Pixel.
+
+00:53:46.270 --> 00:53:47.310
+<v Felix>Gelbe Punkte, ja.
+
+00:53:47.470 --> 00:53:54.430
+<v l33tname>So gelbe Punkte und die sind halt in einer bestimmten, die sind halt bestimmt angeordnet und daraus kann man
+
+00:53:54.430 --> 00:53:59.310
+<v l33tname>dann so ein Muster machen und das in diesem Muster kann man dann halt wieder Daten kodieren.
+
+00:53:59.790 --> 00:54:04.110
+<v l33tname>Und da stehen dann, was steht da so genau drin, da schreiben sie, glaube ich,
+
+00:54:04.270 --> 00:54:08.670
+<v l33tname>von welchem Drucker und so eine Zeit und so, wann das ausgedruckt wurde.
+
+00:54:09.310 --> 00:54:16.270
+<v l33tname>Und jetzt, wenn man, sagen wir mal, in so einem Office arbeitet oder so und dann möchte man irgendwas
+
+00:54:16.270 --> 00:54:20.910
+<v l33tname>leaken oder so, nehmen wir jetzt mal so rein hypothetisch an, dann drückt man sich.
+
+00:54:21.390 --> 00:54:23.550
+<v Felix>Muss man nicht nicht möchten, das hat hier nichts mit möchten.
+
+00:54:24.590 --> 00:54:29.470
+<v Felix>Dann ist quasi der Gesellschaft es schuldig, diese Information rauszubringen.
+
+00:54:29.710 --> 00:54:34.750
+<v l33tname>Dann druckt man das irgendwie aus und dann ist man halt so ein Corporate Environment und so,
+
+00:54:34.830 --> 00:54:38.430
+<v l33tname>und dann hat man irgendwie beispielsweise ein Badge, um zu drucken oder so,
+
+00:54:39.230 --> 00:54:45.870
+<v l33tname>druckt das aus, dann hat es diese Pixel drauf, dann scannt man das ein und zu Hause und schickt das
+
+00:54:45.870 --> 00:54:49.230
+<v l33tname>irgendwie an einen Journalisten seines Vertrauens.
+
+00:54:49.710 --> 00:54:51.790
+<v l33tname>Und der publiziert das dann einfach.
+
+00:54:51.950 --> 00:54:56.670
+<v l33tname>Und dann kann sich halt jeder diese Pixel anschauen und kann genau herausfinden,
+
+00:54:56.990 --> 00:55:03.070
+<v l33tname>wer hat wo das ausgedruckt und damit ist halt auch sehr klar,
+
+00:55:03.310 --> 00:55:06.990
+<v l33tname>wer das ausgedruckt hat, weil man hat ja mit seinem Badge ausgedruckt.
+
+00:55:07.230 --> 00:55:12.750
+<v l33tname>Oder man musste sich irgendwie einloggen oder man weiß halt, von welchem Computer und wer da eingeloggt war.
+
+00:55:13.470 --> 00:55:16.030
+<v l33tname>Und das ist halt uncool.
+
+00:55:16.350 --> 00:55:17.470
+<v l33tname>Und die haben da so.
+
+00:55:18.350 --> 00:55:25.150
+<v l33tname>Also einerseits haben sie irgendwie noch undokumentierte Dinge gefunden, die da wohl mit rein kodiert wurden.
+
+00:55:25.470 --> 00:55:28.190
+<v Felix>Mehr verschiedene Tracking-Pixel Verfahren, oder?
+
+00:55:28.750 --> 00:55:30.030
+<v l33tname>Ja, irgendwie so.
+
+00:55:30.270 --> 00:55:35.390
+<v l33tname>Und mehr Informationen, glaube ich, wenn ich das richtig bin.
+
+00:55:35.710 --> 00:55:40.270
+<v Felix>Es gibt quasi jede Firma macht diese Tracking-Pixel so ein bisschen anders.
+
+00:55:41.390 --> 00:55:45.630
+<v Felix>Und die haben quasi verschiedene Mechanismus,
+
+00:55:45.790 --> 00:55:50.030
+<v Felix>äh verschiedene Mechanismen halt gefunden,
+
+00:55:50.190 --> 00:55:52.990
+<v Felix>die was klar ist, also nicht wirklich gefunden.
+
+00:55:53.310 --> 00:55:58.110
+<v Felix>Und vier Undiscovered Patterns, also quasi andere Encodings.
+
+00:55:59.550 --> 00:56:02.030
+<v Felix>Und interessant auf jeden Fall.
+
+00:56:02.350 --> 00:56:02.910
+<v Felix>Genau.
+
+00:56:04.030 --> 00:56:10.350
+<v l33tname>Ja, im Artikel steht auch, also ziemlich alle Druckerhersteller machen das,
+
+00:56:10.430 --> 00:56:16.190
+<v l33tname>außer Brother, Samsung und Tectronics,
+
+00:56:16.510 --> 00:56:21.150
+<v l33tname>wovon ich jetzt noch nie gehört habe, aber die Brother und Samsung auch nicht.
+
+00:56:21.390 --> 00:56:22.190
+<v l33tname>Anscheinend nicht.
+
+00:56:22.430 --> 00:56:24.510
+<v l33tname>Die sehen so aus, als würden sie keine.
+
+00:56:24.750 --> 00:56:28.590
+<v l33tname>Vielleicht machen die aber halt auch irgendwas anderes, was noch nicht bekannt ist.
+
+00:56:28.910 --> 00:56:30.910
+<v l33tname>Weiß man halt nicht so genau.
+
+00:56:31.390 --> 00:56:34.910
+<v Felix>Die Sache ist ja, also ich glaube, diese Tracking-Pixel werden nur drauf gemacht,
+
+00:56:34.990 --> 00:56:36.430
+<v Felix>wenn man die gelbe Farbe leer geht.
+
+00:56:36.590 --> 00:56:39.470
+<v Felix>Und du immer wieder gelbe Farbe danach kaufen musst.
+
+00:56:40.590 --> 00:56:42.190
+<v Felix>Das hat gar nichts mit diesem Tracking zu tun, ja.
+
+00:56:42.270 --> 00:56:43.870
+<v Felix>Die sagen, ja, ja, es ist Tracking.
+
+00:56:44.110 --> 00:56:48.510
+<v Felix>Klar, wir müssen leider auch deine gelbe Farbe schon wieder alle Spaß gehabt.
+
+00:56:48.670 --> 00:56:54.270
+<v l33tname>Die Druckerhersteller sind zu NSA gegangen, sonst können wir nicht mal so ein paar Tracking-Pixel draufmalen.
+
+00:56:54.750 --> 00:56:56.590
+<v l33tname>Können wir mehr Druckerfarbe verkaufen.
+
+00:56:56.750 --> 00:56:57.310
+<v l33tname>Voll gut.
+
+00:56:57.870 --> 00:56:59.150
+<v Felix>NSA so nice.
+
+00:57:03.150 --> 00:57:09.870
+<v l33tname>Ja, es werden immer wieder mal Leute enttarnt über diese
+
+00:57:09.870 --> 00:57:15.390
+<v l33tname>Pixel, darum ist das glaube ich schon nicht nur gelbe Farbe,
+
+00:57:15.550 --> 00:57:17.790
+<v l33tname>die verbraucht wird.
+
+00:57:18.110 --> 00:57:18.350
+<v l33tname>Genau.
+
+00:57:18.430 --> 00:57:22.030
+<v l33tname>Und dann habe ich hier noch das Toolkit verlinkt, was sie gebaut haben,
+
+00:57:22.270 --> 00:57:27.310
+<v l33tname>wo man wo sie dann irgendwie seine eigenen PDFs bauen kannst.
+
+00:57:27.630 --> 00:57:30.510
+<v l33tname>Genau, und was es irgendwie macht, ist einerseits, es nimmt irgendwie,
+
+00:57:30.670 --> 00:57:35.230
+<v l33tname>es nimmt die Pixel weg und macht irgendwie zusätzliche Pixel, dass es unlesbar wird,
+
+00:57:35.550 --> 00:57:40.270
+<v l33tname>sodass man nichts mehr auslesen kann aus diesen Dingen.
+
+00:57:42.190 --> 00:57:44.110
+<v l33tname>Sollte man sich im Hinterkopf.
+
+00:57:44.350 --> 00:57:46.030
+<v l33tname>Kann man ja vielleicht mal brauchen.
+
+00:57:46.270 --> 00:57:51.550
+<v Felix>Also ich denke so Plattformen, die solche Leaks annehmen,
+
+00:57:51.630 --> 00:57:56.670
+<v Felix>also zum Beispiel irgendwelche WikiLeaks, gibt es immer noch?
+
+00:57:58.270 --> 00:58:02.990
+<v Felix>Da gibt es auch irgendwelche anderen Plattformen und halt auch solche journalistischen Plattformen,
+
+00:58:03.230 --> 00:58:03.710
+<v Felix>die sollten.
+
+00:58:04.190 --> 00:58:05.390
+<v Markus>Heise bietet auch eine, ja.
+
+00:58:05.550 --> 00:58:09.230
+<v Felix>Genau, die sollten solche Sachen dann einfach direkt mit einbinden.
+
+00:58:10.670 --> 00:58:14.430
+<v Felix>Dieses Framework einfach dazwischen schalten, direkt beim Upload, irgendwelchen Quadrack machen,
+
+00:58:14.510 --> 00:58:18.990
+<v Felix>damit das auch gar nicht zu irgendwas Problematischem kommen kann.
+
+00:58:20.670 --> 00:58:22.190
+<v Felix>Das finde ich auf jeden Fall eine coole Sache.
+
+00:58:22.270 --> 00:58:25.630
+<v Felix>Und quasi technische Möglichkeit jetzt bereitgestellt, das ist ja schon eine gute Sache.
+
+00:58:25.790 --> 00:58:26.110
+<v Felix>Genau.
+
+00:58:26.350 --> 00:58:33.070
+<v l33tname>Das ist sicher der richtige Ansatz, hat das halt einfach auch, dass wenn man als Journalist
+
+00:58:33.070 --> 00:58:40.030
+<v l33tname>oder so diese Plattform anbietet, dass man das halt einfach auch dran denkt
+
+00:58:40.030 --> 00:58:41.150
+<v l33tname>und sich darum kümmert.
+
+00:58:42.350 --> 00:58:48.350
+<v l33tname>Wenn der, der das irgendwie liegt, halt irgendwie das vergisst.
+
+00:58:49.390 --> 00:58:50.030
+<v l33tname>Ja, genau.
+
+00:58:50.190 --> 00:58:54.910
+<v Felix>Oder wenn er sich damit auch gar nicht technisch so weit auskennt, dass man darf es ja nicht vergessen,
+
+00:58:55.150 --> 00:58:58.670
+<v Felix>welche Leute quasi an irgendwelchen Stellen über sind.
+
+00:58:59.150 --> 00:59:04.350
+<v l33tname>Genau, dann sollte die Plattform halt vielleicht einfach unterstützen.
+
+00:59:04.670 --> 00:59:06.910
+<v l33tname>Wenn es technisch schon möglich ist.
+
+00:59:07.790 --> 00:59:08.270
+<v l33tname>Das stimmt.
+
+00:59:08.430 --> 00:59:10.750
+<v l33tname>Also yay für deutsche Researcher.
+
+00:59:11.310 --> 00:59:12.270
+<v Felix>Yay, Deutsch.
+
+00:59:12.510 --> 00:59:15.150
+<v Markus>Das wäre ja quasi ein positiver Upload-Filter.
+
+00:59:16.110 --> 00:59:16.830
+<v Markus>Das stimmt.
+
+00:59:16.990 --> 00:59:19.390
+<v Felix>Aber der filtert nur die bösen Sachen weg.
+
+00:59:19.630 --> 00:59:20.270
+<v Felix>Ja, eben.
+
+00:59:27.070 --> 00:59:30.190
+<v Felix>Halt positives dann auch wirklich für den uploadenden.
+
+00:59:31.390 --> 00:59:36.430
+<v Felix>Im Gegensatz zu für diese omnipotente Masse,
+
+00:59:36.590 --> 00:59:40.350
+<v Felix>die ihr Rechte verwaltet von irgendwelchen Künstlern.
+
+00:59:41.470 --> 00:59:42.110
+<v Felix>Oder so.
+
+00:59:44.030 --> 00:59:45.470
+<v Felix>Ja, also ich find's cool.
+
+00:59:46.350 --> 00:59:47.230
+<v Felix>Sehr, sehr gut.
+
+00:59:50.310 --> 00:59:50.630
+<v Felix>Okay.
+
+00:59:52.390 --> 00:59:53.350
+<v Felix>Was haben wir hier?
+
+00:59:54.310 --> 00:59:55.350
+<v Felix>Als nächsten Punkt.
+
+00:59:57.030 --> 00:59:57.830
+<v Felix>BitTorrent.
+
+00:59:58.390 --> 01:00:00.230
+<v Felix>BitTorrent wurde verkauft.
+
+01:00:01.110 --> 01:00:06.870
+<v Felix>Ich muss mich erst wieder daran erinnern, dass BitTorrent ja eine Marke und eine Firma ist und nicht einfach
+
+01:00:06.870 --> 01:00:08.870
+<v Felix>nur quasi dieses Protokoll.
+
+01:00:09.430 --> 01:00:11.110
+<v Felix>Jedenfalls diese Firma.
+
+01:00:11.430 --> 01:00:13.430
+<v Felix>Die haben zum Beispiel auch BitTorrent Sync.
+
+01:00:13.590 --> 01:00:14.630
+<v Felix>Ich glaube, das kommt auch von denen.
+
+01:00:14.790 --> 01:00:15.830
+<v Felix>Die BitTorrent Inc.
+
+01:00:18.950 --> 01:00:21.990
+<v Felix>Die wurden jetzt gekauft von
+
+01:00:29.830 --> 01:00:35.430
+<v Felix>Made a Dear to say to Justin Sun, the founder of the Cryptocurrency Tron.
+
+01:00:35.830 --> 01:00:38.070
+<v Felix>Habt ihr schon mal von der Cryptocurrency Tron gehört?
+
+01:00:38.390 --> 01:00:38.790
+<v Felix>Stimmt.
+
+01:00:39.430 --> 01:00:39.910
+<v Felix>Nicht.
+
+01:00:40.950 --> 01:00:46.550
+<v Felix>Jedenfalls hat er quasi, keine Ahnung, mit so einem Eco wahrscheinlich 500 Supermillion Euro gemacht und hat
+
+01:00:46.550 --> 01:00:48.550
+<v Felix>damit einfach Bitcoin gekauft.
+
+01:00:49.030 --> 01:00:54.070
+<v Felix>Das sind die auch hinter U-Turrent, also die U-Turrent Client mit dieser,
+
+01:00:54.310 --> 01:00:58.310
+<v Felix>keine Ahnung, das ist so ein typischer Windows-Client, glaube ich.
+
+01:00:59.590 --> 01:01:00.390
+<v Felix>Genau.
+
+01:01:00.870 --> 01:01:02.550
+<v Felix>Der ist auch von der BitTorrent-Inc.
+
+01:01:03.190 --> 01:01:06.150
+<v Felix>Und jetzt gekauft worden und keine Ahnung.
+
+01:01:06.310 --> 01:01:10.950
+<v Felix>Also ich finde es ein bisschen komisch, weil ich weiß nicht genau, was es soll.
+
+01:01:11.110 --> 01:01:11.510
+<v Felix>Also was.
+
+01:01:11.910 --> 01:01:13.590
+<v l33tname>Also was ist das Business Modell?
+
+01:01:13.670 --> 01:01:15.110
+<v Markus>Was verkauft man, genau.
+
+01:01:16.470 --> 01:01:17.910
+<v l33tname>Womit verdienen die Geld?
+
+01:01:18.230 --> 01:01:23.270
+<v Felix>Mit U-Torrent haben die Werbung gemacht, äh, haben die quasi Werbung gemacht in ihrem Client.
+
+01:01:23.910 --> 01:01:28.150
+<v Felix>Und links war dann so ein Banner oder so, wo dann Werbung lief.
+
+01:01:28.390 --> 01:01:31.750
+<v Felix>Und mit BitTorrent Sync hatten die, ich weiß es gar nicht mehr.
+
+01:01:31.910 --> 01:01:33.590
+<v Felix>Ich glaube, irgendwie ein Service-Modell.
+
+01:01:34.070 --> 01:01:35.990
+<v Felix>BitchTorrent Sync.
+
+01:01:39.590 --> 01:01:41.190
+<v Felix>Ach, Resilio heißt es jetzt.
+
+01:01:41.270 --> 01:01:42.630
+<v Felix>Ist es immer das gleiche?
+
+01:01:43.910 --> 01:01:45.270
+<v Felix>Ich weiß es gar nicht genau.
+
+01:01:46.070 --> 01:01:48.150
+<v Felix>Oder hieß es nicht BitTorrent Sync?
+
+01:01:48.870 --> 01:01:50.870
+<v Felix>Oder war das eine andere Firma?
+
+01:01:51.430 --> 01:01:52.950
+<v Felix>Ach, pff, keine Ahnung.
+
+01:01:53.030 --> 01:01:55.110
+<v Felix>Vielleicht ist es eine andere Firma gewesen.
+
+01:01:55.350 --> 01:01:59.750
+<v Markus>Da hat sie auf jeden Fall, ich glaube, wenn jemand mit einer Cryptocurrency so viel Geld verdient hat und dann
+
+01:01:59.750 --> 01:02:03.430
+<v Markus>sowas Dubioses wie die BitTorrent Inc.
+
+01:02:03.990 --> 01:02:07.750
+<v Markus>kauft, hat er eine relativ fixe Idee im Kopf, was er damit anfangen will.
+
+01:02:08.070 --> 01:02:08.950
+<v Felix>I have a plan.
+
+01:02:09.830 --> 01:02:12.710
+<v l33tname>Und zwar BitTorrent on Blockchain.
+
+01:02:13.350 --> 01:02:15.910
+<v Felix>Ich würde sagen, er hat UTorrent.
+
+01:02:16.070 --> 01:02:19.350
+<v Felix>UTorrent ist einer der meistbenutzten BitTorrent-Clients.
+
+01:02:19.670 --> 01:02:24.710
+<v Felix>Und also das fällt ja eh nicht auf, wenn der BitTorrent-Client ein bisschen mehr CPU verbraucht.
+
+01:02:25.190 --> 01:02:26.790
+<v Markus>Ach so, ja na klar.
+
+01:02:27.030 --> 01:02:30.790
+<v Felix>Weil der macht halt diese BitTorrent-Dinge und dann verbraucht er halt ein bisschen CPU, ja.
+
+01:02:31.270 --> 01:02:37.670
+<v l33tname>Ich finde, das ist eine gute Überleitung zu den Docker-Images, die genau das gleiche machen.
+
+01:02:38.790 --> 01:02:41.670
+<v Felix>Oh shit, ist es vielleicht der gleiche Typ.
+
+01:02:42.150 --> 01:02:43.590
+<v l33tname>Vielleicht der gleiche Typ.
+
+01:02:43.750 --> 01:02:48.630
+<v l33tname>Und zwar hat es, der hat zwar hier nur,
+
+01:02:48.950 --> 01:02:54.230
+<v l33tname>sie sagen, die haben nur 90.000 Dollar gemacht.
+
+01:02:54.550 --> 01:02:55.190
+<v l33tname>Mit ähm.
+
+01:02:56.070 --> 01:03:00.390
+<v Felix>Die hätten lieber ein Ico machen sollen mit der Idee, das dann, wenn sie verkaufen,
+
+01:03:00.550 --> 01:03:06.310
+<v Felix>die Idee verkaufen, direkt Token, 200 Supermillion einbringen und dann müssen sie so einen Quatsch selber
+
+01:03:06.310 --> 01:03:06.630
+<v Felix>machen.
+
+01:03:06.870 --> 01:03:07.190
+<v Felix>Genau.
+
+01:03:07.350 --> 01:03:13.190
+<v l33tname>Und zwar, was sie gemacht haben, ist, sie haben halt so 17 Images auf dem Docker Hub
+
+01:03:13.510 --> 01:03:14.390
+<v l33tname>published.
+
+01:03:16.310 --> 01:03:19.910
+<v Felix>Die hast du nicht irgendwelche, sondern die hießen dann irgendwie wie irgendwas, was die Leute haben wollen.
+
+01:03:20.070 --> 01:03:25.190
+<v l33tname>Genau, die hießen dann irgendwie so ein MySQL oder so und dann installiert man sich halt MySQL und dann läuft
+
+01:03:25.190 --> 01:03:27.510
+<v l33tname>dann da halt auch ein MySQL-Server drauf.
+
+01:03:27.750 --> 01:03:32.150
+<v l33tname>Nur leider ist halt im Hintergrund haben sie dann noch irgendwie, ich weiß gar nicht,
+
+01:03:32.790 --> 01:03:35.110
+<v l33tname>ah, für Monero haben sie dann Coins gemeint.
+
+01:03:35.270 --> 01:03:39.430
+<v Felix>Ja, Monero ist ja dieses, was relativ gut aus auf dem CPU noch funktioniert oder so.
+
+01:03:39.910 --> 01:03:43.670
+<v Felix>Das ist auch das, was in den ganzen JavaScript-Quatsch mit drin ist.
+
+01:03:43.750 --> 01:03:46.950
+<v Felix>Also wenn du auf so eine Webseite gehst und dann wird auf einmal der Computer super heiß,
+
+01:03:47.030 --> 01:03:52.550
+<v Felix>dann liegt es nicht unbedingt nur an dem JavaScript, was versucht, irgendwelche Skripte zu laden oder so,
+
+01:03:52.710 --> 01:03:59.350
+<v Felix>sondern tatsächlich kann es auch ein Bitcoin-Miner sein, der dann deinen Computer war ablaufen lässt.
+
+01:04:00.550 --> 01:04:03.190
+<v l33tname>Tja, es, also keine Ahnung.
+
+01:04:03.430 --> 01:04:10.310
+<v l33tname>Was halt ein bisschen bedenklich ist, ist, wie lange die Leute bei Docker Hub
+
+01:04:10.470 --> 01:04:14.870
+<v l33tname>gebraucht haben von es hat ihnen jemand gesagt, hey, es ist vielleicht nicht so cool,
+
+01:04:15.110 --> 01:04:19.830
+<v l33tname>bis sie den Account gelöscht haben und die Images irgendwie runtergenommen haben.
+
+01:04:21.110 --> 01:04:22.390
+<v Markus>Das ist besonders erregend, ja.
+
+01:04:22.710 --> 01:04:29.590
+<v l33tname>Anscheinend wurden sie halt mehrfach darauf hingewiesen, dass dieser Account halt solche Images hochlädt.
+
+01:04:29.830 --> 01:04:32.150
+<v l33tname>Und sie haben dann einfach gesagt, ja, ups.
+
+01:04:32.710 --> 01:04:36.230
+<v Felix>Ups, keine Ahnung, was wir da aus Versehen reingebaut haben in unser Docker-Image.
+
+01:04:37.510 --> 01:04:38.710
+<v l33tname>Das sind gar nicht mehr.
+
+01:04:39.750 --> 01:04:41.110
+<v Felix>Das kommt von Upstream.
+
+01:04:41.270 --> 01:04:42.230
+<v l33tname>Ja, genau.
+
+01:04:43.110 --> 01:04:49.030
+<v l33tname>Und es ist halt, also ich meine, ja, es ist kein Problem von Docker an sich halt.
+
+01:04:49.510 --> 01:04:53.350
+<v l33tname>Es ist halt, ich meine, mit Debian-Paketen und so hast du genau das gleiche Problem.
+
+01:04:53.430 --> 01:04:59.750
+<v l33tname>Wenn du ein Debian-Paket installiert kannst, ist es halt im Prinzip alles nachinstallieren und Service starten
+
+01:04:59.750 --> 01:05:00.790
+<v l33tname>für dich und so.
+
+01:05:01.670 --> 01:05:05.910
+<v l33tname>Es ist halt so ein generelles Problem, dass du den Leuten halt irgendwie vertrauen musst,
+
+01:05:05.990 --> 01:05:07.510
+<v l33tname>die deine Software paketieren.
+
+01:05:07.590 --> 01:05:12.790
+<v l33tname>Und ob sie das jetzt in Debian-Paket paketieren oder ob sie das in Docker-Container paketieren.
+
+01:05:13.030 --> 01:05:16.950
+<v Felix>Ja, also die Sache ist, bei Debian gibt es natürlich auch immer die offiziellen Quellen,
+
+01:05:17.030 --> 01:05:19.270
+<v Felix>genauso wie bei anderen Distributionen.
+
+01:05:19.510 --> 01:05:26.230
+<v Felix>Aber dann gibt es halt auch sowas wie Hour bei Arc Linux, das User Repositories oder ein
+
+01:05:26.230 --> 01:05:28.470
+<v Felix>NPM, wo jeder sein Shit hinwerfen kann.
+
+01:05:28.630 --> 01:05:30.630
+<v Felix>Oder den Python Package Index.
+
+01:05:30.710 --> 01:05:35.990
+<v Felix>Das sind ja alles Sachen, wo halt irgendwelche Randoms irgendwie einen Source-Code hingeworfen haben und du
+
+01:05:35.990 --> 01:05:38.870
+<v Felix>installierst quasi random Shit aus dem Internet.
+
+01:05:39.350 --> 01:05:44.150
+<v Felix>Und naja, es ist halt muss man halt sich immer bewusst sein.
+
+01:05:44.310 --> 01:05:50.230
+<v Felix>Du hast offizielle Quellen, denen du gegebenenfalls mehr vertraust als irgendwelchen Typen im Internet.
+
+01:05:51.350 --> 01:05:57.670
+<v l33tname>Und ich meine, wenn Docker Hub als offizielle Quelle halt irgendwie versagt,
+
+01:05:57.990 --> 01:06:02.470
+<v l33tname>solche Images zu removen, dann ist das halt,
+
+01:06:02.630 --> 01:06:08.470
+<v l33tname>ja, wirft das halt kein gutes Licht auf die Docker-Leute.
+
+01:06:09.110 --> 01:06:10.870
+<v l33tname>Und das ist halt ein bisschen schade.
+
+01:06:11.030 --> 01:06:17.910
+<v l33tname>Weil bei den Debian-Leuten habe ich da halt nicht so bedenken, weil das halt einfach noch nichts
+
+01:06:17.910 --> 01:06:18.790
+<v l33tname>passiert.
+
+01:06:21.990 --> 01:06:27.830
+<v l33tname>Und ich gehe jetzt halt mal davon aus, dass wenn man das bei denen melden würde,
+
+01:06:27.990 --> 01:06:31.830
+<v l33tname>ist irgendwie so ein Debian-Paket irgendwie zusätzlich.
+
+01:06:32.470 --> 01:06:36.870
+<v l33tname>Also erstens mal soll, also gehe ich halt ein bisschen davon aus,
+
+01:06:36.950 --> 01:06:43.510
+<v l33tname>dass die da auch auf die Pakete halt mal drauf schauen, bevor sie die in die offiziellen Quellen aufnehmen und
+
+01:06:43.510 --> 01:06:43.670
+<v l33tname>so.
+
+01:06:43.830 --> 01:06:45.910
+<v l33tname>Also dass da mehr als jemand drauf schaut.
+
+01:06:46.230 --> 01:06:50.390
+<v l33tname>Und dass, wenn dann halt jemand meldet, so ja, dieses Debian-Paket installiert,
+
+01:06:50.470 --> 01:06:54.470
+<v l33tname>halt ein bisschen mehr als es sollte, das dann halt auch reagiert wird.
+
+01:06:57.910 --> 01:06:59.590
+<v Felix>Das könnte man sich natürlich wünschen.
+
+01:07:00.630 --> 01:07:06.790
+<v l33tname>Aber zumindest ist halt noch nichts rausgekommen, dass das jemand mit Debian-Paketen
+
+01:07:07.030 --> 01:07:07.670
+<v l33tname>macht.
+
+01:07:08.150 --> 01:07:13.110
+<v l33tname>Und bei Docker ist es halt rausgekommen und es ist rausgekommen, dass sie acht Monate lang das irgendwie ein
+
+01:07:13.110 --> 01:07:16.630
+<v l33tname>bisschen wegignoriert haben und ist halt nicht so geil.
+
+01:07:16.950 --> 01:07:18.070
+<v Felix>Das stimmt.
+
+01:07:20.310 --> 01:07:25.270
+<v Felix>Und was ist, hat jetzt Docker irgendwie angekündigt, dass sie jetzt irgendwas anders machen wollen oder so?
+
+01:07:25.670 --> 01:07:29.590
+<v l33tname>Ich habe nichts gesehen, dass sie abgegruß sind.
+
+01:07:29.830 --> 01:07:31.030
+<v Markus>Wir haben es doch jetzt entfernt.
+
+01:07:31.110 --> 01:07:31.910
+<v Markus>Was meinst du?
+
+01:07:32.790 --> 01:07:34.150
+<v l33tname>Das ist halt auch so.
+
+01:07:35.910 --> 01:07:36.790
+<v Felix>Muss reichen.
+
+01:07:37.190 --> 01:07:37.750
+<v Felix>Muss reichen.
+
+01:07:37.910 --> 01:07:38.310
+<v Felix>Genau.
+
+01:07:39.990 --> 01:07:43.270
+<v Felix>Das ist genauso wie ein, keine Ahnung.
+
+01:07:43.510 --> 01:07:47.590
+<v Felix>Du hast irgendwie einen Computer mit drei Millionen verschiedenen Viren drauf,
+
+01:07:47.670 --> 01:07:50.950
+<v Felix>machst du einen Virenscanner drauf, hast ein paar Viren entfernt, das muss reichen.
+
+01:07:51.430 --> 01:07:52.470
+<v l33tname>Muss reichen.
+
+01:07:52.790 --> 01:07:54.390
+<v Markus>So jetzt sauberer als vorher.
+
+01:07:54.550 --> 01:07:56.710
+<v Felix>Das ist korrekt, sauberer als vorher.
+
+01:07:58.070 --> 01:07:59.910
+<v Felix>Aber ja, das sind, ja.
+
+01:08:00.390 --> 01:08:04.870
+<v Felix>Aber das haben ja alle diese ganzen App-Stores und diese ganzen anderen Sachen,
+
+01:08:05.110 --> 01:08:09.510
+<v Felix>wo halt irgendwelche Leute immer ihren eigenen Krempel hinpushen können,
+
+01:08:09.590 --> 01:08:13.830
+<v Felix>ohne dass es halt viel über quasi viel drauf geschaut wird,
+
+01:08:13.910 --> 01:08:15.270
+<v Felix>ist natürlich immer ein Problem.
+
+01:08:16.710 --> 01:08:20.070
+<v l33tname>Und dass Leute dem dann halt irgendwie einfach so voll vertrauen und sagen,
+
+01:08:20.230 --> 01:08:22.630
+<v l33tname>ja, cool, installiere ich mir jetzt einfach mal so.
+
+01:08:23.190 --> 01:08:29.670
+<v l33tname>Also ich meine, ist ja okay, wenn man okay, wenn jeder sein Kram einfach publishen kann,
+
+01:08:29.750 --> 01:08:33.350
+<v l33tname>dann muss es aber halt irgendwie auch so sein, dass die Leute das Gefühl haben,
+
+01:08:33.430 --> 01:08:39.430
+<v l33tname>so, okay, das hat es halt irgendjemand im Internet gepublished und wenn du es halt irgendwie so von Docker
+
+01:08:39.830 --> 01:08:44.310
+<v l33tname>runterlädst, macht das halt so einen offiziellen Eindruck und dann schaust du halt auch irgendwie nicht so
+
+01:08:44.310 --> 01:08:45.110
+<v l33tname>genau hin.
+
+01:08:45.750 --> 01:08:51.350
+<v l33tname>Als wenn du das irgendwie von irgendeinem Rando vom Blog runter kopierst und mal ausführst.
+
+01:08:51.510 --> 01:08:54.230
+<v l33tname>Dann schaust du dir das halt irgendwie vielleicht genauer an.
+
+01:08:57.350 --> 01:08:57.830
+<v l33tname>Tja.
+
+01:09:02.390 --> 01:09:03.190
+<v l33tname>Alles kaputt.
+
+01:09:03.670 --> 01:09:04.950
+<v l33tname>Alles kaputt, immer.
+
+01:09:05.350 --> 01:09:06.070
+<v l33tname>Schon wieder Google.
+
+01:09:06.230 --> 01:09:08.230
+<v Felix>Genau, war es noch mehr Google.
+
+01:09:09.030 --> 01:09:11.990
+<v l33tname>Ich habe mir einen neuen Google Chromecast gekauft.
+
+01:09:13.590 --> 01:09:15.030
+<v l33tname>Den Ultra oder so.
+
+01:09:15.350 --> 01:09:16.630
+<v Felix>Ultra Chromecast.
+
+01:09:17.430 --> 01:09:19.030
+<v Felix>Viel krasser als ein normaler Chromecast oder so.
+
+01:09:19.190 --> 01:09:19.350
+<v Felix>Genau.
+
+01:09:19.430 --> 01:09:24.550
+<v l33tname>Und was der krass gut kann, ist fremden Leuten sagen, wo ich wohne.
+
+01:09:24.950 --> 01:09:27.590
+<v Felix>Das fände ich jetzt ein bisschen weird, aber.
+
+01:09:27.830 --> 01:09:28.630
+<v l33tname>Voll das geile Feature.
+
+01:09:29.430 --> 01:09:31.190
+<v Felix>Jeder hat halt seine Fetische, würde ich sagen.
+
+01:09:31.510 --> 01:09:32.870
+<v l33tname>Voll das geile Feature.
+
+01:09:33.030 --> 01:09:38.470
+<v l33tname>Und zwar gibt es ja einerseits gibt es diese Chromecast und dann gibt es auch noch dieses Google Home,
+
+01:09:38.550 --> 01:09:45.190
+<v l33tname>das sind diese Lautsprecher Alexa von Google.
+
+01:09:45.830 --> 01:09:47.030
+<v Felix>Ja, Google Alexas.
+
+01:09:49.990 --> 01:09:56.790
+<v l33tname>Und die Dinger sind halt ja irgendwie mit dem Wi-Fi verbunden und
+
+01:09:57.110 --> 01:10:01.670
+<v l33tname>Google macht dieses Wi-Fi-Location-Ding sie,
+
+01:10:02.150 --> 01:10:08.630
+<v l33tname>wo sie halt irgendwie alle Wi-Fi kategorisieren und wenn du ein Android-Phone hast und dich
+
+01:10:08.950 --> 01:10:15.190
+<v l33tname>und du Wi-Fi siehst und du GPS anhast und so, dann wird das an Google übermittelt und die bauen halt dann so
+
+01:10:15.190 --> 01:10:18.390
+<v l33tname>eine Karte und wissen ziemlich genau, wo welches Wi-Fi ist.
+
+01:10:19.430 --> 01:10:26.150
+<v l33tname>Und jetzt hat sich halt herausgestellt, dass diese Devices im lokalen Netzwerk halt
+
+01:10:26.150 --> 01:10:32.710
+<v l33tname>diese Informationen haben und dass man die halt auch aus diesen Devices ziemlich einfach rausbekommt.
+
+01:10:33.910 --> 01:10:40.870
+<v l33tname>Und zusätzlich kommt dann halt noch dazu, dass man über Web und so haben sie so
+
+01:10:40.870 --> 01:10:47.670
+<v l33tname>eine kleine Demo gebaut, wo man halt über eine Webseite geht und die
+
+01:10:47.670 --> 01:10:54.150
+<v l33tname>connectet sich dann über, ich glaube, JavaScript oder so, sucht sie dann halt lokal dein Netz ab.
+
+01:10:54.870 --> 01:10:58.390
+<v l33tname>Und weil die Dinge halt keine Authentifizierung brauchen oder irgendwas,
+
+01:10:58.550 --> 01:11:04.470
+<v l33tname>um die Informationen rauszurücken, findet sie das dann halt und kann das an die Webseite weiterleiten und dann
+
+01:11:04.470 --> 01:11:09.910
+<v l33tname>kann man ziemlich genau alle diese Devic lokalisieren.
+
+01:11:10.790 --> 01:11:13.110
+<v l33tname>So, voll gut als Feature.
+
+01:11:13.590 --> 01:11:18.470
+<v l33tname>Und Google hat gesagt, also der Security-Forscher,
+
+01:11:18.630 --> 01:11:23.190
+<v l33tname>glaube ich, der das gefunden hat, ist irgendwie Google gesagt, gemeldet und die haben gesagt,
+
+01:11:23.350 --> 01:11:23.670
+<v l33tname>ja.
+
+01:11:25.350 --> 01:11:26.870
+<v l33tname>Works as intended.
+
+01:11:27.270 --> 01:11:29.430
+<v Felix>Funktioniert genauso wie geplant.
+
+01:11:29.670 --> 01:11:35.910
+<v l33tname>Genau, und dann ist er zu diesem Krebs- und Security-Typen gegangen und gesagt,
+
+01:11:36.630 --> 01:11:38.070
+<v l33tname>Brian Krebs, Mann.
+
+01:11:38.390 --> 01:11:40.150
+<v l33tname>Genau, der Brian.
+
+01:11:42.070 --> 01:11:43.830
+<v Markus>Den macht er nicht auf Security Now?
+
+01:11:43.910 --> 01:11:45.110
+<v Markus>Ist das nicht der Typ?
+
+01:11:45.750 --> 01:11:47.110
+<v Felix>Nee, das ist der.
+
+01:11:49.590 --> 01:11:50.630
+<v l33tname>Das ist ein anderer Typ.
+
+01:11:50.870 --> 01:11:52.470
+<v Markus>Okay, na, egal, weiter im Text.
+
+01:11:53.590 --> 01:11:54.950
+<v Felix>Das ist Steve Gibson.
+
+01:11:55.270 --> 01:11:56.150
+<v Markus>Ah, genau.
+
+01:11:57.270 --> 01:11:57.910
+<v Markus>Gut.
+
+01:11:59.670 --> 01:12:03.830
+<v l33tname>Und ja, der hat dann nochmal mit Google geredet und dann haben sie gesagt,
+
+01:12:04.150 --> 01:12:07.350
+<v l33tname>ja, vielleicht, vielleicht ist es ja doch.
+
+01:12:08.150 --> 01:12:09.830
+<v l33tname>Vielleicht ist es ja doch ein Problem.
+
+01:12:10.150 --> 01:12:15.190
+<v Felix>Nee, aber also kein Problem, sondern eher ein unintended Special Feature,
+
+01:12:15.350 --> 01:12:17.990
+<v Felix>was gegebenenfalls Menschen doch nicht benötigen.
+
+01:12:18.870 --> 01:12:24.310
+<v l33tname>Was man halt vielleicht einfach nicht so ganz will und sie wollen es jetzt fixen oder haben es gefixt,
+
+01:12:24.470 --> 01:12:26.230
+<v l33tname>bin ich jetzt gerade gar nicht sicher.
+
+01:12:27.670 --> 01:12:33.030
+<v l33tname>Was da der genaue Status ist, aber es ist halt so wieder mal so,
+
+01:12:33.670 --> 01:12:40.550
+<v l33tname>ja, all diese IoT-Kräte vielleicht in ein Separatsnetzwerk werfen und irgendwie von
+
+01:12:40.550 --> 01:12:45.590
+<v l33tname>außen und innen so viel wie möglich einfach rundherum feier wollen,
+
+01:12:45.910 --> 01:12:48.550
+<v l33tname>wenn man sich nicht selber in den Fuß schießen will.
+
+01:12:49.670 --> 01:12:53.350
+<v Felix>Ja, du darfst einfach dem Zeug nicht vertrauen, dass du das Richtige machst.
+
+01:12:55.110 --> 01:12:57.270
+<v Markus>Ach Quatsch, ich habe da nichts zu vermergen.
+
+01:12:57.830 --> 01:12:58.950
+<v Felix>Okay, fair.
+
+01:13:01.270 --> 01:13:02.550
+<v Felix>Dann ist in Ordnung, glaube ich.
+
+01:13:02.630 --> 01:13:03.670
+<v Felix>Das läuft bei dir.
+
+01:13:04.070 --> 01:13:07.270
+<v l33tname>Sehr gut, ich bring dir sonst mal so ein Chromecast mit.
+
+01:13:07.430 --> 01:13:11.030
+<v l33tname>Ich habe noch einen hier rumliegen, weil ich habe mir ja jetzt ein neues.
+
+01:13:18.070 --> 01:13:18.310
+<v l33tname>Genau.
+
+01:13:18.390 --> 01:13:22.310
+<v l33tname>Aber es ist auch so wieder so ein bisschen schwach von Google, dass sie irgendwie,
+
+01:13:22.950 --> 01:13:27.430
+<v l33tname>wenn man ihnen schon sagt, dass es ein Problem ist, dann haben wir so ein Works as intended.
+
+01:13:27.750 --> 01:13:31.350
+<v Felix>Ist es da nicht eigentlich so ein typisches GDP-R-Ding?
+
+01:13:31.910 --> 01:13:38.150
+<v Felix>Also wo quasi personenbezogene Daten aufgenommen werden,
+
+01:13:38.310 --> 01:13:41.750
+<v Felix>ohne dass du dafür deine Einwägung gegeben hast?
+
+01:13:43.190 --> 01:13:47.750
+<v Markus>Das ist wahrscheinlich eine längliche Diskussion, ob das jetzt wirklich schon personenbezogen ist oder nicht.
+
+01:13:49.110 --> 01:13:51.030
+<v Felix>Deine Information, wo du wohnst.
+
+01:13:51.510 --> 01:13:54.790
+<v Markus>Naja, aber das ist ja nur indirekt die Information, wo du wohnst.
+
+01:13:54.950 --> 01:13:57.030
+<v Markus>Das ist nur der Standort des Geräts.
+
+01:13:58.710 --> 01:14:02.390
+<v Felix>Aber der Standort des Geräts ist ja schon auch deine Wohnung.
+
+01:14:03.110 --> 01:14:05.510
+<v l33tname>Ja, muss ja nicht deine Wohnung sein, kann ja auch.
+
+01:14:06.150 --> 01:14:08.310
+<v Markus>Du kannst das Gerät ja auch im Büro stehen haben.
+
+01:14:08.710 --> 01:14:13.110
+<v Felix>Ja, das stimmt schon, aber es ist potenziell eher Home, halt, wie heißt das Ding?
+
+01:14:13.190 --> 01:14:13.830
+<v Felix>Home Pot?
+
+01:14:15.270 --> 01:14:15.590
+<v Felix>Okay.
+
+01:14:17.670 --> 01:14:18.470
+<v l33tname>Ach komm schon.
+
+01:14:18.870 --> 01:14:20.790
+<v Felix>Kein Offeswort, sorry.
+
+01:14:22.390 --> 01:14:27.110
+<v Felix>Ja, also ich denke, es ist da schon gegebenenfalls ein Problem.
+
+01:14:27.510 --> 01:14:28.790
+<v Felix>Die haben ja ganz viele andere Probleme.
+
+01:14:29.910 --> 01:14:31.750
+<v Felix>Das ist, glaube ich, eher so ein Ups.
+
+01:14:34.390 --> 01:14:38.710
+<v Felix>Naja, immer zu den anderen Dingern, wo sie ganz offensichtlich deine Daten verkaufen,
+
+01:14:38.790 --> 01:14:43.430
+<v Felix>ohne dass du dafür quasi, dass du da okay gesagt hast.
+
+01:14:43.990 --> 01:14:44.950
+<v l33tname>Naja, auf jeden Fall.
+
+01:14:45.750 --> 01:14:52.150
+<v Markus>Bei dem Google Podcast-Client kann man übrigens nichts abonnieren, ohne nicht in den Einstellungen
+
+01:14:52.150 --> 01:14:58.070
+<v Markus>aktiviert zu haben, dass der App- und Web-Suchverlauf in deinem Google-Konto gespeichert wird.
+
+01:14:58.230 --> 01:14:58.710
+<v Markus>Echt?
+
+01:14:59.190 --> 01:15:05.590
+<v Markus>Der Google Podcast-Client ist also ein Datensammler und Profilschärfer und kein guter Podcast-Client.
+
+01:15:05.670 --> 01:15:06.950
+<v Markus>Lass die Finger davon.
+
+01:15:08.550 --> 01:15:11.350
+<v l33tname>Also hier eine Nicht-Empfehlung von uns.
+
+01:15:12.710 --> 01:15:14.550
+<v Markus>Ich zwei Minuten rumgeklicke.
+
+01:15:14.630 --> 01:15:16.070
+<v Markus>Das ist schon erschreckend.
+
+01:15:16.390 --> 01:15:19.110
+<v Felix>Achso, hast du dann gesehen, dass du quasi nichts abonnieren kannst?
+
+01:15:19.270 --> 01:15:20.790
+<v Markus>Naja, genau, ich kann nichts abonnieren.
+
+01:15:20.870 --> 01:15:26.470
+<v Markus>Ich habe immer oben, ich kriege immer oben den Hinweis, wenn du personalisierte Empfehlungen basierend auf dem
+
+01:15:26.470 --> 01:15:30.470
+<v Markus>Verlauf deiner gehörten Titel erhalten möchtest, aktiviere Web- und App-Aktivitäten.
+
+01:15:30.710 --> 01:15:32.070
+<v Felix>Aber du willst ja gar nicht personalisierte.
+
+01:15:32.950 --> 01:15:35.430
+<v Markus>Dann mache ich schließen und ich habe den Podcast immer noch nicht abonniert.
+
+01:15:35.510 --> 01:15:36.630
+<v Markus>Klicke ich wieder auf Abonnieren.
+
+01:15:38.550 --> 01:15:43.270
+<v Markus>Klicke ich auf Einstellungen, lande ich halt in der Webkonsole zu meinem Gmail-Konto,
+
+01:15:43.430 --> 01:15:46.150
+<v Markus>wo ich die Web- und App-Aktivitäten aktivieren soll.
+
+01:15:46.310 --> 01:15:51.590
+<v Markus>Ihre Aktivitäten auf Websites und in Apps von Google werden gespeichert, einschließlich Suchvorgängen.
+
+01:15:52.470 --> 01:15:53.110
+<v Markus>Nein.
+
+01:15:53.990 --> 01:15:57.910
+<v Markus>Genau, klicke ich auf Nein, danke und ich habe den Podcast immer noch nicht abonniert.
+
+01:15:58.870 --> 01:15:59.750
+<v Unbekannt>Wunderbar.
+
+01:16:00.550 --> 01:16:02.550
+<v Felix>Oh, das mein Ding.
+
+01:16:02.790 --> 01:16:07.750
+<v Felix>Fucking Google, wie heißt es, Google News oder sowas, die haben es auch kaputt gemacht.
+
+01:16:07.910 --> 01:16:11.190
+<v Felix>Das war so gut damals und jetzt ist einfach nur noch Müll.
+
+01:16:11.990 --> 01:16:14.230
+<v Felix>Versusnews.google.com.
+
+01:16:14.390 --> 01:16:17.110
+<v Felix>Das war meine Anlaufstelle für Weltnachrichten.
+
+01:16:17.270 --> 01:16:21.750
+<v Felix>Und jetzt ist, ich kann noch nicht mal mehr, wenn ich auf die Seite gehe,
+
+01:16:22.390 --> 01:16:27.430
+<v Felix>komme ich immer auf die amerikanische Seite und ich muss immer meine Language und Region umstellen auf
+
+01:16:27.430 --> 01:16:28.150
+<v Felix>Deutsch.
+
+01:16:28.550 --> 01:16:30.790
+<v Felix>Und also man kann es nicht mehr personalisieren.
+
+01:16:30.870 --> 01:16:35.830
+<v Felix>Vielleicht muss ich da auch irgendwie keiner meinen Suchverlauf eingeben oder so einen Quatsch.
+
+01:16:35.990 --> 01:16:36.790
+<v Felix>Aber ich will nicht.
+
+01:16:36.870 --> 01:16:41.510
+<v Felix>Ich will einfach nur die News sehen für Deutschland zum Beispiel.
+
+01:16:41.750 --> 01:16:45.350
+<v Felix>Oder die, und dann halt so ein paar Stichworte, aber das kann man auch nicht mehr.
+
+01:16:45.430 --> 01:16:46.710
+<v Felix>Das ist alles verschwunden.
+
+01:16:48.150 --> 01:16:48.710
+<v Felix>Huren.
+
+01:16:49.510 --> 01:16:50.950
+<v Felix>Gottverdammte Huren.
+
+01:16:52.630 --> 01:16:53.990
+<v l33tname>Echt tragisch.
+
+01:16:54.310 --> 01:16:55.590
+<v Felix>Das ist echt scheiße.
+
+01:16:57.350 --> 01:17:01.830
+<v Felix>Es gibt The Old News oder sowas, so wie The Old Reader.
+
+01:17:04.070 --> 01:17:10.950
+<v Felix>Wo einer auch quasi ein Projekt gestartet hat, was er Google News nachgebaut hat, das alte.
+
+01:17:16.150 --> 01:17:17.590
+<v Felix>Mal gucken, ob ich das jetzt finde.
+
+01:17:17.670 --> 01:17:18.790
+<v Felix>The Old Genius.
+
+01:17:18.950 --> 01:17:22.310
+<v Felix>The Old Genius.com ist quasi das alte Google News.
+
+01:17:22.470 --> 01:17:28.070
+<v Felix>Leider kann ich da auch noch keine Sachen personalisieren, ohne dass ich meine ganzen Daten abgeben muss.
+
+01:17:28.390 --> 01:17:30.630
+<v Felix>Und das ist auch schon wieder ein bisschen traurig.
+
+01:17:31.270 --> 01:17:33.190
+<v Felix>Aber naja, kommt bestimmt noch.
+
+01:17:33.830 --> 01:17:35.830
+<v Felix>Ich verlinke das hier mal kurz.
+
+01:17:37.190 --> 01:17:38.790
+<v Felix>So, ja, aber das ist echt.
+
+01:17:38.950 --> 01:17:39.750
+<v Felix>Also warum?
+
+01:17:40.070 --> 01:17:46.870
+<v Felix>Die sollen einfach aufhören, wie so ein perverser Stalker einfach immer dich nach deinen Daten zu fragen.
+
+01:17:47.670 --> 01:17:48.790
+<v Markus>Daten sind das neue Gold.
+
+01:17:50.630 --> 01:17:52.470
+<v Felix>Ekelhaft Google Pfui.
+
+01:17:53.430 --> 01:17:54.310
+<v Felix>Nicht machen.
+
+01:17:59.750 --> 01:18:00.870
+<v Felix>Okay, was haben wir hier?
+
+01:18:01.110 --> 01:18:03.030
+<v Felix>PUBG in Fortnite.
+
+01:18:03.270 --> 01:18:09.910
+<v l33tname>Genau, ich dachte, ich nehme hier auch mal noch News rein für die jungen Leute.
+
+01:18:12.390 --> 01:18:13.670
+<v Felix>Die junge Zielgruppe.
+
+01:18:13.830 --> 01:18:15.590
+<v Felix>Erzähl doch mal, was ist denn ein Pup?
+
+01:18:15.990 --> 01:18:16.710
+<v Felix>Ein Pup.
+
+01:18:18.390 --> 01:18:24.870
+<v l33tname>Es steht für Player Unknowns Battleground und ist ein Battle Royale-Spiel,
+
+01:18:27.110 --> 01:18:33.190
+<v l33tname>was vor, sagen wir mal, ein halb Jahren echt,
+
+01:18:33.670 --> 01:18:35.510
+<v l33tname>vielleicht so ein bisschen Hype war.
+
+01:18:35.670 --> 01:18:40.550
+<v l33tname>Und Fortnite ist jetzt so das, was jetzt so gerade der Hype ist.
+
+01:18:41.750 --> 01:18:44.870
+<v l33tname>Und es sind halt beides Battle Royale-Spiele.
+
+01:18:45.030 --> 01:18:51.750
+<v l33tname>Das heißt, man hat so ein Kreis, also man droppt irgendwo auf der Map, sammelt so Dinge ein.
+
+01:18:52.550 --> 01:18:57.670
+<v l33tname>Es gibt so einen Kreis, der immer kleiner wird, und der letzte, der halt überlebt, hat gewonnen.
+
+01:19:02.630 --> 01:19:06.150
+<v Felix>Und das gibt es bei PUP und bei Fortnite auch, oder?
+
+01:19:07.030 --> 01:19:12.630
+<v l33tname>Genau, und das ist halt dieser Battle Royale Spielmodus.
+
+01:19:13.110 --> 01:19:17.750
+<v l33tname>Und die haben
+
+01:19:20.950 --> 01:19:26.230
+<v l33tname>die PUBG Corporation hat dann halt Epic verklagt,
+
+01:19:26.390 --> 01:19:28.070
+<v l33tname>die das Fortnite entwickeln.
+
+01:19:28.550 --> 01:19:30.870
+<v l33tname>Und gesagt, es ist aber eine Kopie.
+
+01:19:31.110 --> 01:19:31.990
+<v Felix>Ist das gleiche?
+
+01:19:32.630 --> 01:19:37.830
+<v l33tname>Ist das gleiche, weil es halt der gleiche Game Mode ist, also es ist nicht ganz klar.
+
+01:19:38.070 --> 01:19:42.710
+<v Felix>Also es ist so wie Capture, als hätte ich Capture the Flag erfunden.
+
+01:19:42.870 --> 01:19:47.830
+<v l33tname>Genauso wir haben Capture the Flag erfunden und wir versuchen jetzt irgendwie Capture the Flag zu lizenzieren.
+
+01:19:48.630 --> 01:19:51.430
+<v Felix>Alle Leute, die Capture the Flag Spiele machen, werden erschossen.
+
+01:19:52.150 --> 01:19:57.750
+<v Felix>Verklagt von unseren Worten erschossen von unseren Lawyers.
+
+01:19:58.150 --> 01:20:00.470
+<v l33tname>Das wäre halt irgendwie noch interessant gewesen.
+
+01:20:00.630 --> 01:20:04.870
+<v l33tname>Sie haben jetzt die Klage leider wieder zurückgezogen, es wäre irgendwie noch interessant gewesen.
+
+01:20:06.950 --> 01:20:09.910
+<v l33tname>Weil die Spiele sind halt wirklich sehr verschieden.
+
+01:20:10.070 --> 01:20:16.150
+<v l33tname>Also wirklich, was halt gleich ist, ist der Spielmodus und Capture the Flag.
+
+01:20:16.310 --> 01:20:17.510
+<v l33tname>Das ist halt wie, wenn du.
+
+01:20:17.750 --> 01:20:21.430
+<v l33tname>Bei Capture the Flag dann halt sagst du, ja, das ist aber so eine Art Gegenstand,
+
+01:20:21.510 --> 01:20:27.990
+<v l33tname>den du halt irgendwie einsammelst und in deine Base zurückträgst und du kannst andere
+
+01:20:28.150 --> 01:20:33.110
+<v l33tname>Spieler blockieren und abschießen oder so.
+
+01:20:33.510 --> 01:20:35.030
+<v l33tname>Wir haben das lizenziert.
+
+01:20:35.190 --> 01:20:35.830
+<v l33tname>So was.
+
+01:20:36.390 --> 01:20:38.310
+<v l33tname>Das macht halt irgendwie nicht so viel Sinn.
+
+01:20:38.630 --> 01:20:42.470
+<v Felix>Übrigens, wir haben Team Deathmatch lizenziert.
+
+01:20:42.630 --> 01:20:44.470
+<v l33tname>Genau, wir haben so Team Deathmatch erfunden.
+
+01:20:44.630 --> 01:20:45.270
+<v l33tname>So, ah ja.
+
+01:20:45.750 --> 01:20:49.350
+<v Felix>Ja, und seitdem darf man nur noch Counter-Strike spielen.
+
+01:20:49.670 --> 01:20:50.230
+<v Felix>Genau.
+
+01:20:50.390 --> 01:20:54.550
+<v l33tname>Und die haben jetzt das wieder zurückgezogen.
+
+01:20:54.950 --> 01:20:55.670
+<v l33tname>Schade eigentlich.
+
+01:20:55.750 --> 01:20:56.710
+<v Felix>Nee, eigentlich ist es besser.
+
+01:20:56.790 --> 01:21:03.190
+<v Felix>Weil stell dir vor, dann sagt irgendwie so ein Dings, so ein Judge sagt dann,
+
+01:21:03.350 --> 01:21:05.270
+<v Felix>oh ja, das macht total Sinn für mich.
+
+01:21:05.430 --> 01:21:06.390
+<v Felix>Kein Problem.
+
+01:21:07.590 --> 01:21:08.390
+<v l33tname>Ja, ja.
+
+01:21:09.190 --> 01:21:10.870
+<v Markus>Ich mache jetzt mal einen Präzedenzfall.
+
+01:21:10.950 --> 01:21:11.590
+<v Markus>Ist jetzt so.
+
+01:21:11.830 --> 01:21:12.790
+<v Felix>Genau, ist jetzt so.
+
+01:21:12.950 --> 01:21:15.270
+<v Felix>Also, oh, Snap.
+
+01:21:16.870 --> 01:21:18.390
+<v Felix>Ja, das wäre echt blöd.
+
+01:21:18.630 --> 01:21:20.150
+<v Felix>Und so ist, glaube ich, schon in Ordnung.
+
+01:21:20.230 --> 01:21:22.230
+<v Felix>Dass sie selber eingesehen haben, das ist eine dumme Idee.
+
+01:21:24.630 --> 01:21:24.950
+<v Felix>Okay.
+
+01:21:26.470 --> 01:21:27.110
+<v Felix>Gut.
+
+01:21:30.630 --> 01:21:33.190
+<v Markus>Kurzer Rundumschlag aus der Politikecke.
+
+01:21:34.870 --> 01:21:36.230
+<v Felix>Was gibt es aus der Politik?
+
+01:21:37.190 --> 01:21:39.110
+<v Markus>Sleswig-Holstein.
+
+01:21:39.270 --> 01:21:41.830
+<v Markus>Da oben die von der Wafferkante.
+
+01:21:43.110 --> 01:21:43.830
+<v Markus>Oben Mitte.
+
+01:21:45.430 --> 01:21:47.910
+<v l33tname>Politisch jetzt oder geografisch.
+
+01:21:48.310 --> 01:21:49.350
+<v Felix>Geografisch, natürlich.
+
+01:21:50.710 --> 01:21:56.230
+<v Felix>Geografisch oben rechts ist das auch echt das beste geografische Beschreibung.
+
+01:21:56.470 --> 01:21:59.670
+<v Felix>Zum Glück ist die Erde nicht irgendwie eine Kugel oder so.
+
+01:22:01.270 --> 01:22:01.830
+<v Felix>Naja.
+
+01:22:04.790 --> 01:22:07.110
+<v Markus>Genau, die machen jetzt Open Source.
+
+01:22:07.270 --> 01:22:12.950
+<v Markus>Die rollen das auf, was München durch erfolgreiche Lobbyarbeit von Microsoft eingestellt hat,
+
+01:22:13.510 --> 01:22:17.910
+<v Markus>setzt oder schließt sich Holstein fort oder führt es jetzt für sich ein?
+
+01:22:18.150 --> 01:22:21.030
+<v Markus>Sie wollen 100% auf Open Source setzen.
+
+01:22:21.350 --> 01:22:22.390
+<v Felix>100 Prozent.
+
+01:22:22.710 --> 01:22:23.030
+<v Felix>Ja.
+
+01:22:24.230 --> 01:22:25.830
+<v Markus>Alles dahin migrieren.
+
+01:22:26.310 --> 01:22:28.550
+<v Markus>Das wird spannend.
+
+01:22:28.790 --> 01:22:31.350
+<v Markus>Hoffentlich kriegen sie es möglichst gut durchgezogen.
+
+01:22:31.990 --> 01:22:34.870
+<v Felix>Wie viele Jahre haben Sie dafür eingeplant für die Migration?
+
+01:22:35.430 --> 01:22:36.310
+<v Markus>Das weiß ich nicht.
+
+01:22:36.630 --> 01:22:40.950
+<v Markus>Es ist halt viel in Assoziation mit dieser Initiative Public Money, Public Code.
+
+01:22:41.510 --> 01:22:45.910
+<v Markus>Und vor dem Hintergrund, dass Microsoft sich ja immer mehr mit Open Source brüstet,
+
+01:22:46.150 --> 01:22:52.710
+<v Markus>kann man natürlich auch gespannt sein, wie weit sie dann mit diesen Initiativen natürlich auch solche
+
+01:22:52.710 --> 01:22:55.750
+<v Markus>politischen Bestrebungen hier entgegenkommen.
+
+01:22:56.390 --> 01:22:59.510
+<v Markus>Andererseits kann ich mir nicht vorstellen, dass sie mit den Produkten,
+
+01:22:59.670 --> 01:23:05.830
+<v Markus>wo sie sich eben ins Rückgrat der Infrastrukturen fressen, dass sie da zurückhaltender werden.
+
+01:23:09.190 --> 01:23:12.230
+<v Felix>Ich verlinke hier einfach mal Public Money, Public Code.
+
+01:23:12.470 --> 01:23:14.950
+<v Markus>Ja, das ist immer wieder ein guter Link, definitiv.
+
+01:23:19.030 --> 01:23:19.350
+<v Markus>Okay.
+
+01:23:19.510 --> 01:23:23.670
+<v Felix>Das heißt, da gibt es mal wieder noch ein quasi eine.
+
+01:23:24.390 --> 01:23:27.030
+<v Markus>Genau, in Dortmund läuft die Diskussion ja auch.
+
+01:23:27.670 --> 01:23:33.590
+<v Markus>Es gibt also noch viele hoffnungsvolle Vorgänge, die in die richtige Richtung gehen.
+
+01:23:33.830 --> 01:23:34.790
+<v Felix>Sehr, sehr gut.
+
+01:23:34.870 --> 01:23:36.070
+<v Felix>Ich finde das wunderbar.
+
+01:23:36.310 --> 01:23:38.550
+<v Markus>Es ist auf jeden Fall im Interesse des Steuerzahlers.
+
+01:23:38.710 --> 01:23:39.670
+<v Felix>Ich denke auch.
+
+01:23:39.910 --> 01:23:44.710
+<v Felix>Irgendwas, was für die Allgemeinheit dann auf zur Verfügung gestellt wird,
+
+01:23:44.790 --> 01:23:47.430
+<v Felix>wenn es quasi Open Source ist, wenn eine Anpassungen gemacht werden,
+
+01:23:47.670 --> 01:23:51.350
+<v Felix>wenn Sachen verbessert werden, finde ich eine wunderbare Sache.
+
+01:23:52.470 --> 01:23:57.190
+<v l33tname>Es ist einfach halt zu hoffen, dass es irgendwie sehr gut läuft,
+
+01:23:57.350 --> 01:24:00.390
+<v l33tname>weil dann ist es halt so ein Präzedenzfall für andere.
+
+01:24:01.190 --> 01:24:01.830
+<v l33tname>Ja, genau.
+
+01:24:01.910 --> 01:24:04.070
+<v Markus>Und es fällt vor allem für andere ja direkt was ab.
+
+01:24:04.230 --> 01:24:09.910
+<v Markus>Also wenn da erfolgreich Standardsoftware für Verwaltungsfälle eingeführt wird.
+
+01:24:10.070 --> 01:24:14.470
+<v Felix>Genau, ist ja nicht so, dass nicht alle Bundesländer genau die gleichen Probleme hätten.
+
+01:24:16.310 --> 01:24:17.670
+<v Markus>Wie sollte das denn sein?
+
+01:24:19.750 --> 01:24:23.110
+<v l33tname>Aber das heißt ja nicht, dass man sie nicht verschieden lösen kann.
+
+01:24:23.750 --> 01:24:25.190
+<v Felix>Ja, das stimmt.
+
+01:24:28.070 --> 01:24:30.550
+<v l33tname>Genau, man muss es sich ja nicht zu einfach machen.
+
+01:24:30.790 --> 01:24:31.110
+<v l33tname>Ja.
+
+01:24:31.830 --> 01:24:32.710
+<v Unbekannt>Das stimmt.
+
+01:24:33.030 --> 01:24:33.590
+<v Unbekannt>Das stimmt.
+
+01:24:33.750 --> 01:24:34.950
+<v Markus>Einfach ist ja langweilig.
+
+01:24:35.110 --> 01:24:38.630
+<v Markus>Und da kann man sich gar nicht so richtig schön selbst drin verwirklichen.
+
+01:24:39.270 --> 01:24:39.990
+<v Markus>Nicht einfach?
+
+01:24:40.310 --> 01:24:43.030
+<v Felix>Was gab es bei der EU als trauriges Gegenwartspiel?
+
+01:24:43.350 --> 01:24:47.190
+<v Markus>Ein trauriger Tag für das freie Internet und Europa war der 20.
+
+01:24:47.430 --> 01:24:47.990
+<v Markus>Juni.
+
+01:24:48.470 --> 01:24:54.790
+<v Markus>Wir haben ja des Öfteren darüber gesprochen gehabt, dass da die Abstimmung zum Thema Uploadfilter und
+
+01:24:54.790 --> 01:24:56.470
+<v Markus>Linkabgaben lief.
+
+01:24:56.790 --> 01:24:59.910
+<v Markus>Und sie ist ganz knapp angenommen worden.
+
+01:25:00.070 --> 01:25:04.070
+<v Markus>Der Artikel 13 mit der neuen Copyright-Licht-Richtlinie soll kommen.
+
+01:25:05.030 --> 01:25:09.430
+<v Markus>Von den Christdemokraten angeführte Mehrheit mit 13 zu 12 Stimmen.
+
+01:25:09.830 --> 01:25:11.270
+<v Felix>Gott verdammte Hut.
+
+01:25:11.590 --> 01:25:13.190
+<v Markus>Also wirklich knapp.
+
+01:25:15.030 --> 01:25:18.710
+<v Markus>Es ist jetzt zum Glück noch nicht alles verloren.
+
+01:25:20.790 --> 01:25:23.990
+<v Markus>Deswegen verlinken wir direkt auch nochmal neben dem Artikel auf Telepolis,
+
+01:25:24.150 --> 01:25:25.910
+<v Markus>der das zusammenfasst von dieser Abstimmung.
+
+01:25:26.070 --> 01:25:30.310
+<v Markus>Julia Reda mit einem Hinweis auf die Save Your Internet-Initiative,
+
+01:25:30.470 --> 01:25:32.790
+<v Markus>wo nochmal gesagt wird, was man jetzt tun kann.
+
+01:25:33.030 --> 01:25:35.110
+<v Markus>Am 20.
+
+01:25:35.430 --> 01:25:39.830
+<v Markus>Juli soll das im Europaparlament abgestimmt werden,
+
+01:25:39.990 --> 01:25:42.870
+<v Markus>ob diese Gesetzesinitiative auch zu Wege gebracht wird.
+
+01:25:43.110 --> 01:25:47.350
+<v Markus>Bis dahin hat man dann jetzt noch die Möglichkeiten, aktiv zu werden,
+
+01:25:47.510 --> 01:25:54.150
+<v Markus>wieder den Telefonhörer in die Hand zu nehmen oder auch das erste Mal und Parlamentarier bzw.
+
+01:25:54.470 --> 01:26:00.630
+<v Markus>deren Büro anzurufen und sie davon zu überzeugen, dass es nicht im öffentlichen allgemeinen Interesse ist,
+
+01:26:01.030 --> 01:26:07.190
+<v Markus>hier einigen Verlagsleuern zu entsprechen und
+
+01:26:07.350 --> 01:26:13.830
+<v Markus>obskure Uploadfilter und Linksteuermechanismen zu installieren.
+
+01:26:15.110 --> 01:26:19.830
+<v Markus>Ein kleiner Lichtblick ist auch ein Artikel auf Heise von heute,
+
+01:26:20.150 --> 01:26:26.950
+<v Markus>der es darstellt, dass sich die Front regt, dass da immer mehr Aufmerksamkeit drauf
+
+01:26:26.950 --> 01:26:32.790
+<v Markus>kommt und dass es auch schon jetzt einige Unternehmen gibt, die sich regen und sagen,
+
+01:26:33.430 --> 01:26:38.310
+<v Markus>das sind einige verirrte Rechtspolitiker und die dahinterstehenden Lobbyisten,
+
+01:26:38.470 --> 01:26:45.110
+<v Markus>die hier als kleine Minderheit sehr lautstark ein Gesetz auf den Weg
+
+01:26:45.110 --> 01:26:49.750
+<v Markus>bringen, was die Umstände für sehr viele Menschen der EU ändert.
+
+01:26:50.630 --> 01:26:57.270
+<v Markus>Und ja, die Verbände aus der Medienwirtschaft und Verwertungsgesellschaften stützen natürlich diesen Kurs.
+
+01:26:57.430 --> 01:27:03.910
+<v Markus>Auf der Gegenseite sind aber natürlich die großen Internetkonzerne,
+
+01:27:04.230 --> 01:27:09.830
+<v Markus>Mozilla selbst, als nicht Konzern, sondern als Organisation,
+
+01:27:10.150 --> 01:27:11.590
+<v Markus>Foundation, genau.
+
+01:27:14.470 --> 01:27:20.150
+<v Markus>Die dagegen halten und versuchen da jetzt eine Initiative genügend laut zu platzieren.
+
+01:27:21.750 --> 01:27:23.990
+<v Markus>Wir rufen alle auf, sich daran zu beteiligen.
+
+01:27:24.310 --> 01:27:30.070
+<v Markus>Im Lochbuch Netzpolitik, da gab es auch die letzte Folge, die haben das auch nochmal sehr schön aufgedröselt
+
+01:27:30.150 --> 01:27:36.870
+<v Markus>und die schicken ja ihre Einhornstandarte oder wie sie sie nennen.
+
+01:27:37.190 --> 01:27:43.670
+<v Markus>Schließt euch den an, das Widerstand lohnt sich, muss man einfach sagen.
+
+01:27:43.750 --> 01:27:45.910
+<v Markus>Und ist notwendig, ist unbedingt notwendig.
+
+01:27:46.710 --> 01:27:50.150
+<v Felix>Erst so tolle Sachen von der EU und jetzt wieder beschissene Sachen von der EU.
+
+01:27:50.230 --> 01:27:51.910
+<v Felix>Ich weiß nicht, was ich davon halten soll.
+
+01:27:52.470 --> 01:27:58.310
+<v Felix>Erst DSGVO und dann sowas, ist doch scheiße.
+
+01:27:58.550 --> 01:28:03.750
+<v Markus>Das ist ganz spannend, dazu die One final Note in dem Artikel von der Julia Reda zu lesen,
+
+01:28:03.910 --> 01:28:10.150
+<v Markus>weil sie schreibt ganz klar, are you frustrated to have constantly fight and defend your digital rights?
+
+01:28:10.790 --> 01:28:17.510
+<v Markus>Sagt sie, ja, bin ich auch, aber das ist alles kein Grund, jetzt auf die EU zu schimpfen und die EU dafür
+
+01:28:17.510 --> 01:28:24.390
+<v Markus>zu schlecht zu reden, weil tatsächlich kommen diese obskuren Gesetzesinitiativen
+
+01:28:24.390 --> 01:28:29.430
+<v Markus>und diese krassen Gesetze, die das so in die falsche Richtung einschränken,
+
+01:28:29.750 --> 01:28:35.190
+<v Markus>immer von den Lagern, die gegen EU sind,
+
+01:28:35.270 --> 01:28:41.910
+<v Markus>die euroskeptisch sind, die Right-Wing-Partys, also von den rechten Flügeln der Parteien.
+
+01:28:42.310 --> 01:28:44.950
+<v Markus>Es sind tatsächlich nie, die pro Euro sind.
+
+01:28:45.110 --> 01:28:49.030
+<v Markus>Und deswegen wäre es unfair, die EU dafür wirklich verantwortlich zu machen.
+
+01:28:49.190 --> 01:28:55.590
+<v Markus>Die EU wird hier als Vehikel missbraucht, aber es sind letztendlich nicht die Euro-Europa-Enthusiasten,
+
+01:28:55.750 --> 01:28:57.350
+<v Markus>die so Zeug auf den Weg bringen.
+
+01:28:57.590 --> 01:28:58.950
+<v Felix>Das ist nicht meine EU.
+
+01:28:59.350 --> 01:29:00.870
+<v Unbekannt>Ich möchte die gute EU.
+
+01:29:01.990 --> 01:29:04.310
+<v Markus>Genau, das wollen wir alle und deswegen müssen wir kämpfen.
+
+01:29:04.470 --> 01:29:05.990
+<v Felix>Das hilft alles nichts, oder?
+
+01:29:06.390 --> 01:29:07.350
+<v Markus>So ist das.
+
+01:29:07.910 --> 01:29:10.310
+<v Felix>Man muss dafür kämpfen, was man möchte.
+
+01:29:11.670 --> 01:29:12.870
+<v Felix>Aber kämpfen ist anstrengend.
+
+01:29:13.030 --> 01:29:15.270
+<v Markus>Und vor allem auch mit möglichst vielen Leuten drüber reden.
+
+01:29:16.150 --> 01:29:16.950
+<v Felix>Das kriegen wir hin.
+
+01:29:17.190 --> 01:29:18.950
+<v Markus>Das in die Breite tragen.
+
+01:29:23.670 --> 01:29:26.550
+<v Felix>Ein bisschen frustrierend, aber Lichtblick immer noch.
+
+01:29:27.270 --> 01:29:28.310
+<v Felix>Es kann noch werden.
+
+01:29:29.750 --> 01:29:35.670
+<v Felix>Es war ja schon ein paar Mal solche obskuren Sachen, wo sich dann aber die Front relativ weit aufgebäumt hat,
+
+01:29:35.830 --> 01:29:37.270
+<v Felix>um das zu kontern.
+
+01:29:37.430 --> 01:29:38.870
+<v Felix>Und das ist eine gute Sache.
+
+01:29:39.190 --> 01:29:40.310
+<v Felix>Sehr, sehr gut.
+
+01:29:41.350 --> 01:29:45.190
+<v Felix>Kämpfe das, was ihr wollt und gegen das, was ihr nicht wollt.
+
+01:29:47.350 --> 01:29:48.470
+<v Felix>Sehr, sehr gut.
+
+01:29:49.750 --> 01:29:50.070
+<v Felix>So.
+
+01:29:50.870 --> 01:29:51.830
+<v Felix>Was haben wir hier?
+
+01:29:52.630 --> 01:29:54.230
+<v Felix>Wir haben keine Themen dieses Mal.
+
+01:29:54.470 --> 01:29:55.590
+<v Felix>Oder waren es unsere Themen?
+
+01:29:57.510 --> 01:30:02.790
+<v Markus>Wir haben so viele Themen in den News gehabt, dass wir thematisch sehr breit aufgestellt sind heute.
+
+01:30:05.350 --> 01:30:07.270
+<v Markus>Ja, außerdem ist halb elf.
+
+01:30:07.430 --> 01:30:09.270
+<v Markus>Ich glaube, es ist gut, wenn wir jetzt ESOFO machen.
+
+01:30:09.430 --> 01:30:10.070
+<v Markus>Erzähl.
+
+01:30:10.550 --> 01:30:12.790
+<v Felix>Wer hat hier Bash is not SH?
+
+01:30:13.270 --> 01:30:13.590
+<v Felix>Ich.
+
+01:30:15.270 --> 01:30:16.550
+<v Felix>Erzähl mir mehr.
+
+01:30:16.790 --> 01:30:17.190
+<v Felix>Genau.
+
+01:30:17.430 --> 01:30:19.190
+<v l33tname>Bash ist nicht SH.
+
+01:30:19.990 --> 01:30:26.630
+<v l33tname>Wenn ihr so Skripte schreibt, dann schreibt sie vielleicht nicht in
+
+01:30:26.630 --> 01:30:33.510
+<v l33tname>Bash, wenn ihr nicht explizit sagt, okay, ich brauche dieses und dieses Bash-Feature unbedingt.
+
+01:30:33.830 --> 01:30:39.670
+<v l33tname>Weil es hat halt einen Vorteil, wenn ihr das für die SH schreibt,
+
+01:30:39.830 --> 01:30:41.910
+<v l33tname>dann ist es halt auch portabel.
+
+01:30:42.710 --> 01:30:46.310
+<v l33tname>Und nicht jedes System hat halt eine Bash.
+
+01:30:46.870 --> 01:30:51.910
+<v l33tname>Ich meine, Debian ist beispielsweise,
+
+01:30:51.990 --> 01:30:54.710
+<v l33tname>glaube ich, Dash Standard Shell.
+
+01:30:57.510 --> 01:31:04.310
+<v l33tname>Viele dieser Unix, diese BSDs ist Bash nicht
+
+01:31:04.550 --> 01:31:05.670
+<v l33tname>mit dabei.
+
+01:31:06.630 --> 01:31:07.590
+<v l33tname>Standardmäßig.
+
+01:31:07.670 --> 01:31:12.630
+<v l33tname>Also man kann es fast überall nachinstallieren, aber ich meine, warum
+
+01:31:14.630 --> 01:31:19.510
+<v l33tname>für irgendein kleines Skript eine Bash installieren, wenn es nicht wirklich gebraucht wird?
+
+01:31:19.910 --> 01:31:26.870
+<v Felix>Ja, also das geht tatsächlich fehl darum, dass nicht alle Computer immer den
+
+01:31:26.870 --> 01:31:31.590
+<v Felix>großen Hammer benötigen und alle eure Skripte vielleicht auch cooler sind,
+
+01:31:31.670 --> 01:31:36.470
+<v Felix>wenn die, wenn du, wenn man die so schreibt, dass die halt nicht diesen ganzen Quatsch benötigen.
+
+01:31:36.710 --> 01:31:40.310
+<v Felix>Und Posix ist eh die einzige Wahrheit.
+
+01:31:41.030 --> 01:31:43.270
+<v Felix>Die einzige Wahrheit im Shell-Programmieren.
+
+01:31:43.510 --> 01:31:50.470
+<v Felix>Und dann, wenn man quasi immer so anfängt, mit She-Bang Bin
+
+01:31:50.470 --> 01:31:54.870
+<v Felix>SH, dann sieht man direkt, wo man überall gedacht hat, oh, das ist aber voll portabel.
+
+01:31:55.030 --> 01:31:56.550
+<v Felix>In Wirklichkeit ist es das nicht.
+
+01:31:57.910 --> 01:32:03.990
+<v l33tname>Und es spricht ja auch nichts dagegen, dass man irgendwie ein Script für die Bash schreibt,
+
+01:32:04.310 --> 01:32:05.830
+<v l33tname>wenn man das tatsächlich braucht.
+
+01:32:05.990 --> 01:32:09.270
+<v l33tname>Aber es sind ganz viele Scripts sind dann einfach so, haben so zwei,
+
+01:32:09.350 --> 01:32:16.150
+<v l33tname>drei kleine Bashism-Sachen drin, auf die man eigentlich locker verzichten könnte und
+
+01:32:16.150 --> 01:32:21.670
+<v l33tname>dadurch gewinnt man, also man verliert nicht wirklich was, außer dass man halt vielleicht irgendwie so ein
+
+01:32:21.670 --> 01:32:27.430
+<v l33tname>oder zwei Kommandos oder ein, zwei Dinge ein bisschen anders strukturieren muss,
+
+01:32:27.590 --> 01:32:31.990
+<v l33tname>aber dafür läuft es dann halt irgendwie auf fast allen Systemen einfach so.
+
+01:32:32.870 --> 01:32:34.390
+<v Felix>Zum Beispiel auf Nixos.
+
+01:32:34.710 --> 01:32:36.070
+<v l33tname>Beispielsweise auf Nixos.
+
+01:32:36.390 --> 01:32:41.990
+<v Felix>Dass man da nicht erst die Bash den Interpreter umschreiben muss, damit es dann funktioniert.
+
+01:32:42.150 --> 01:32:47.430
+<v Felix>Weil User Bin, Bash oder Bin-Bash gibt es halt nicht immer überall.
+
+01:32:47.670 --> 01:32:52.630
+<v Felix>Oder Bin-SH, was dann aufs Versehene Bash sein soll, gibt es auch nicht überall.
+
+01:32:53.510 --> 01:32:56.470
+<v Felix>Denkt an die anderen Leute, schreibt nicht nur für euch.
+
+01:32:57.190 --> 01:32:58.550
+<v Felix>Schreibt für alle.
+
+01:32:58.950 --> 01:33:01.030
+<v Felix>So wie Schleswig-Holstein.
+
+01:33:04.950 --> 01:33:09.510
+<v Felix>Ja, also Bashisms, das, ja, also ich denke, darauf kann man immer wieder mal hinweisen,
+
+01:33:09.750 --> 01:33:14.550
+<v Felix>weil Leute wissen gar nicht, dass die Bash nicht so portabel ist,
+
+01:33:14.630 --> 01:33:15.750
+<v Felix>wie sie denken.
+
+01:33:16.070 --> 01:33:21.270
+<v Felix>Und Bashisms sind all diese Dinge,
+
+01:33:21.510 --> 01:33:23.990
+<v Felix>die ganz Bash-spezifisch sind.
+
+01:33:24.150 --> 01:33:30.710
+<v Felix>Und da gibt es einen Artikel in irgendeinem Wiki von irgendeinem Typen und der
+
+01:33:30.710 --> 01:33:35.270
+<v Felix>fasst die alle mal zusammen, alle Bashisms und auch, glaube ich, wie man die ersetzt.
+
+01:33:36.870 --> 01:33:37.190
+<v Felix>Genau.
+
+01:33:37.350 --> 01:33:43.270
+<v Felix>Zum Beispiel, eins von den großen Dingen, die nicht in einen Shells drin sind, sind zum Beispiel Arrays.
+
+01:33:43.910 --> 01:33:49.030
+<v Felix>Die sind aber auch eh ein bisschen Shit in Bash, von daher kann man ganz oft drauf verzichten.
+
+01:33:50.630 --> 01:33:57.110
+<v Felix>Was noch gibt, ist nicht.
+
+01:33:57.910 --> 01:33:58.870
+<v Felix>Was noch so ein typisches?
+
+01:33:59.110 --> 01:34:00.710
+<v Felix>Achso, die Forloops.
+
+01:34:01.830 --> 01:34:05.350
+<v Felix>Also mit zwei Klammern, das ist auch typische Bash.
+
+01:34:06.470 --> 01:34:11.670
+<v Felix>Die zwei eckigen Klammern, aber das ist in den meisten Fällen braucht man das auch nicht.
+
+01:34:12.470 --> 01:34:14.790
+<v Felix>Also zweieckige Klammer für einen Test.
+
+01:34:15.110 --> 01:34:18.070
+<v Felix>In den meisten Fällen ist es einfach vollkommen Quatsch, das so zu machen.
+
+01:34:18.710 --> 01:34:20.710
+<v Felix>Und was haben wir sonst noch so?
+
+01:34:21.270 --> 01:34:22.710
+<v Felix>Plus, plus, minus, minus.
+
+01:34:22.790 --> 01:34:24.710
+<v Felix>Naja, das kriegt man vielleicht auch noch so hin.
+
+01:34:26.710 --> 01:34:27.510
+<v Felix>Ja, genau.
+
+01:34:27.590 --> 01:34:32.470
+<v Felix>Also das, äh, genau, hier ist dieser eine Vikartike, der das mal kurz zusammenfasst,
+
+01:34:32.630 --> 01:34:35.350
+<v Felix>was alles Bash ist und was alles nicht Bash ist.
+
+01:34:36.630 --> 01:34:37.510
+<v Felix>Was ist hier da?
+
+01:34:40.230 --> 01:34:42.870
+<v Felix>Überblick Bashes.
+
+01:34:43.590 --> 01:34:44.230
+<v Felix>Bashes.
+
+01:34:46.470 --> 01:34:47.670
+<v Felix>Wunderschön.
+
+01:34:49.750 --> 01:34:50.070
+<v Felix>Okay.
+
+01:34:53.270 --> 01:35:00.070
+<v Felix>Also ich, wenn ihr speziell auch im Firmen-Umfeld oder sowas unterwegs seid und dort
+
+01:35:00.070 --> 01:35:05.270
+<v Felix>dann mehr als irgendwie ein Shellskript geschrieben hat, was mehr als drei Zeilen beinhaltet,
+
+01:35:05.590 --> 01:35:11.670
+<v Felix>dann kann man sich auch schon überlegen, die geschriebenen
+
+01:35:11.990 --> 01:35:15.430
+<v Felix>Skripte mit Shellscheck zu testen.
+
+01:35:15.750 --> 01:35:22.150
+<v Felix>Und Shellcheck ist quasi sowas wie, weiß ich gar nicht, ist das vergleichbar mit Lint?
+
+01:35:22.630 --> 01:35:22.950
+<v Felix>Lint?
+
+01:35:23.670 --> 01:35:28.150
+<v Felix>Genau, bei Python, PyLint oder Lint, genau.
+
+01:35:29.670 --> 01:35:31.750
+<v Markus>Also das ist kein Test, sondern tatsächlich einfach ein Linting.
+
+01:35:32.230 --> 01:35:32.870
+<v Markus>Genau.
+
+01:35:34.230 --> 01:35:37.190
+<v Felix>Und das ist relativ cool.
+
+01:35:37.430 --> 01:35:41.190
+<v Felix>Was ein bisschen shit ist, ist, dass es in Husky geschrieben ist und dann erstmal eine Million
+
+01:35:41.270 --> 01:35:42.870
+<v Felix>Husky-Dependencies nachzieht.
+
+01:35:43.350 --> 01:35:45.190
+<v Felix>Aber man kann ja nicht immer alles aufnehmen.
+
+01:35:46.390 --> 01:35:52.390
+<v Markus>Dependencies, da sind die Leute ja eh gewohnt, weil JavaScript hat Dependencies immer viele.
+
+01:35:53.030 --> 01:35:54.150
+<v Markus>Dependencies sind überall.
+
+01:35:54.310 --> 01:35:56.870
+<v Felix>Also wenn du keine Dependencies hast, dann ist dein Skript falsch.
+
+01:35:57.670 --> 01:35:58.870
+<v Felix>Da fehlt dann irgendwas.
+
+01:35:59.030 --> 01:36:03.270
+<v Felix>Ist doch so, wenn NPM nicht benutzt, dann bist du einfach auch so ein komischer Freak,
+
+01:36:03.510 --> 01:36:07.510
+<v Felix>der irgendwie alles mit der Nadel auf der Festplatte draufschreibt,
+
+01:36:07.590 --> 01:36:09.670
+<v Felix>mit der magnetisierten Nadel, ja.
+
+01:36:09.910 --> 01:36:11.510
+<v Felix>Genau so ein Freak bist du dann.
+
+01:36:11.590 --> 01:36:15.350
+<v Felix>Du brauchst mindestens zehn Dependencies von irgendwelchen Krempel.
+
+01:36:15.670 --> 01:36:17.350
+<v Felix>Und das am besten alles pinnen.
+
+01:36:17.430 --> 01:36:21.270
+<v Felix>Alles am besten auf die Version pinnen, weil dann hassen euch alle Maintainer.
+
+01:36:25.670 --> 01:36:28.790
+<v Felix>Am besten aufs Patch Release pinnen.
+
+01:36:29.510 --> 01:36:31.270
+<v Markus>Genau, wie ich mich beliebt mache.
+
+01:36:31.590 --> 01:36:32.390
+<v Felix>Genau.
+
+01:36:33.910 --> 01:36:34.230
+<v Felix>Und?
+
+01:36:34.710 --> 01:36:36.390
+<v Felix>Wie macht man sich noch so beliebt?
+
+01:36:36.790 --> 01:36:39.430
+<v Markus>Indem man einfach ein Jerk in Open Source ist.
+
+01:36:39.670 --> 01:36:41.910
+<v Markus>Aber den Link habe ich hier nicht eingefügt.
+
+01:36:42.230 --> 01:36:43.510
+<v Felix>Wir hatten den da eingefügt.
+
+01:36:44.230 --> 01:36:45.350
+<v Felix>Jetzt kommt's raus.
+
+01:36:47.750 --> 01:36:48.310
+<v Felix>Genau.
+
+01:36:48.630 --> 01:36:54.470
+<v l33tname>Das ist ein Artikel von einem Typen, der das What-Video gemacht hat.
+
+01:36:54.790 --> 01:36:57.990
+<v Felix>Vielleicht erinnert ihr euch an, was ist das W-Video?
+
+01:36:58.310 --> 01:37:02.790
+<v l33tname>Das ist das Video, wo es so Features in, ich glaube, in Ruby.
+
+01:37:03.030 --> 01:37:03.990
+<v Felix>Also JavaScript-Features.
+
+01:37:04.470 --> 01:37:05.750
+<v l33tname>JavaScript zeigt uns.
+
+01:37:05.990 --> 01:37:11.670
+<v l33tname>Ja, der Talk, also das ist irgendwie ein Lightning Talk, sind irgendwie vier Minuten und er zeigt,
+
+01:37:11.750 --> 01:37:18.630
+<v l33tname>glaube ich, die erste Minute zeigt, dass so zwei Dinge in Ruby und der Rest ist dann irgendwie die anderen
+
+01:37:18.630 --> 01:37:22.790
+<v l33tname>drei Minuten oder so sind dann in JavaScript, wo er so sagt, was passiert,
+
+01:37:22.870 --> 01:37:26.390
+<v l33tname>wenn ich hier ein Array plus ein Object mache?
+
+01:37:26.630 --> 01:37:31.510
+<v l33tname>Und was passiert, wenn ich die zwei Dinge, wenn ich ein Object plus ein Array mache und was passiert,
+
+01:37:31.670 --> 01:37:36.470
+<v l33tname>wenn ich irgendwie ein String plus eine Zahl mache und was passiert,
+
+01:37:36.550 --> 01:37:39.670
+<v l33tname>wenn ich ein String minus diese Zahl mache?
+
+01:37:39.910 --> 01:37:40.550
+<v l33tname>Und so.
+
+01:37:42.310 --> 01:37:47.670
+<v Markus>Das ist der Typ von Destroy All Software, der vorhin auch darauf hingewiesen hatten,
+
+01:37:47.830 --> 01:37:52.790
+<v Markus>dass es die Screencasts, die er auf seiner Website hatten, verkauft,
+
+01:37:53.270 --> 01:37:54.550
+<v Markus>kostenlos gab.
+
+01:37:54.950 --> 01:37:55.350
+<v Markus>Genau.
+
+01:37:56.390 --> 01:37:58.070
+<v Markus>Das ist schon ein cooles Zeug, was er da ausbekommt.
+
+01:37:59.350 --> 01:38:01.750
+<v l33tname>Ich glaube, wir haben established, es ist ein cooler Typ.
+
+01:38:01.830 --> 01:38:07.590
+<v l33tname>Und er hat jetzt so einen coolen Blogpost geschrieben und er hat sich da mal eine
+
+01:38:08.470 --> 01:38:14.390
+<v l33tname>E-Mail von Linus Torvalds genommen und die auseinandergenommen und gesagt,
+
+01:38:14.550 --> 01:38:15.430
+<v l33tname>ja, wir haben.
+
+01:38:17.350 --> 01:38:22.870
+<v l33tname>Eigentlich kann man das eigentlich kann man die ganze E-Mail halt einfach umschreiben,
+
+01:38:23.030 --> 01:38:29.750
+<v l33tname>hat sie irgendwie ungefähr halb so groß geschrieben, mit einem gleichen Inhalt
+
+01:38:30.310 --> 01:38:34.870
+<v l33tname>und halt irgendwie ohne, dass man Leute vielleicht, aber ohne dass man.
+
+01:38:35.110 --> 01:38:40.230
+<v Felix>Ich meine, es ist Linus Torwalz, du erwartest von dieser Person, dass der das so macht.
+
+01:38:41.350 --> 01:38:43.270
+<v l33tname>Ja, aber es ist halt so.
+
+01:38:44.070 --> 01:38:45.910
+<v Felix>Natürlich ist es ein Arschloch, aber alle wissen es.
+
+01:38:45.990 --> 01:38:47.030
+<v Felix>Und deswegen ist es okay.
+
+01:38:47.270 --> 01:38:49.190
+<v l33tname>Ich weiß halt nicht, ob es deswegen okay ist.
+
+01:38:49.270 --> 01:38:54.070
+<v l33tname>Und er zeigt halt einfach so ab, ja, weißt du, man kann seinen Punkt halt auch rüberbringen,
+
+01:38:54.150 --> 01:38:55.830
+<v l33tname>ohne ein Arschloch zu sein.
+
+01:38:56.070 --> 01:38:56.710
+<v l33tname>Es geht halt.
+
+01:38:57.590 --> 01:38:59.030
+<v Felix>Außer du bist Linus Torweiz.
+
+01:38:59.350 --> 01:39:02.470
+<v Felix>Ich denke, es gehört zu dieser Person dazu immer noch.
+
+01:39:02.630 --> 01:39:06.870
+<v l33tname>Ja, aber es ist halt irgendwie trotzdem nicht okay und der Mente ist halt irgendwie so ein.
+
+01:39:07.270 --> 01:39:08.550
+<v Felix>Ist okay, aber lustig.
+
+01:39:08.870 --> 01:39:15.110
+<v l33tname>Ja, es ist halt schon unterhaltsam, aber ich weiß nicht, ob das Linux
+
+01:39:15.270 --> 01:39:16.550
+<v l33tname>weiterbringt.
+
+01:39:18.230 --> 01:39:20.470
+<v Felix>Du kannst einfach keinen Scheiß bauen beim Linux-Kernel.
+
+01:39:23.110 --> 01:39:24.150
+<v Felix>Okay, ja, ich denke nicht.
+
+01:39:24.630 --> 01:39:28.870
+<v l33tname>Ich weiß nicht so genau, ob man vielleicht nicht weiterkommen würde,
+
+01:39:28.950 --> 01:39:33.830
+<v l33tname>wenn man halt konstruktiv kommunizieren würde.
+
+01:39:34.070 --> 01:39:35.670
+<v Felix>Aber über was würden wir denn reden?
+
+01:39:36.710 --> 01:39:39.510
+<v l33tname>Aber ich gebe dir natürlich recht, ich finde es auch immer.
+
+01:39:41.370 --> 01:39:46.650
+<v l33tname>Bisschen lustig, wie Linus Torvalds halt ausrastet über halt irgend so einen so einen kleinen Scheiß,
+
+01:39:46.810 --> 01:39:52.330
+<v l33tname>wo er vielleicht technisch ja möglicherweise sogar recht hat, aber man sich halt denkt,
+
+01:39:52.490 --> 01:39:54.410
+<v l33tname>ja, Junge, reg dich halt ab.
+
+01:39:55.850 --> 01:39:57.370
+<v l33tname>So schlimm kann es gar nicht sein.
+
+01:39:57.610 --> 01:39:58.810
+<v Felix>Nee, so schlimm kann es nicht sein.
+
+01:39:58.890 --> 01:40:02.170
+<v Felix>Und das, also Aufregen in einer E-Mail, ja, das ist ja das, ja.
+
+01:40:02.330 --> 01:40:06.970
+<v Felix>Das ist einfach so, das Aufregen nur irgendwie, weiß ich nicht, im Internet.
+
+01:40:07.530 --> 01:40:07.850
+<v Felix>Ja.
+
+01:40:09.370 --> 01:40:10.730
+<v Felix>Ja, schon, schon lustig.
+
+01:40:10.810 --> 01:40:11.290
+<v Felix>Ja, das stimmt.
+
+01:40:11.370 --> 01:40:15.210
+<v Felix>Man kann bestimmt alle Sachen vorher nicht schreiben, aber nur, also, außer du bist Linusauer.
+
+01:40:15.450 --> 01:40:16.490
+<v Felix>Ich würde sagen, das ist fair.
+
+01:40:18.890 --> 01:40:25.050
+<v l33tname>Er nimmt halt dieses E-Mail auseinander und schreibt es halt oben und zeigt halt, ja, wie man konstruktiv.
+
+01:40:25.690 --> 01:40:32.570
+<v l33tname>Und halt den Punkt irgendwie, dass etwas Scheißes halt trotzdem noch stark rüberbringen kann,
+
+01:40:32.730 --> 01:40:37.610
+<v l33tname>ohne dass man irgendwie Abzüge in seiner Message machen muss.
+
+01:40:37.930 --> 01:40:38.970
+<v Felix>Sondern ja.
+
+01:40:39.850 --> 01:40:40.250
+<v Felix>Genau.
+
+01:40:40.410 --> 01:40:44.490
+<v l33tname>Könnt ihr euch durchlesen, ist ein toller Blogpost.
+
+01:40:45.050 --> 01:40:50.410
+<v l33tname>Und der letzte ist Podcast on Floppy Disk, das von Auphonic,
+
+01:40:50.570 --> 01:40:56.890
+<v l33tname>die wir, glaube ich, auch immer noch benutzen, um unsere Audio-Files ein bisschen besser klingen zu lassen.
+
+01:40:57.610 --> 01:41:00.570
+<v l33tname>Und da geht es um den Codec 2.
+
+01:41:01.930 --> 01:41:08.730
+<v l33tname>Und der Codec 2 ist ein Audiokodec, der hart darauf optimiert ist,
+
+01:41:09.050 --> 01:41:10.170
+<v l33tname>auf Sprache.
+
+01:41:11.130 --> 01:41:17.850
+<v l33tname>Und bei so wenig wie möglich Bits pro Sekunde.
+
+01:41:17.930 --> 01:41:23.130
+<v l33tname>Also es ist da Speech-Examples mit irgendwie 700 Bits pro Sekunde.
+
+01:41:23.930 --> 01:41:28.970
+<v l33tname>Und das ist dann halt signifikant kleiner.
+
+01:41:29.050 --> 01:41:35.370
+<v l33tname>Also Sie haben hier so ein Beispiel, wo es irgendwie das Waffen-File ist irgendwie
+
+01:41:35.370 --> 01:41:42.010
+<v l33tname>1,3 MB und das kleinste mit dem
+
+01:41:42.010 --> 01:41:48.170
+<v l33tname>Codec 2 encodete File ist dann irgendwie noch 200 Kilobyte oder so.
+
+01:41:49.050 --> 01:41:51.210
+<v l33tname>Was halt schon massiv ist.
+
+01:41:52.730 --> 01:41:58.570
+<v l33tname>Und sie haben da so ein paar Files und also gewisse Dinge klingen mit dem Codec 2 echt schlimm.
+
+01:41:58.890 --> 01:42:01.690
+<v l33tname>Es ist wirklich auch nur auf Sprache optimiert.
+
+01:42:01.770 --> 01:42:06.330
+<v l33tname>Das heißt, sobald du Musik hast, sie haben da auch so ein Musikbeispiel drin,
+
+01:42:07.770 --> 01:42:10.250
+<v l33tname>was halt echt lustig klingt.
+
+01:42:10.570 --> 01:42:15.210
+<v l33tname>Also man erkennt, man kann die Musik noch so erkennen, aber es ist halt keine Musik mehr.
+
+01:42:15.530 --> 01:42:17.210
+<v Felix>Man kann es quasi so erraten.
+
+01:42:17.370 --> 01:42:18.890
+<v l33tname>Genau, das ist halt weg.
+
+01:42:19.370 --> 01:42:23.770
+<v l33tname>Und was es jetzt neuer, wenn ich das richtig verstanden habe,
+
+01:42:23.930 --> 01:42:30.250
+<v l33tname>gibt, ist, dass das WaveNet und das ist auf dem
+
+01:42:30.250 --> 01:42:36.330
+<v l33tname>Decoder drauf mit neuronalen Netzwerken herauszufinden, was es eigentlich war.
+
+01:42:36.570 --> 01:42:41.610
+<v l33tname>Das heißt, du kannst noch tiefere Bitraten fahren und es klingt aber immer noch ganz okay.
+
+01:42:41.690 --> 01:42:48.570
+<v l33tname>Und sie haben unten von den Research Papern die Beispiele
+
+01:42:48.650 --> 01:42:55.610
+<v l33tname>und die klingen, also der Unterschied zwischen einfach Codec 2 und Codec 2 mit
+
+01:42:55.610 --> 01:43:02.490
+<v l33tname>dem Wave Net Decoder, also es ist echt erstaunlich, wie gut das klingt bei
+
+01:43:02.490 --> 01:43:07.850
+<v l33tname>irgendwie sehr, sehr tiefen Bitraten und ja, die Conclusion ist dann halt,
+
+01:43:07.930 --> 01:43:14.170
+<v l33tname>mit diesem Ding könnte man ungefähr eine Stunde Audio halt auf so eine
+
+01:43:17.130 --> 01:43:18.730
+<v l33tname>Diskette, auf so eine Diskette.
+
+01:43:19.050 --> 01:43:20.090
+<v Felix>Auf eine Diskette.
+
+01:43:20.490 --> 01:43:22.330
+<v Felix>Das kennen die Leute ja gar nicht mehr.
+
+01:43:22.970 --> 01:43:24.650
+<v Felix>Auf einen Speicherknopf.
+
+01:43:24.970 --> 01:43:27.130
+<v l33tname>Genau, auf einen Speicherknopf.
+
+01:43:28.570 --> 01:43:34.890
+<v l33tname>Und im Blogpost und dann auch die Papers verlinkt und so ein bisschen Details, wie das alles funktioniert.
+
+01:43:35.850 --> 01:43:36.810
+<v l33tname>Sehr spannend.
+
+01:43:37.450 --> 01:43:37.930
+<v l33tname>Cool.
+
+01:43:40.730 --> 01:43:42.010
+<v Felix>Cool, cool, cool.
+
+01:43:44.010 --> 01:43:44.330
+<v Felix>So.
+
+01:43:47.610 --> 01:43:48.650
+<v Felix>Was haben wir hier noch?
+
+01:43:49.690 --> 01:43:51.210
+<v Felix>Das waren unsere Lesefu.
+
+01:43:51.530 --> 01:43:53.130
+<v Felix>Ich habe dieses Mal kein Lesefuhr.
+
+01:43:53.210 --> 01:43:56.730
+<v Felix>Ich fühle mich auch ein bisschen schlecht, dass ich so schlecht vorbereitet bin.
+
+01:43:56.810 --> 01:43:57.850
+<v Felix>Aber manchmal ist es so.
+
+01:43:58.570 --> 01:44:01.850
+<v Markus>Gut, aber wenn du dich so schlecht fühlst, vielleicht hast du ja was zum Mimiminen.
+
+01:44:02.010 --> 01:44:03.290
+<v Felix>Oh, das hatte ich heute schon.
+
+01:44:03.770 --> 01:44:07.450
+<v Felix>Dieses fucking Google News.
+
+01:44:07.690 --> 01:44:08.250
+<v Felix>Warum?
+
+01:44:08.410 --> 01:44:11.130
+<v Felix>Warum machen sie immer Sachen kaputt, die gut waren?
+
+01:44:12.730 --> 01:44:13.690
+<v Felix>Ich verstehe es nicht.
+
+01:44:13.930 --> 01:44:15.050
+<v Felix>Das ist so traurig.
+
+01:44:15.210 --> 01:44:16.410
+<v Felix>Ich fand es toll, ja.
+
+01:44:16.650 --> 01:44:18.490
+<v l33tname>Weiß ich nicht, weil wegen Geld?
+
+01:44:18.650 --> 01:44:19.050
+<v l33tname>Vielleicht?
+
+01:44:19.290 --> 01:44:22.810
+<v Felix>Aber wie machen sie Geld damit, dass es wenige Leute benutzen?
+
+01:44:23.050 --> 01:44:26.730
+<v Markus>Ja, bist du dir sicher, dass es weniger Leute benutzen, nur weil du es nicht mehr nutzt?
+
+01:44:27.210 --> 01:44:29.450
+<v Felix>Du meinst, ich bin keine primäre Zielgruppe oder was?
+
+01:44:31.530 --> 01:44:33.850
+<v Markus>Das wollte ich jetzt so direkt nicht ausdrücken, aber.
+
+01:44:34.730 --> 01:44:39.130
+<v Felix>Vielleicht bin ich ein besonderes Special Snowflake und brauche meinen eigenen speziellen Editor.
+
+01:44:40.010 --> 01:44:42.730
+<v Markus>Hast du auch Snowflake Millions to pay?
+
+01:44:45.210 --> 01:44:45.850
+<v Markus>Nee.
+
+01:44:46.330 --> 01:44:46.650
+<v Markus>Nee.
+
+01:44:46.970 --> 01:44:49.850
+<v Felix>Wie viele Millionen Snowflakes?
+
+01:44:52.730 --> 01:44:56.490
+<v Felix>Wie viele Millionen Snowflakes sind in einem Schneeball?
+
+01:44:57.370 --> 01:44:57.930
+<v Felix>Alle?
+
+01:44:58.650 --> 01:44:59.050
+<v Felix>Nee.
+
+01:44:59.290 --> 01:45:00.890
+<v Felix>Nur eine Handvoll maximal.
+
+01:45:02.010 --> 01:45:03.610
+<v Felix>Aber wie viele Millionen sind das?
+
+01:45:03.770 --> 01:45:06.410
+<v l33tname>Ja, aber eine Handvoll sind ja eigentlich alle.
+
+01:45:08.010 --> 01:45:12.090
+<v Felix>Flocken sind in einem Schneeball.
+
+01:45:13.050 --> 01:45:13.290
+<v Felix>Okay.
+
+01:45:13.610 --> 01:45:16.570
+<v Felix>Das Internet sagt, wie schwer ist Schnee?
+
+01:45:16.730 --> 01:45:18.010
+<v Felix>Wissenswert ist über Schnee.
+
+01:45:18.250 --> 01:45:20.490
+<v Felix>Akkumulierte die Schlagswerte.
+
+01:45:20.810 --> 01:45:22.170
+<v Felix>Wie viele Flocken?
+
+01:45:22.890 --> 01:45:24.970
+<v Felix>Viele Flocken sind fast unsichtbar.
+
+01:45:25.290 --> 01:45:27.850
+<v Felix>Schneefamilie bei Animal Crossing.
+
+01:45:28.250 --> 01:45:29.610
+<v l33tname>Winterreifen.
+
+01:45:29.850 --> 01:45:32.570
+<v Felix>Also, kann ich jetzt nicht so schnell finden.
+
+01:45:33.530 --> 01:45:33.930
+<v Felix>Tja.
+
+01:45:34.330 --> 01:45:37.610
+<v Markus>Wenn du fest genug drückst, sind sie auch keine Schneeflocken mehr.
+
+01:45:37.930 --> 01:45:40.010
+<v Felix>Ja, aber wie viele waren es denn mal?
+
+01:45:44.490 --> 01:45:44.970
+<v Felix>Tja.
+
+01:45:46.010 --> 01:45:46.650
+<v Felix>Scheiße.
+
+01:45:47.130 --> 01:45:48.090
+<v l33tname>Das ist eine gute Frage.
+
+01:45:50.730 --> 01:45:53.610
+<v l33tname>Du kannst ja das aufs nächste Mal herausfinden.
+
+01:45:53.770 --> 01:45:55.690
+<v l33tname>Es gibt bestimmt einen Paper dazu.
+
+01:45:56.410 --> 01:45:59.210
+<v l33tname>Es gibt zu allem Paper, glaube ich.
+
+01:46:00.250 --> 01:46:02.410
+<v Felix>Spätestens bis einer es geschrieben hat.
+
+01:46:02.650 --> 01:46:06.730
+<v l33tname>Und wenn es keins gibt, dann weißt du, was du zu tun hast, dann kannst du einen Paper schreiben.
+
+01:46:08.010 --> 01:46:08.890
+<v Felix>Das ist echt.
+
+01:46:09.050 --> 01:46:13.050
+<v Felix>Also zu dieser Suchanfrage gibt es einfach so viele verschiedene Themen.
+
+01:46:13.290 --> 01:46:15.850
+<v Felix>Ich glaube, Google ist sich nicht ganz sicher, was ich will.
+
+01:46:18.730 --> 01:46:19.850
+<v Felix>Das merkt man dann so.
+
+01:46:20.010 --> 01:46:26.010
+<v Felix>Das ist einfach so absurd verschiedene Sachen irgendwie bei einem Rezept
+
+01:46:26.250 --> 01:46:32.410
+<v Felix>Schneebälle von Rubiner und Winterspiele, die Schneeflocke mit
+
+01:46:32.410 --> 01:46:34.490
+<v Felix>Biberberti und seinen Freunden.
+
+01:46:34.730 --> 01:46:38.650
+<v l33tname>Aber ich meine, dass Google nicht weiß, was du willst, ist es ja auch keine Überraschung.
+
+01:46:38.730 --> 01:46:41.050
+<v l33tname>Google weiß ja auch nicht, was du von Google News wolltest.
+
+01:46:41.610 --> 01:46:47.210
+<v Felix>Ach, stimmt, weil ich meine News, meine Suchanfragen nicht speichern habe lassen.
+
+01:46:47.450 --> 01:46:48.810
+<v Felix>Deswegen gibt es mir noch schlechte.
+
+01:46:52.010 --> 01:46:52.810
+<v Felix>Vi, viele.
+
+01:46:53.450 --> 01:46:53.770
+<v Felix>So.
+
+01:46:54.570 --> 01:46:58.730
+<v l33tname>Wollen wir sonst mal zu Picks kommen, wenn du nicht herausfindest, wie viele Schneeflocken.
+
+01:46:59.290 --> 01:47:00.570
+<v Felix>Wie viel wiegt eine Schneeflocke?
+
+01:47:00.650 --> 01:47:02.090
+<v Felix>Dann kann man das einfach hochrechnen.
+
+01:47:02.730 --> 01:47:04.250
+<v Felix>Die Wicht einer Schneeflocke.
+
+01:47:04.570 --> 01:47:05.690
+<v Markus>Ich mach mal mit den Pics weiter.
+
+01:47:08.490 --> 01:47:10.490
+<v l33tname>Du kannst das dann als letztes picken oder so.
+
+01:47:10.730 --> 01:47:13.850
+<v Felix>30 mal 10 auf minus 6 Gramm wiegt eine Schneeflocke.
+
+01:47:14.570 --> 01:47:21.370
+<v Markus>Ich pick ein Video, was ich aus dem Artikel über die YouTube-Blogs von Blender gefunden habe.
+
+01:47:21.610 --> 01:47:26.090
+<v Markus>Und zwar Seven Habits of Highly Effective Artists.
+
+01:47:26.810 --> 01:47:33.370
+<v Markus>Und ja, wie der Titel sagt, spricht er eben einer davon, was er so herausgefunden hat,
+
+01:47:33.450 --> 01:47:39.690
+<v Markus>wie man sich effizient damit auseinandersetzt, bei gestalterischen Dingen effektiv zu bleiben.
+
+01:47:39.930 --> 01:47:45.850
+<v Markus>Und er hängt halt daran auf, dass er eine Wette abgeschlossen hatte,
+
+01:47:46.810 --> 01:47:50.170
+<v Markus>tausend Likes in etwas zu bekommen, wo er schlecht drin ist.
+
+01:47:50.410 --> 01:47:56.170
+<v Markus>Und was er dann getan hat, um gut genug zu werden, um Likes zu bekommen.
+
+01:47:56.410 --> 01:47:58.410
+<v Markus>Ist ganz unterhaltsam anzuschauen.
+
+01:47:58.730 --> 01:47:59.930
+<v Markus>Macht Spaß.
+
+01:48:04.490 --> 01:48:05.130
+<v Markus>Bin ich dran?
+
+01:48:05.290 --> 01:48:05.770
+<v Markus>Bin ich dran?
+
+01:48:06.090 --> 01:48:07.130
+<v Felix>Ich bin immer noch bei diesem.
+
+01:48:07.690 --> 01:48:08.890
+<v Felix>Wie viel wiegt so ein Schnee bei uns?
+
+01:48:09.130 --> 01:48:10.650
+<v Markus>Nee, erzähl uns mal, was AirClone ist.
+
+01:48:10.810 --> 01:48:11.050
+<v Markus>Okay.
+
+01:48:11.130 --> 01:48:11.930
+<v Felix>Ah, AirClone.
+
+01:48:12.090 --> 01:48:16.490
+<v Felix>Airclone ist ein wunderbares Tool, was ich erst jetzt gefunden habe.
+
+01:48:17.130 --> 01:48:18.730
+<v Felix>Man kennt ja immer nie alle Sachen.
+
+01:48:18.890 --> 01:48:20.330
+<v Felix>Und manchmal braucht es ein bisschen Zeit.
+
+01:48:20.490 --> 01:48:23.370
+<v Felix>Der Ingo hat gesagt, ah ja, Airclone habe ich schon vor lange.
+
+01:48:23.530 --> 01:48:24.410
+<v Felix>Beste Sache.
+
+01:48:24.650 --> 01:48:30.570
+<v Felix>AirClone ist ein Programm, mit dem man von dem lokalen Computer einfach in irgendeine Cloud
+
+01:48:30.570 --> 01:48:32.410
+<v Felix>reinersünken kann.
+
+01:48:32.810 --> 01:48:38.570
+<v Felix>Und das ist genau das, was ich gebraucht habe für unsere Podcaster, damit ich die direkt hochladen kann.
+
+01:48:38.810 --> 01:48:42.970
+<v Felix>Weil dieser fucking Nextcloud Client ist ein scheiß Trash.
+
+01:48:43.290 --> 01:48:49.530
+<v Felix>Und diese Webseite crasht auch ab und zu beim Hochladen und das ist beides keine Option.
+
+01:48:49.610 --> 01:48:56.330
+<v Felix>Und dieses Airklon hat, mit dem habe ich einmal gesagt, Airklon diese Datei in Nextcloud in den Ordner rein,
+
+01:48:56.490 --> 01:48:57.210
+<v Felix>fertig.
+
+01:48:57.370 --> 01:48:59.610
+<v Felix>Und das war einfach die beste Experience.
+
+01:48:59.770 --> 01:49:01.210
+<v Felix>Und jetzt kann ich die sogar umbenennen.
+
+01:49:01.290 --> 01:49:03.850
+<v Felix>Davor ging es nämlich nicht in diese scheiß Webseite.
+
+01:49:04.090 --> 01:49:05.530
+<v Felix>Also viel zu anstrengend.
+
+01:49:05.610 --> 01:49:10.970
+<v Felix>Und deswegen, Airklon ist mein Pick für dieses Mal.
+
+01:49:11.210 --> 01:49:18.090
+<v Felix>Das kann zum Beispiel hier in die Nextcloud pushen auf Box
+
+01:49:18.570 --> 01:49:22.810
+<v Felix>Seth IBM Cos S3,
+
+01:49:23.610 --> 01:49:28.090
+<v Felix>Open Drive, Put.io, SFTP,
+
+01:49:28.170 --> 01:49:30.970
+<v Felix>WebDAV, beste Sache.
+
+01:49:31.210 --> 01:49:34.250
+<v l33tname>Also ziemlich alles, was man sich, glaube ich, so vorstellen kann.
+
+01:49:34.490 --> 01:49:35.610
+<v Felix>Ich denke, ja.
+
+01:49:37.210 --> 01:49:44.010
+<v Felix>Und genau, es bietet dann für alle so eine so eine vereintlichte CLI.
+
+01:49:44.170 --> 01:49:50.010
+<v Felix>Und dann kann man dort einfach sagen, bitte einmal in die Richtung pushen und dann ist es da oben.
+
+01:49:50.570 --> 01:49:51.610
+<v Felix>Und das ist schön.
+
+01:49:52.090 --> 01:49:57.290
+<v Felix>Man kann sogar, glaube ich, Sachen mounten, also du kannst so eine Cloud mounten mit R-Klon.
+
+01:49:58.330 --> 01:50:02.330
+<v Felix>Und dann kannst du endlich GFS machen.
+
+01:50:02.650 --> 01:50:09.370
+<v Felix>Verschiedene Clouds, verschlüsselt, zusammen gemacht in einem RAID
+
+01:50:09.610 --> 01:50:10.170
+<v Felix>6.
+
+01:50:11.450 --> 01:50:12.410
+<v Felix>Ja, byte.
+
+01:50:14.330 --> 01:50:16.090
+<v Felix>Okay, ja genau, das war mein Ding.
+
+01:50:16.330 --> 01:50:16.650
+<v Felix>Sehr gut.
+
+01:50:17.130 --> 01:50:17.850
+<v Felix>Mach ich mal weiter hier.
+
+01:50:18.090 --> 01:50:21.370
+<v l33tname>Dann schreibst du so ein Shellscript für GSFS.
+
+01:50:21.850 --> 01:50:23.450
+<v Felix>Ja, ist ja quasi schon alles fertig.
+
+01:50:23.530 --> 01:50:24.810
+<v Felix>Man muss ja noch die Sachen zusammenschicken.
+
+01:50:24.890 --> 01:50:29.450
+<v l33tname>Ja, genau, man muss ja nur noch das Shell Script schreiben, dass das so zusammen gluht.
+
+01:50:29.850 --> 01:50:30.810
+<v l33tname>Dann bist du fertig.
+
+01:50:31.450 --> 01:50:36.970
+<v Felix>Posikell, schön mit Shell Shake nochmal drüber läuft.
+
+01:50:37.610 --> 01:50:38.330
+<v Felix>Sehr gut.
+
+01:50:39.530 --> 01:50:44.570
+<v l33tname>Mein Pick ist messages.android.com.
+
+01:50:45.450 --> 01:50:50.330
+<v l33tname>Und zwar kann man wohl mit diesen Android, also für WhatsApp gibt es das ja auch,
+
+01:50:50.410 --> 01:50:56.410
+<v l33tname>dass man irgendwie so im Webclient Leute zutexten kann, weil man mit Tastatur halt einfach schneller schreiben
+
+01:50:56.410 --> 01:51:02.010
+<v l33tname>kann als so auf dem Smartphone.
+
+01:51:02.170 --> 01:51:06.970
+<v l33tname>Und anscheinend gibt es das auch für die Messages-App auf Android.
+
+01:51:07.210 --> 01:51:08.330
+<v l33tname>Gibt es halt auch so ein Web-App.
+
+01:51:10.970 --> 01:51:17.290
+<v l33tname>Das ist die offizielle, die App, die Messages heißt von Google, die auf irgendwie.
+
+01:51:19.130 --> 01:51:19.850
+<v l33tname>Was ist das?
+
+01:51:20.970 --> 01:51:22.170
+<v Felix>Was ist diese Messages?
+
+01:51:22.970 --> 01:51:23.930
+<v l33tname>Das ist eine, das.
+
+01:51:27.290 --> 01:51:30.970
+<v l33tname>Wenn du deine Standard-SMS-App nicht geändert hast, dann ist das die.
+
+01:51:31.450 --> 01:51:33.530
+<v Felix>Alles klar, okay.
+
+01:51:34.170 --> 01:51:34.890
+<v Felix>Android-Messaging.
+
+01:51:35.050 --> 01:51:38.010
+<v Felix>Wenn jetzt die Messaging, ist das eine andere?
+
+01:51:39.610 --> 01:51:40.570
+<v l33tname>Du fragst Sachen.
+
+01:51:40.890 --> 01:51:45.370
+<v Felix>Ich habe jetzt aber auch kein Vanilla Android, ich habe jetzt hier dieses andere Ding.
+
+01:51:45.930 --> 01:51:46.570
+<v Felix>Dieses nicht Anding.
+
+01:51:46.730 --> 01:51:47.530
+<v Felix>Dieses Lineage.
+
+01:51:48.250 --> 01:51:52.810
+<v l33tname>Ja, es kann sein, dass es dann nicht, dass du.
+
+01:51:54.570 --> 01:51:59.050
+<v l33tname>Du hast, glaube ich, die Stock Android.
+
+01:51:59.530 --> 01:52:03.690
+<v l33tname>Die Messaging-App ist, glaube ich, die Stock Android-App.
+
+01:52:04.090 --> 01:52:09.930
+<v l33tname>Und Android Messages ist halt die Stock Android,
+
+01:52:10.090 --> 01:52:11.290
+<v l33tname>Google Android.
+
+01:52:12.490 --> 01:52:14.330
+<v Felix>Du hast auch Stock, aber nicht ganz Stock.
+
+01:52:14.570 --> 01:52:16.250
+<v Felix>Ja, wunderbar.
+
+01:52:16.650 --> 01:52:19.450
+<v l33tname>Also, ja, es ist auf jeden Fall so eine SMS-App.
+
+01:52:19.530 --> 01:52:24.650
+<v l33tname>Und auf jeden Fall, ich wusste gar nicht, dass das auch geht, aber da gibt es halt wohl auch so eine Webseite,
+
+01:52:24.730 --> 01:52:30.650
+<v l33tname>dann kannst du halt auch so einen QR-Code scannen und Leute zutexten über SMS.
+
+01:52:32.090 --> 01:52:32.730
+<v l33tname>Voll gut.
+
+01:52:32.890 --> 01:52:39.370
+<v l33tname>Also wenn jemanden über SMS irgendwie zutexten muss, weil die meisten Abos ja irgendwie so ein unlimited SMS
+
+01:52:39.370 --> 01:52:44.650
+<v l33tname>irgendwie haben und man das eh nicht braucht, kann man es vielleicht mal für sowas benutzen,
+
+01:52:44.810 --> 01:52:46.890
+<v l33tname>jemanden einfach per SMS zutexten.
+
+01:52:47.050 --> 01:52:47.930
+<v Felix>Voll Spam.
+
+01:52:48.970 --> 01:52:51.530
+<v Felix>Bei SMS haben wir immer noch eine andere Priorität, ja.
+
+01:52:52.090 --> 01:52:56.410
+<v l33tname>Dann kann man einfach mal so 200 SMS so zack zack zack zack auf der Tastatur.
+
+01:52:57.130 --> 01:52:58.170
+<v l33tname>Ist schon gut.
+
+01:52:58.410 --> 01:52:59.530
+<v l33tname>Schon ein geiles Feature.
+
+01:52:59.610 --> 01:53:02.810
+<v l33tname>Und die Messaging-App könnte Messages-App.
+
+01:53:03.130 --> 01:53:03.370
+<v l33tname>Warte.
+
+01:53:04.490 --> 01:53:06.730
+<v l33tname>Ja, die, die das halt kann.
+
+01:53:09.050 --> 01:53:11.610
+<v Felix>Die blaue, die blaue Nachrichten-App.
+
+01:53:11.850 --> 01:53:13.370
+<v l33tname>Genau, die blaue Nachrichten-App.
+
+01:53:13.610 --> 01:53:14.250
+<v l33tname>Telegram?
+
+01:53:14.570 --> 01:53:16.250
+<v Felix>Nicht Telegram, die andere blaue.
+
+01:53:16.490 --> 01:53:17.290
+<v l33tname>Die andere blaue.
+
+01:53:18.330 --> 01:53:19.450
+<v Unbekannt>Google Blau.
+
+01:53:19.770 --> 01:53:22.970
+<v l33tname>Lass mich nachschauen, was ich hier noch für blaue Messaging.
+
+01:53:23.610 --> 01:53:25.050
+<v l33tname>Signal, meinst du Signal?
+
+01:53:25.130 --> 01:53:26.650
+<v l33tname>Signal ist auch eine blaue.
+
+01:53:29.130 --> 01:53:29.770
+<v l33tname>Voll verloren.
+
+01:53:30.730 --> 01:53:32.730
+<v Felix>Es gibt so viele blaue Messaging-Apps.
+
+01:53:32.890 --> 01:53:34.410
+<v l33tname>Genau, ich glaube, die sind alle blau.
+
+01:53:35.290 --> 01:53:36.810
+<v Felix>Entweder blau oder grün.
+
+01:53:37.050 --> 01:53:37.370
+<v Felix>Ja.
+
+01:53:38.010 --> 01:53:41.850
+<v Felix>Zum Beispiel Hangouts, WhatsApp, grün.
+
+01:53:42.250 --> 01:53:42.890
+<v Felix>Soll ich noch?
+
+01:53:43.210 --> 01:53:45.450
+<v Felix>Threema hat drei grüne Punkte.
+
+01:53:45.690 --> 01:53:47.530
+<v Felix>Ich weiß nicht, ob das schon als grün zählt.
+
+01:53:47.770 --> 01:53:49.690
+<v Markus>Nein, das ist ein schwarzes Logo.
+
+01:53:49.930 --> 01:53:52.010
+<v Felix>Okay, das ist klar schwarz.
+
+01:53:52.810 --> 01:53:53.930
+<v Felix>Was haben wir hier noch?
+
+01:53:54.170 --> 01:53:55.850
+<v Felix>Messaging grün.
+
+01:53:56.970 --> 01:53:58.570
+<v Felix>Soll ich jetzt noch für krasse Dinge?
+
+01:53:58.650 --> 01:54:00.170
+<v Felix>Ich glaube, den Rest habe ich gelöscht.
+
+01:54:00.810 --> 01:54:02.250
+<v Markus>Conversations ist auch grün.
+
+01:54:02.410 --> 01:54:03.690
+<v Felix>Was ist Conversations?
+
+01:54:04.090 --> 01:54:05.530
+<v Markus>So ein XMPP.
+
+01:54:06.090 --> 01:54:08.570
+<v Felix>Ah, okay, also entweder grün oder blau.
+
+01:54:08.650 --> 01:54:09.690
+<v Felix>Ich glaube, das ist quasi die.
+
+01:54:10.010 --> 01:54:14.330
+<v l33tname>Das ist, glaube ich, eine Anforderung, wenn du eine Messaging-App schreibst.
+
+01:54:15.770 --> 01:54:18.330
+<v Felix>Wie soll die Farbe von deiner Messaging App sein?
+
+01:54:18.730 --> 01:54:19.610
+<v Felix>Grün oder Blau?
+
+01:54:20.410 --> 01:54:21.290
+<v Felix>Grün oder Blau.
+
+01:54:24.730 --> 01:54:27.770
+<v Felix>Das wird dein Pfad dann vorherbestimmen.
+
+01:54:28.090 --> 01:54:28.890
+<v l33tname>Genau.
+
+01:54:31.210 --> 01:54:31.530
+<v l33tname>Ja.
+
+01:54:32.730 --> 01:54:36.250
+<v l33tname>Es ist mir nur so aufgefallen, dass das auch geht.
+
+01:54:36.730 --> 01:54:40.490
+<v l33tname>Und ich weiß nicht, ich war jetzt noch nicht in die Verlegenheit gekommen,
+
+01:54:40.650 --> 01:54:47.530
+<v l33tname>jemanden per SMS zuzutexten, aber falls ich das mal machen muss, werde ich das definitiv so
+
+01:54:47.530 --> 01:54:48.170
+<v l33tname>machen.
+
+01:54:48.810 --> 01:54:49.610
+<v l33tname>Und dann machen wir.
+
+01:54:50.010 --> 01:54:54.570
+<v Felix>Was passiert, wenn ich mit dem WhatsApp-Einlogeteil versuche, dieses Ding anzumelden?
+
+01:54:56.170 --> 01:54:57.930
+<v l33tname>Vermutlich nicht viel.
+
+01:55:01.850 --> 01:55:04.090
+<v l33tname>So ungefähr das wird passieren, nehme ich jetzt an.
+
+01:55:05.770 --> 01:55:06.970
+<v Unbekannt>Ich habe mir das cooler vorgestellt.
+
+01:55:07.050 --> 01:55:09.290
+<v Felix>Vielleicht habe ich jetzt das Internet gecrackt.
+
+01:55:10.010 --> 01:55:10.810
+<v Felix>Also es nochmal.
+
+01:55:11.290 --> 01:55:13.770
+<v l33tname>Ich denke nicht, dass das funktioniert, aber.
+
+01:55:14.090 --> 01:55:16.090
+<v Felix>Nee, passiert nichts.
+
+01:55:16.410 --> 01:55:16.970
+<v Felix>Genau.
+
+01:55:17.130 --> 01:55:23.770
+<v l33tname>Und dann mein zweiter Pick ist Upgraded my Raspberry Pi Heatsink for only Six Cents.
+
+01:55:24.090 --> 01:55:27.210
+<v l33tname>Und das ist ein Bild, das müsst ihr euch selber anklicken, aber es verlinkt.
+
+01:55:30.890 --> 01:55:33.290
+<v l33tname>Genau, und dann haben wir hier noch Voice.
+
+01:55:33.770 --> 01:55:35.690
+<v l33tname>Audiobook-Abspielprogramm.
+
+01:55:36.650 --> 01:55:38.010
+<v Felix>Sehr, sehr schön.
+
+01:55:38.970 --> 01:55:40.490
+<v Felix>Ist es denn wirklich besser?
+
+01:55:42.810 --> 01:55:44.090
+<v Felix>Ich denke, es klappt sogar, ja.
+
+01:55:44.250 --> 01:55:44.890
+<v Felix>Es ist Kupfer.
+
+01:55:45.130 --> 01:55:45.450
+<v Felix>Es ist leicht.
+
+01:55:46.810 --> 01:55:50.010
+<v Felix>Aber die Übertragung an den Flächen ist jetzt.
+
+01:55:50.810 --> 01:55:52.330
+<v Felix>Ah, die stehen ja auch so ein.
+
+01:55:55.370 --> 01:55:57.530
+<v Felix>Vielleicht müsste es schon funktionieren.
+
+01:55:57.610 --> 01:56:00.330
+<v l33tname>Ich glaube, es funktioniert schon so ein bisschen, aber es ist nicht so.
+
+01:56:00.570 --> 01:56:02.090
+<v Felix>Aber ich finde, es sieht cool aus.
+
+01:56:02.250 --> 01:56:05.050
+<v l33tname>Ja, es sieht halt lustig aus, das ist mehr so.
+
+01:56:05.610 --> 01:56:06.970
+<v l33tname>Als dass es effektiv.
+
+01:56:07.130 --> 01:56:11.610
+<v l33tname>Also wenn du ernsthaft irgendwie dein Raspberry tun willst, dann musst du irgendwie so eine.
+
+01:56:12.410 --> 01:56:13.290
+<v l33tname>Ja, ja, ja.
+
+01:56:14.410 --> 01:56:19.850
+<v l33tname>Wenn du das irgendwie sinnvoll machen willst, musst du vielleicht diese krassen Wasserkühler-Dinger für die
+
+01:56:19.850 --> 01:56:20.170
+<v l33tname>Raspberry.
+
+01:56:20.650 --> 01:56:20.970
+<v l33tname>Auf jeden Fall.
+
+01:56:21.290 --> 01:56:26.330
+<v l33tname>Die Frage ist dann halt einfach, warum nimmst du nicht eine ordentliche CPU?
+
+01:56:27.210 --> 01:56:28.570
+<v Felix>Das ist ein guter Punkt.
+
+01:56:28.730 --> 01:56:33.530
+<v Felix>Aber wenn du das erste Mal mit Arm rumspielen willst, dann ist das Raspberry Pi teil schon nicht schlecht.
+
+01:56:33.690 --> 01:56:34.090
+<v Felix>Ja, ja.
+
+01:56:34.330 --> 01:56:34.890
+<v Felix>Ich sag nicht.
+
+01:56:36.250 --> 01:56:37.290
+<v l33tname>Ja, aber.
+
+01:56:37.770 --> 01:56:41.610
+<v l33tname>Ja, ja, also zum Basteln und zum Spielen bestimmt aber sonst.
+
+01:56:42.970 --> 01:56:44.090
+<v l33tname>Weiß ich nicht.
+
+01:56:45.610 --> 01:56:49.050
+<v Felix>Kann man alles immer machen, aber es ist dann halt auch ein bisschen kacke.
+
+01:56:50.010 --> 01:56:54.810
+<v Felix>Yo, mein zweiter Pick ist,
+
+01:56:55.530 --> 01:57:02.410
+<v Felix>ich habe ein Audiobuch-Abspielprogramm gesucht für Android und ich habe mich entschieden für Voice.
+
+01:57:02.490 --> 01:57:03.690
+<v Felix>Das ist von F-Droid.
+
+01:57:03.850 --> 01:57:06.490
+<v Felix>Das heißt, es ist Open Source, muss deswegen gut sein.
+
+01:57:06.570 --> 01:57:08.170
+<v Felix>Und es ist sogar gar nicht so schlecht.
+
+01:57:08.330 --> 01:57:14.010
+<v Felix>Man kann quasi so Audiobücher abspielen und das macht quasi da weiter,
+
+01:57:14.490 --> 01:57:15.450
+<v Felix>wo man aufgehört hat.
+
+01:57:15.530 --> 01:57:18.170
+<v Felix>Und das ist besser als der VC, was ich davor benutzt habe.
+
+01:57:18.570 --> 01:57:19.290
+<v Felix>Das ist quasi schon.
+
+01:57:20.010 --> 01:57:23.210
+<v Markus>Haben wir nicht letztes Mal, als wir über das Audiobook, was du abspielen wolltest,
+
+01:57:23.290 --> 01:57:25.530
+<v Markus>gesprochen, haben auch darüber gesprochen, was man für Player nehmen kann?
+
+01:57:25.690 --> 01:57:27.130
+<v Felix>Ich hab nichts zugehört, Mann.
+
+01:57:28.970 --> 01:57:30.730
+<v Felix>Ich finde Voice ist gut, also der funktioniert.
+
+01:57:30.810 --> 01:57:31.530
+<v Felix>Was benutzt du?
+
+01:57:32.010 --> 01:57:33.370
+<v Markus>Den Smart Audio Player.
+
+01:57:34.090 --> 01:57:36.730
+<v Felix>Ah, den habe ich auch, aber der sah scheiße aus, glaube ich.
+
+01:57:37.210 --> 01:57:39.290
+<v Markus>Ja, er muss halt nur das Audioboch abspielen.
+
+01:57:39.370 --> 01:57:40.170
+<v Markus>Ich gucke da nicht so oft drauf.
+
+01:57:40.730 --> 01:57:44.090
+<v Felix>Der Voice sieht sogar nicht so schlecht aus dafür, dass es aus dem F-Drade-Store kommt.
+
+01:57:44.730 --> 01:57:50.090
+<v Markus>Also das Ding, warum ich diese Player liebe, ist tatsächlich, dass einfach dann die Kapitel der Audiobooks
+
+01:57:50.250 --> 01:57:52.170
+<v Markus>nicht mehr bei den Musikstücken rumfliegen.
+
+01:57:52.730 --> 01:57:53.770
+<v Markus>Das ist einfach gut.
+
+01:57:55.210 --> 01:57:56.170
+<v Felix>Das stimmt.
+
+01:57:56.410 --> 01:58:00.490
+<v Felix>Ja, den hatte ich, diesen Smart Audiobook-Player hatte ich auch, aber der sah irgendwie,
+
+01:58:00.570 --> 01:58:01.690
+<v Felix>der war ein bisschen weird.
+
+01:58:01.850 --> 01:58:08.250
+<v Felix>Und das andere Ding ist puristisch, auch dunkelblau.
+
+01:58:08.490 --> 01:58:11.290
+<v Felix>Das ist eine gute Farbe für einen Audiobook-Player.
+
+01:58:13.130 --> 01:58:15.530
+<v Felix>Genau, und es kann quasi das Ding abspielen und es reicht.
+
+01:58:15.610 --> 01:58:16.730
+<v Felix>Und es hört, achso, genau.
+
+01:58:16.970 --> 01:58:21.530
+<v Felix>Wenn ich meine Kopfhörer rausziehe, hört es auf, wenn ich mir Kopfhörer reinschläge, geht's wieder an.
+
+01:58:21.770 --> 01:58:22.730
+<v Felix>Genau, richtig.
+
+01:58:22.890 --> 01:58:25.610
+<v Felix>Und mehr Features benötige ich auch gar nicht.
+
+01:58:26.090 --> 01:58:28.810
+<v Felix>Das macht der Antenna-Port übrigens auch, das funktioniert.
+
+01:58:30.330 --> 01:58:30.650
+<v Felix>Jo.
+
+01:58:31.370 --> 01:58:32.730
+<v Felix>Das war mein Pick.
+
+01:58:34.490 --> 01:58:35.050
+<v Felix>Schön.
+
+01:58:35.850 --> 01:58:36.890
+<v Felix>Ich glaube, wir sind durch, oder?
+
+01:58:37.050 --> 01:58:41.210
+<v l33tname>Ja, wenn du herausgefunden hast, wie viele Schneeflocken in einem Schneeball sind.
+
+01:58:42.010 --> 01:58:48.890
+<v Felix>Also laut meiner sehr einfachen Rechnung, wenn eine Schneeflocke
+
+01:58:48.890 --> 01:58:53.210
+<v Felix>30 mal 10 hoch minus 6 Gramm wiegt und ich gehe jetzt mal davon aus,
+
+01:58:53.290 --> 01:58:59.930
+<v Felix>du machst einen Schneeball mit 100 Gramm, dann kommst du auf 3,3 Millionen Schneeflocken.
+
+01:59:00.730 --> 01:59:01.690
+<v l33tname>Ganz grob.
+
+01:59:02.330 --> 01:59:03.610
+<v Felix>Also es ist nicht so viel eigentlich.
+
+01:59:03.850 --> 01:59:05.130
+<v Felix>Ich hätte jetzt das mehr.
+
+01:59:05.770 --> 01:59:09.930
+<v Felix>Aber wenn du natürlich einen größeren Schneeball machst, wenn es halt auch entsprechend mehr Schneeflocken die
+
+01:59:10.010 --> 01:59:10.170
+<v Felix>brauchst.
+
+01:59:10.330 --> 01:59:12.410
+<v Markus>Also ein 100 Gramm Schneeball ist schon klein.
+
+01:59:12.650 --> 01:59:13.450
+<v Felix>Ja, okay, machen wir.
+
+01:59:13.610 --> 01:59:14.010
+<v Felix>Keine Ahnung.
+
+01:59:15.210 --> 01:59:15.930
+<v Felix>Ich weiß ja.
+
+01:59:16.810 --> 01:59:17.770
+<v Felix>Ich habe mich ja doch gefragt.
+
+01:59:18.730 --> 01:59:21.290
+<v l33tname>Sehr wissenschaftlich, wie ich die schwierigsten Schwert.
+
+01:59:21.450 --> 01:59:22.730
+<v Felix>Also nee, dann machen wir mal so.
+
+01:59:22.890 --> 01:59:27.610
+<v Felix>Mach mal 300 Gramm, das ist ein 30 schwerer Schneeball, brauchst du genau 10 Millionen Schneeflocken.
+
+01:59:27.690 --> 01:59:30.090
+<v Felix>Und wenn du alle eingesammelt hast, hast du einen Schneeball.
+
+01:59:30.250 --> 01:59:32.090
+<v Felix>Abgesehen davon, dass die natürlich schon geschmolzen sind.
+
+01:59:34.650 --> 01:59:34.970
+<v Felix>Okay.
+
+01:59:36.490 --> 01:59:38.250
+<v Felix>10 Millionen ist es quasi.
+
+01:59:38.890 --> 01:59:40.730
+<v l33tname>Sehr schön, dann wissen wir das auch.
+
+01:59:43.930 --> 01:59:44.410
+<v l33tname>Cool.
+
+01:59:47.370 --> 01:59:48.890
+<v Felix>So, ich schreibe das hier noch hin.
+
+01:59:49.530 --> 01:59:52.330
+<v Felix>Wie viele Schneeflocken?
+
+01:59:53.770 --> 01:59:55.370
+<v Felix>Einem Schneeball.
+
+01:59:55.770 --> 01:59:57.130
+<v Felix>Wie bin ich da nochmal drauf gekommen?
+
+01:59:57.290 --> 01:59:58.170
+<v Unbekannt>Naja, ist auch egal.
+
+01:59:59.530 --> 01:59:59.850
+<v Unbekannt>10.
+
+02:00:03.290 --> 02:00:04.570
+<v Felix>Okay, alles klar.
+
+02:00:05.690 --> 02:00:06.250
+<v Felix>Aufgeschrieben.
+
+02:00:06.330 --> 02:00:07.770
+<v Felix>Das heißt, es ist jetzt für immer fertig.
+
+02:00:08.330 --> 02:00:08.970
+<v Felix>Juhu!
+
+02:00:09.690 --> 02:00:11.130
+<v Markus>Einmal geklärt und festgehalten.
+
+02:00:11.210 --> 02:00:13.290
+<v Markus>Das heißt, der nächste, der googelt, kann es finden.
+
+02:00:13.690 --> 02:00:14.330
+<v Markus>Wunderbar.
+
+02:00:14.570 --> 02:00:17.450
+<v Felix>Wieder was für alle gemacht eigentlich.
+
+02:00:17.930 --> 02:00:18.250
+<v Felix>Ja.
+
+02:00:19.690 --> 02:00:20.570
+<v Markus>Ein Traum.
+
+02:00:21.530 --> 02:00:23.050
+<v Felix>So wie sich das gehört.
+
+02:00:23.770 --> 02:00:25.610
+<v Markus>Gut, ich denke, dann sind wir durch.
+
+02:00:25.690 --> 02:00:26.730
+<v Markus>Vielen Dank.
+
+02:00:27.530 --> 02:00:28.490
+<v Felix>Vielen Dank.
+
+02:00:30.330 --> 02:00:32.650
+<v Markus>Und gehabt euch wohl.
+
+02:00:32.810 --> 02:00:33.850
+<v Markus>Bis zum nächsten Mal.
+
+02:00:34.010 --> 02:00:34.330
+<v Markus>Tschüss.
+
+02:00:35.690 --> 02:00:36.410
+<v Markus>Tschüss.
+
+02:00:38.010 --> 02:00:40.490
+<v Felix>Wie war das mit lasst euch nicht überwachen oder so?
+
+02:00:42.730 --> 02:00:43.690
+<v Felix>Nächstes Mal.

@@ -1,0 +1,5188 @@
+WEBVTT
+
+00:00:06.480 --> 00:00:12.800
+<v Unbekannt>Binärgewitter Podcast und Webtechnologie und und
+
+00:00:13.280 --> 00:00:13.840
+<v Unbekannt>Dorf.
+
+00:00:17.600 --> 00:00:21.120
+<v Markus>Also hallo und herzlich willkommen zu Binärgewitter.
+
+00:00:21.440 --> 00:00:27.120
+<v Markus>Ausgabe 208 wieder von der Frostcon zum dritten Mal von der Frostcon.
+
+00:00:27.520 --> 00:00:29.600
+<v Markus>Ja, ich glaube, es ist das dritte Mal mittlerweile.
+
+00:00:30.560 --> 00:00:32.400
+<v Markus>Immer wieder in unterschiedlicher Besetzung.
+
+00:00:32.640 --> 00:00:34.000
+<v l33tname>Also ich war zweimal da.
+
+00:00:34.240 --> 00:00:35.360
+<v Markus>Heute ist das zweite Mal.
+
+00:00:35.680 --> 00:00:36.400
+<v Markus>Ja, richtig.
+
+00:00:36.480 --> 00:00:39.440
+<v Markus>Ich meine aber, wir hätten davor auch schon mal eins gehabt.
+
+00:00:40.400 --> 00:00:42.160
+<v Markus>Behauptet zumindest meine Erinnerung.
+
+00:00:42.400 --> 00:00:44.960
+<v Markus>Kann auch sein, dass ich das verherrliche und verglorifiziere.
+
+00:00:45.360 --> 00:00:46.800
+<v Markus>Kommt dir vor, sowas.
+
+00:00:48.080 --> 00:00:50.160
+<v Markus>Wir sind heute in unterschiedlicher Besetzung.
+
+00:00:50.320 --> 00:00:53.600
+<v Markus>Heute ist als Gast dabei der Schmidlauch.
+
+00:00:54.000 --> 00:00:54.320
+<v Markus>Hallo.
+
+00:00:54.720 --> 00:00:55.760
+<v l33tname>Ah, das bin ich ich.
+
+00:00:58.320 --> 00:01:01.760
+<v l33tname>Also ich bin der Schmidtlauch, nicht der Ne, ich bin nicht der Schmidlauch.
+
+00:01:02.080 --> 00:01:03.040
+<v Unbekannt>Aber ich bin der Schmittlauch.
+
+00:01:03.520 --> 00:01:04.960
+<v l33tname>Ich bin einer der zwei Felix.
+
+00:01:05.200 --> 00:01:09.760
+<v Markus>Aha, und welcher das ist, werdet ihr bestimmt im Laufe der Beiträge herunter.
+
+00:01:10.000 --> 00:01:13.280
+<v l33tname>Wolltet ihr an den DSD-News merken, welcher Felix das es ist.
+
+00:01:13.520 --> 00:01:18.960
+<v Markus>Genau, und meiner einer ist der Markus und der Ingo konnte leider nicht kommen.
+
+00:01:19.120 --> 00:01:20.000
+<v Markus>Zu weit weg.
+
+00:01:21.280 --> 00:01:24.320
+<v Markus>Also, heute zu dritt von der Froscon.
+
+00:01:26.880 --> 00:01:30.480
+<v Markus>Wir haben Samstagnachmittag, das heißt, wir haben noch nicht so viel von der Froscon mitbekommen,
+
+00:01:30.560 --> 00:01:33.840
+<v Markus>weil wir mussten natürlich jetzt erstmal unser Audio-Setup parat bekommen.
+
+00:01:34.800 --> 00:01:38.880
+<v Markus>In dem Kontext möchte ich aber ausdrücklich Danke sagen an die edlen Spender,
+
+00:01:39.040 --> 00:01:44.800
+<v Markus>weil von den Spenden habe ich einen Headphone-AMP besorgen können,
+
+00:01:44.960 --> 00:01:50.880
+<v Markus>den wir gerade zusammen mit dem geliehenen Zoom H6 benutzen, um hier vor Ort ein
+
+00:01:50.880 --> 00:01:53.360
+<v Markus>Hardware-Audio-Setup zu haben, was für uns aufzeichnet.
+
+00:01:53.440 --> 00:02:00.320
+<v Markus>Deswegen sind wir heute mal von Pulsaudio verschont geblieben und konnten nur mit der kleinen Lernschwelle,
+
+00:02:00.400 --> 00:02:04.640
+<v Markus>das Zoom H6 zu bedienen, relativ zügig mit dem Aufnehmen beginnen.
+
+00:02:05.440 --> 00:02:09.360
+<v Markus>Lach nicht, dass wir so lange gebraucht haben, lag daran, dass wir die Themen diskutieren mussten.
+
+00:02:09.680 --> 00:02:10.800
+<v l33tname>Bestimmt, bestimmt lange.
+
+00:02:11.360 --> 00:02:12.160
+<v l33tname>Welche Themen?
+
+00:02:12.720 --> 00:02:15.120
+<v Markus>Genau, die, die wir nicht haben und so.
+
+00:02:15.200 --> 00:02:17.840
+<v Markus>Aber was habt ihr denn bis jetzt auf der Frostcon gesehen?
+
+00:02:18.160 --> 00:02:23.280
+<v Gast 1>Also, also der Felix und ich waren in einem Talk zu IPv6.
+
+00:02:24.400 --> 00:02:27.200
+<v Gast 1>Ja, war durchaus hörenswert.
+
+00:02:27.600 --> 00:02:29.280
+<v Gast 1>Es ging nochmal so grob.
+
+00:02:29.440 --> 00:02:32.400
+<v Gast 1>Es war die inoffizielle IPv6-Selfhilfegruppe.
+
+00:02:32.960 --> 00:02:35.440
+<v Gast 1>Ja, es ging halt um die ganzen Grundlagen.
+
+00:02:35.920 --> 00:02:39.360
+<v Gast 1>So, wie sehen die Adressen aus, aber dann auch tatsächlich praktische Tipps,
+
+00:02:39.840 --> 00:02:44.320
+<v Gast 1>wie man das jetzt deployt, wie man irgendwelche Transit-Netze gestaltet,
+
+00:02:44.400 --> 00:02:49.120
+<v Gast 1>wie viele Adressen man welchen Teilen des Netzwerks gibt und ja,
+
+00:02:49.360 --> 00:02:56.240
+<v Gast 1>was die ganze Infrastruktur kann, was Autoconfiguration ist, was DHCP kann und warum man es benutzen
+
+00:02:56.240 --> 00:02:57.520
+<v Gast 1>will oder nicht benutzen will.
+
+00:02:59.520 --> 00:03:05.280
+<v l33tname>Genau, also ich fand den Vortrag sehr interessant und habe das dann gleich als Gelegenheit genommen,
+
+00:03:05.440 --> 00:03:09.440
+<v l33tname>meinen Server auch mal endlich auf IPv6 umzustellen.
+
+00:03:10.160 --> 00:03:14.080
+<v l33tname>Und dafür hat der Talk gereicht, dass ich die Zeit hat, im Talk hat gereicht,
+
+00:03:14.160 --> 00:03:18.080
+<v l33tname>meinen Server umzustellen und dafür hat jetzt IPv6 und es funktioniert alles.
+
+00:03:18.800 --> 00:03:22.000
+<v l33tname>Ist also gar nicht so schwierig, also ich würde sagen, voller Erfolg.
+
+00:03:22.320 --> 00:03:28.400
+<v Gast 1>Und ich habe sogar auch noch was Neues gelernt, obwohl ich schon mehrere Stunden Request for Comments
+
+00:03:28.720 --> 00:03:31.040
+<v Gast 1>Podcast zu IPv6 gehört habe.
+
+00:03:31.120 --> 00:03:33.440
+<v Gast 1>Also für jed was dabei.
+
+00:03:34.880 --> 00:03:35.360
+<v Gast 1>Cool.
+
+00:03:35.600 --> 00:03:37.520
+<v Markus>Ich konnte nicht dabei sein aus Gründen.
+
+00:03:38.160 --> 00:03:41.200
+<v Markus>Hab dann aber vorhin meine Runde durch die Projekte gedreht.
+
+00:03:43.120 --> 00:03:47.440
+<v Markus>Es ist so mehr oder weniger das übliche Line-up mit leichten Variationen drin.
+
+00:03:47.680 --> 00:03:49.760
+<v Markus>Der Open Office stand, der seit Jahren immer hier ist.
+
+00:03:50.400 --> 00:03:51.520
+<v l33tname>Sind die noch relevant?
+
+00:03:51.760 --> 00:03:54.160
+<v Markus>Genau, diese Frage stellen wir uns ja jedes Mal aufs Neue.
+
+00:03:54.320 --> 00:03:55.200
+<v Gast 1>Wir können ja nachher mal nachdenken.
+
+00:03:55.280 --> 00:04:02.080
+<v Markus>Die Relevanz wird heuer dadurch unterstrichen, dass nebendran der LibreOffice stand ist und nur unwesentlich
+
+00:04:02.080 --> 00:04:03.600
+<v Markus>moderner aussieht.
+
+00:04:05.200 --> 00:04:08.240
+<v Markus>Einen direkten Battle scheinen die beiden aber zu vermeiden.
+
+00:04:09.440 --> 00:04:10.400
+<v Markus>Ganz spannend.
+
+00:04:11.120 --> 00:04:17.680
+<v Markus>Bei Relevanz unterstreicht auch CA Cert, dass sie vor Ort sind und immer noch leben.
+
+00:04:18.720 --> 00:04:20.880
+<v Markus>Das Gespräch mit ihnen habe ich jetzt noch nicht gefunden.
+
+00:04:21.200 --> 00:04:23.760
+<v Markus>Der Stand war so überlaufen, da bin ich echt nicht durchgekommen.
+
+00:04:23.840 --> 00:04:28.080
+<v Markus>Ich bin dann weitergegangen und bin über Ilumos gestolpert.
+
+00:04:28.160 --> 00:04:28.800
+<v Markus>Kennt ihr das?
+
+00:04:28.960 --> 00:04:29.120
+<v Markus>Ja.
+
+00:04:29.360 --> 00:04:30.480
+<v Gast 1>Ja, schon mal gehört.
+
+00:04:30.720 --> 00:04:32.640
+<v Markus>Aha, für mich war es neu.
+
+00:04:32.720 --> 00:04:36.960
+<v Markus>Die haben tolle Sticker, so ein ganz dezenter, dynamischer Vogel.
+
+00:04:37.040 --> 00:04:40.320
+<v Markus>Und Illumos ist ein Open Solaris-Frog.
+
+00:04:41.600 --> 00:04:44.800
+<v Markus>Und vorne auf der ersten Seite vom Flyer steht ZFS.
+
+00:04:44.960 --> 00:04:50.000
+<v Markus>Und da habe ich direkt gedacht, das muss doch der Lead Name eigentlich sehr positiv wahrnehmen.
+
+00:04:50.240 --> 00:04:56.000
+<v l33tname>Ja, darum kenne ich es, glaube ich, auch, weil es halt irgendwie so einer der ZFS-Plattformen ist.
+
+00:04:56.240 --> 00:04:59.120
+<v l33tname>Da gibt es ja nicht oder gab es lange nicht so viele.
+
+00:04:59.360 --> 00:05:00.000
+<v l33tname>Du meinst Windows?
+
+00:05:00.160 --> 00:05:01.680
+<v Gast 1>Windows ist mittlerweile auch eine ZFS-Plattform.
+
+00:05:02.080 --> 00:05:08.080
+<v l33tname>Mittlerweile läuft ja dieses ZFS irgendwie auf deinem Linux, auf deinem Windows, auf deinem Toaster oder so.
+
+00:05:08.800 --> 00:05:10.400
+<v l33tname>Aber das war ja nicht immer so.
+
+00:05:10.720 --> 00:05:12.960
+<v l33tname>Und von daher.
+
+00:05:15.040 --> 00:05:21.600
+<v l33tname>Außerdem haben wir ja schon mehrfach irgendwie über dieses Open Indiana geredet,
+
+00:05:21.840 --> 00:05:27.360
+<v l33tname>wo wir ja irgendwie über das neue Release Hipster oder so mal gesprochen haben,
+
+00:05:27.680 --> 00:05:31.760
+<v l33tname>weil es einen lustigen Namen hat und das ist auch based on Illumos.
+
+00:05:34.240 --> 00:05:37.280
+<v Markus>Das ist based on, okay, den Trace hatte ich nie in dem Sinne.
+
+00:05:37.600 --> 00:05:43.680
+<v l33tname>Also wenn ich das richtig verstanden habe, ist das Open Indiana dann im Prinzip eine Distribution von
+
+00:05:43.920 --> 00:05:44.880
+<v l33tname>Illumos.
+
+00:05:45.280 --> 00:05:50.080
+<v l33tname>Zumindest habe ich das immer so verstanden, aber so ganz sicher bin ich mir da auch nicht,
+
+00:05:50.160 --> 00:05:54.880
+<v l33tname>weil ich das halt selber auch nicht so nur so am Rande halt irgendwie so ein bisschen mitverfolge und nicht
+
+00:05:54.880 --> 00:05:55.840
+<v l33tname>wirklich einsetze.
+
+00:05:56.080 --> 00:05:59.680
+<v Gast 1>Ja, aber die Interview-Podcasts überlassen wir dann lieber Radio-Tux.
+
+00:06:00.080 --> 00:06:03.040
+<v Gast 1>Ja, genau, also weil das vorher heute nicht da sind, glaube ich, aber.
+
+00:06:03.280 --> 00:06:07.440
+<v Markus>Kein Aufnahmegerät mit in die Projektzone dort.
+
+00:06:07.760 --> 00:06:13.040
+<v Markus>Ansonsten kann ich noch davon berichten, dass die OwnCloud-Leute da sind und mir begeistert von ihrem
+
+00:06:13.040 --> 00:06:18.480
+<v Markus>überarbeitenden, derzeit noch in der Beta-Phase befindlichen Client erzählt haben,
+
+00:06:18.720 --> 00:06:25.440
+<v Markus>der mit einem virtuellen File-System arbeiten wird und dadurch wesentlich fluffiger zu benutzen sein soll.
+
+00:06:27.280 --> 00:06:31.760
+<v Markus>Sie waren sich nicht ganz sicher, ob er noch API-kompatibel zu Nextcloud ist.
+
+00:06:32.800 --> 00:06:37.280
+<v Markus>Die Diskussion darüber, an wem es liegt, wenn er das nicht ist, lasse ich jetzt mal außen vor.
+
+00:06:38.880 --> 00:06:43.440
+<v Markus>Auf jeden Fall haben sie mir empfohlen, das auszuprobieren, weil der klein einfach toll sein soll.
+
+00:06:44.240 --> 00:06:47.120
+<v Markus>Ja, ich würde mal einen Blick drauf werfen, bei Gelegenheit.
+
+00:06:48.080 --> 00:06:50.320
+<v Markus>Danach haben wir dann noch ein Quiz gespielt.
+
+00:06:50.480 --> 00:06:52.480
+<v Markus>Und zwar das Epic-Quiz.
+
+00:06:52.880 --> 00:06:53.840
+<v Markus>Das war super.
+
+00:06:54.160 --> 00:06:56.000
+<v Unbekannt>Naja, ich mache nochmal dran.
+
+00:06:58.560 --> 00:07:02.560
+<v Markus>Wir haben uns über so lustige Fragen dabei gebettelt, welche Datei man verändern muss,
+
+00:07:02.640 --> 00:07:07.040
+<v Markus>wenn man, oder welchen Buffet man absenden muss, wenn man einen Benutzer kurz sperren muss.
+
+00:07:07.200 --> 00:07:07.760
+<v Markus>Und das war?
+
+00:07:08.000 --> 00:07:11.440
+<v Gast 1>Ja, das war ein Pfeil und das war slash etc slash no login.
+
+00:07:12.240 --> 00:07:17.040
+<v Markus>Nee, das No Login ist, wenn du verhindern willst, echt nicht privilegierte Benutzer einloggen.
+
+00:07:17.200 --> 00:07:21.280
+<v Gast 1>Und das andere war, ich glaube, war Usermod-Groß L.
+
+00:07:21.600 --> 00:07:21.920
+<v Gast 1>Genau.
+
+00:07:22.000 --> 00:07:26.720
+<v Markus>Und ich habe nämlich das klein L geraten und lag damit falsch.
+
+00:07:27.040 --> 00:07:28.160
+<v l33tname>Falsch erinnert es.
+
+00:07:28.240 --> 00:07:32.640
+<v l33tname>Ich meine, es kann ja im Muscle Memory ist es natürlich richtig drin,
+
+00:07:32.720 --> 00:07:35.760
+<v l33tname>aber wenn man es dann so ausschreiben muss und es sieht, ist es immer von wenig.
+
+00:07:36.800 --> 00:07:40.000
+<v Markus>Wenn man einfach nur tippt, ohne drüber nachzudenken, ist es natürlich immer richtiger,
+
+00:07:40.080 --> 00:07:41.600
+<v Markus>als wenn man drüber nachdenken muss.
+
+00:07:41.680 --> 00:07:42.720
+<v Markus>Das stimmt wohl.
+
+00:07:42.960 --> 00:07:48.160
+<v Gast 1>Auf jeden Fall machen wir das Quiz nicht nur zum Spaß, sondern zu gewinnen gibt es als Hauptgewinn einen
+
+00:07:48.160 --> 00:07:48.800
+<v Gast 1>großen Tux.
+
+00:07:49.200 --> 00:07:53.680
+<v Markus>Ja, da müssen wir dran denken, in zwei Stunden bei der Verlosung live vor Ort zu sein.
+
+00:07:53.920 --> 00:07:57.280
+<v Gast 1>Naja, dann müssen wir den Podcast gegebenenfalls mal kurz unterbrechen,
+
+00:07:57.680 --> 00:07:59.760
+<v Gast 1>wenn wir heute sechs Stunden lang podcast wollen.
+
+00:07:59.840 --> 00:08:03.920
+<v Markus>Naja, das Gerät ließe uns immerhin noch 30 Stunden und 40 Minuten aufzeichnen.
+
+00:08:04.320 --> 00:08:06.160
+<v Markus>Von daher sagt der Schwert, der Akku sagte.
+
+00:08:06.560 --> 00:08:09.360
+<v Markus>Der Akku sagt auch, Strom ist da, von daher.
+
+00:08:09.920 --> 00:08:10.400
+<v Markus>Let's go.
+
+00:08:10.560 --> 00:08:12.240
+<v Markus>Habt ihr noch was zu FrostCon zu sagen?
+
+00:08:12.320 --> 00:08:13.360
+<v Markus>Was habt ihr euch noch vorgenommen?
+
+00:08:13.440 --> 00:08:14.640
+<v Markus>Was steht noch auf dem Plan?
+
+00:08:15.920 --> 00:08:21.280
+<v Gast 1>Ich habe mir diverse Talks markiert, aber ja, schauen wir einfach mal, wozu ich komme.
+
+00:08:21.600 --> 00:08:28.240
+<v Markus>Für mich ganz oben auf der Liste steht, dass ich nachher noch zu dem R-Spam D-Talk möchte und da
+
+00:08:28.240 --> 00:08:32.240
+<v Markus>hoffentlich lernen werde, wie ich meinen Mail-Server noch besser gegen Spam schützen kann.
+
+00:08:32.880 --> 00:08:36.960
+<v Markus>Und ja, was morgen dann so passiert, mal schauen.
+
+00:08:37.200 --> 00:08:39.600
+<v Gast 1>Wer auch noch da ist, ist Adblock Plus.
+
+00:08:39.760 --> 00:08:42.560
+<v Gast 1>Die sind hier, glaube ich, die stehen zwar neben den ganzen Open-Source-Projekten,
+
+00:08:42.640 --> 00:08:44.560
+<v Gast 1>sind aber irgendwie auch gleichzeitig Sponsor.
+
+00:08:44.800 --> 00:08:48.800
+<v Gast 1>Ich benutze die ja nicht und man kann sich da durchaus über den Geschäftsmodell streiten,
+
+00:08:48.960 --> 00:08:52.640
+<v Gast 1>aber was durchaus witzig ist, sie haben, äh, sie verteilen hier AdBlock Plus-Sticker,
+
+00:08:53.040 --> 00:08:55.360
+<v Gast 1>die sich bestimmt gut auf diversen Werbeplakaten machen.
+
+00:08:55.600 --> 00:08:59.760
+<v Markus>Adblock Plus könnte man mal dazu interviewen, was sie eigentlich mit Flatter gemacht haben.
+
+00:09:00.000 --> 00:09:00.480
+<v Markus>Stimmt.
+
+00:09:00.640 --> 00:09:04.720
+<v Markus>Weil wenn ich mich richtig entsinne, hatten die doch Flatter gekauft und dann ist Flatter kaputt gegangen.
+
+00:09:04.960 --> 00:09:10.800
+<v Gast 1>Ja, na Flatter hat den Ansatz geändert und die Währung und das
+
+00:09:10.800 --> 00:09:13.280
+<v Gast 1>Zahlungsverfahren und so weiter.
+
+00:09:14.720 --> 00:09:15.040
+<v Gast 1>Ja.
+
+00:09:15.360 --> 00:09:17.840
+<v Markus>Ja, also kaputt gemacht, sag ich doch.
+
+00:09:18.160 --> 00:09:20.480
+<v Gast 1>Gehen wir zu erfreulicheren Themen.
+
+00:09:20.640 --> 00:09:21.520
+<v Markus>Erfreulicheren Themen.
+
+00:09:21.840 --> 00:09:23.360
+<v Gast 1>Zum Beispiel zum Toten der Woche.
+
+00:09:23.920 --> 00:09:26.800
+<v l33tname>Naja, erfreulich finde ich jetzt ein bisschen gewagt, aber.
+
+00:09:27.120 --> 00:09:28.880
+<v Markus>Genau, Tote sind selten erfreulich.
+
+00:09:28.960 --> 00:09:31.280
+<v Markus>Aber gut, das ist es dann für jetzt zu Frostcon.
+
+00:09:31.600 --> 00:09:33.920
+<v Markus>Mal gucken, ob uns noch was einfällt, gleich.
+
+00:09:35.040 --> 00:09:39.520
+<v Markus>Wer gestorben ist in letzter Zeit oder für tot erklärt wurde, vielmehr,
+
+00:09:39.840 --> 00:09:43.120
+<v Markus>ist das allseits beliebte Chat-Tool Hipchat.
+
+00:09:43.440 --> 00:09:49.920
+<v Markus>Da hat der Hersteller Atlesnium beschlossen, das einzustellen und den Kunden zu raten, zu Slack zu migrieren.
+
+00:09:51.200 --> 00:09:55.680
+<v Markus>In der dazugehörigen Hacker-News-Diskussion war es sehr spannend zu beobachten,
+
+00:09:55.760 --> 00:10:02.720
+<v Markus>dass sich der CEO oder der CIO von Zullip
+
+00:10:02.720 --> 00:10:07.360
+<v Markus>direkt eingeschaltet hat und den Leuten erzählt hat, wie toll Zulip ist und ihnen angeboten hat,
+
+00:10:07.520 --> 00:10:10.320
+<v Markus>bestmöglich dabei zu unterstützen, dass man dahin migriert.
+
+00:10:10.720 --> 00:10:16.160
+<v Markus>Wir haben uns, also wir benutzen zurzeit in der Firma HipChat und haben uns dann Zullip auch mal angeschaut.
+
+00:10:16.320 --> 00:10:20.400
+<v Markus>Das Interessante dabei ist, dass die ihre Streams und Themen anders sortieren,
+
+00:10:20.560 --> 00:10:23.440
+<v Markus>als das bei klassischen Tools der Fall ist.
+
+00:10:23.760 --> 00:10:28.000
+<v Markus>Und selber damit an den Start gehen, dass sie sagen, so finden sich Leute,
+
+00:10:28.080 --> 00:10:32.640
+<v Markus>die auseinander Timezone sich zwischendurch mal einklinken, viel besser zurecht als die Leute,
+
+00:10:32.720 --> 00:10:37.680
+<v Markus>die einfach zeitgleich chatten können und andere dann ausgrenzen,
+
+00:10:37.760 --> 00:10:39.840
+<v Markus>die eben nicht vor Ort sind.
+
+00:10:41.920 --> 00:10:48.480
+<v Markus>Ja, insgesamt schade, weil Hipchat ein ganz cooles Tool ist, was sich on-premise hosten ließ.
+
+00:10:48.800 --> 00:10:55.440
+<v Markus>Und auch schade, dass die dann als Ersatzslack vorschlagen und die
+
+00:10:55.440 --> 00:10:57.440
+<v Markus>Leute dann in die Claus schieben, sozusagen.
+
+00:10:57.680 --> 00:10:59.200
+<v Gast 1>Wisst ihr schon, wo ihr hin migrieren wollt?
+
+00:10:59.360 --> 00:11:00.720
+<v Markus>Nee, wir haben es noch nicht entschieden.
+
+00:11:03.120 --> 00:11:07.200
+<v Markus>Es ist ja auch nicht so, dass der Hipchat-Server dann ja von heute auf morgen unbrauchbar wird.
+
+00:11:07.280 --> 00:11:09.200
+<v Markus>Er wird halt nicht mehr weiterentwickelt und nicht mehr gepflegt.
+
+00:11:09.520 --> 00:11:11.280
+<v Markus>Genau, wir sind noch dabei zu evaluieren.
+
+00:11:11.360 --> 00:11:18.080
+<v Markus>Es gibt dann noch RocketChat als andere Kandidaten oder ich will gerade
+
+00:11:18.080 --> 00:11:19.840
+<v Markus>Mastodon sagen, aber das ist das Falsche.
+
+00:11:21.600 --> 00:11:25.600
+<v Markus>Riot Matrix, wie heißt denn das, was in GitLab integriert ist?
+
+00:11:25.760 --> 00:11:26.400
+<v Markus>Metamost.
+
+00:11:26.880 --> 00:11:28.880
+<v Markus>Metamost, genau, das schauen wir noch an.
+
+00:11:29.040 --> 00:11:35.920
+<v Markus>Ja, die Kandidaten, sowohl die Kandidatenliste als auch die Kriterienliste sind noch nicht ganz final und
+
+00:11:35.920 --> 00:11:38.080
+<v Markus>dementsprechend ist das Rennen noch offen.
+
+00:11:39.120 --> 00:11:45.920
+<v l33tname>Es gibt ja, wenn wir jetzt gerade bei so Dingen sind, dieses Hangouts,
+
+00:11:46.160 --> 00:11:52.800
+<v l33tname>also es gibt ja schon lange dieses Hangouts von Google und es gibt jetzt irgendwie auch noch so einen
+
+00:11:52.800 --> 00:11:58.880
+<v l33tname>Hangout-Chat mit dem habe ich irgendwie letztens mal ein bisschen rumgeklickt und es ist echt seltsam,
+
+00:11:58.960 --> 00:12:05.360
+<v l33tname>wie die irgendwie ihr Threading und ihre Rooms und so machen.
+
+00:12:06.080 --> 00:12:12.560
+<v l33tname>Und ich glaube, aktuell kann man das auch nur irgendwie mit der Google Suite oder so zusammen benutzen,
+
+00:12:12.640 --> 00:12:15.360
+<v l33tname>wenn man dafür zahlt und irgend sowas, aber es.
+
+00:12:15.760 --> 00:12:19.760
+<v Markus>Ja, und es wird auch nicht on-premise sein und damit ist man halt direkt bei dem primären Grund,
+
+00:12:19.840 --> 00:12:24.640
+<v Markus>warum sich Leute, die bis jetzt nicht bei Slack sind, eigentlich immer noch dagegen wären,
+
+00:12:24.720 --> 00:12:25.760
+<v Markus>zu Slack zu wechseln.
+
+00:12:25.920 --> 00:12:32.880
+<v Gast 1>Was noch ganz interessant war, in der letzten Folge des Podcasts akronymisierbar war jemand aus
+
+00:12:32.880 --> 00:12:39.440
+<v Gast 1>der, ich glaube, ein Community-Manager von Rust oder aus dem Rust-Umfeld zu Gast und der hatte sich auch mal
+
+00:12:39.440 --> 00:12:44.800
+<v Gast 1>so diverse Chatdienste, Chatplattformen angeguckt, insbesondere mit dem Hinblick auf
+
+00:12:44.960 --> 00:12:49.680
+<v Gast 1>Moderationsfähigkeit und ja auch, erzählt auch ein bisschen was zu Zulip,
+
+00:12:50.160 --> 00:12:51.120
+<v Gast 1>zu Slack.
+
+00:12:51.280 --> 00:12:54.480
+<v Gast 1>Und letztendlich haben sie sich zu, haben sich für Discord entschieden,
+
+00:12:54.560 --> 00:13:00.480
+<v Gast 1>was natürlich auch wieder nicht on-premise hostbar ist, weil Discord kommt halt so aus der Gamer-Szene und da
+
+00:13:00.480 --> 00:13:05.600
+<v Gast 1>braucht man halt mitunter einen schnellen Blockfinger, was Moderation angeht.
+
+00:13:07.760 --> 00:13:10.800
+<v Gast 1>Ja, Riot hat er sich zum Beispiel auch angeguckt, aber hat sich beschwert,
+
+00:13:10.880 --> 00:13:15.520
+<v Gast 1>dass dort die Moderations-API halt noch nicht besonders gut dokumentiert ist.
+
+00:13:15.920 --> 00:13:21.520
+<v Gast 1>Denn tatsächlich sind in Riot, also in dem so halboffiziellen Client,
+
+00:13:21.600 --> 00:13:27.840
+<v Gast 1>der halt, wo halt auch ein paar Decor-Entwickler dran arbeiten, ein paar Decor-Matrix-Matrix-Entwickler dran
+
+00:13:27.840 --> 00:13:31.360
+<v Gast 1>arbeiten, sind halt schon ein paar Features drin, die noch nicht wirklich dokumentiert sind.
+
+00:13:31.520 --> 00:13:34.800
+<v Gast 1>Da arbeiten sie gerade dran, irgendwie Dokumentation mal wieder ein bisschen zu pflegen.
+
+00:13:34.960 --> 00:13:38.320
+<v Markus>Ja, Dokumentation sollte man direkt beim Entwickeln pflegen, ansonsten macht man es nicht mehr.
+
+00:13:38.480 --> 00:13:40.960
+<v Gast 1>Also Riot und Matrix kann man selbst hosten, aber.
+
+00:13:45.200 --> 00:13:51.840
+<v Markus>Ja, Riot finde ich einen interessanten Namen für so ein Chat-Tool und die Moderations-API-Geschichte kommt
+
+00:13:51.840 --> 00:13:52.720
+<v Markus>halt immer auf den Kontext an.
+
+00:13:52.800 --> 00:13:56.320
+<v Markus>Also ich hoffe jetzt, dass man firmen intern keine großartige Moderation zu machen.
+
+00:13:56.400 --> 00:13:58.400
+<v Gast 1>Ja, genau, und das hat er auch festgestellt zu Slack.
+
+00:13:58.480 --> 00:14:03.680
+<v Gast 1>Slack ist halt tatsächlich einfach auf Firmenkommunikation ausgerichtet und halt nicht für offene Communities.
+
+00:14:03.840 --> 00:14:08.080
+<v Gast 1>Früher war es ja so, dass man tatsächlich auch irgendwie sich obskure,
+
+00:14:08.160 --> 00:14:12.080
+<v Gast 1>krude Wege über die API basteln musste, um überhaupt Leute extern sich,
+
+00:14:12.560 --> 00:14:15.600
+<v Gast 1>dass Leute überhaupt von selbst irgendwelchen Gruppen joinen konnten.
+
+00:14:15.840 --> 00:14:16.960
+<v Markus>Ja, wobei das haben sie irgendwie.
+
+00:14:17.440 --> 00:14:20.640
+<v Gast 1>Und die E-Mail-Adresse ist irgendwie immer öffentlich, weil ist ja im Unternehmen total praktisch,
+
+00:14:20.720 --> 00:14:25.280
+<v Gast 1>dass man jeden aus jeder Abteilung anschreiben kann, aber wenn dann irgendwie das alles plötzlich öffentlich
+
+00:14:25.280 --> 00:14:30.960
+<v Gast 1>in einer großen Open Source Community ist, dann könnte es doch irgendwann nervig werden.
+
+00:14:32.560 --> 00:14:36.240
+<v Markus>Irgendeine E-Mail ist immer öffentlich, ist ja auch auf GitHub so.
+
+00:14:36.320 --> 00:14:39.360
+<v Markus>Mit irgendeiner E-Mail-Adresse repräsentiert man sich da.
+
+00:14:41.440 --> 00:14:46.320
+<v Markus>Ja, es ist halt irgendein Identifikationsmerkmal will man dann doch immer haben.
+
+00:14:46.480 --> 00:14:50.640
+<v Markus>Und auch wenn es ein anonymisierbares ist, zumindest ist es ein Merkmal.
+
+00:14:50.800 --> 00:14:52.320
+<v Gast 1>Die Frage ist ja, ob es öffentlich ist.
+
+00:14:52.400 --> 00:14:55.600
+<v Gast 1>Also natürlich musst du dich damit gegenüber dem Dienst irgendwie authentifizieren.
+
+00:14:55.760 --> 00:14:58.240
+<v Markus>Ja, du willst dich ja nicht nur gegenüber dem Dienst authentifizieren,
+
+00:14:58.320 --> 00:15:00.960
+<v Markus>du willst auch dich gegenüber der Community authentifizieren.
+
+00:15:01.120 --> 00:15:05.280
+<v Gast 1>Ja, aber es ist dann auch die Frage, ob es alle sehen müssen oder zum Beispiel nur die Channel-Mods.
+
+00:15:06.240 --> 00:15:08.480
+<v Markus>Ich bin der Meinung zum gewissen Grad schon alle.
+
+00:15:11.840 --> 00:15:13.520
+<v Gast 1>Ja, könnte man da drüber streiten.
+
+00:15:13.600 --> 00:15:16.080
+<v Gast 1>Es ist halt schon ein gewisses Abuse-Potenzial.
+
+00:15:16.480 --> 00:15:21.280
+<v Gast 1>Also alle Informationen, die irgendwie öffentlich scraebbar sind, werden halt auch zu Spam-Zwecken verwendet
+
+00:15:21.280 --> 00:15:21.600
+<v Gast 1>werden.
+
+00:15:22.000 --> 00:15:23.920
+<v Markus>Ja, das ist der Nachteil, das stimmt.
+
+00:15:24.160 --> 00:15:28.640
+<v Markus>Und ein automatisches Mapping von Userprofilen, wie die Leute,
+
+00:15:28.880 --> 00:15:33.840
+<v Markus>die so Cambridge Analytica sich angeschaut haben, wie es funktioniert hat und das mit denen Daten dann
+
+00:15:33.840 --> 00:15:39.040
+<v Markus>hingegangen wurde und gegen das öffentliche Netz gematcht wurde und geguckt wurde,
+
+00:15:39.840 --> 00:15:42.800
+<v Markus>wo einem Benutzerprofil sich sonst noch bewegt.
+
+00:15:44.000 --> 00:15:49.600
+<v Markus>Bevor wir in die Richtung abgrenzen, noch ein Kommentar zu dieser G Google Suite.
+
+00:15:49.920 --> 00:15:53.440
+<v Markus>Abgesehen davon, dass man da natürlich auch dieses Cloud-Argument hat.
+
+00:15:53.600 --> 00:15:56.640
+<v Markus>Vielleicht sind die mit der komischen Sortierung von den Chaträumen und so,
+
+00:15:56.720 --> 00:15:59.280
+<v Markus>sind die da aber auch von Google Wave beeinflusst worden.
+
+00:15:59.440 --> 00:16:03.840
+<v Markus>Also vielleicht ist dieses, vielleicht ist das ja der Nachfolger von Google Wave.
+
+00:16:04.320 --> 00:16:10.880
+<v l33tname>Das kann natürlich sein, aber dann wird es vielleicht auch das gleiche Schicksal erleiden wie Google
+
+00:16:10.880 --> 00:16:11.440
+<v l33tname>Wave.
+
+00:16:11.920 --> 00:16:13.280
+<v l33tname>Ich weiß nicht, mit der Innenbedingung.
+
+00:16:13.680 --> 00:16:14.880
+<v Markus>Das ist immer noch tragisch.
+
+00:16:14.960 --> 00:16:16.960
+<v Markus>Das hatte echt Potenzial, das Ding.
+
+00:16:17.600 --> 00:16:17.920
+<v Markus>Ja.
+
+00:16:20.960 --> 00:16:27.200
+<v Gast 1>Kommen wir zu etwas anderem, was auch kaputt gegangen wurde, wenn auch schon mit ziemlich langer Ankündigung.
+
+00:16:27.360 --> 00:16:29.840
+<v Gast 1>Und zwar die Twitter-Streaming-API.
+
+00:16:31.200 --> 00:16:34.400
+<v Gast 1>Dadurch sind auch relativ viele Twitter-Clients kaputt gegangen.
+
+00:16:34.720 --> 00:16:39.280
+<v Gast 1>Das betrifft zum Beispiel relativ viele populäre, insbesondere,
+
+00:16:39.600 --> 00:16:45.920
+<v Gast 1>ich habe das Gefühl, insbesondere iOS-Clients, also Tweetbot und Twitterfic haben die benutzt und
+
+00:16:46.560 --> 00:16:52.320
+<v Gast 1>unter Linux zum Beispiel Corbert und ich glaube, unter Android hat auch Twidere das benutzt.
+
+00:16:53.600 --> 00:17:00.160
+<v Gast 1>Genau, diese Streaming API ist halt eine API, die laut Twitter-internen Informationen
+
+00:17:00.480 --> 00:17:07.440
+<v Gast 1>schon seit diversen Jahren ziemlich deprecated ist und wo
+
+00:17:07.440 --> 00:17:09.760
+<v Gast 1>Twitter halt einfach keinen Bock hat, die weiter zu pflegen.
+
+00:17:10.480 --> 00:17:16.400
+<v Gast 1>Das ist Tol an dieser Streaming-API ist eben, dass man einmal eine TCP-Connection aufgemacht hat und dann
+
+00:17:16.400 --> 00:17:20.800
+<v Gast 1>einfach immer jegliche Events, die für den eigenen Account interessant waren,
+
+00:17:20.960 --> 00:17:25.600
+<v Gast 1>einfach als Stream reinbekommen hat, wodurch dann eben so Features möglich waren wie
+
+00:17:27.840 --> 00:17:34.640
+<v Gast 1>Echtzeitaktualisierung der Retweet-Zahl, der Like-Zahl und ja auch
+
+00:17:34.640 --> 00:17:41.600
+<v Gast 1>eben eine sofortige, das sofortige Anzeigen von neuen Nachrichten, von neuen Tweets und dass man eben nicht
+
+00:17:41.600 --> 00:17:44.720
+<v Gast 1>alle zwei Minuten pollen muss und sich die Dinge abholt.
+
+00:17:44.880 --> 00:17:51.680
+<v Gast 1>Ja, die wurde jetzt eben deprecated und durch eine andere Activity-API
+
+00:17:51.680 --> 00:17:58.560
+<v Gast 1>ersetzt, aber die basiert auf Webhooks, ist dadurch nicht wirklich brauchbar für Twitter-Client-Entwickler
+
+00:17:58.640 --> 00:18:03.760
+<v Gast 1>und außerdem möchte Twitter dafür, dass man dort relativ viel Kohle auf den Tisch legt für Zugriff darauf.
+
+00:18:04.960 --> 00:18:09.920
+<v Gast 1>Ja, und dadurch sind eben gerade Third-Party-Twitter-Clients,
+
+00:18:10.240 --> 00:18:14.160
+<v Gast 1>die ja eh schon ziemlich lange recht stiefmütterlich behandelt wurden,
+
+00:18:15.120 --> 00:18:17.040
+<v Gast 1>nochmal weniger benutzbar.
+
+00:18:17.760 --> 00:18:20.800
+<v Gast 1>Ja, die Frage ist halt, warum ist das so tragisch?
+
+00:18:22.320 --> 00:18:27.120
+<v Gast 1>Ja, neben der Werbung, über die man sich jetzt halt streiten kann, wie störend sie ist,
+
+00:18:27.680 --> 00:18:34.080
+<v Gast 1>ist es ja vor allem so, dass seit einer Weile ja in allen offiziellen Twitter-Apps und der Website eben keine
+
+00:18:34.080 --> 00:18:40.160
+<v Gast 1>vollchronologische Timeline mehr drin ist, sondern eben unter anderem sie irgendwie algorithmisch sortiert
+
+00:18:40.160 --> 00:18:45.920
+<v Gast 1>ist, einem auch durchaus mal eben irgendwelche Likes von vor zwei Tagen reingeworfen werden.
+
+00:18:46.800 --> 00:18:51.440
+<v Gast 1>Und zumindest meiner Ansicht nach, dass Twitter nicht mehr wirklich benutzbar macht.
+
+00:18:53.040 --> 00:18:55.200
+<v Markus>Ja, immer weniger benutzbar auf jeden Fall.
+
+00:18:56.400 --> 00:18:56.800
+<v Markus>Genau.
+
+00:18:57.040 --> 00:19:01.120
+<v l33tname>Finde das ja eigentlich gut, weil ich sowieso zu viel Zeit auf Twitter verwende.
+
+00:19:01.840 --> 00:19:04.640
+<v l33tname>Verschwende und wenn ich dann halt weniger Zeit drauf verschwende, finde ich,
+
+00:19:04.720 --> 00:19:06.480
+<v l33tname>ist das ein Frage, ob es das besser macht, wenn du.
+
+00:19:06.720 --> 00:19:11.120
+<v Markus>Du bist also der Meinung, nur weil du dich nicht mäßigen kannst, müssen jetzt alle ihre primären Social
+
+00:19:11.200 --> 00:19:12.320
+<v Markus>Plattformen auswählen.
+
+00:19:12.720 --> 00:19:16.080
+<v l33tname>Das sage ich jetzt nicht so direkt, aber ich sehe das positiv für mich.
+
+00:19:17.120 --> 00:19:19.600
+<v l33tname>Das ist scheiße für alle anderen ist, ja, okay.
+
+00:19:19.920 --> 00:19:21.200
+<v l33tname>Sehe ich schon ein.
+
+00:19:22.880 --> 00:19:23.520
+<v l33tname>Aber ja.
+
+00:19:23.760 --> 00:19:27.520
+<v l33tname>Wir werden ja nachher noch ausführlich darüber sprechen, was sonst cool ist.
+
+00:19:27.840 --> 00:19:34.320
+<v Gast 1>Genau, aufgrund dieser Änderungen wurde dann eben mal wieder ein prähistorischer Elefant durch das
+
+00:19:34.320 --> 00:19:36.960
+<v Gast 1>Internetdorf getrieben, aber dazu kommen wir später.
+
+00:19:37.280 --> 00:19:42.400
+<v Gast 1>Was sonst noch ansteht, also diese eine Twitter API wurde jetzt halt schon abgeschafft.
+
+00:19:43.200 --> 00:19:48.960
+<v Gast 1>Was jetzt noch am Horizont steht im September, sollen neue
+
+00:19:49.200 --> 00:19:51.520
+<v Gast 1>API-Limitierungen eingeführt werden.
+
+00:19:52.480 --> 00:19:58.640
+<v Gast 1>Und zwar soll erstmal standardmäßig pro Client, also pro API-Key,
+
+00:19:59.050 --> 00:20:05.930
+<v Gast 1>Das heißt, beispielsweise für alle Nutzer von Tweetbot zusammen sollen dann solche
+
+00:20:05.930 --> 00:20:12.250
+<v Gast 1>schönen Limitierungen wie maximal kombiniert Tweets und Retweets 300
+
+00:20:12.570 --> 00:20:19.210
+<v Gast 1>Stück pro drei Stunden über alle Benutzer dieses Clients und 1000 Likes pro 24
+
+00:20:19.210 --> 00:20:20.490
+<v Gast 1>Stunden und sowas.
+
+00:20:23.450 --> 00:20:30.170
+<v Gast 1>Twitter sagt aber, wenn die Entwickler glaubhaft darstellen können und
+
+00:20:30.890 --> 00:20:37.290
+<v Gast 1>sich dann nochmal neu anmelden und verifizieren, dass dann sie natürlich auch wieder etwas höhere Limits
+
+00:20:37.290 --> 00:20:40.890
+<v Gast 1>bekommen können, aber das könnte auch wieder noch interessant werden.
+
+00:20:42.170 --> 00:20:48.250
+<v Gast 1>Wie kaputt dann eben die User Experience für Third-Party-Clients gemacht wird weiterhin.
+
+00:20:49.130 --> 00:20:55.290
+<v Markus>Ja, es fühlt sich halt irgendwie komisch an, dass sie scheinbar in jeglicher Ignoranz darüber,
+
+00:20:55.370 --> 00:21:00.250
+<v Markus>wie die Leute gewohnt sind, die Plattform zu nutzen und was die Leute an der Plattform wirklich schätzen,
+
+00:21:00.810 --> 00:21:05.610
+<v Markus>anfangen, Monetarisierungsmodelle durchzusetzen, ohne Rücksicht auf Verluste.
+
+00:21:06.810 --> 00:21:11.770
+<v Gast 1>Naja, Twitter schreibt halt, die versuchen halt trotzdem irgendwann mal nicht mehr rote Zahlen zu schreiben.
+
+00:21:11.850 --> 00:21:17.530
+<v Gast 1>Aber das Problem ist auch, es ist schon relativ symptomatisch, dass irgendwie deren Plattformchef irgendwie
+
+00:21:17.530 --> 00:21:24.330
+<v Gast 1>geschrieben hat, dass sie überzeugt sind, dass sie die beste Experience eben über die durch
+
+00:21:24.330 --> 00:21:29.530
+<v Gast 1>sie geownten Produkte, wie halt die Website und die In-house-Twitter-Apps hinkriegen.
+
+00:21:29.690 --> 00:21:35.530
+<v Gast 1>Aber das ist halt, das ignoriert halt eben komplett, dass eben es nicht unbedingt nur eine Experience gibt,
+
+00:21:35.610 --> 00:21:38.970
+<v Gast 1>sondern das Tolle, was, glaube ich, auch zu Twitters Erfolg beigetragen hat,
+
+00:21:39.050 --> 00:21:42.330
+<v Gast 1>ist eben, dass verschiedene Leute eben verschiedene Bedarfe haben.
+
+00:21:42.490 --> 00:21:47.130
+<v Gast 1>Und gerade Leute, gerade Menschen, die irgendwie schon lange dabei sind,
+
+00:21:48.090 --> 00:21:50.890
+<v Gast 1>ja, haben sich dann halt auch mal an irgendeinen Workflow gewöhnt.
+
+00:21:51.930 --> 00:21:54.010
+<v Gast 1>Der hat halt gut funktioniert bis jetzt.
+
+00:21:55.130 --> 00:21:59.850
+<v Markus>Nicht umsonst wird Twitter eigentlich bei diesen ganzen, wir müssen eine API haben,
+
+00:22:00.090 --> 00:22:06.890
+<v Markus>Hype Themen, wo größere Unternehmen irgendwie Unternehmen, die von Daten leben oder in ihrem Wirtschaften
+
+00:22:07.050 --> 00:22:12.970
+<v Markus>Daten produzieren und davon profitieren, wenn jemand anders diese Daten kreativ weiterverwendet,
+
+00:22:13.850 --> 00:22:16.330
+<v Markus>dass sie das damit bewerben, dass Twitter ja auch groß geworden ist,
+
+00:22:16.410 --> 00:22:20.730
+<v Markus>weil sie eine API hatten und die Leute dann auf die Plattform zugreifen konnten.
+
+00:22:20.970 --> 00:22:26.330
+<v Markus>Und jetzt wirkt Twitter dieses große positive Merkmal so ab.
+
+00:22:26.650 --> 00:22:30.250
+<v Gast 1>Was halt recht interessant ist, dass die eigentlich die größten Core-Features,
+
+00:22:30.410 --> 00:22:36.730
+<v Gast 1>die Twitter heutzutage eben ausmachen, ja gerade durch die Nutzer erfunden wurden und dann tatsächlich
+
+00:22:36.730 --> 00:22:40.010
+<v Gast 1>irgendwann eben ja ins Produkt gegossen wurden.
+
+00:22:40.090 --> 00:22:43.770
+<v Gast 1>Also beispielsweise die Retweets haben halt einfach damit angefangen,
+
+00:22:43.850 --> 00:22:46.490
+<v Gast 1>dass Leute Tweets kopiert haben und RT davor geschrieben haben.
+
+00:22:46.730 --> 00:22:48.570
+<v Gast 1>Dann wurde es irgendwann zu einem nativen Feature.
+
+00:22:48.650 --> 00:22:51.370
+<v Gast 1>Und auch die Hashtags kamen eben von den Nutzern.
+
+00:22:52.650 --> 00:22:53.610
+<v l33tname>Und all sowas.
+
+00:22:54.010 --> 00:22:56.330
+<v Markus>Und sehr kreativ aufgegriffen dann einfach, ja.
+
+00:22:56.570 --> 00:23:03.530
+<v Gast 1>Aber naja, schauen wir mal, wie rigide Twitter dann noch die API weiter zumacht.
+
+00:23:06.410 --> 00:23:12.090
+<v Gast 1>Genau, äh, unter Desktop Linux gibt es ja eh nicht mehr besonders viele benutzbare Twitter-Clients.
+
+00:23:12.650 --> 00:23:15.370
+<v Gast 1>Korbert funktioniert wie gerade erwähnt nicht mehr.
+
+00:23:16.250 --> 00:23:21.690
+<v Gast 1>Es gibt mittlerweile einen Fork, der Korbert auf eben das Polling-Modell umschreibt.
+
+00:23:22.170 --> 00:23:25.850
+<v Gast 1>Falls da Bedarf besteht, schreibe ich den mal in die Shownotes.
+
+00:23:26.090 --> 00:23:32.890
+<v Markus>Ja, und was das für Folgen hat, dass wir die Twitter API und vielleicht damit auch Twitter als Plattform,
+
+00:23:33.050 --> 00:23:35.370
+<v Markus>wie wir sie kennen, als Toten der Woche besingen.
+
+00:23:35.850 --> 00:23:37.690
+<v Markus>Dazu kommen wir nach den News.
+
+00:23:39.610 --> 00:23:43.370
+<v Markus>Was gibt es denn Neues aus dem Leadnamen Land?
+
+00:23:45.370 --> 00:23:50.410
+<v l33tname>Beispielsweise das NetBSD8 ist released worden.
+
+00:23:51.210 --> 00:23:56.570
+<v l33tname>Wir hatten ja schon vermutlich letzte oder vorletzte Sendung mal kurz,
+
+00:23:56.650 --> 00:24:00.970
+<v l33tname>dass es jetzt auch irgendwie fertige Images für ARM64 gibt.
+
+00:24:03.050 --> 00:24:07.530
+<v l33tname>Genau, und sie haben jetzt halt irgendwie sonst noch so ein paar Features drin.
+
+00:24:08.010 --> 00:24:12.570
+<v l33tname>Der USB-Stack ist irgendwie gereworked worden.
+
+00:24:12.650 --> 00:24:18.890
+<v l33tname>Sie haben da jetzt auch USB 3 Support endlich, das irgendwie am Audio haben sie geschraubt.
+
+00:24:19.210 --> 00:24:26.090
+<v l33tname>Sie haben die Security Features weiter ausgebaut.
+
+00:24:26.250 --> 00:24:31.770
+<v l33tname>Dieses Memory Protection, dass irgendwie Memory,
+
+00:24:31.850 --> 00:24:36.410
+<v l33tname>der Code ausführt, nicht überschrieben werden kann und so.
+
+00:24:37.370 --> 00:24:39.530
+<v l33tname>Und halt irgendwie so Bugfixes.
+
+00:24:39.690 --> 00:24:44.970
+<v l33tname>Und wie wir uns ja alle erinnern, lief da ganz viel so mit Meltdown und Spectre,
+
+00:24:45.050 --> 00:24:47.130
+<v l33tname>für das haben sie Patches ausgerollt.
+
+00:24:49.530 --> 00:24:54.330
+<v l33tname>Und ich habe meine kleine NetBSD-Kiste,
+
+00:24:54.490 --> 00:25:01.050
+<v l33tname>was bei mir auf dem Raspberry Pi läuft, mal geupdatet und das läuft.
+
+00:25:01.690 --> 00:25:02.810
+<v l33tname>Ich habe irgendwie nicht.
+
+00:25:04.170 --> 00:25:06.410
+<v l33tname>Irgendwie habe ich so einen komischen Displaybug.
+
+00:25:06.490 --> 00:25:10.410
+<v l33tname>Ich weiß nicht, ob das an NetBSD 8 liegt oder an meiner Hardware.
+
+00:25:11.690 --> 00:25:14.010
+<v l33tname>Aber sonst hatte ich irgendwie keine Probleme.
+
+00:25:14.170 --> 00:25:19.770
+<v l33tname>Und da ich eh zu 99% mit SSH drauf zugreife,
+
+00:25:19.850 --> 00:25:24.890
+<v l33tname>ist mir das auch ein bisschen egal, dass es nicht so richtig funktioniert.
+
+00:25:24.970 --> 00:25:29.210
+<v l33tname>Das hat so komische Artefakte, wenn man das Display anschließt, aber ja,
+
+00:25:29.370 --> 00:25:31.370
+<v l33tname>mit dem lebe ich jetzt aktuell einfach.
+
+00:25:33.450 --> 00:25:36.090
+<v Gast 1>Kommen wir zur zweitwichtigsten ZFS-Plattform.
+
+00:25:36.570 --> 00:25:37.770
+<v l33tname>Genau, React OS.
+
+00:25:37.850 --> 00:25:41.210
+<v l33tname>Ich weiß gar nicht, ob ZFS überhaupt auf React OS läuft.
+
+00:25:41.450 --> 00:25:47.770
+<v l33tname>Ich würde mal schätzen, klares vielleicht, weil unter Windows gibt es ja jetzt ein ZFS.
+
+00:25:49.130 --> 00:25:52.330
+<v l33tname>Und der Port scheint auch irgendwie recht vorwärts zu gehen.
+
+00:25:52.410 --> 00:25:58.330
+<v l33tname>Also irgendwie so Windows und ZFS ist vielleicht, kann man vielleicht bald schon benutzen.
+
+00:25:58.650 --> 00:26:01.450
+<v l33tname>Also man kann es schon benutzen, ich weiß noch nicht, wie stabil es ist,
+
+00:26:01.610 --> 00:26:03.690
+<v l33tname>selber habe ich es noch nicht ausprobiert.
+
+00:26:04.330 --> 00:26:08.650
+<v l33tname>Und ReactOS ist ja dieser Windows, dieser offene Windows-Nachbau.
+
+00:26:08.970 --> 00:26:12.490
+<v l33tname>Und er wird jetzt stabiler und sie haben ein neues Released, voll gut.
+
+00:26:13.050 --> 00:26:16.650
+<v l33tname>Und zwar ist das ReactOS 049.
+
+00:26:17.610 --> 00:26:20.170
+<v l33tname>Und sie haben bestimmt neue Features, aber.
+
+00:26:20.490 --> 00:26:25.050
+<v Markus>Ja, der Artikel auf Heise liest sich schon so, als wenn du, ja, da ist eine neue Vision,
+
+00:26:25.290 --> 00:26:26.810
+<v Markus>aber so richtig was gibt's nicht.
+
+00:26:26.890 --> 00:26:29.210
+<v Markus>Hey, du kannst jetzt ZIP-Dateien entpacken.
+
+00:26:29.450 --> 00:26:29.770
+<v Markus>Ja.
+
+00:26:30.730 --> 00:26:36.010
+<v Markus>Aber es ist schön, also ich finde es trotzdem gut, dass sie es so deutlich berichten.
+
+00:26:36.170 --> 00:26:37.770
+<v Markus>Ich finde es schön, dass es das Projekt gibt.
+
+00:26:39.450 --> 00:26:41.130
+<v Markus>Ich weiß nicht, ob es die Mühe mehr wert ist.
+
+00:26:41.210 --> 00:26:45.610
+<v Markus>Ich finde, die Leute könnten sich lieber in interessantere Plattformen sich verwirklichen, aber gut.
+
+00:26:45.850 --> 00:26:51.930
+<v Gast 1>Ich möchte übrigens auf den kleinen Unterschied zwischen stabil und stabilär hinweisen.
+
+00:26:53.210 --> 00:26:57.450
+<v Markus>Ja, ja, im Artikel steht ja auch, es kommt jetzt zu weniger Fehlern beim Booten.
+
+00:26:58.170 --> 00:26:58.890
+<v Markus>Genau.
+
+00:27:00.010 --> 00:27:02.330
+<v l33tname>Der Windows-Nachbau wird stabiler.
+
+00:27:02.570 --> 00:27:03.610
+<v l33tname>Stabiler als was.
+
+00:27:03.770 --> 00:27:05.850
+<v l33tname>Ist auch immer eine Frage, zu was man das vergleicht.
+
+00:27:06.250 --> 00:27:07.450
+<v Markus>Ja, stabiler als vorher.
+
+00:27:07.610 --> 00:27:11.690
+<v Markus>Ich glaube, so im Sprachgebrauch heißt das einfach, wird stabiler, ist das so die Veränderung über Zeit.
+
+00:27:11.930 --> 00:27:15.770
+<v l33tname>Es wird besser als vorher, aber ich meine, was ist das für eine Aussage?
+
+00:27:16.250 --> 00:27:17.450
+<v Markus>Das ist eine positive.
+
+00:27:17.770 --> 00:27:23.210
+<v l33tname>Eine positive, aber wenn es vorher halt sehr schlecht war, dann ist es halt vielleicht immer noch schlecht.
+
+00:27:23.450 --> 00:27:27.690
+<v l33tname>Aber ja, ich finde das irgendwie ein bisschen cool, dass sie das immer noch irgendwie so machen und dass da
+
+00:27:27.690 --> 00:27:33.130
+<v l33tname>immer noch leidenschaftlich ist, dass das nicht tot ist, dass da Leute immer noch irgendwie das Gefühl haben,
+
+00:27:33.210 --> 00:27:37.130
+<v l33tname>ja, in meiner Freizeit habe ich dann diesen Windows-Nachbau.
+
+00:27:38.490 --> 00:27:41.930
+<v Gast 1>Ich möchte übrigens mal die Ankündigung von deren Webseite zitieren.
+
+00:27:42.090 --> 00:27:47.130
+<v Gast 1>They're talking about React OS 049, even if we're just Alpha.
+
+00:27:50.010 --> 00:27:50.970
+<v l33tname>Sehr schön.
+
+00:27:51.290 --> 00:27:57.290
+<v Markus>Mich würde mal interessieren, ob die React OS-Leute was von dem React.js-Hype mitbekommen haben,
+
+00:27:57.370 --> 00:28:00.570
+<v Markus>weil es da draußen Leute gibt, die das Ganze zusammenschmeiß und meinen,
+
+00:28:00.650 --> 00:28:04.410
+<v Markus>dass React OS mit React.js geschrieben wäre oder so ähnlich.
+
+00:28:05.370 --> 00:28:06.410
+<v l33tname>Interessante Frage.
+
+00:28:06.730 --> 00:28:11.050
+<v Gast 1>Was auf jeden Fall auf React OS läuft, bei ZFS sind wir uns ja nicht so ganz sicher,
+
+00:28:11.370 --> 00:28:16.170
+<v Gast 1>das Google Summer of Code-Projekt von 2018, Booting from ButterFS Works.
+
+00:28:16.330 --> 00:28:16.570
+<v Gast 1>Uh.
+
+00:28:17.050 --> 00:28:18.410
+<v Unbekannt>Way to go, ZFS.
+
+00:28:18.570 --> 00:28:19.050
+<v Unbekannt>Way to go.
+
+00:28:21.690 --> 00:28:22.330
+<v Unbekannt>Gut.
+
+00:28:23.850 --> 00:28:25.770
+<v l33tname>Wenn es ein richtiges Linux ist, dann.
+
+00:28:26.090 --> 00:28:27.370
+<v Gast 1>Es ist ja eben kein Linux.
+
+00:28:27.530 --> 00:28:28.890
+<v Gast 1>Es ist ein NT-Kernel.
+
+00:28:30.730 --> 00:28:32.090
+<v l33tname>Wer weiß das so genau?
+
+00:28:32.410 --> 00:28:35.130
+<v Markus>Ja, Moment, es ist ja kein NT-Kernel.
+
+00:28:35.210 --> 00:28:40.250
+<v Markus>Also es ist ja, sie tun, sie verstehen die API, die von einem NT-Kernel.
+
+00:28:40.650 --> 00:28:43.850
+<v Markus>Nein, sie bieten die API, die von einem NT-Kernel erwartet wird.
+
+00:28:44.010 --> 00:28:46.090
+<v Gast 1>Na doch, sie wollen einen NT-Kernel nachbauen.
+
+00:28:46.330 --> 00:28:50.730
+<v Gast 1>Also sie orientiert sich, glaube ich, auch an der Architektur.
+
+00:28:52.330 --> 00:28:55.290
+<v Markus>Das heißt.
+
+00:28:56.010 --> 00:29:00.250
+<v l33tname>Wenn wir jetzt wüssten, von was wir sprechen, wenn das irgendjemand mal irgendwann ausprobieren würde.
+
+00:29:00.730 --> 00:29:02.090
+<v Markus>Also ausprobiert habe ich es schon mehrfach.
+
+00:29:02.650 --> 00:29:05.290
+<v Markus>Also installiert in virtuellen Maschinen.
+
+00:29:05.930 --> 00:29:06.170
+<v Markus>Warum?
+
+00:29:06.330 --> 00:29:07.130
+<v l33tname>Also weil es geht, ne?
+
+00:29:07.530 --> 00:29:08.090
+<v l33tname>Ja, weil es geht, genau.
+
+00:29:08.250 --> 00:29:09.930
+<v Gast 1>Weil Henna Linux alt wird.
+
+00:29:11.210 --> 00:29:15.530
+<v Markus>Was ich noch nicht gemacht habe, was ich auch gedacht habe, wenn mal Zeit ist,
+
+00:29:15.690 --> 00:29:19.050
+<v Markus>das tatsächlich mal nativ auf einem Laptop zu installieren und mal gucken,
+
+00:29:19.130 --> 00:29:24.170
+<v Markus>wie weit man damit kommt, aber vorher kommen andere interessante Sachen.
+
+00:29:26.010 --> 00:29:28.890
+<v Markus>Sie bauen das mit der Architektur irritiert mich jetzt allerdings.
+
+00:29:28.970 --> 00:29:31.850
+<v Markus>Also ich meine, das ist, man weiß ja von dem von so einem NT-Kernel,
+
+00:29:31.930 --> 00:29:35.370
+<v Markus>dass der ganz schön historisch gewachsen war und ich weiß nicht, ob man die Architektur unbedingt,
+
+00:29:35.610 --> 00:29:37.210
+<v Markus>ob das erstrebenswert ist, die nachzubauen.
+
+00:29:37.290 --> 00:29:38.490
+<v l33tname>Ich glaube irgendwie auch nicht so ganz.
+
+00:29:39.050 --> 00:29:44.810
+<v Markus>Ich dachte ja immer, der sportliche Anspruch dabei wäre, die Funktionalität zur Verfügung zu stellen und einen
+
+00:29:44.810 --> 00:29:46.650
+<v Markus>inhärent besseren Kernel zu haben.
+
+00:29:46.890 --> 00:29:49.130
+<v l33tname>Ja, das wäre vielleicht.
+
+00:29:49.850 --> 00:29:55.450
+<v Gast 1>Wobei meines Wissens gilt zum Beispiel so ein NT-Kernel schon durchaus wenigstens als Hybrid-Kernel und ist
+
+00:29:55.450 --> 00:30:00.890
+<v Gast 1>damit aus Architektursicht zumindest schon mal ein bisschen besser als so ein Monolithischer Linux-Kernel.
+
+00:30:02.890 --> 00:30:03.370
+<v Gast 1>Das mag sein.
+
+00:30:03.610 --> 00:30:04.730
+<v Markus>Wesentlich mehr war er trotzdem.
+
+00:30:04.970 --> 00:30:06.730
+<v Gast 1>Wesentlich mehr kann ich dazu aber auch nicht sagen.
+
+00:30:07.290 --> 00:30:11.130
+<v Markus>Man kann ja jetzt nicht sagen, dass die Jungs damit irgendwie weitergekommen wären.
+
+00:30:12.570 --> 00:30:18.570
+<v l33tname>Also in eher offiziellen README schreiben sie, dass sie ein
+
+00:30:19.450 --> 00:30:26.330
+<v l33tname>Qualitäts-Operating System schreiben wollen, was kompatibel ist mit Applikationen
+
+00:30:26.330 --> 00:30:31.050
+<v l33tname>und Treibern, die geschrieben sind für Microsoft Windows NT.
+
+00:30:31.370 --> 00:30:37.610
+<v Gast 1>Und der aktuelle Build behauptet auch, wenn man die entsprechende API fragt, ein Windows NT 5.2 zu sein.
+
+00:30:39.450 --> 00:30:43.930
+<v Gast 1>Ich glaube, ein aktueller Windows, also ein Windows 7 ist, glaube ich, ein NT 6.irgendwas.
+
+00:30:44.970 --> 00:30:48.650
+<v Gast 1>Und ein Windows 10 ist keine Ahnung.
+
+00:30:49.770 --> 00:30:54.010
+<v Markus>Wir sollten uns wieder aus diesem Windows-Kontext entfernen,
+
+00:30:54.090 --> 00:30:57.450
+<v Markus>weil da haben wir wirklich noch weniger Ahnung, als wir üblicherweise schon haben.
+
+00:30:58.250 --> 00:31:01.210
+<v Markus>Was passiert denn bei Linux gerade so?
+
+00:31:01.610 --> 00:31:04.810
+<v Gast 1>Ja, genau, Linux soll jetzt ein GNSS-Subsystem bekommen.
+
+00:31:05.050 --> 00:31:12.010
+<v Gast 1>GNSS steht für Global Navigation Satellite System und umfasst dann halt eben solche Systeme wie
+
+00:31:12.010 --> 00:31:17.370
+<v Gast 1>GPS, Glonas ist die russische Variante, Galileo die europäische,
+
+00:31:17.450 --> 00:31:19.050
+<v Gast 1>die jetzt auch langsam funktional wird.
+
+00:31:19.130 --> 00:31:22.010
+<v Gast 1>Also man kann sie mittlerweile benutzen, um ein GPS-Fix zu bekommen.
+
+00:31:22.570 --> 00:31:26.810
+<v Gast 1>Die Chinesen haben dann noch Baidu und ja,
+
+00:31:27.290 --> 00:31:33.610
+<v Gast 1>das ist, das finde ich deshalb erwähnenswert, weil zumindest das, was ich bisher so in der Android-Welt
+
+00:31:33.610 --> 00:31:38.730
+<v Gast 1>gesehen habe, wie dort GPS-Treiber integriert wurden,
+
+00:31:39.130 --> 00:31:42.090
+<v Gast 1>war immer so eine relativ chaotische Sache.
+
+00:31:42.410 --> 00:31:46.970
+<v Gast 1>Die Frage ist natürlich, ob sich Android-Chipset-Hersteller davon beeindrucken lassen,
+
+00:31:47.050 --> 00:31:53.210
+<v Gast 1>dass es jetzt plötzlich eine offizielle API gibt oder ob sie weiterhin ihren Kram so halb ins Userland packen.
+
+00:31:53.850 --> 00:31:56.570
+<v Gast 1>Aber schauen wir mal, das ist vielleicht mal eine Chance, dass es nicht mehr so gut ist.
+
+00:31:57.690 --> 00:31:59.050
+<v l33tname>Es kann eigentlich nur besser werden.
+
+00:31:59.130 --> 00:32:03.610
+<v l33tname>Also selbst wenn sich irgendwie drei von vier Herstellern irgendwie an Standard halten,
+
+00:32:03.770 --> 00:32:07.530
+<v l33tname>ist das immer noch besser, als wenn sie irgendwie alle irgendwas hinkrepeln.
+
+00:32:07.850 --> 00:32:08.650
+<v l33tname>Genau.
+
+00:32:09.610 --> 00:32:14.810
+<v Markus>Ja, die Frage ist, ob Android-Gerätehersteller da überhaupt noch viel investieren,
+
+00:32:15.210 --> 00:32:18.090
+<v Markus>weil da ja der Android-Nachfolger in der Tür steht.
+
+00:32:18.330 --> 00:32:19.610
+<v Markus>Oder bin ich da zu forscht?
+
+00:32:19.690 --> 00:32:21.130
+<v Markus>Dauert ja noch, dauert das noch ein bisschen.
+
+00:32:21.450 --> 00:32:23.290
+<v l33tname>Ich glaube, das dauert noch ein Weilchen.
+
+00:32:24.410 --> 00:32:28.170
+<v l33tname>War der Android-Nachfolger nicht sowieso erstmal so ein, ja, wir schauen mal,
+
+00:32:28.250 --> 00:32:35.210
+<v l33tname>ob das überhaupt technisch viable ist und ob wir da überhaupt irgendwas hinkriegen
+
+00:32:35.210 --> 00:32:36.730
+<v l33tname>und wir sind noch gar nicht sicher.
+
+00:32:36.890 --> 00:32:40.810
+<v l33tname>Also zumindest erinnere ich mich nicht, dass ich irgendwas von Google gelesen hätte,
+
+00:32:40.970 --> 00:32:46.410
+<v l33tname>wo sie gesagt haben, das ist der Weg, den wir gehen werden und hier ist der Zeitplan,
+
+00:32:46.490 --> 00:32:47.530
+<v l33tname>wie wir da hinkommen.
+
+00:32:47.610 --> 00:32:51.370
+<v l33tname>Es war mehr so, wir spielen hier auch mal, wir probieren mal, was passiert,
+
+00:32:51.450 --> 00:32:53.130
+<v l33tname>wenn wir irgendwie alles selber bauen.
+
+00:32:53.290 --> 00:32:54.090
+<v l33tname>Ist das besser?
+
+00:32:54.330 --> 00:32:55.930
+<v l33tname>Funktioniert es besser, schlechter?
+
+00:32:56.410 --> 00:33:01.450
+<v Markus>Okay, ich hatte eben gedacht, sie hätten schon APIs vorgestellt, aber dann habe ich da offensichtlich was
+
+00:33:01.450 --> 00:33:02.250
+<v Markus>durcheinander geschmissen.
+
+00:33:02.330 --> 00:33:06.810
+<v Markus>Also gemeint ist übrigens Fuxia, dieses Betriebssystem, was Google vorgestellt hat,
+
+00:33:06.890 --> 00:33:11.450
+<v Markus>als potenzieller Nachfolger und wo vor einem knappen Jahr oder so dann erste Screenshots aufgetaucht wird.
+
+00:33:11.530 --> 00:33:18.010
+<v l33tname>Ja, aber eben halt so potenzieller Nachfolger, wir schauen mal, ob dieser Ansatz besser funktioniert und so.
+
+00:33:18.490 --> 00:33:19.850
+<v l33tname>Also und wie gesagt.
+
+00:33:20.330 --> 00:33:26.650
+<v Markus>Und Google ganz klar gesagt hat, Fuxia ist kein Linux und damit eigentlich ein Schrecken der Open Source
+
+00:33:26.730 --> 00:33:31.930
+<v Markus>Community eingejagt hat, weil damit klar wäre, dass Google erstmal nicht anstrebt,
+
+00:33:32.010 --> 00:33:36.090
+<v Markus>das Ganze wieder so offen darzulegen, was intern passiert, wie es bei Google,
+
+00:33:36.250 --> 00:33:37.530
+<v Markus>bei Android der Fall ist.
+
+00:33:38.650 --> 00:33:39.770
+<v Gast 1>Es ist auch kein GNU-Hurt.
+
+00:33:39.930 --> 00:33:44.090
+<v Gast 1>Also das Problem ist nicht hauptsächlich, dass es kein Linux ist, sondern das Problem ist halt hauptsächlich,
+
+00:33:44.970 --> 00:33:50.650
+<v Gast 1>dass es eben unter einer nicht, wenn überhaupt, dann unter eine Nicht-Copyleft-Lizenz gestellt wird und damit
+
+00:33:50.650 --> 00:33:54.810
+<v Gast 1>halt Google eben das letzte Stückchen GPL versucht loszuwerden.
+
+00:33:55.530 --> 00:34:01.450
+<v Markus>Ja, weg von der GPL, weg von Java ist so wahrscheinlich das, worunter Google das sieht.
+
+00:34:02.730 --> 00:34:06.170
+<v Markus>Dann ist allerdings die Frage, was wird dann die Systemsprache?
+
+00:34:06.810 --> 00:34:10.890
+<v Markus>Bevor wir uns da in Spekulation Go oder Dart.
+
+00:34:11.610 --> 00:34:15.930
+<v Gast 1>Oder mittlerweile wird ja auch dieses, wie heißt nochmal,
+
+00:34:16.090 --> 00:34:22.090
+<v Gast 1>diese Sprache, die jetzt auch in der JWM relativ populär wird, von Du meinst Kotlin.
+
+00:34:22.250 --> 00:34:22.810
+<v Gast 1>Genau, Kotlin.
+
+00:34:22.970 --> 00:34:25.610
+<v Markus>Aber dann ist es wieder Java, weil dann hast du wieder die Java-Plattform.
+
+00:34:26.090 --> 00:34:30.890
+<v Markus>Gut, Kotlin lässt sich auch nach JavaScript transpilieren, das stimmt.
+
+00:34:31.050 --> 00:34:37.690
+<v Markus>Du kannst die Sprache nehmen und sie überanders hin transpilieren, aber das Steckenpferd ist schon die JVM,
+
+00:34:37.770 --> 00:34:39.530
+<v Markus>Kotlin ist schon auch eine JVM-Sprache.
+
+00:34:39.770 --> 00:34:44.170
+<v Gast 1>Aber naja, so Google benutzt, Android benutzt ja auch schon nicht wirklich,
+
+00:34:44.490 --> 00:34:48.090
+<v Gast 1>hat ja nie wirklich eine richtige JVM benutzt, sondern die haben halt irgendwie mit dem Dalwig abgeschrieben.
+
+00:34:49.450 --> 00:34:52.650
+<v Gast 1>Mittlerweile benutzen sie ja diese Android-Runtime, die dann auch nochmal ein bisschen anders ist.
+
+00:34:52.810 --> 00:34:57.210
+<v Gast 1>Also sie selbst wenn sie Java verwenden, lassen sie JVM nehmen.
+
+00:34:57.290 --> 00:34:58.730
+<v Markus>Die Lizenzgebühren an Oracle-Zahlen.
+
+00:34:59.610 --> 00:35:00.810
+<v l33tname>Verstehe ich irgendwie auch.
+
+00:35:00.890 --> 00:35:04.650
+<v l33tname>Also möchte ich jetzt auch weniger Lizenzgebühren an Oracle zahlen.
+
+00:35:05.290 --> 00:35:12.170
+<v Markus>Wobei Oracle da ja gerade einen ganz anderen Weg einschlägt und es kostpflichtig macht in
+
+00:35:12.170 --> 00:35:18.890
+<v Markus>Zukunft, wenn du die Oracle Kits das One Time Environment oder das JDK in
+
+00:35:18.890 --> 00:35:21.290
+<v Markus>Produktion benutzen willst, musst du es in Zukunft lizenzieren.
+
+00:35:21.370 --> 00:35:22.650
+<v Markus>Das war ja bisher nicht so.
+
+00:35:23.050 --> 00:35:28.490
+<v Gast 1>Was natürlich wiederum ein relativ schwieriger Anreiz dafür ist, dass eigentlich das OpenJDK mittlerweile die
+
+00:35:28.490 --> 00:35:30.810
+<v Gast 1>Referenzimplementierung des Java-Standards sein sollte.
+
+00:35:30.970 --> 00:35:32.090
+<v Markus>Nee, genau, das ist auch so.
+
+00:35:32.810 --> 00:35:37.690
+<v Gast 1>Das ist die Frage, warum benutzt man dann noch das, äh, warum benutzt man dann noch das Oracle JDK und warum
+
+00:35:37.690 --> 00:35:39.050
+<v Gast 1>will man dann dafür auch noch Geld ausfinden?
+
+00:35:39.370 --> 00:35:45.690
+<v Markus>Weil Enterprise Enterprise fragt danach, wen können wir denn ankacken, wenn es nicht funktioniert?
+
+00:35:45.770 --> 00:35:49.130
+<v Markus>Und auf wen können wir uns verlassen, dass Security-Patches gemacht werden?
+
+00:35:49.290 --> 00:35:55.930
+<v Markus>Und das führt dazu, dass Enterprises tatsächlich relativ aufgeschlossen demgegenüber sind,
+
+00:35:56.090 --> 00:36:00.250
+<v Markus>jemanden Geld im Rachen zu schmeißen dafür, dass sie auf dem Papier Ansprüche haben.
+
+00:36:00.330 --> 00:36:04.810
+<v Gast 1>Ja, man kann aber auch jemandem Geld in den Rachen werfen und die Leute pflegen dann halt das Open JDK.
+
+00:36:04.890 --> 00:36:05.930
+<v Gast 1>Und dann ist es halt auch so ein bisschen so gut.
+
+00:36:07.050 --> 00:36:09.770
+<v Markus>Das sitzt nicht auf dem gleichen Scale und du hast nicht das.
+
+00:36:10.490 --> 00:36:12.330
+<v Gast 1>Ja, also die Sache ist, das bietet niemand an.
+
+00:36:12.810 --> 00:36:14.090
+<v Markus>Doch, doch, genau, das ist der Punkt.
+
+00:36:14.250 --> 00:36:21.210
+<v Markus>Also im Kontext vom Open JDK positionieren sich gerade einige Firmen, die genau das anbieten.
+
+00:36:21.690 --> 00:36:27.290
+<v Gast 1>Und ich sehe das halt als durchaus problematische Anreize, dass eben gerade wenn es wenn es Firmen gibt,
+
+00:36:27.530 --> 00:36:33.370
+<v Gast 1>die anbieten, die ohnehin vor eine Referenzimplementierung das OpenJDK zu pflegen und dann Oracle sagt,
+
+00:36:34.410 --> 00:36:39.130
+<v Gast 1>wir nehmen auch Geld dafür, dass wir unsere proprietäre Nicht-Referenzimplementierung pflegen.
+
+00:36:39.770 --> 00:36:43.130
+<v Markus>Nee, sie können nicht zu weit vom Standard abweichen.
+
+00:36:43.290 --> 00:36:46.890
+<v Markus>Und also IBM hat ja seinen eigenen, bietet Support an.
+
+00:36:47.050 --> 00:36:52.730
+<v Markus>Azul ist eine bis jetzt noch außerhalb der Szene relativ unbekannte Firma,
+
+00:36:52.810 --> 00:36:57.530
+<v Markus>wenn die mit ihrem Zulu, was ihre Variante vom OpenJDK dann ist,
+
+00:36:57.610 --> 00:37:02.090
+<v Markus>oder das der Name, unter dem sie Support anbieten, wenn die damit erfolgreich sind,
+
+00:37:02.650 --> 00:37:04.170
+<v Markus>werden die noch bekannter.
+
+00:37:05.530 --> 00:37:10.410
+<v Markus>Und wenn es mehrere solche Anbieter gedrängt hätte, ist natürlich auch ein ganz großer Player in dem Bereich.
+
+00:37:10.570 --> 00:37:13.690
+<v Markus>Wenn es mehrere solche Anbieter gibt, die auch alle Umsatz damit machen,
+
+00:37:13.770 --> 00:37:18.730
+<v Markus>dann wird das, dann wird der Java Standard und alles,
+
+00:37:18.890 --> 00:37:24.570
+<v Markus>was unter dieser standardisierten JVM läuft, dann wird das auch einigermaßen stabil bleiben.
+
+00:37:24.650 --> 00:37:29.530
+<v Markus>Dann werden die herstellerspezifischen Sachen nicht so eine große tragende Rolle bekommen.
+
+00:37:31.290 --> 00:37:38.250
+<v Markus>Man muss halt zusehen, dass es als Community weiterlebt und nicht von Oracle jetzt als Cashcau gemolken
+
+00:37:38.250 --> 00:37:38.490
+<v Markus>wird.
+
+00:37:38.730 --> 00:37:40.570
+<v Markus>Dafür ist es aber auch groß genug.
+
+00:37:41.290 --> 00:37:44.170
+<v Gast 1>Dann bin ich mal gespannt, wer sich besser ankacken lässt.
+
+00:37:47.530 --> 00:37:48.890
+<v Markus>Ich bin so ein bisschen bei dir.
+
+00:37:48.970 --> 00:37:54.490
+<v Markus>Ich habe das Gefühl, dass die allermeisten Leute tatsächlich diesen kommerziellen Support nicht kaufen müssen.
+
+00:37:54.730 --> 00:37:58.970
+<v Markus>Man muss ein bisschen das Projektgeschäft umstrukturieren, man muss wesentlich bewusster einplanen,
+
+00:37:59.050 --> 00:38:04.250
+<v Markus>dass man schnell migriert, dass man die Software tatsächlich pflegt und nicht auf Java 8 jetzt was
+
+00:38:04.250 --> 00:38:06.970
+<v Markus>implementiert und das dann versucht, die nächsten fünf Jahre so wie es ist,
+
+00:38:07.130 --> 00:38:12.090
+<v Markus>laufen zu lassen, sondern ein Budget mit einkalkuliert, dass es kontinuierlich weiterentwickelt wird.
+
+00:38:12.330 --> 00:38:14.730
+<v l33tname>Ja, aber hallo, es ist viel einfacher, wenn du zu Oracle gehst und sagst,
+
+00:38:14.890 --> 00:38:21.130
+<v l33tname>ja, wir haben dieses Java 8 und wir möchten, dass die nächsten 20 Jahre gerne benutzen und hier habt ihr ganz
+
+00:38:21.130 --> 00:38:22.010
+<v l33tname>viel Geld dafür.
+
+00:38:22.250 --> 00:38:27.690
+<v Markus>Ja, ich kann aber aus Erfahrung sagen, dass selbst wenn man diese Strategie aufgleist und das Budget dafür
+
+00:38:27.690 --> 00:38:32.250
+<v Markus>irgendwie zusammenbekommt, es den Leuten nach fünf Jahren auf die Füße fällt,
+
+00:38:32.330 --> 00:38:32.970
+<v Markus>weil sie festdenken.
+
+00:38:34.810 --> 00:38:40.650
+<v Markus>Sie müssen was anpassen und anpassen kann man aufgrund dessen, dass man ja in einer aktuellen Systemlandschaft
+
+00:38:40.650 --> 00:38:43.690
+<v Markus>es dann angepasst haben möchte, nicht auf den alten Versionen.
+
+00:38:43.770 --> 00:38:49.370
+<v Markus>Das heißt, man ist dann auf einmal auch zu einem großen Versionssprung gezwungen und muss dann viel mehr Geld
+
+00:38:49.370 --> 00:38:50.250
+<v Markus>in die Hand nehmen.
+
+00:38:50.490 --> 00:38:52.010
+<v Markus>Also das ist keine gute Strategie.
+
+00:38:52.250 --> 00:38:56.250
+<v l33tname>Du musst es nicht mir erzählen, aber auf dem Papier sieht es halt immer voll gut aus und die Leute entscheiden
+
+00:38:56.250 --> 00:39:02.650
+<v l33tname>sich immer dafür, zu sagen, ja, wenn wir nichts machen können und ein bisschen viel Geld dafür ausgeben,
+
+00:39:02.730 --> 00:39:07.290
+<v l33tname>dann ist das besser, als wenn wir immer wieder mal ein bisschen Geld ausgeben und auf die lange Sicht.
+
+00:39:07.850 --> 00:39:09.530
+<v Markus>Genau, großer Trugschluss, wissen wir.
+
+00:39:10.330 --> 00:39:12.250
+<v Markus>Aber weil ich ja das Mikrofon vor Mund habe.
+
+00:39:12.410 --> 00:39:15.770
+<v l33tname>Das hat trotzdem die ganze Zeit gemacht und man fragt sich halt jedes Mal, warum.
+
+00:39:16.010 --> 00:39:16.570
+<v l33tname>Ich habe die Lösung.
+
+00:39:16.730 --> 00:39:20.010
+<v Gast 1>Wir lassen einfach Python 2.7 in der JVM laufen.
+
+00:39:21.450 --> 00:39:26.330
+<v Markus>Wer apropos ihr, dass Dropbox alles außer X4 Drop?
+
+00:39:26.890 --> 00:39:30.490
+<v Markus>Um schnell das Thema zu wechseln, bevor wir jetzt Python auf die JVM bringen.
+
+00:39:31.210 --> 00:39:32.490
+<v Markus>Es gibt übrigens JPython.
+
+00:39:32.570 --> 00:39:32.970
+<v Markus>Aber deswegen.
+
+00:39:33.290 --> 00:39:34.570
+<v Gast 1>Zurück zu Dropbox.
+
+00:39:34.890 --> 00:39:40.330
+<v l33tname>Genau, Dropbox hat gesagt, sie brauchen diese Extended Attributes irgendwie.
+
+00:39:41.130 --> 00:39:42.170
+<v l33tname>Wie heißen die genau?
+
+00:39:42.490 --> 00:39:47.050
+<v l33tname>Die ja, halt die ganz normalen Extended Attributes und eigentlich stellen das ganz,
+
+00:39:47.290 --> 00:39:50.890
+<v l33tname>ich glaube, ziemlich alle aktuellen Filesysteme, die noch gepflegt sind,
+
+00:39:50.970 --> 00:39:52.730
+<v l33tname>haben halt Extended Attributes.
+
+00:39:54.250 --> 00:39:54.570
+<v l33tname>Und.
+
+00:39:56.190 --> 00:40:00.270
+<v l33tname>Sie haben einfach gesagt, ja, ist uns zu anstrengend, ist uns zu blöd.
+
+00:40:00.350 --> 00:40:02.510
+<v l33tname>Vermutlich haben sie zu wenig Linux-Nutzer.
+
+00:40:02.750 --> 00:40:06.590
+<v l33tname>Meine Frage, meine größte Frage war, als ich den News-Artikel gelesen habe.
+
+00:40:06.670 --> 00:40:11.470
+<v l33tname>Also, was sie sagen, sie ist, das einzige Dateisystem, was sie offiziell noch unterstützen, ist XT4.
+
+00:40:12.590 --> 00:40:16.430
+<v l33tname>Was meine Hauptfrage hier wäre, wer benutzt überhaupt noch Dropbox?
+
+00:40:17.950 --> 00:40:21.150
+<v l33tname>Ist halt so ein bisschen, ist glaube ich auch vorbei.
+
+00:40:21.550 --> 00:40:28.510
+<v l33tname>Also irgendwie so mit OnCloud und Nextcloud und du solltest nicht von dir auf andere Leute schließen.
+
+00:40:29.070 --> 00:40:30.750
+<v l33tname>Ja, aber selbst.
+
+00:40:31.230 --> 00:40:36.830
+<v Gast 1>Also unsere Uni bietet eine OnCloud-Instanz an, die ehrlich gesagt aber auch ziemlich,
+
+00:40:37.230 --> 00:40:40.270
+<v Gast 1>da sind eigentlich fast alle nützlichen Features abgeschaltet, aber trotzdem,
+
+00:40:40.510 --> 00:40:45.470
+<v Gast 1>Leute tauschen eben ihre Dinge mittlerweile irgendwie über Google Drive aus.
+
+00:40:45.710 --> 00:40:47.470
+<v l33tname>Ja, Google Drive zum Beispiel ist auch so.
+
+00:40:48.110 --> 00:40:51.550
+<v Markus>Aber diese Verteidablagen scheinen ein ganz großes Business-Thema zu sein,
+
+00:40:51.630 --> 00:40:57.630
+<v Markus>weil man sieht in diversen Online-Banking-Lösungen, dass mittlerweile Dateiablen mit angeboten werden.
+
+00:40:59.070 --> 00:41:04.510
+<v Markus>Man sieht, dass, oder ich bekomme Business Citicing mit, dass es in diversen
+
+00:41:04.510 --> 00:41:09.630
+<v Markus>Business-Development-Abteilungen als interessanter Spielplatz wahrgenommen wird,
+
+00:41:09.790 --> 00:41:13.470
+<v Markus>wo man sich als Kundenbindungsinstrument positionieren kann.
+
+00:41:13.630 --> 00:41:16.510
+<v Markus>Das finde ich ganz spannend zu sehen, weil meine Wahrnehmung wäre auch,
+
+00:41:16.590 --> 00:41:19.710
+<v Markus>dass Normalbenutzer schert sich nicht drum und Leute, die sich drum scheren,
+
+00:41:19.870 --> 00:41:24.830
+<v Markus>die haben eine OwnCloud NextCloud C-File-Instanz laufen und machen es selber.
+
+00:41:25.070 --> 00:41:31.230
+<v Markus>Und ich weiß nicht, wie viele Leute jetzt darauf aus sind, das bei ihrer Bank abzulegen.
+
+00:41:31.310 --> 00:41:34.430
+<v Markus>Also ich persönlich bin froh, wenn ich meine Dokumente da runtergeladen bekomme.
+
+00:41:34.510 --> 00:41:36.990
+<v Markus>Ich möchte ja nicht unbedingt meine Dateiablage machen.
+
+00:41:38.030 --> 00:41:39.870
+<v Markus>Oder ja.
+
+00:41:40.830 --> 00:41:45.470
+<v l33tname>Ja, also ich glaube, die, sagen wir mal, in Anführungszeichen,
+
+00:41:45.630 --> 00:41:49.950
+<v l33tname>normalen Leute, die benutzen halt das, was sie mit ihrem Google-Account dazu bekommen,
+
+00:41:50.110 --> 00:41:53.630
+<v l33tname>die benutzen, was sie mit ihrem Outlook-Account dazu bekommen.
+
+00:41:53.790 --> 00:41:58.990
+<v l33tname>Und ich sehe halt einfach nicht, dass Leute irgendwie noch zusätzlich sich in Dropbox machen.
+
+00:41:59.310 --> 00:42:03.550
+<v Markus>Ja, wobei, was ich schon verstehen kann, ist, wenn Leute sich mit dem Thema beschäftigen und sagen,
+
+00:42:03.630 --> 00:42:05.470
+<v Markus>ich möchte, dass die Dinge sicher abgelegt sind.
+
+00:42:05.550 --> 00:42:10.190
+<v Markus>Dann würde ich aber mir gezielt genau dafür einen Anbieter suchen, der auch wirklich
+
+00:42:10.190 --> 00:42:12.110
+<v Markus>End-zu-End-Verschlüsselung anbietet.
+
+00:42:12.270 --> 00:42:14.990
+<v l33tname>Ja, aber dann gehst du halt auch nicht zu Dropbox.
+
+00:42:15.150 --> 00:42:15.550
+<v l33tname>Ja, genau.
+
+00:42:16.670 --> 00:42:20.750
+<v l33tname>Dann gehst du halt eben zu den irgendwie zu den Own Clouds, zu den Nextclouds,
+
+00:42:20.830 --> 00:42:24.910
+<v l33tname>zu den irgendwie kleinen Anbietern, die irgendwelche weirden, verschlüsselten.
+
+00:42:25.230 --> 00:42:26.030
+<v Markus>Zu Secure Safe.
+
+00:42:26.350 --> 00:42:27.710
+<v l33tname>Secure Safe, sowas.
+
+00:42:28.030 --> 00:42:32.350
+<v l33tname>Wenn du dich wirklich dafür interessierst und wenn du halt nur so ein Casual User bist,
+
+00:42:32.510 --> 00:42:36.910
+<v l33tname>dann benutzt du halt mit, was irgendwie mit deinem E-Mail-Konto, mit deinem Google-Account,
+
+00:42:36.990 --> 00:42:40.350
+<v l33tname>den du eh hast, irgendwie mit.
+
+00:42:40.590 --> 00:42:47.550
+<v l33tname>Und ich hab's einfach, früher war es noch häufig so, ja, pack das mir in die Dropbox oder so zum Sünden und
+
+00:42:47.550 --> 00:42:54.110
+<v l33tname>heute ist das halt irgendwie so im Studienalltag oder auf
+
+00:42:54.110 --> 00:42:57.870
+<v l33tname>Arbeit irgendwie, das halt irgendwie, das kommt nicht mehr vor.
+
+00:42:59.150 --> 00:43:02.110
+<v l33tname>Die haben halt alle zu irgendwas anderem gewechselt.
+
+00:43:02.750 --> 00:43:07.470
+<v Gast 1>Also was zumindest so für Business Cases noch etwas noch relevant sein könnte,
+
+00:43:07.550 --> 00:43:09.390
+<v Gast 1>dass es zumindest auf dem Papier okay ist.
+
+00:43:09.550 --> 00:43:14.270
+<v Gast 1>Soweit ich weiß, speichert Dropbox alle Daten von Nutzern aus der EU,
+
+00:43:14.350 --> 00:43:18.270
+<v Gast 1>auch innerhalb der EU, was bei Google, glaube ich, nicht der Fall ist zum Beispiel.
+
+00:43:18.430 --> 00:43:22.990
+<v Gast 1>Das heißt, zumindest auf dem Papier sind dann, die Daten sind zwar immer noch unverschlüsselt,
+
+00:43:23.070 --> 00:43:26.510
+<v Gast 1>aber zumindest auf dem Papier sind sie dann irgendwie GDPR-Compliant.
+
+00:43:27.310 --> 00:43:31.550
+<v Gast 1>Und zum Beispiel, also man muss natürlich auch sagen, Dropbox hängt halt teilweise auch immer noch in
+
+00:43:31.550 --> 00:43:36.510
+<v Gast 1>irgendwelchen, in irgendwelchen Apps, in irgendwelchen Geräten mit seiner API mit drin.
+
+00:43:36.590 --> 00:43:39.950
+<v Gast 1>Zum Beispiel kann ich eben, mein E-Book-Reader bietet zum Beispiel an,
+
+00:43:40.030 --> 00:43:42.910
+<v Gast 1>dass ich Bücher aus der Dropbox sünden kann.
+
+00:43:42.990 --> 00:43:45.710
+<v Gast 1>Und Dropbox ist da der einzige integrierte Anbieter.
+
+00:43:45.870 --> 00:43:49.630
+<v Markus>Ja, Dropbox ist das Default an ganz vielen Stellen, das stimmt.
+
+00:43:50.270 --> 00:43:55.630
+<v Markus>Was ich aber im Businessumfeld als schwierig erachte, ist, oder ich mir schwierig vorstelle,
+
+00:43:55.790 --> 00:43:58.910
+<v Markus>ich habe es mit Dropbox da noch nicht versucht, aber ich weiß von vielen Kunden,
+
+00:43:58.990 --> 00:44:02.910
+<v Markus>dass da Anbieter wie Dropbox gesperrt sind, einfach aus den Corporate Networks.
+
+00:44:03.150 --> 00:44:08.270
+<v Markus>Weil die so versuchen zu verhindern, dass da Dokumente einen Weg nehmen, den sie nicht nehmen dürfen.
+
+00:44:08.590 --> 00:44:10.190
+<v Markus>Und dann sperren die die Plattform komplett.
+
+00:44:10.270 --> 00:44:14.750
+<v Markus>Und wenn man dann mit Kunden versucht, über Dropbox Dokumente auszutauschen, fällt man da schon auf die Nase.
+
+00:44:14.830 --> 00:44:18.750
+<v Markus>Von daher finde ich, das geht natürlich allein schon der Versuch, ist impraktikabel.
+
+00:44:19.710 --> 00:44:26.190
+<v Gast 1>Und was natürlich nochmal zu diesen technischen Gründen mit den Extend-Attributes zurück,
+
+00:44:26.670 --> 00:44:32.030
+<v Gast 1>was der Fall sein könnte, so ein paar von diesen User-Space Encryption-File-Systems,
+
+00:44:32.110 --> 00:44:36.110
+<v Gast 1>wie zum Beispiel ECryptfs, was eben, glaube ich, der Ubuntu-Standard ist,
+
+00:44:36.190 --> 00:44:42.430
+<v Gast 1>wenn man sein Home-Directory verschlüsseln will, die haben so ein bisschen Probleme mit Extended Attributes.
+
+00:44:42.670 --> 00:44:46.430
+<v Gast 1>Also da kann es natürlich sein, dass es dort dann nicht so funktioniert,
+
+00:44:46.510 --> 00:44:53.070
+<v Gast 1>wie es sollte, aber beispielsweise Butterfs oder auch mit Lux die M-Crypt verschlüsselte Dateisysteme haben
+
+00:44:53.070 --> 00:44:53.550
+<v Gast 1>das Problem nicht.
+
+00:44:53.630 --> 00:44:57.950
+<v Gast 1>Und es kursieren wohl mittlerweile schon in den Dropbox-Foren irgendwelche Layer,
+
+00:44:58.030 --> 00:45:02.750
+<v Gast 1>die so, die eben dem Dropbox-Client vorgaukeln können, dass er auf einem X4-Dateisystem läuft,
+
+00:45:02.990 --> 00:45:04.670
+<v Gast 1>wenn man es denn unbedingt benutzen will.
+
+00:45:07.390 --> 00:45:13.070
+<v Markus>Ja, da kann man mit der Virtualisierung sicherlich lustige Zwischenschichten noch einziehen.
+
+00:45:14.270 --> 00:45:15.710
+<v Markus>Ja, spannend.
+
+00:45:19.790 --> 00:45:21.550
+<v Markus>Jetzt der Übergang zu dem nächsten Thema.
+
+00:45:21.710 --> 00:45:25.630
+<v Markus>Wäre eigentlich vorhin gewesen, als wir GNS in Linux eingebaut haben.
+
+00:45:25.870 --> 00:45:28.590
+<v Gast 1>Oder als wir über das Ankacken gesprochen haben, denn kommen wir zu etwas,
+
+00:45:28.750 --> 00:45:34.190
+<v Gast 1>was in den Kern integriert wird, wo aber sich Torwalz sogar mal ausnahmsweise lobend drüber geäußert hat,
+
+00:45:34.430 --> 00:45:35.790
+<v Gast 1>nämlich es geht um Wireguard.
+
+00:45:36.030 --> 00:45:39.150
+<v Markus>Wireguard, ja, von Wireguard haben wir schon öfter hier im Podcast geredet.
+
+00:45:39.310 --> 00:45:44.510
+<v Markus>Da gab es auch, also spätestens auch im letzten Kongress haben wir da ausführlich hier zu geredet oder nach
+
+00:45:44.510 --> 00:45:45.390
+<v Markus>dem letzten Kongress.
+
+00:45:45.950 --> 00:45:51.230
+<v Markus>Wireguard ist eine Software, die als Alternative oder Nachfolger von VPN,
+
+00:45:51.710 --> 00:45:53.790
+<v Markus>von OpenVPN gehandelt wird.
+
+00:45:54.270 --> 00:45:59.470
+<v Markus>Und Torwartz hat sich für die baldige Aufnahme von Wireguard in den Kernel ausgesprochen.
+
+00:46:00.670 --> 00:46:07.550
+<v Markus>Ich hatte, mein letzter Stand war, dass Wireguard ein relativ kleines Team hat, also diese Jason A.
+
+00:46:07.790 --> 00:46:14.430
+<v Markus>Donfeld hat das ja sehr weit gebracht oder sehr viel positive News
+
+00:46:14.430 --> 00:46:19.950
+<v Markus>generiert, war aber auch lange Zeit alleiniger Kämpfer in dem Projekt.
+
+00:46:20.110 --> 00:46:24.590
+<v Markus>Deswegen entweder ist es der Ritterschlag von Torwals oder Torvals möchte es in den Kernel holen,
+
+00:46:24.670 --> 00:46:28.110
+<v Markus>damit es eben nicht mehr nur von einer Person gemaintained wird.
+
+00:46:29.550 --> 00:46:35.070
+<v Markus>Oder das ist ein Risikofaktor,
+
+00:46:35.150 --> 00:46:36.990
+<v Markus>den man nicht außen vor lassen dürfte.
+
+00:46:37.470 --> 00:46:38.750
+<v Markus>Weiß ich nicht, wisst ihr da mehr?
+
+00:46:38.910 --> 00:46:41.390
+<v Markus>Wird das mehr von mehr Leuten gemaintained mittlerweile?
+
+00:46:42.990 --> 00:46:44.270
+<v l33tname>Das ist eine gute Frage.
+
+00:46:44.350 --> 00:46:51.230
+<v l33tname>Also das kann schon sein, aber die Code-Qualität ist ja irgendwie wohl echt gut und
+
+00:46:51.230 --> 00:46:53.870
+<v l33tname>der Code ist halt irgendwie ordentlich geschrieben und so.
+
+00:46:54.670 --> 00:47:00.590
+<v l33tname>Und es wäre halt schon cool, wenn wir mal was ordentliches als VPN-Lösung haben.
+
+00:47:00.910 --> 00:47:07.710
+<v l33tname>Weil alles, was wir halt bisher hatten, somit Open VPN,
+
+00:47:07.790 --> 00:47:12.910
+<v l33tname>ist zwar schon ganz cool, aber es ist halt irgendwie so ein bisschen groß und ein bisschen bloated,
+
+00:47:13.150 --> 00:47:15.310
+<v l33tname>ein bisschen sehr kompliziert teilweise.
+
+00:47:15.550 --> 00:47:22.270
+<v l33tname>Und wenn du dann hier halt irgendwie die andere große, was auch immer mitkommt.
+
+00:47:22.510 --> 00:47:22.990
+<v l33tname>IPSEC.
+
+00:47:23.230 --> 00:47:24.270
+<v l33tname>IPSEC, genau.
+
+00:47:24.430 --> 00:47:26.430
+<v Markus>Ja, das Schöne ist dieses Zitat von Torvalds.
+
+00:47:26.750 --> 00:47:33.390
+<v Markus>Laut Torvalds sei WireGuard im Vergleich zu dem, im Vergleich mit dem Horror von OpenVPN und
+
+00:47:33.390 --> 00:47:35.390
+<v Markus>IPSEC ein Kunstwerk.
+
+00:47:35.630 --> 00:47:38.430
+<v l33tname>Ja, und das scheint halt wirklich so zu sein.
+
+00:47:38.510 --> 00:47:41.790
+<v l33tname>Und es ist halt ein modernes Ding.
+
+00:47:41.950 --> 00:47:46.430
+<v l33tname>Also es ist man, man hat da halt auch viel aus der Erfahrung gelernt,
+
+00:47:46.750 --> 00:47:51.790
+<v l33tname>die man irgendwie mit IPSEC und OpenVPN halt gemacht hat und gesehen hat,
+
+00:47:51.870 --> 00:47:54.510
+<v l33tname>wie man, wie man das, wie man so etwas richtig machen würde.
+
+00:47:54.750 --> 00:48:00.030
+<v l33tname>Aber irgendwie, ja, wenn du das halt mal draußen hast,
+
+00:48:00.110 --> 00:48:02.910
+<v l33tname>ist es halt auch schwierig, das neu zu designen und so.
+
+00:48:04.270 --> 00:48:08.270
+<v l33tname>Und darum ist es vielleicht schon cool, wenn wir das im Kernel hätten,
+
+00:48:08.750 --> 00:48:13.630
+<v l33tname>weil es dann sicher auch maintained wird, im Gegensatz zu, ja, so wie es jetzt aussieht,
+
+00:48:13.710 --> 00:48:19.230
+<v l33tname>wo es halt jemand irgendwie so, glaube ich, hauptsächlich macht.
+
+00:48:21.310 --> 00:48:26.830
+<v l33tname>Und wenn der halt irgendwie keine Lust mehr hat oder so, dann stirbt es einfach ab und wenn es im Kernel drin
+
+00:48:26.830 --> 00:48:29.470
+<v l33tname>ist, dann wird es zumindest irgendwie ein bisschen weiter gepflegt.
+
+00:48:29.710 --> 00:48:34.190
+<v Markus>Dann werden zumindest irgendwelche Leute dazu gezwungen, sich nochmal damit intensiv zu beschäftigen.
+
+00:48:34.350 --> 00:48:38.590
+<v l33tname>Genau, oder sonst wird es dann halt irgendwie wieder, muss man es irgendwie wieder aus dem Kernel rauskriegen
+
+00:48:38.750 --> 00:48:39.630
+<v l33tname>und dann, ja.
+
+00:48:40.190 --> 00:48:43.230
+<v l33tname>Das geht normalerweise ja dann auch nicht so schnell.
+
+00:48:46.430 --> 00:48:51.230
+<v l33tname>Aber ich habe es leider immer noch nicht ausprobiert, obwohl es mittlerweile anscheinend sogar schon ein
+
+00:48:51.230 --> 00:48:56.110
+<v l33tname>Plugin für meine Firewall gibt, das man irgendwie einfach installieren kann.
+
+00:48:56.430 --> 00:49:01.070
+<v l33tname>Weil das ist so ein bisschen mein Hauptding, ich will mir halt irgendwie nicht wieder was hinkrepeln müssen,
+
+00:49:01.790 --> 00:49:08.430
+<v l33tname>sondern was ich bei OpenVPN halt so cool finde, dass es das Plugin gibt für
+
+00:49:08.430 --> 00:49:13.310
+<v l33tname>OpenSense und man da eigentlich einfach nur seine Config reinhacken muss,
+
+00:49:14.910 --> 00:49:16.110
+<v l33tname>auf Play bzw.
+
+00:49:16.430 --> 00:49:20.830
+<v l33tname>auf Connect drückt oder so und dann steht so ein Tunnel.
+
+00:49:21.150 --> 00:49:27.470
+<v l33tname>Und da muss man nicht sehr viel mehr sich drum kümmern und ich habe halt irgendwie keine Lust und keine Zeit,
+
+00:49:27.790 --> 00:49:31.390
+<v l33tname>mich stundenweise mit VPN auseinanderzusetzen.
+
+00:49:31.630 --> 00:49:37.230
+<v l33tname>Nur weil ich jetzt irgendwie mal so zwei Punkte, irgendwie zwei Netze miteinander verbinden möchte.
+
+00:49:40.590 --> 00:49:45.390
+<v l33tname>Da werden wir sehen, was draus wird, ob das in Kernel reinkommt oder nicht.
+
+00:49:49.310 --> 00:49:54.830
+<v l33tname>Das nächste ist auch von mir und zwar ist es ein neues ESP32-Board.
+
+00:49:55.550 --> 00:49:59.550
+<v l33tname>Und was an dem Ding recht cool ist, also es ist
+
+00:50:02.110 --> 00:50:08.510
+<v l33tname>ähnlich oder fast gleich wie die Boards, die MakeFoo mal gepickt hat.
+
+00:50:09.070 --> 00:50:14.750
+<v l33tname>Diese Dinge haben aber nicht nur ein WiFi-Chip drauf, sondern sie haben halt auch eine
+
+00:50:15.390 --> 00:50:21.150
+<v l33tname>AJ45-Buchse und POE.
+
+00:50:21.310 --> 00:50:27.630
+<v l33tname>Das heißt, man kann die Dinge halt irgendwo mit Sensoren abwerfen, Netzwerkkabel dran und kann sie halt
+
+00:50:27.630 --> 00:50:29.630
+<v l33tname>darüber gleich mit Strom versorgen.
+
+00:50:29.870 --> 00:50:34.830
+<v l33tname>Und ich finde das eigentlich schon eine ziemlich geile Idee, weil das ist immer so ein bisschen das Problem,
+
+00:50:35.230 --> 00:50:38.270
+<v l33tname>was man dann bei diesen IoT-Kräten so ein bisschen hat.
+
+00:50:38.590 --> 00:50:42.670
+<v l33tname>Ist so, ja, okay, sie müssen sich irgendwie, sie müssen irgendwie ins Netzwerk kommen.
+
+00:50:42.830 --> 00:50:46.430
+<v l33tname>Das ist mit Wi-Fi normalerweise recht einfach.
+
+00:50:46.750 --> 00:50:48.670
+<v l33tname>Und dann brauchen sie aber Strom.
+
+00:50:48.990 --> 00:50:53.950
+<v l33tname>Und dann musst du sowieso wieder irgendwie irgendwo ein Kabel legen oder irgendwas machen.
+
+00:50:54.030 --> 00:50:58.990
+<v l33tname>Und halt irgendeinen riesen Akkupack drunter packen, was du dann irgendwie regelmäßig wechseln musst,
+
+00:50:59.070 --> 00:51:00.670
+<v l33tname>was auch nicht so geil ist.
+
+00:51:01.630 --> 00:51:06.030
+<v Markus>Je nach Setup finde ich es aber plausibler, dass du irgendwo so zwei Drähte,
+
+00:51:06.110 --> 00:51:12.990
+<v Markus>die über die 5 Volt oder 3,3 Volt laufen, hinlegst, als dass du ein WLAN-Kabel-Kabel.
+
+00:51:15.310 --> 00:51:17.470
+<v Markus>Als wenn du ein LAN-Kabel irgendwo hinziehst.
+
+00:51:17.870 --> 00:51:22.670
+<v Markus>Also es ist halt wesentlich Leichtgewicht, dann nur die 3,3 Volt irgendwo hinzulegen.
+
+00:51:22.910 --> 00:51:28.350
+<v Markus>Wenn wir jetzt davon reden, dass man zum Beispiel ein Gewächshaus mit 5 Sensoren ausstatten will oder wenn man
+
+00:51:28.670 --> 00:51:33.470
+<v Markus>ein System irgendwo den Sensor einbringen möchte.
+
+00:51:35.550 --> 00:51:41.870
+<v Markus>Ich finde ja, Power over Wi-Fi für ein ESP ist schon ganz schön Power over Wi-Fi.
+
+00:51:46.270 --> 00:51:46.830
+<v Markus>Ja, genau.
+
+00:51:46.990 --> 00:51:49.870
+<v Markus>Power über Wi-Fi wäre das, was ich eigentlich haben will.
+
+00:51:50.110 --> 00:51:50.430
+<v Markus>Genau.
+
+00:51:51.470 --> 00:51:55.790
+<v l33tname>Ja, es kommt ein bisschen drauf an auf ein Use Case.
+
+00:51:55.870 --> 00:52:00.190
+<v l33tname>Aber ich finde, das ist generell keine schlechte Idee, wenn man es einfach irgendwie anstecken kann.
+
+00:52:00.270 --> 00:52:03.390
+<v l33tname>Aber du hast natürlich recht, in gewissen Situationen ist es vermutlich einfach,
+
+00:52:03.550 --> 00:52:05.630
+<v l33tname>einfach nur ein bisschen Strom hinzulegen.
+
+00:52:06.270 --> 00:52:09.390
+<v Gast 1>Die Frage ist auch, wozu laden Kabel und Wi-Fi?
+
+00:52:09.550 --> 00:52:12.750
+<v Gast 1>Oder haben die Chipsätze dann kein Wi-Fi mehr?
+
+00:52:12.910 --> 00:52:15.790
+<v l33tname>Die Chipsetze kommen, glaube ich, einfach mit Wi-Fi.
+
+00:52:15.950 --> 00:52:19.950
+<v Gast 1>Deswegen, und also ist das Wi-Fi da noch drauf, weil das da eben halt in den Chip drin steckt?
+
+00:52:20.270 --> 00:52:23.390
+<v Markus>Du kannst einfach dann an jedem Endpunkt einen Wi-Fi aufmachen.
+
+00:52:23.630 --> 00:52:27.390
+<v Gast 1>Ja, aber die Teile sind halt ja nicht so besonders leistungsfähig, dass man da irgendwie mehr als drei Clients
+
+00:52:27.390 --> 00:52:28.190
+<v Gast 1>drin haben will.
+
+00:52:28.430 --> 00:52:32.510
+<v l33tname>Ja, nee, ich bin so mein Wissen.
+
+00:52:33.390 --> 00:52:35.630
+<v Markus>Vielleicht will man damit ja aber auch ein Tracking-Netzwerk aufbauen.
+
+00:52:35.790 --> 00:52:37.470
+<v Markus>Oh, das ist ein ganz interessanter Anwendungsfall.
+
+00:52:37.710 --> 00:52:40.110
+<v Markus>Kannst du ganz gut ein Tracking-Netzwerk mit aufbauen?
+
+00:52:40.750 --> 00:52:46.750
+<v l33tname>Es steht jetzt gerade nichts von Wi-Fi, aber ich bin mir nicht ganz sicher.
+
+00:52:46.830 --> 00:52:50.750
+<v l33tname>Ich dachte, die Chips hätten halt einfach irgendwie, es sind halt so eigentlich so Wi-Fi-Chips,
+
+00:52:52.030 --> 00:52:58.030
+<v l33tname>die halt Wi-Fi sowieso immer drauf haben und halt im Prinzip einfach noch zusätzlich Compute-Power haben,
+
+00:52:58.430 --> 00:53:00.270
+<v l33tname>die man halt so ein bisschen missbrauchen kann.
+
+00:53:00.350 --> 00:53:04.830
+<v l33tname>Und eigentlich werden die Steine aber gedacht, um Wi-Fi zu machen und darum haben sie halt ein Wi-Fi.
+
+00:53:05.310 --> 00:53:06.590
+<v l33tname>Aber ja.
+
+00:53:08.110 --> 00:53:10.270
+<v l33tname>Ich sehe es aber gerade nicht.
+
+00:53:11.790 --> 00:53:18.270
+<v l33tname>Es ist auch erst ein Teaser und das Release ist irgendwie geplant
+
+00:53:18.590 --> 00:53:20.590
+<v l33tname>available for sale end of August.
+
+00:53:20.910 --> 00:53:21.390
+<v l33tname>Also heute.
+
+00:53:22.270 --> 00:53:24.350
+<v Gast 1>Auf der Seite steht auch tatsächlich nichts zu Wi-Fi.
+
+00:53:24.830 --> 00:53:29.230
+<v l33tname>Ja, also vermutlich, vielleicht hat es auch kein Wi-Fi, vielleicht haben sie auch irgendwas genommen,
+
+00:53:29.390 --> 00:53:30.030
+<v l33tname>was keinen mehr.
+
+00:53:30.990 --> 00:53:37.790
+<v l33tname>Aber ich finde das auf jeden Fall eine coole Idee und es gibt sicher
+
+00:53:38.590 --> 00:53:42.110
+<v l33tname>gerade so, wenn man denkt, irgendwie man ist so im Rechencenter.
+
+00:53:43.070 --> 00:53:45.870
+<v Gast 1>Auf dem Bild ist zumindest ein Wi-Fi-Symbol, auf dem einen System.
+
+00:53:45.950 --> 00:53:47.390
+<v l33tname>Ja, das habe ich eben auch gesehen.
+
+00:53:48.110 --> 00:53:49.870
+<v Gast 1>Das sieht so aus, als hätte es beides.
+
+00:53:51.230 --> 00:53:51.790
+<v Gast 1>Naja.
+
+00:53:52.590 --> 00:53:54.030
+<v Gast 1>Für irgendwelche Use Cases ist das bestimmt etwas.
+
+00:53:56.110 --> 00:54:00.910
+<v l33tname>Mein Use Case, den ich so im Kopf habe, ist halt so, irgendwie, du bist so im Rechencenter und da hast du halt
+
+00:54:00.910 --> 00:54:03.550
+<v l33tname>eh Ethernet rumliegen.
+
+00:54:06.350 --> 00:54:10.270
+<v l33tname>Und du willst da halt irgendwie noch so ein bisschen zusätzliche Sensorik in deinem Rack,
+
+00:54:10.430 --> 00:54:17.230
+<v l33tname>irgendwie so Temperatur oder was auch immer du dann noch so für Sensorik in deinem Rack
+
+00:54:17.310 --> 00:54:20.510
+<v l33tname>haben willst, irgendwie, wann es aufgemacht wird, so Kram.
+
+00:54:20.910 --> 00:54:25.230
+<v l33tname>Und für sowas stelle ich mir das recht praktisch vor, wenn du dich dann nicht extra irgendwie noch komisch
+
+00:54:25.230 --> 00:54:31.790
+<v l33tname>Strom hast, sondern du hast halt einfach irgendwo noch so einen kleinen POE-Switch und ist gleich mit einem
+
+00:54:31.790 --> 00:54:32.590
+<v l33tname>Netzwerk verbunden.
+
+00:54:32.670 --> 00:54:39.630
+<v l33tname>Du musst nicht noch extra WiFi-Infrastruktur in deinem RZ aufbauen und so.
+
+00:54:41.390 --> 00:54:45.870
+<v l33tname>Aber ja, es kommt natürlich immer auf einen Anwendungsfall an, aber grundsätzlich finde ich das gut,
+
+00:54:45.950 --> 00:54:49.310
+<v l33tname>wenn es das überhaupt gibt, weil dann, wenn man irgendeinen Anwendungsfall hat,
+
+00:54:49.390 --> 00:54:54.430
+<v l33tname>was praktisch ist, dann gibt es das halt und dann kann man einfach das hernehmen anstelle von irgendwie.
+
+00:54:54.750 --> 00:54:58.910
+<v Markus>Dann kann man das nehmen, was am besten passt und muss nicht das, was da ist, irgendwie passend machen.
+
+00:54:58.990 --> 00:55:00.350
+<v Markus>Das stimmt natürlich.
+
+00:55:04.030 --> 00:55:08.270
+<v Markus>Ein zentraler Grund, warum Linux auf dem Desktop ja bis heute nicht da ist,
+
+00:55:08.350 --> 00:55:11.310
+<v Markus>wo wir es haben wollen, ist, dass es so kompliziert ist.
+
+00:55:11.550 --> 00:55:13.550
+<v Markus>ZFS ist der Grund, dass es nicht da ist.
+
+00:55:14.670 --> 00:55:15.470
+<v Markus>Und das aus deinem Mund?
+
+00:55:15.710 --> 00:55:18.910
+<v l33tname>Ja, weil es sicher kein ZFS haben oder so.
+
+00:55:21.470 --> 00:55:25.790
+<v Markus>Nee, war doch der Grund, dass es so furchtbar kompliziert ist, Anwendungen zu installieren.
+
+00:55:25.870 --> 00:55:32.190
+<v Markus>Du musst APT benutzen, wenn es in APT drin ist, hast du, bist du fertig?
+
+00:55:32.430 --> 00:55:33.150
+<v Markus>Gut, das war einfach.
+
+00:55:33.230 --> 00:55:37.470
+<v Markus>Achso, richtig, du musstest eine Quelle haben, wenn es nicht in den Standardquellen drin ist.
+
+00:55:37.550 --> 00:55:42.270
+<v Markus>Also für Normalverbraucher ist es viel einfacher, eine Echse aus dubiosen Quellen im Internet zu laden,
+
+00:55:42.430 --> 00:55:44.030
+<v Markus>doppelt drauf zu klicken und fertig ist.
+
+00:55:44.110 --> 00:55:48.590
+<v Gast 1>Also die Argumentation, die man durchaus machen könnte, ist eben, dass es,
+
+00:55:48.830 --> 00:55:52.270
+<v Gast 1>da es mehrere Distributionen gibt, zumindest für Softwareentwickler,
+
+00:55:52.510 --> 00:55:58.670
+<v Gast 1>wesentlich schwieriger ist, ihre Pakete, ihre Software für mehrere Distributionen zu packen.
+
+00:55:58.750 --> 00:56:04.590
+<v Gast 1>Insbesondere wenn es dann verschiedene Paketierungssysteme von Slackware über Debian-Pakete,
+
+00:56:04.830 --> 00:56:09.630
+<v Gast 1>Debian-Pakete, einmal für Debian und einmal für Ubuntu und dann noch RPM-Pakete,
+
+00:56:10.030 --> 00:56:13.630
+<v Gast 1>NixOS, Build Expressions, was weiß ich.
+
+00:56:15.230 --> 00:56:18.270
+<v Markus>Die Frage für Anbieter ist halt immer, welche Distribution unterstütze ich?
+
+00:56:18.350 --> 00:56:18.510
+<v Markus>Genau.
+
+00:56:19.470 --> 00:56:26.030
+<v Markus>Dem zu entfliehen ist angetreten der Linux-App-Standard Flatpak.
+
+00:56:26.510 --> 00:56:26.670
+<v Markus>Genau.
+
+00:56:27.070 --> 00:56:29.470
+<v Markus>Also vielmehr ist es ja ein Paketierungsstandard, kein App-Standard.
+
+00:56:29.710 --> 00:56:34.750
+<v l33tname>Wenn man ganz viele Pakettierungseinzelne kleine Standards hat, was macht man dann?
+
+00:56:34.830 --> 00:56:38.830
+<v l33tname>Genau, man bildet ein Konsortium und macht dann einen großen Standard für alle,
+
+00:56:38.990 --> 00:56:43.470
+<v l33tname>damit man dann irgendwie einen Standard mehr hat, den man unterstützen muss.
+
+00:56:43.630 --> 00:56:48.670
+<v Gast 1>Nebenbei gibt es nämlich, neben dem Flatpak-Standard gibt es nämlich auch noch Canonical mit ihrem
+
+00:56:48.670 --> 00:56:51.630
+<v Gast 1>Snap-Standard und es gibt App-Image.
+
+00:56:52.190 --> 00:56:58.350
+<v Gast 1>Aber zumindest dieser Standard Flatpak hat jetzt irgendwie erstmal die Version 1.0 erreicht.
+
+00:56:58.670 --> 00:57:01.710
+<v Markus>Viel kritischer finde ich bei solchen Standards auch immer die Frage, nutzt es jemand?
+
+00:57:01.870 --> 00:57:03.470
+<v Markus>Weil ein Standard, den keiner nutzt, kann schon noch nicht mehr so.
+
+00:57:03.550 --> 00:57:08.590
+<v Gast 1>Ja, denn Flatpak, also Flatpak wird langsam in Fedora und in SUSE rein integriert.
+
+00:57:08.670 --> 00:57:14.270
+<v Gast 1>Also zum Beispiel dieses KDE Discovery Softwareverwaltungstool, kann Flatpak mittlerweile.
+
+00:57:15.390 --> 00:57:20.190
+<v Gast 1>Ja, ich habe mir Flatpak vor einer Weile mal ein bisschen angeguckt und bin ehrlich gesagt immer noch so ein
+
+00:57:20.190 --> 00:57:25.470
+<v Gast 1>bisschen skeptisch, denn Flatpak teilt eben Dinge,
+
+00:57:26.270 --> 00:57:30.270
+<v Gast 1>es gibt eben nicht mehr bestimmte Abhängigkeiten, also dass eine App sagt,
+
+00:57:30.430 --> 00:57:34.990
+<v Gast 1>ich brauche diese und diese und diese Library als Abhängigkeit in ungefähr dieser Version.
+
+00:57:35.550 --> 00:57:38.910
+<v Gast 1>Was natürlich eben die Dependency Hell so ein bisschen leichter macht,
+
+00:57:38.990 --> 00:57:45.310
+<v Gast 1>denn unter Flatpak gibt es sogenannte Runtimes, die dynamisch pro App
+
+00:57:45.470 --> 00:57:46.750
+<v Gast 1>eingehängt werden.
+
+00:57:47.070 --> 00:57:52.990
+<v Gast 1>Und eine Runtime ist quasi einfach das gesamte Slash-User Directory.
+
+00:57:53.950 --> 00:57:57.630
+<v Markus>Also alles, was die App daraus braucht, dann jeweils pakettiert mit der App.
+
+00:57:58.350 --> 00:58:03.950
+<v Gast 1>Nee, also eine Runtime stellt, ist aus Sicht der App das Slash User Directory.
+
+00:58:04.190 --> 00:58:04.510
+<v Gast 1>Ja, genau.
+
+00:58:04.750 --> 00:58:08.750
+<v Markus>Dementsprechend geht die Paketierung doch hoffentlich hin, schaut, was die App tatsächlich braucht und
+
+00:58:08.750 --> 00:58:11.550
+<v Markus>pakettiert nur das für die App mit, was gebraucht wird und nicht.
+
+00:58:12.190 --> 00:58:15.710
+<v Gast 1>Also der aktuelle Stande ist, dass es halt zum Beispiel, dass es halt gewisse Runtimes gibt.
+
+00:58:15.790 --> 00:58:19.870
+<v Gast 1>Es gibt zum Beispiel erstmal diese XDG-Runtime für alle
+
+00:58:21.550 --> 00:58:22.990
+<v Gast 1>Free-Desktop-Standards.
+
+00:58:23.230 --> 00:58:29.950
+<v Gast 1>Dann gibt es eine KDE-Runtime, wo dann halt irgendwie alle möglichen KDE-Libraries drin sind,
+
+00:58:30.030 --> 00:58:31.230
+<v Gast 1>die dann halt mal gebraucht werden.
+
+00:58:31.310 --> 00:58:36.110
+<v Gast 1>Und was halt nicht in so einer Runtime drin ist, wird dann halt eben mit der App zusammengebundelt und
+
+00:58:36.110 --> 00:58:36.830
+<v Gast 1>ausgeliefert.
+
+00:58:36.990 --> 00:58:40.190
+<v Markus>Achso, ich dachte, mit jeder App kommt immer eigene gebundelte Runtime.
+
+00:58:40.430 --> 00:58:42.270
+<v Gast 1>Ne, eine App sagt immer, ich brauche diese Runtime.
+
+00:58:42.350 --> 00:58:49.150
+<v Gast 1>Und es kann natürlich sein, dass die eine App sagt, ich brauche die KDE-Runtime in
+
+00:58:49.150 --> 00:58:55.630
+<v Gast 1>der Version 16.04 und die andere sagt, ich brauche aber die unbedingt jetzt mittlerweile die KDE
+
+00:58:55.710 --> 00:59:00.350
+<v Gast 1>Runtime in der Version 18.04, weil da ein neures Qt drin ist.
+
+00:59:00.670 --> 00:59:04.350
+<v Gast 1>Und das ist halt das Problem, dass diese Runtimes relativ monolithisch sind.
+
+00:59:04.430 --> 00:59:08.750
+<v Gast 1>Also wie gesagt, die umfassen halt immer so ziemlich das gesamte Fuser-Directory.
+
+00:59:09.230 --> 00:59:13.310
+<v Markus>Jetzt verstehe ich, dann ist auch die Frage nach dem, ob das App spezifisch optimiert wird.
+
+00:59:13.710 --> 00:59:17.310
+<v Gast 1>Genau, und jetzt ist dann halt nicht mehr die, jetzt hat man natürlich nicht mehr das Problem,
+
+00:59:17.470 --> 00:59:23.630
+<v Gast 1>dass irgendwie verschiedene Apps unterschiedliche Versionen der gleichen Library brauchen.
+
+00:59:23.870 --> 00:59:27.950
+<v Gast 1>Beziehungsweise, wenn das immer noch der Fall ist, dann brauchen sie aber gleich unterschiedliche Versionen
+
+00:59:27.950 --> 00:59:29.630
+<v Gast 1>der gesamten Runtime.
+
+00:59:30.030 --> 00:59:34.190
+<v Gast 1>Und diese Runtimes unterstützen zwar zu einem gewissen Maße die Duplication,
+
+00:59:34.590 --> 00:59:39.950
+<v Gast 1>aber ich sehe halt nicht unbedingt so viel, wie besser, wie, dass die Situation so großartig besser macht.
+
+00:59:40.030 --> 00:59:45.470
+<v Gast 1>Also was es eventuell besser macht, ist eben, dass eben diese Runtimes zwischen den Distributionen einheitlich
+
+00:59:45.470 --> 00:59:45.630
+<v Gast 1>sind.
+
+00:59:45.710 --> 00:59:51.070
+<v Gast 1>Also egal, ob ich Flatpack jetzt auf einem Fedora verwende oder auf einem SUSE oder auf einem Ubuntu,
+
+00:59:51.870 --> 00:59:57.550
+<v Gast 1>lädt es sich halt immer die gleichen Runtimes runter und linkt sie dann halt so dynamisch rein.
+
+00:59:57.790 --> 00:59:59.390
+<v Gast 1>Und es gibt auch so.
+
+01:00:00.250 --> 01:00:05.290
+<v Gast 1>Es gibt auch das Konzept von irgendwelchen Erweiterungen, aber die werden derzeit praktisch nicht wirklich
+
+01:00:05.290 --> 01:00:05.770
+<v Gast 1>umgesetzt.
+
+01:00:05.850 --> 01:00:10.890
+<v Gast 1>Also es ist dann meistens eine mehr oder weniger relativ monolithische Runtime.
+
+01:00:11.450 --> 01:00:13.050
+<v Markus>Finde ich aber völlig plausibel.
+
+01:00:13.130 --> 01:00:19.690
+<v Markus>Also, weil Speicherplatz und Datentransfer wird verhältnismäßig günstig, zunehmend.
+
+01:00:19.850 --> 01:00:26.810
+<v Markus>Und dann kannst du es dir leisten, dass du einfach mal versionsspezifische Slash-User Directories vorhältst
+
+01:00:26.890 --> 01:00:33.450
+<v Markus>und dafür dich aber weniger damit rumschlagen musst, ob die Abhängigkeiten der Apps jetzt im Konflikt zu dem
+
+01:00:33.450 --> 01:00:36.010
+<v Markus>stehen, was du auf deinem Basissystem hast oder nicht.
+
+01:00:36.250 --> 01:00:40.410
+<v Gast 1>Ja, andererseits vergrößert man dann durchaus auch schon wieder die Attack-Service,
+
+01:00:42.090 --> 01:00:45.610
+<v Gast 1>in dem halt dann im Zweifel in solchen, es kommt halt immer drauf, wieder zu kommen.
+
+01:00:45.850 --> 01:00:49.130
+<v Markus>Es kommt darauf an, wie der Container aussieht, in dem die da ausgeführt werden.
+
+01:00:49.290 --> 01:00:54.570
+<v Markus>Weil wenn das immer nur die einzelne App ist, dann ist der Attack die Angriffsoberfläche und dessen,
+
+01:00:54.650 --> 01:00:59.210
+<v Markus>was durch den Angriff erbeutet werden kann, auf diese App limitiert und nicht mehr das Gesamtsystem.
+
+01:01:00.010 --> 01:01:06.090
+<v Gast 1>Es gibt auch schon gewisse Sandboxing-Konzepte, also alles läuft erstmal relativ in der Sandbox und zum
+
+01:01:06.090 --> 01:01:12.330
+<v Gast 1>Beispiel hat auch jede App ihren eigenen D-Buzz und der wird dann quasi
+
+01:01:13.210 --> 01:01:17.370
+<v Gast 1>und es muss explizit erlaubt werden, dass dieser D-Buzz auf den System-Debuzz zugreift.
+
+01:01:17.690 --> 01:01:24.170
+<v Gast 1>Also nicht den System-Debuzz, sondern halt eben auf den Debus der User-Session
+
+01:01:24.170 --> 01:01:30.330
+<v Gast 1>zugreift und sowas, aber das ist auch alles relativ grob granular und es muss dann halt auch irgendwie,
+
+01:01:30.570 --> 01:01:37.370
+<v Gast 1>es müssen auch bestimmte Ordner freigegeben werden, was aber wiederum ja von Application zu
+
+01:01:37.370 --> 01:01:38.410
+<v Gast 1>Application unterschiedlich ist.
+
+01:01:38.490 --> 01:01:43.610
+<v Gast 1>Also wenn ich einen Musikplayer haben will,
+
+01:01:44.650 --> 01:01:51.050
+<v Gast 1>dann habe ich vielleicht Musik nicht nur unbedingt in Home-User-Musik oder Musik,
+
+01:01:51.210 --> 01:01:57.450
+<v Gast 1>sondern auch woanders und dann muss man natürlich immer gucken, wo man jetzt eben den Zugriff gibt.
+
+01:01:57.850 --> 01:02:03.690
+<v Gast 1>Also die Sache ist ja, ob man eher so eine Runtime eher möglichst minimalistisch oder möglichst groß
+
+01:02:03.690 --> 01:02:04.650
+<v Gast 1>gestaltet.
+
+01:02:05.770 --> 01:02:09.610
+<v Gast 1>Nämlich, wenn ich dann zum Beispiel nur exakt eine KDE-Library brauche,
+
+01:02:09.850 --> 01:02:16.090
+<v Gast 1>das aber mir dann die gesamte KDE-Runtime nachzieht, wo dann eben eigentlich alle KDE-Libraries drin sind und
+
+01:02:16.090 --> 01:02:19.370
+<v Gast 1>eine von diesen Libraries, selbst die, die ich nicht benutze, einen Bug hat,
+
+01:02:20.410 --> 01:02:24.250
+<v Gast 1>dann ist das vielleicht nicht unbedingt so ideal.
+
+01:02:24.330 --> 01:02:27.610
+<v Gast 1>Und aber andererseits, wenn man so eine Runtime relativ minimalistisch gestaltet,
+
+01:02:27.770 --> 01:02:33.770
+<v Gast 1>dann werden eben die Libraries, die die App dann trotzdem braucht, eben zusammen mit der App ausgeliefert.
+
+01:02:33.850 --> 01:02:38.890
+<v Gast 1>Und dann haben wir eben wieder das Problem, dass wenn es dort ein Update für diese Library gibt,
+
+01:02:39.050 --> 01:02:42.890
+<v Gast 1>muss eben die App, dieses App-Flatpak-Paket, abgedatet werden.
+
+01:02:43.050 --> 01:02:47.770
+<v Gast 1>Und das dauert dann halt zumindest für alle Apps meistens eben doch länger als eine Distribution braucht,
+
+01:02:47.850 --> 01:02:49.850
+<v Gast 1>um irgendwie einen Fix zu teilen.
+
+01:02:50.010 --> 01:02:53.130
+<v Markus>Ja, du hast dann immer die einzelnen Apps, die nicht aktualisiert werden.
+
+01:02:55.450 --> 01:03:02.410
+<v Gast 1>Ja, also es hat ein paar, es hat gewisse Sandboxing-Konzepte, die auch nicht auf SE Linux oder AppArmo
+
+01:03:02.490 --> 01:03:07.050
+<v Gast 1>oder sowas aufsetzen, weshalb es relativ universell für alle möglichen Distributionen einsetzbar ist.
+
+01:03:07.370 --> 01:03:11.130
+<v Gast 1>Ich kann mir vorstellen, dass das Paketieren schon durchaus vereinfacht,
+
+01:03:11.530 --> 01:03:15.210
+<v Gast 1>bin aber halt ein bisschen skeptisch, was eben so diese anderen Konzepte angeht.
+
+01:03:17.050 --> 01:03:23.530
+<v Markus>Ja, bleibt spannend, ob dadurch letztendlich Linux insgesamt mehr unterstützt wird durch die Hersteller
+
+01:03:23.850 --> 01:03:26.410
+<v Markus>und mehr Software verfügbar ist.
+
+01:03:26.570 --> 01:03:29.850
+<v Markus>Andererseits habe ich das Gefühl, dass die Software, die wirklich vermisst wird,
+
+01:03:30.090 --> 01:03:35.530
+<v Markus>abgesehen von Spielen zunehmend weniger wird, weil das meiste als Web-Applikation verfügbar ist.
+
+01:03:35.850 --> 01:03:37.770
+<v l33tname>Ha, das ist interessant, dass du das sagst.
+
+01:03:37.850 --> 01:03:42.410
+<v l33tname>Jetzt, wo du das sagst, fällt mir nämlich ein, dass Steam irgendwie angekündigt hat,
+
+01:03:42.570 --> 01:03:48.570
+<v l33tname>dass sie irgendwie so ein sowas wie Wine oder Wine als
+
+01:03:50.170 --> 01:03:54.730
+<v l33tname>mitbringen, dass du deine Windows-Spiele halt auch auf Linux spielen kannst.
+
+01:03:54.890 --> 01:03:56.410
+<v Markus>Die Schlagzeile habe ich auch gesehen, ja?
+
+01:03:56.810 --> 01:03:56.970
+<v Markus>Genau.
+
+01:03:57.210 --> 01:03:58.970
+<v l33tname>Mal schauen, ob ich die kurz finde.
+
+01:03:59.130 --> 01:04:03.690
+<v Gast 1>Was halt insoweit ganz gut ist, da viele Spiele zwar schon durchaus unter Wine laufen,
+
+01:04:03.770 --> 01:04:05.610
+<v Gast 1>aber immer noch so ein bisschen Handarbeit brauchten.
+
+01:04:05.690 --> 01:04:11.690
+<v Gast 1>Also es gab ja irgendwie so Play on Linux, das eben halt einfach schon fertige Rezepte hatte,
+
+01:04:11.930 --> 01:04:16.330
+<v Gast 1>welche Modifikationen man noch vornehmen muss, welche Libraries man noch irgendwo herunterladen muss und an
+
+01:04:16.330 --> 01:04:17.850
+<v Gast 1>die richtigen Stellen schieben muss.
+
+01:04:18.010 --> 01:04:23.770
+<v Gast 1>Und wenn Steam das jetzt dann quasi eben auch rein integriert, dann ist das auf jeden Fall schon mal etwas
+
+01:04:23.770 --> 01:04:25.050
+<v Gast 1>benutzerfreundlicher.
+
+01:04:25.370 --> 01:04:25.690
+<v Gast 1>Ja.
+
+01:04:26.810 --> 01:04:31.930
+<v l33tname>Steam hat natürlich immer noch DM drin und das lehne ich ab, aber ja,
+
+01:04:32.090 --> 01:04:35.930
+<v l33tname>aus theologischen Gründen kann ich das durchaus nachvollziehen.
+
+01:04:36.410 --> 01:04:39.210
+<v Gast 1>Ich mache es mir dann natürlich relativ leicht, weil ich spiele eh nicht.
+
+01:04:39.370 --> 01:04:39.610
+<v Gast 1>Genau.
+
+01:04:39.690 --> 01:04:44.330
+<v l33tname>Ja, ich auch nicht, weil ich keine Zeit habe, aber theoretisch finde ich das gut,
+
+01:04:44.410 --> 01:04:51.370
+<v l33tname>weil ich dann ja jetzt theoretisch, wenn ich spielen würde, könnte ich das auf Linux machen und müsste nicht
+
+01:04:51.370 --> 01:04:54.410
+<v l33tname>mein Windows booten, da ich aber eh keine Zeit habe.
+
+01:05:00.330 --> 01:05:00.890
+<v l33tname>Genau.
+
+01:05:01.130 --> 01:05:04.650
+<v Gast 1>Kommen wir zu etwas, was eigentlich mittlerweile auch schon wieder eine Kategorie sein könnte.
+
+01:05:04.890 --> 01:05:07.290
+<v Gast 1>Das Intel Microcode-Update der Woche.
+
+01:05:08.330 --> 01:05:12.490
+<v Gast 1>Und dort gibt es jetzt aber gerade, dort gab es aber diesmal ein kleines Lizenzfuck-up,
+
+01:05:12.890 --> 01:05:18.890
+<v Gast 1>denn es gab wieder irgendwelche Meltdown- oder Spectre verwandten
+
+01:05:18.890 --> 01:05:25.370
+<v Gast 1>Sicherheitslücken in Intel-CPUs, zu denen wir leider gerade mangels ausreichendem
+
+01:05:25.370 --> 01:05:26.970
+<v Gast 1>Hypewissen nichts sagen können.
+
+01:05:27.210 --> 01:05:34.170
+<v Gast 1>Aber das Interessante diesmal ist, dass das Microcode-Update diesmal unter einer anderen
+
+01:05:34.330 --> 01:05:35.530
+<v Gast 1>Lizenz stand als sonst.
+
+01:05:35.690 --> 01:05:41.930
+<v Gast 1>In dieser Lizenz stand durchaus unter anderem drin, dass eben, wenn man das
+
+01:05:41.930 --> 01:05:47.050
+<v Gast 1>Microcode-Update eingespielt hat, keine Benchmarks durchgeführt werden dürfen.
+
+01:05:47.450 --> 01:05:52.330
+<v Gast 1>Und auch schon allein das zu verteilen, war rechtlich nicht so ganz einfach,
+
+01:05:52.650 --> 01:05:55.610
+<v Gast 1>weshalb es zum Beispiel, weshalb zum Beispiel Debian angekündigt hatte,
+
+01:05:55.690 --> 01:05:58.250
+<v Gast 1>dass sie es nicht über ihre Repositories ausliefern werden.
+
+01:05:59.210 --> 01:06:05.210
+<v Gast 1>Stellt sich raus, oder zumindest ist das die offizielle Ausrede, dass einfach der
+
+01:06:05.210 --> 01:06:10.410
+<v Gast 1>Mitarbeiter, der das veröffentlicht hat, einfach den Standard NDA,
+
+01:06:10.490 --> 01:06:17.210
+<v Gast 1>das Standard Non-Disclosure Agreement, copy-pastet hat und mittlerweile haben sie sich entschuldigt und die
+
+01:06:17.210 --> 01:06:19.690
+<v Gast 1>entsprechenden Zeilen wieder rausgelöscht.
+
+01:06:20.490 --> 01:06:22.570
+<v Gast 1>So dass es zumindest verteilt werden darf.
+
+01:06:23.050 --> 01:06:25.210
+<v l33tname>Genau, und es wird jetzt auch verteilt.
+
+01:06:25.450 --> 01:06:27.530
+<v l33tname>Also die Projekte machen das jetzt auch.
+
+01:06:29.130 --> 01:06:32.970
+<v l33tname>Sie haben übrigens Wein geforkt und ins Proton.
+
+01:06:34.570 --> 01:06:35.770
+<v Gast 1>Kann man das Steam linken?
+
+01:06:35.930 --> 01:06:36.410
+<v Gast 1>Meinst du Steam?
+
+01:06:36.650 --> 01:06:37.210
+<v Gast 1>Ja, Steam.
+
+01:06:38.650 --> 01:06:39.930
+<v l33tname>Ja, kann man machen.
+
+01:06:40.090 --> 01:06:41.690
+<v l33tname>Wenn es besser funktioniert.
+
+01:06:43.530 --> 01:06:47.370
+<v Markus>Geforgt, aber in dem Artikel, den ich überflogen hatte, stand drin,
+
+01:06:47.450 --> 01:06:49.530
+<v Markus>dass sie trotzdem recht viel an Wein kontributen.
+
+01:06:49.930 --> 01:06:52.090
+<v l33tname>Ja, also ich weiß nicht genau.
+
+01:06:52.410 --> 01:06:54.650
+<v Gast 1>Und im Zweifel Wine ist ja auch, glaube ich, GPL-Software.
+
+01:06:54.810 --> 01:07:00.410
+<v l33tname>Ja, und Proton selber ist irgendwie auch Open Source und auf Ich nehme mal an,
+
+01:07:00.490 --> 01:07:05.050
+<v l33tname>dass sie es halt geforgt haben, um gewisse Dinge, die nur, wo sie sagen,
+
+01:07:05.130 --> 01:07:06.730
+<v l33tname>das macht nur für uns Sinn.
+
+01:07:07.530 --> 01:07:10.170
+<v l33tname>Und damit sie halt auch selber ein Fork haben, wo sie sagen können,
+
+01:07:10.250 --> 01:07:13.450
+<v l33tname>wo sie schneller pushen können und sagen können, wir machen das jetzt so.
+
+01:07:14.410 --> 01:07:18.730
+<v l33tname>Und dann kann man immer noch schauen, was zurückcontributet wird,
+
+01:07:18.810 --> 01:07:22.170
+<v l33tname>ob das für alle Sinn macht oder ob das halt irgendwie so ein Use Case ist,
+
+01:07:22.330 --> 01:07:24.970
+<v l33tname>der genau Sinn macht, wenn du Steam benutzt.
+
+01:07:27.450 --> 01:07:31.690
+<v l33tname>Ja, nehme ich mal an, das so ein bisschen die Idee dahinter.
+
+01:07:31.930 --> 01:07:35.930
+<v l33tname>Und ja, eben, es ist irgendwie auch Open Source, es ist auf GitHub.
+
+01:07:36.250 --> 01:07:39.130
+<v l33tname>Man kann sich das alles klonen und auch selber bauen.
+
+01:07:39.450 --> 01:07:39.770
+<v l33tname>Ja.
+
+01:07:41.050 --> 01:07:44.890
+<v Markus>Gut, zum Abschluss der News noch ein bisschen Politik.
+
+01:07:45.130 --> 01:07:48.810
+<v Markus>Und zwar haben wir, weiß ich gar nicht, ob wir darüber gesprochen hatten,
+
+01:07:49.130 --> 01:07:55.450
+<v Markus>dass in Niedersachsen sich ein bisschen Realsatire abspielt,
+
+01:07:55.690 --> 01:08:01.850
+<v Markus>wo in einem Koalitionsvertrag beschlossen wird, dass eine Systemmigration im Finanzamt,
+
+01:08:02.330 --> 01:08:07.530
+<v Markus>im Finanzministerium durchgeführt wird, wovon jenes Ministerium gar nichts weiß.
+
+01:08:09.690 --> 01:08:14.330
+<v Markus>Naja, die Grünen haben dort auf jeden Fall jetzt nochmal nachgehakt und
+
+01:08:16.250 --> 01:08:17.930
+<v Markus>fordern Aufklärungen.
+
+01:08:18.010 --> 01:08:23.450
+<v Markus>Und was die Berichterstattung so macht, sie lässt das Ganze irgendwie wie eine übel Schmieren-Komödie
+
+01:08:23.450 --> 01:08:29.690
+<v Markus>aussehen, dass da Leute politische Entscheidungen treffen, ohne auch nur ansatzweise inhaltliche Arbeit
+
+01:08:29.690 --> 01:08:33.530
+<v Markus>geleistet zu haben, wie abzuklären, was die Kosten sind, was die bisherigen Nachteile sind,
+
+01:08:33.610 --> 01:08:34.730
+<v Markus>die behoben werden könnten.
+
+01:08:34.890 --> 01:08:38.650
+<v Markus>Nichts dergleichen scheint passiert zu sein und darüber reden will erst recht keiner.
+
+01:08:40.410 --> 01:08:44.330
+<v Markus>Ja, ich bin gespannt, was da noch ins Tageslicht kommt, wie das zustande gekommen ist,
+
+01:08:44.410 --> 01:08:50.970
+<v Markus>dass so eine Entscheidung unreflektiert scheint in den Koalitionsvertrag geschrieben worden ist.
+
+01:08:53.130 --> 01:08:55.770
+<v Gast 1>Genau bleiben wir bei dem politischen.
+
+01:08:56.010 --> 01:08:56.410
+<v Gast 1>Genau.
+
+01:08:58.730 --> 01:09:04.410
+<v Gast 1>Wie bereits von Binärgewitter berichtet, gab es ja die
+
+01:09:05.050 --> 01:09:12.010
+<v Gast 1>EU-Urheberrechtsreform, die durchaus positiv durchwachsen ausgefallen
+
+01:09:12.010 --> 01:09:18.170
+<v Gast 1>ist, aber wo es eben die beiden problematischen Artikel 11 und 13 drin gab,
+
+01:09:18.810 --> 01:09:24.650
+<v Gast 1>die unter anderem Uploadfilter und automatisierte Uploadfilter für Plattformen gefordert haben.
+
+01:09:24.810 --> 01:09:30.730
+<v Gast 1>Und das wurde ja vor einigen Monaten tatsächlich im Plenum nochmal abgeschmettert,
+
+01:09:30.890 --> 01:09:35.530
+<v Gast 1>indem eben diese gesamte Urheberrechtsreform erstmal vom Plenum zurückgewiesen wurde,
+
+01:09:35.610 --> 01:09:39.530
+<v Gast 1>wieder zurück in die Ausschüsse, dass die Ausschüsse, die eben nochmal überarbeiten sollten.
+
+01:09:39.610 --> 01:09:41.530
+<v Gast 1>Und dann war erstmal Sommerpause.
+
+01:09:42.330 --> 01:09:47.370
+<v Markus>Genau, und jetzt steht recht zeitnah die nächste Abstimmung an.
+
+01:09:47.690 --> 01:09:52.010
+<v Markus>Und um da nochmal den Entscheidern ins Bewusstsein zu rufen,
+
+01:09:52.090 --> 01:09:59.050
+<v Markus>wie die Stimmung eigentlich ist, dass man dagegen ist, das Internet auf diese Art und Weise in seinen
+
+01:09:59.130 --> 01:10:00.410
+<v Markus>Grundfesten zu erschüttern.
+
+01:10:00.810 --> 01:10:03.930
+<v Markus>Ist für morgen, also wir senden heute am 25.
+
+01:10:04.090 --> 01:10:05.930
+<v Markus>August, also morgen am 26.
+
+01:10:06.090 --> 01:10:08.970
+<v Markus>August sind europaweit Aktionen geplant.
+
+01:10:09.210 --> 01:10:13.530
+<v Markus>In Deutschland vor allem in Berlin, Stuttgart,
+
+01:10:13.850 --> 01:10:19.850
+<v Markus>München natürlich, Augsburg, Frankfurt, Hamburg und auch Köln.
+
+01:10:20.410 --> 01:10:26.650
+<v Markus>So dass für viele, zumindest in der nächsten Großstadt, etwas stattfinden dürfte.
+
+01:10:28.890 --> 01:10:34.570
+<v Markus>Und vielleicht ist dieser Podcast ja schnell genug online, dass ihr es noch hört und morgen irgendwo hingehen
+
+01:10:34.570 --> 01:10:34.890
+<v Markus>könnt.
+
+01:10:35.050 --> 01:10:39.770
+<v Markus>Hier auf der FrostCon direkt müssen wir uns gleich nochmal umhören, ob irgendwas stattfindet.
+
+01:10:39.850 --> 01:10:44.490
+<v Markus>Ansonsten ist Köln ja nicht weit, ob wir vielleicht morgen früh erst noch einen Ausflug nach Köln machen,
+
+01:10:44.570 --> 01:10:45.450
+<v Markus>bevor wir hierher kommen.
+
+01:10:45.530 --> 01:10:46.730
+<v Markus>Man weiß es nicht.
+
+01:10:48.170 --> 01:10:53.130
+<v Markus>Wenn man nicht hingehen kann, wird es sicherlich im Netz wieder hinreichend Anleitungen dazu geben,
+
+01:10:53.210 --> 01:10:56.970
+<v Markus>wie man aktiv werden kann, die man unbedingt Folge leisten sollte.
+
+01:10:59.370 --> 01:11:00.010
+<v Markus>Genau.
+
+01:11:00.330 --> 01:11:02.570
+<v Markus>Was haben wir da zu dem Kontext noch gehabt?
+
+01:11:02.650 --> 01:11:06.650
+<v Markus>Richtig, die Absurdität, die sich rund um das Thema aufzieht.
+
+01:11:06.810 --> 01:11:11.050
+<v Markus>Zum einen, wenn man auf Twitter auf saveyourinternet.t den Link klickt,
+
+01:11:11.130 --> 01:11:16.810
+<v Markus>der zum Beispiel von Julia Rieder getwittert wurde, dann zeigt Twitter erstmal die Warnung an,
+
+01:11:16.890 --> 01:11:21.530
+<v Markus>dass es sich bei der Website vermutlich um eine schädliche Website handelt,
+
+01:11:21.690 --> 01:11:27.450
+<v Markus>die einem den Benutzer-Account und all seine persönlichen Habseligkeiten wegnehmen würde.
+
+01:11:29.130 --> 01:11:34.970
+<v Markus>Und Google ist hingegangen und hat Julias Reda Artikel aus dem Google-Index entfernt, oder?
+
+01:11:35.290 --> 01:11:42.090
+<v Gast 1>Genau, also das Problem, also was ja eben auch gerade die Problematik dieser unkontrollierten,
+
+01:11:42.330 --> 01:11:46.570
+<v Gast 1>automatisierten Filter aufzeigt, ist,
+
+01:11:46.890 --> 01:11:53.530
+<v Gast 1>dass es ja seit einer Weile einen speziellen Zugang für Urheberrechteinhaber für diverse
+
+01:11:53.530 --> 01:11:56.570
+<v Gast 1>Plattformen, YouTube, aber auch eben für den Google-Suchendex gibt,
+
+01:11:56.810 --> 01:12:01.450
+<v Gast 1>wo sie dann sagen können, wo sie dann einen sogenannten DMCA-Complaint einreichen können.
+
+01:12:01.610 --> 01:12:08.490
+<v Gast 1>DMCA ist der Digital Millennium Copyright Act, in den frühen 2000ern eben halt US-Gesetzgebung
+
+01:12:08.490 --> 01:12:10.410
+<v Gast 1>gegen Urheberrechtsverletzung.
+
+01:12:10.730 --> 01:12:16.090
+<v Gast 1>Und die können dann halt eben sagen, ja, ich sage, dass unter diesem Link mein
+
+01:12:18.170 --> 01:12:23.450
+<v Gast 1>urheberrechtlich geschütztes Material abrufbar ist, an dem ich die Rechte habe und deshalb löscht das mal aus
+
+01:12:23.450 --> 01:12:30.170
+<v Gast 1>dem Index Google und das können ziemlich viele Stakeholder auch eben
+
+01:12:30.410 --> 01:12:30.730
+<v Gast 1>machen.
+
+01:12:30.890 --> 01:12:35.850
+<v Gast 1>Sie reichen es ein und dann wird es gelöscht, ohne dass es eben überprüft wird,
+
+01:12:35.930 --> 01:12:42.650
+<v Gast 1>ob da eben auch tatsächlich die Rechte dran, ob der Stakeholder eben die Rechte dran hat.
+
+01:12:42.810 --> 01:12:49.610
+<v Gast 1>Und das ist absurderweise mit einem Blogpost von Julia Reda eben zum Thema Censorship Machines gone a sensor
+
+01:12:49.610 --> 01:12:56.570
+<v Gast 1>passiert, was da so ein bisschen so ein Feigenblatt ist, dass eben dann unten unter dem Suchergebnis
+
+01:12:56.570 --> 01:13:03.530
+<v Gast 1>eben angezeigt wird, dass eben aufgrund von DMCA-Complaints gewisse Links gelöscht wurden und man doch darauf
+
+01:13:03.530 --> 01:13:10.170
+<v Gast 1>klicken kann und dann sieht man so einen Transparenzreport, wo dann eben dieses DMCA-Complaint eben
+
+01:13:10.170 --> 01:13:10.970
+<v Gast 1>dokumentiert ist.
+
+01:13:11.050 --> 01:13:17.370
+<v Gast 1>Aber das sind eben Abertausende, Hunderttausende pro Tag, dass das eben nicht realistisch kontrolliert werden
+
+01:13:17.370 --> 01:13:17.610
+<v Gast 1>kann.
+
+01:13:20.490 --> 01:13:20.810
+<v Gast 1>Ja.
+
+01:13:24.250 --> 01:13:27.530
+<v Markus>Tja, tja, tja, so viel zu tun.
+
+01:13:31.050 --> 01:13:35.690
+<v Markus>Eine Alternative dazu ist ja, dass wir auf dezentrale Dienste setzen, oder?
+
+01:13:36.170 --> 01:13:40.650
+<v Gast 1>Genau, der Elefant, von dem ich vorhin gesprochen wurde,
+
+01:13:40.730 --> 01:13:47.130
+<v Gast 1>der mal wieder durchs Netz getrieben wurde, ist Mastodon, denn tatsächlich unter anderem
+
+01:13:47.130 --> 01:13:53.290
+<v Gast 1>anlässlich von dieser Twitter-API-Einschränkung
+
+01:13:54.010 --> 01:14:00.490
+<v Gast 1>und auch aufgrund der mangelnden der mangelnden
+
+01:14:00.490 --> 01:14:06.810
+<v Gast 1>Einschränkung von Abuse und Nazi-Content auf Twitter gab es dann plötzlich eben wieder eine große Bewegung
+
+01:14:06.890 --> 01:14:12.410
+<v Gast 1>oder auf jeden Fall eine nennenswerte Bewegung von Twitter zu Mastodon größtenteils.
+
+01:14:13.690 --> 01:14:18.170
+<v Gast 1>Genau, also wieder von Twitter raus in das sogenannte Fediverse.
+
+01:14:18.250 --> 01:14:22.810
+<v Gast 1>Denn Mastodon, darüber hatten wir, glaube ich, schon früher mal geredet.
+
+01:14:23.130 --> 01:14:27.210
+<v l33tname>Genau, wir haben hier berichtet, bevor es cool war, logischerweise, so wie Sie sich das gehört.
+
+01:14:27.370 --> 01:14:29.770
+<v l33tname>Wir haben uns alle einen Account gemacht und gedacht, so ja, okay.
+
+01:14:30.010 --> 01:14:35.370
+<v Gast 1>Genau, Mastodon ist nämlich eine eben ein dezentrales,
+
+01:14:35.610 --> 01:14:40.250
+<v Gast 1>föderiertes Microblogging, eine Microblogging-Plattform.
+
+01:14:40.970 --> 01:14:47.690
+<v Gast 1>Ja, ich habe mir da tatsächlich schon beim letzten großen, als dass das letzte Mal schon irgendwie groß
+
+01:14:47.690 --> 01:14:53.130
+<v Gast 1>durchs Internet getrieben wurde, nicht nur eine Count erstellt, sondern selbst eine Instanz aufgesetzt.
+
+01:14:53.370 --> 01:14:55.530
+<v Gast 1>Das war irgendwann Ende 2017.
+
+01:14:57.770 --> 01:15:04.570
+<v Gast 1>Und ja, genau, Mastodon, das Interessante daran ist erstmal,
+
+01:15:04.810 --> 01:15:11.770
+<v Gast 1>dass Mastodon eben es ermöglicht, ja, Twitter-ähnliche Microblogging-Posts abzusetzen
+
+01:15:11.770 --> 01:15:14.170
+<v Gast 1>mit einem Zeichenlimit von 500 Zeichen.
+
+01:15:14.410 --> 01:15:20.810
+<v Gast 1>Und es gibt eben, wie bei dezentralen föderierten Systemen üblich, verschiedene Instanzen.
+
+01:15:21.850 --> 01:15:27.050
+<v Gast 1>Bei Dezentralität muss man immer eben unterscheiden, was es für ein Dezentralitätsmodell ist.
+
+01:15:27.130 --> 01:15:32.010
+<v Gast 1>Also es ist ja alles vorstellbar von wirklich komplett Peer-to-Peer wie BitTorrent.
+
+01:15:32.170 --> 01:15:38.490
+<v Gast 1>BitTorrent ist ja auch na BitTorrent mit BitTorrent ohne Tracker ist dann zum Beispiel komplett
+
+01:15:38.490 --> 01:15:39.450
+<v Gast 1>Peer-to-Peer.
+
+01:15:40.330 --> 01:15:46.250
+<v Gast 1>Aber Mastodon ist ein föderiertes Netzwerk und
+
+01:15:47.610 --> 01:15:53.770
+<v Gast 1>schließt damit so ein bisschen an Architekturen an, wie eben Java-Server oder E-Mail-Server.
+
+01:15:54.570 --> 01:16:01.370
+<v Gast 1>Und das heißt eben, dass es Instanzen gibt, das sind so Server und die tauschen sich dann eben untereinander
+
+01:16:01.370 --> 01:16:01.690
+<v Gast 1>aus.
+
+01:16:02.330 --> 01:16:07.130
+<v Gast 1>Das heißt, man hat eben einen Account, Username at Server,
+
+01:16:07.930 --> 01:16:12.810
+<v Gast 1>und wenn man dann eben Leuten auf einer anderen Instanz folgen möchte,
+
+01:16:13.050 --> 01:16:17.610
+<v Gast 1>dann passiert es nämlich eben einfach so, dass eben neue Posts,
+
+01:16:17.690 --> 01:16:23.290
+<v Gast 1>neue Benachrichtigungen einfach dann immer auch an die Server aller Follower geschickt werden.
+
+01:16:23.850 --> 01:16:26.250
+<v Markus>Das ist letztendlich Serverseitigen Publish Subscriber.
+
+01:16:27.850 --> 01:16:32.410
+<v Markus>Der Server, auf dem du bist und du sagst, du möchtest dem User auf dem anderen Server folgen,
+
+01:16:32.650 --> 01:16:37.210
+<v Markus>der subscribed für dich bei dem Server für Updates auf dem jeweiligen User.
+
+01:16:37.450 --> 01:16:43.690
+<v Gast 1>Genau, das ist dann eben sogenannte Push Federation, weil eben tatsächlich der Server
+
+01:16:45.450 --> 01:16:51.050
+<v Gast 1>des Autoren eben dafür verantwortlich ist, zu wissen, wem man das denn jetzt alles schicken soll.
+
+01:16:53.210 --> 01:16:53.530
+<v Gast 1>Ja.
+
+01:16:55.210 --> 01:17:02.010
+<v Gast 1>Was recht interessant daran ist, ist, dass Mastodon eben wieder mal ausnahmsweise mal nicht das Rad neu
+
+01:17:02.010 --> 01:17:08.410
+<v Gast 1>erfindet, sondern tatsächlich bestehende Standards implementiert hat und davon sogar mehrere.
+
+01:17:08.890 --> 01:17:13.930
+<v Gast 1>Denn angefangen hat es, Mastodon gibt es schon seit mindestens 2016 und
+
+01:17:15.690 --> 01:17:19.130
+<v Gast 1>da hat es dann angefangen mit dem Standard O-Status.
+
+01:17:19.450 --> 01:17:25.610
+<v Gast 1>O-Status gibt es seit 2008, also ich weiß nicht, ob sich noch jemand von euch an Identica erinnert.
+
+01:17:25.930 --> 01:17:26.730
+<v Gast 1>Ja, da hatte ich genau.
+
+01:17:28.810 --> 01:17:30.090
+<v Markus>Das war der Twitter-Killer.
+
+01:17:30.970 --> 01:17:36.090
+<v Gast 1>Genau, Identica hat halt irgendwann mit diesem O-Status angefangen, die Software-Ident hieß dann StatusNet.
+
+01:17:36.410 --> 01:17:42.490
+<v Gast 1>Und das war so ein XML-basiertes Protokoll, was auch irgendwann,
+
+01:17:42.810 --> 01:17:44.730
+<v Gast 1>irgendwann gab es auch mal Anfänge.
+
+01:17:45.050 --> 01:17:51.050
+<v Gast 1>Es hat sich so eine kleine W3C-Working Group gebildet, aber das ist dann irgendwie doch alles im Sande
+
+01:17:51.050 --> 01:17:52.090
+<v Gast 1>verlaufen.
+
+01:17:52.890 --> 01:17:58.650
+<v Gast 1>Ja, StatusNet wurde dann irgendwann nicht mehr weiterentwickelt, wurde geforgt,
+
+01:17:59.130 --> 01:18:06.090
+<v Gast 1>hieß dann GNU Social und GNU Social wurde dann halt weiterhin
+
+01:18:06.090 --> 01:18:08.810
+<v Gast 1>so ein bisschen vor sich hin rumentwickelt, in PHP.
+
+01:18:10.010 --> 01:18:14.250
+<v Gast 1>GNU Social war auch das, was so vor einigen Jahren dann irgendwie hinter Quitter lief.
+
+01:18:14.410 --> 01:18:20.250
+<v Gast 1>Quitter war relativ beliebte GNU Social Instanzen,
+
+01:18:20.650 --> 01:18:24.490
+<v Gast 1>weil Quitter eben nochmal eine Twitter-ähnliche Oberfläche dafür entwickelt hatte.
+
+01:18:25.930 --> 01:18:30.890
+<v Gast 1>Genau, und aber Mastodon hat dann eben halt angefangen, auch als Alternative dazu,
+
+01:18:32.730 --> 01:18:38.730
+<v Gast 1>als Alternative dazu, die dann eben nicht in PHP geschrieben ist, sondern in Ruby on Rails
+
+01:18:40.010 --> 01:18:43.210
+<v Gast 1>und halt auch ein bisschen schicker aussieht.
+
+01:18:45.210 --> 01:18:45.770
+<v Gast 1>Genau.
+
+01:18:46.730 --> 01:18:51.450
+<v Gast 1>Was dann eben von dem Statusnet wurde er irgendwann nicht mehr weiterentwickelt,
+
+01:18:51.770 --> 01:18:58.090
+<v Gast 1>von dem Entwickler und der hat dann eben angefangen, eine komplett neue Software mit einem komplett eigenen
+
+01:18:58.090 --> 01:18:59.610
+<v Gast 1>Protokoll zu entwickeln.
+
+01:19:00.570 --> 01:19:01.930
+<v Gast 1>Das war dann Pump.io.
+
+01:19:03.130 --> 01:19:07.850
+<v Gast 1>Das ist auch das, was derzeit immer noch unter Identica, also identi.ca, läuft.
+
+01:19:08.010 --> 01:19:14.410
+<v Gast 1>Alle dortigen Accounts wurden dann eben von diesem Statusnet zu Pump.io migriert,
+
+01:19:14.730 --> 01:19:18.090
+<v Gast 1>aber so wirklich benutzbar und schön war das eigentlich nie.
+
+01:19:18.570 --> 01:19:25.290
+<v Gast 1>Aber aus diesem Standard, der dann eben JSON-Objektaktivitätsbeschreibung durch die Gegend geschoben hat,
+
+01:19:25.930 --> 01:19:31.850
+<v Gast 1>hat sich dann tatsächlich mittlerweile ein weiterer offener Standard entwickelt,
+
+01:19:32.250 --> 01:19:36.250
+<v Gast 1>der mittlerweile jetzt auch seit Beginn des Jahres, seit Beginn 2018,
+
+01:19:36.570 --> 01:19:38.010
+<v Gast 1>ein W3C-Standard ist.
+
+01:19:38.090 --> 01:19:39.530
+<v Gast 1>Und zwar ActivityPub.
+
+01:19:41.690 --> 01:19:42.010
+<v Gast 1>Ja.
+
+01:19:42.730 --> 01:19:48.090
+<v Gast 1>Und Mastodon war dann auch tatsächlich die erste größere Plattform,
+
+01:19:48.650 --> 01:19:55.370
+<v Gast 1>die dann zusätzlich zum Release Mastodon 2.0 ActivityPub Support hinzugefügt hat.
+
+01:19:56.710 --> 01:20:03.030
+<v Gast 1>Und GNU Social hat dann nach einer Weile nachgezogen und deshalb kann Mastodon selbst zwar noch sowohl
+
+01:20:03.030 --> 01:20:08.710
+<v Gast 1>O-Status als auch ActivityPub, aber wann immer es geht, wird ActivityPub verwendet.
+
+01:20:09.190 --> 01:20:15.030
+<v Gast 1>Und ja, mittlerweile ist ActivityPub eben ein offizieller W3C-Standard.
+
+01:20:16.150 --> 01:20:21.590
+<v Gast 1>Und das Interessante ist, dass da tatsächlich ein bisschen Bewegung drin zu sein scheint.
+
+01:20:21.750 --> 01:20:27.670
+<v Gast 1>Denn Mastodon ist jetzt zwar irgendwie die Sau, die gerade durchs Dorf getrieben wird und auch erstmal das,
+
+01:20:27.750 --> 01:20:34.630
+<v Gast 1>wo die meisten Leute hingehen, weil es ja vermutlich gibt am meisten Nodes davon und es ist auch
+
+01:20:34.630 --> 01:20:37.990
+<v Gast 1>relativ weit entwickelt schon und durchaus benutzbar.
+
+01:20:39.110 --> 01:20:45.990
+<v Gast 1>Aber es gibt auch diverse andere kompatible Software mittlerweile, die entweder schon benutzbar ist
+
+01:20:45.990 --> 01:20:52.150
+<v Gast 1>oder derzeit noch im zumindest mittelbenutzbaren Entwicklungsstadium ist.
+
+01:20:52.870 --> 01:20:58.390
+<v Gast 1>Es gibt zum Beispiel einen Mastodon-kompatiblen Server,
+
+01:20:58.630 --> 01:21:01.750
+<v Gast 1>der auch sogar die gleiche Oberfläche verwenden kann, aber nicht muss.
+
+01:21:01.910 --> 01:21:03.030
+<v Gast 1>Und das ist Pleroma.
+
+01:21:03.110 --> 01:21:09.510
+<v Gast 1>Pleroma ist nicht wie Mastodon, Mastodon ist ja in Ruby und Rails geschrieben und deshalb nicht so wirklich
+
+01:21:09.510 --> 01:21:10.870
+<v Gast 1>leichtgewichtig.
+
+01:21:11.670 --> 01:21:17.990
+<v Gast 1>Pleroma hingegen ist in Elixir geschrieben, also dieser Erlang-Dialekt mit Ruby-artiger Syntax.
+
+01:21:18.550 --> 01:21:24.150
+<v Gast 1>Und was Pleroma angeht, kursieren da regelmäßig irgendwelche Witze,
+
+01:21:24.390 --> 01:21:28.710
+<v Gast 1>alias, wie man Pleroma auf einer gekochten Kartoffel installiert.
+
+01:21:28.790 --> 01:21:31.590
+<v Gast 1>Also Pleroma ist schon wesentlich leichtgewichtiger.
+
+01:21:32.390 --> 01:21:37.750
+<v Gast 1>Und ja, es macht so prinzipiell eigentlich das Gleiche, es ist auch wieder eine Microblogging-Plattform.
+
+01:21:38.630 --> 01:21:43.270
+<v Gast 1>Genau, GNU Social hat mittlerweile auch ActivityPub implementiert,
+
+01:21:43.430 --> 01:21:50.150
+<v Gast 1>kann auch immer noch dieses O-Status und dadurch können halt immer noch nicht nur Mastodon-Istanzen
+
+01:21:50.150 --> 01:21:56.390
+<v Gast 1>untereinander föderieren, sondern eben auch Mastodon kann mit Plerooma und auch mit GNU Social
+
+01:21:56.790 --> 01:21:57.590
+<v Gast 1>föderieren.
+
+01:21:58.710 --> 01:22:05.110
+<v Gast 1>Dadurch bildet sich das sogenannte Fativerse, das eben das Universum aller föderierten Softwares,
+
+01:22:05.190 --> 01:22:07.190
+<v Gast 1>die irgendwie miteinander kommunizieren können.
+
+01:22:07.590 --> 01:22:13.750
+<v Gast 1>Eine schöne Übersicht darüber gibt es unter der wunderbaren Domain Fativerse.party.
+
+01:22:15.750 --> 01:22:20.230
+<v Gast 1>Und da kann jetzt ja einfach mal die gesamte Softwarelandschaft durchgehen,
+
+01:22:20.310 --> 01:22:22.550
+<v Gast 1>die da irgendwie ein bisschen mitspielt.
+
+01:22:23.910 --> 01:22:25.030
+<v Markus>Erzähl mal, das ist ja auch.
+
+01:22:25.350 --> 01:22:30.630
+<v Gast 1>Genau, seit seit geraumer Zeit gibt es auch Friendica, das ist auch so PHP-Geraffel,
+
+01:22:30.790 --> 01:22:35.510
+<v Gast 1>was mit dem Ziel, eigentlich möglichst viele Netzwerke,
+
+01:22:35.910 --> 01:22:38.550
+<v Gast 1>soziale Netzwerke unter einer Oberfläche zu integrieren.
+
+01:22:38.630 --> 01:22:42.470
+<v Gast 1>Also von Friendica aus kann man auch nach Twitter posten und nach Facebook,
+
+01:22:42.790 --> 01:22:49.350
+<v Gast 1>auch nach Diaspora und eben auch nach eben auch per ActivityPub mittlerweile
+
+01:22:50.070 --> 01:22:54.230
+<v Gast 1>eben an alle zuvor genannten Plattformen posten.
+
+01:22:55.830 --> 01:22:57.270
+<v Markus>Wie muss man sich das denn vorstellen?
+
+01:22:57.350 --> 01:23:00.870
+<v Markus>Also Diaspora ist ja nun mal eine andere Plattform als Mastodon.
+
+01:23:02.710 --> 01:23:06.950
+<v Gast 1>Diaspora ist derzeit mit dem Ganzen noch nicht wirklich kompatibel, da können wir gleich noch dazu kommen.
+
+01:23:07.110 --> 01:23:11.910
+<v Markus>Okay, aber wenn wir jetzt so Plattformen haben, die zwar alle Activity Pub benutzen,
+
+01:23:12.070 --> 01:23:17.750
+<v Markus>aber als Use Case was anderes bedienen, so wie Mastodon macht nun mal was anderes als
+
+01:23:19.990 --> 01:23:21.750
+<v Markus>ein Instagram-Klon.
+
+01:23:22.630 --> 01:23:23.590
+<v Markus>Wie interagieren die dann?
+
+01:23:23.670 --> 01:23:25.750
+<v Gast 1>Ah, da können wir gleich mal, ich würde jetzt erstmal noch durchgehen,
+
+01:23:25.830 --> 01:23:29.190
+<v Gast 1>was es alles so gibt und dann können wir da gleich mal anhand von ein paar Beispielen gucken,
+
+01:23:29.270 --> 01:23:30.310
+<v Gast 1>wie das aussehen kann.
+
+01:23:30.550 --> 01:23:30.710
+<v Gast 1>Okay.
+
+01:23:30.950 --> 01:23:37.750
+<v Gast 1>Also ActivityPub ist halt ein relativ weit gefasster Standard.
+
+01:23:38.550 --> 01:23:42.790
+<v Gast 1>Da kritisieren auch manche Leute daran, dass er eben zu weit gefasst ist und deshalb,
+
+01:23:42.870 --> 01:23:46.230
+<v Gast 1>wenn man ihn konkret implementieren will, man sich vielleicht nochmal sich genau einigen muss.
+
+01:23:46.470 --> 01:23:50.310
+<v Gast 1>Also derzeit ist es so, dass die eben die Softwareentwickler halt auch nochmal kurz miteinander sprechen.
+
+01:23:50.390 --> 01:23:51.910
+<v Gast 1>Wie habt ihr denn das gemacht?
+
+01:23:53.190 --> 01:23:57.830
+<v Gast 1>Nämlich, also es gibt auch noch Hubzilla, das ist auch so aus Frendica hervorgegangen,
+
+01:23:58.070 --> 01:24:04.310
+<v Gast 1>aber mit schickerer Oberfläche und ja von der Anmutung eher auch geht es fast schon eher in Richtung Facebook.
+
+01:24:04.630 --> 01:24:10.150
+<v Gast 1>Das kann auch mit Diaspora und ActivityPub
+
+01:24:10.630 --> 01:24:11.750
+<v Gast 1>kommunizieren.
+
+01:24:13.030 --> 01:24:18.630
+<v Gast 1>Genau, und das war ja jetzt ja alles immer noch so mehr oder weniger textbasierte Social Networks.
+
+01:24:19.190 --> 01:24:26.150
+<v Gast 1>Was jetzt schon, was jetzt so aus dem Framasoft-Umfeld entwickelt wird, ist Peertube.
+
+01:24:26.230 --> 01:24:31.910
+<v Gast 1>PeerTube ist eine ActivityPub-basierte Videoplattform,
+
+01:24:32.710 --> 01:24:37.750
+<v Gast 1>die erlauben, die hatten wir, glaube ich, schon mal früher im genannt,
+
+01:24:37.830 --> 01:24:43.110
+<v Gast 1>als es darum ging, dass Blender auf YouTube gesperrt wurde und dann eine eigene Peertube-Instanz aufgesetzt
+
+01:24:43.190 --> 01:24:43.270
+<v Gast 1>hat.
+
+01:24:43.430 --> 01:24:44.710
+<v Markus>Ja, da hatten wir vorhin berichtet.
+
+01:24:44.950 --> 01:24:45.270
+<v Markus>Genau.
+
+01:24:46.630 --> 01:24:51.990
+<v Gast 1>Das Interessante an Peertube ist erstmal, dass es auch zum Ausliefern der Videos Web-Torren verwendet.
+
+01:24:52.070 --> 01:24:55.670
+<v Gast 1>Das heißt, wenn andere Leute schon bereits die Videos gucken, dann werden,
+
+01:24:56.790 --> 01:24:59.670
+<v Gast 1>dann läd halt auch jeder, der die guckt, schon wieder die ein bisschen mit hoch,
+
+01:24:59.750 --> 01:25:01.190
+<v Gast 1>um die Server etwas zu entlasten.
+
+01:25:01.350 --> 01:25:04.310
+<v Gast 1>Das hat aber jetzt auch nicht unbedingt direkt was mit ActivityPub zu tun,
+
+01:25:04.470 --> 01:25:07.750
+<v Gast 1>sondern Peertube implementiert halt auch ActivityPub.
+
+01:25:07.910 --> 01:25:14.550
+<v Gast 1>Das heißt, man kann auch einerseits natürlich auf Peertube untereinander-Accounts,
+
+01:25:15.270 --> 01:25:19.430
+<v Gast 1>weiß nicht, nennt man die dann Peertubern von anderen Instanzen folgen,
+
+01:25:19.510 --> 01:25:25.510
+<v Gast 1>aber man kann auch eben von Mastodon aus einfach Accounts von irgendwelchen Peertube-Instanzen folgen.
+
+01:25:25.990 --> 01:25:32.310
+<v Gast 1>Und wenn die dann ein Video erstellen, dann taucht das halt einfach als Post in der Mastodon-Timeline auf.
+
+01:25:32.470 --> 01:25:39.430
+<v Gast 1>Und was recht elegant ist, wenn man dann eben, wenn man das dann eben zum Beispiel in Mastodon
+
+01:25:39.430 --> 01:25:44.310
+<v Gast 1>liked, das ist natürlich traditionellerweise immer noch ein Sternchen,
+
+01:25:45.590 --> 01:25:50.870
+<v Gast 1>dann wird das eben als Daumen nach oben in Peertube angezeigt.
+
+01:25:51.350 --> 01:25:57.590
+<v Gast 1>Und wenn man wenn man einfach auf diesen Post in Mastodon replied, dann wird das als Kommentar unter das Video
+
+01:25:57.590 --> 01:25:57.990
+<v Gast 1>gesetzt.
+
+01:25:58.230 --> 01:25:59.270
+<v Markus>Ach so, okay.
+
+01:25:59.830 --> 01:26:04.630
+<v Gast 1>Genau, was es noch gibt, ist Funkwale, das ist so ein bisschen, geht so ein bisschen Richtung
+
+01:26:07.510 --> 01:26:13.670
+<v Gast 1>Richtung Soundcloud und ist halt so,
+
+01:26:13.830 --> 01:26:17.190
+<v Gast 1>versucht halt so Audio-Hosting zu betreiben und auch in Schick.
+
+01:26:17.510 --> 01:26:20.390
+<v Gast 1>Das ist aber auch noch derzeit noch gut in Entwicklung.
+
+01:26:20.550 --> 01:26:24.310
+<v Gast 1>Die Demo-Instanz sieht schon ganz gut aus, aber ehrlich gesagt weiß ich nicht,
+
+01:26:24.390 --> 01:26:28.230
+<v Gast 1>ob es davon schon irgendwie wirklich ernsthaft betriebene Instanzen gibt.
+
+01:26:30.790 --> 01:26:31.430
+<v Gast 1>Genau.
+
+01:26:32.950 --> 01:26:38.470
+<v Gast 1>Und wenn wir jetzt so in den Bereich Bilder kommen, so ein Instagram-Klon,
+
+01:26:38.630 --> 01:26:42.070
+<v Gast 1>der vor ein paar Monaten begonnen wurde, ist Pixelfett.
+
+01:26:42.310 --> 01:26:45.910
+<v Markus>Warum ist der denn zum Beispiel auf der Fettiverse-Party noch nicht drauf?
+
+01:26:46.630 --> 01:26:52.870
+<v Gast 1>Weil der vermutlich weil dort Federation noch nicht als freigegeben gilt.
+
+01:26:52.950 --> 01:26:58.630
+<v Gast 1>Ach so, also Federation ist dort größtenteils schon integriert,
+
+01:26:58.950 --> 01:27:01.590
+<v Gast 1>aber eben noch nicht wirklich freigeschaltet.
+
+01:27:01.670 --> 01:27:08.070
+<v Gast 1>Also man kann zum Beispiel mittlerweile schon von Mastodon aus Accounts auf
+
+01:27:08.070 --> 01:27:12.390
+<v Gast 1>PixelFed folgen und auch dann Dinge teilen,
+
+01:27:12.710 --> 01:27:15.430
+<v Gast 1>aber in PixelFed selbst merkt man davon noch nichts.
+
+01:27:15.510 --> 01:27:19.510
+<v Gast 1>Also wenn ich darauf reply, gibt es noch keinen Kommentar und sowas.
+
+01:27:19.910 --> 01:27:22.550
+<v Gast 1>Das Ziel ist, das Ende September fertig zu haben.
+
+01:27:24.070 --> 01:27:25.030
+<v Unbekannt>Genau.
+
+01:27:25.750 --> 01:27:28.550
+<v Gast 1>Und ansonsten ja, PixelFed ist zwar auch wieder ein PHP geschrieben,
+
+01:27:28.630 --> 01:27:33.750
+<v Gast 1>aber es sieht schon durchaus ganz schick aus, lehnt sich halt sehr stark an Instagram an.
+
+01:27:33.990 --> 01:27:38.470
+<v Gast 1>Also man kann dort Bilder hochladen, Videos hochladen, drauf kommentieren,
+
+01:27:38.710 --> 01:27:42.790
+<v Gast 1>Filter draufwerfen und es gibt mittlerweile auch Storys.
+
+01:27:44.790 --> 01:27:48.390
+<v Markus>Kurzer Kommentar zu dem ist zwar auch in PHP geschrieben, ich glaube,
+
+01:27:48.550 --> 01:27:52.790
+<v Markus>ich finde eigentlich ist das, wenn man Software benutzen will, irrelevant,
+
+01:27:52.950 --> 01:27:54.470
+<v Markus>in welcher Technologie sie gemacht wurde.
+
+01:27:54.630 --> 01:27:57.030
+<v Markus>Wenn man an Software mitentwickeln will, dann wird das relevant.
+
+01:27:57.350 --> 01:28:02.390
+<v l33tname>Ja, und wenn du die hosten willst und selber aufsetzen, ist das schon auch noch interessant.
+
+01:28:02.710 --> 01:28:05.350
+<v Markus>Ja, so viel Aufwandweise, ne?
+
+01:28:05.910 --> 01:28:10.870
+<v l33tname>Ja, es geht halt einfach darum, wie aufwendig ist es für dich, das X zu installieren.
+
+01:28:11.190 --> 01:28:13.990
+<v Markus>Die Systemanforderungen sind natürlich irrelevant dafür, um zu entscheiden,
+
+01:28:14.070 --> 01:28:15.830
+<v Markus>ob du sie betreiben kannst oder willst, ja.
+
+01:28:15.990 --> 01:28:19.830
+<v Markus>Aber ansonsten, du lässt sich darüber eigentlich nicht auf die Qualität der Software schließen.
+
+01:28:20.230 --> 01:28:26.870
+<v Gast 1>Und interessanterweise gilt ja eigentlich gilt ja eigentlich PHP halt als selbst
+
+01:28:27.030 --> 01:28:30.950
+<v Gast 1>hosting-freundlich, weil du es dann halt auf deinem X-beliebigen Webspace hosten kannst,
+
+01:28:31.110 --> 01:28:34.470
+<v Gast 1>aber ist ja auch immer die Frage, was dann für PHP-Module letztendlich gebraucht werden.
+
+01:28:34.630 --> 01:28:38.790
+<v Gast 1>Spätestens wenn du da irgendwelche Filter drauf wirfst, dann brauchst du schon gutes Image-Magic und sowas.
+
+01:28:38.950 --> 01:28:43.190
+<v Gast 1>Und ehrlich gesagt bin ich vor zig Jahren, also mindestens fünf, sechs Jahre,
+
+01:28:43.350 --> 01:28:49.190
+<v Gast 1>also bin ich von OwnCloud zu CFI gewechselt, weil ich es einfach nicht hinbekommen habe,
+
+01:28:49.830 --> 01:28:53.990
+<v Gast 1>diesen PHP-Collos von OwnCloud vernünftig performant zu hosten.
+
+01:28:54.230 --> 01:28:58.310
+<v Gast 1>Auf meinem damaligen V-Host noch und das war halt alles langsam und hat keinen Spaß gemacht.
+
+01:28:58.790 --> 01:29:03.350
+<v Gast 1>Das ist jetzt wahrscheinlich vermutlich besser und ich bin halt auch einfach ein inkompetenter PHP-Admin.
+
+01:29:03.510 --> 01:29:08.710
+<v Markus>Das mag sein, aber das ist halt, deshalb habe ich manchmal so ein bisschen Bauchschmitzen mit PHP,
+
+01:29:08.790 --> 01:29:13.990
+<v Markus>aber Das sind also deine nicht überarbeiteten historischen Erfahrungen.
+
+01:29:15.030 --> 01:29:20.070
+<v Gast 1>Ja, also man kann PHP halt unter anderem schnell machen, indem man da irgendwelche Caches drauf wirft oder die
+
+01:29:20.070 --> 01:29:23.030
+<v Gast 1>Hip-Hop-Machine von Facebook verwendet.
+
+01:29:23.990 --> 01:29:26.310
+<v Markus>Das ist jetzt aber schon ein sehr tiefes Know-how.
+
+01:29:26.790 --> 01:29:29.110
+<v Gast 1>Ja, und das habe ich halt nicht und möchte mich dann doch eigentlich auch nicht.
+
+01:29:29.510 --> 01:29:31.830
+<v Markus>Nein, du hast ja gerade allein, dass du die Begriffe kennst.
+
+01:29:33.430 --> 01:29:33.990
+<v Markus>Genau.
+
+01:29:34.950 --> 01:29:35.270
+<v Markus>Ja.
+
+01:29:35.990 --> 01:29:40.950
+<v Gast 1>Wie gesagt, Pixelfett könnte schon durchaus auch nochmal eine relativ schicke Sache werden.
+
+01:29:43.110 --> 01:29:49.590
+<v Gast 1>In eine ähnliche Richtung zielt Anphora, das will auch Image Hosting mit
+
+01:29:49.750 --> 01:29:56.310
+<v Gast 1>Federation anbieten, ist in Python geschrieben, aber ist noch in einem relativ frühem Stadium.
+
+01:29:56.950 --> 01:30:00.790
+<v Gast 1>Und was es sonst noch gibt, ist zum Beispiel Plume.
+
+01:30:00.950 --> 01:30:05.830
+<v Gast 1>Plelt darauf ab, so ein bisschen einen Meet-Up-Klon zu sein,
+
+01:30:05.910 --> 01:30:09.110
+<v Gast 1>also eben längere Blogposts zu verfassen.
+
+01:30:09.350 --> 01:30:13.110
+<v Gast 1>Und da ist es dann zum Beispiel so, man möchte ja in seiner Timeline,
+
+01:30:13.910 --> 01:30:18.230
+<v Gast 1>die darauf ausgelegt ist, auch vom Design eben nur kurze Texte zu enthalten,
+
+01:30:18.310 --> 01:30:23.110
+<v Gast 1>ja nicht irgendwie einen 20.000 Zeichenartikel drin haben.
+
+01:30:23.270 --> 01:30:30.230
+<v Gast 1>Deshalb ist es halt dort so, dass eben ein anderer Activity-Pub-Typ verwendet wird und eben nur
+
+01:30:30.230 --> 01:30:36.950
+<v Gast 1>der Teaser, den man ja so von Blogposts eben kennt, dann tatsächlich in der zum Beispiel unter Mastodon
+
+01:30:36.950 --> 01:30:43.590
+<v Gast 1>auftaucht und dann eben einen Link zum eigentlichen Blogpost dann dort eingebettet wird.
+
+01:30:45.990 --> 01:30:46.310
+<v Gast 1>Ja.
+
+01:30:48.710 --> 01:30:50.870
+<v Gast 1>Also es gibt schon relativ viele verschiedene.
+
+01:30:51.110 --> 01:30:56.710
+<v Gast 1>ActivityPub ist eben halt so flexibel, dass es schon ziemlich viele verschiedene Medien gibt.
+
+01:30:56.870 --> 01:31:01.670
+<v Markus>Okay, aber letztendlich geht man dann als jemand, der das implementiert,
+
+01:31:01.750 --> 01:31:06.630
+<v Markus>kreativ damit um, an welcher Stelle ein Event, was reinkommt,
+
+01:31:06.710 --> 01:31:08.870
+<v Markus>in der eigenen Plattform sinnvoll platziert wird.
+
+01:31:09.270 --> 01:31:12.870
+<v Gast 1>Ach, hab ich übrigens, hatte ich gesagt, Medium Clone zu Plum?
+
+01:31:13.510 --> 01:31:13.750
+<v Gast 1>Gut.
+
+01:31:14.870 --> 01:31:17.510
+<v Gast 1>Was nämlich auch mit ME anfängt, ist Meetup.
+
+01:31:17.990 --> 01:31:22.070
+<v Gast 1>Und da gibt es dann auch Get Together Social, die halt auch so ein bisschen so in Richtung,
+
+01:31:23.430 --> 01:31:29.350
+<v Gast 1>ja, einerseits so ein bisschen in Richtung Meetup gehen wollen und aber auch so ein bisschen schon fast in
+
+01:31:29.350 --> 01:31:32.070
+<v Gast 1>Richtung Konferenzorganisation gehen.
+
+01:31:32.230 --> 01:31:35.590
+<v Gast 1>Ich glaube, der Schwerpunkt steht einfach noch nicht so ganz fest.
+
+01:31:35.750 --> 01:31:41.750
+<v Gast 1>Das sind halt alles Projekte, die allen noch relativ frisch sind, weil eben dieses Activity Pub eben erst seit
+
+01:31:41.750 --> 01:31:45.670
+<v Gast 1>April 2018, glaube ich, als Standard verabschiedet wurde.
+
+01:31:46.470 --> 01:31:52.070
+<v Gast 1>Aber ich finde es auf jeden Fall durchaus erfreulich, dass ein weiterer Standard festgelegt wurde.
+
+01:31:52.710 --> 01:31:58.950
+<v Gast 1>Aber da sich Leute jetzt anscheinend zumindest erstmal im ersten Enthusiasmus drauf committen und Dinge dafür
+
+01:31:58.950 --> 01:31:59.510
+<v Gast 1>entwickeln.
+
+01:31:59.670 --> 01:32:01.830
+<v Gast 1>Das finde ich durchaus erfreulich.
+
+01:32:03.030 --> 01:32:03.670
+<v Gast 1>Genau.
+
+01:32:04.950 --> 01:32:11.430
+<v Gast 1>So die ganz alten Hasen wie Diaspora werden das aber auf jeden Fall auf so direkt
+
+01:32:11.430 --> 01:32:14.150
+<v Gast 1>absehbare Zeit erstmal nicht implementieren.
+
+01:32:14.550 --> 01:32:19.110
+<v Gast 1>So der Hauptmaintainer von Diaspora hat eben meinen Blogpost geschrieben,
+
+01:32:19.190 --> 01:32:21.350
+<v Gast 1>was er an ActivityPub eben schwierig findet.
+
+01:32:21.590 --> 01:32:26.550
+<v Gast 1>Das passt eben teilweise nicht zu dem Modell von Diaspora,
+
+01:32:26.630 --> 01:32:32.710
+<v Gast 1>wo es eben diese verschiedenen Aspekte gibt, vergleichbar mit diesen Circles bei Google Plus.
+
+01:32:36.230 --> 01:32:43.110
+<v Gast 1>Einer der Koordinatoren von ActivityPub meinte dann zwar, dass er dass diese Kritik nicht unbedingt berechtigt
+
+01:32:43.110 --> 01:32:46.790
+<v Gast 1>ist, aber er hat auf jeden Fall dann noch keine Erwiderung drauf geschrieben.
+
+01:32:47.910 --> 01:32:52.870
+<v Gast 1>Ja, dieses Social Home war es auch noch der Fediverse Party auftaucht,
+
+01:32:53.030 --> 01:32:59.670
+<v Gast 1>das kann derzeit auch nur mit Diaspora föderieren und Postaktiv ist halt ein genug Social Fork,
+
+01:33:00.310 --> 01:33:03.190
+<v Gast 1>der halt noch rein auf O-Status festhängt.
+
+01:33:05.430 --> 01:33:06.230
+<v Gast 1>Genau.
+
+01:33:07.830 --> 01:33:12.230
+<v Gast 1>Was natürlich nochmal relativ relevant ist, ist eben dieses Federation-Modell,
+
+01:33:12.310 --> 01:33:15.990
+<v Gast 1>weil das hat ein paar bestimmte Implikationen.
+
+01:33:16.550 --> 01:33:23.510
+<v Gast 1>Denn diese Push Federation ist ja so ein Publish-Subscribe-Modell, das eben alle Follower sich eben bei
+
+01:33:23.510 --> 01:33:30.390
+<v Gast 1>der Instanz bei dem Account anmelden und sagen, ja, ich hätte gerne dann alle kommenden Posts und
+
+01:33:30.390 --> 01:33:34.870
+<v Gast 1>diese werden dann explizit eben an andere Instanzen, die eben subscribed haben,
+
+01:33:35.030 --> 01:33:35.750
+<v Gast 1>geliefert.
+
+01:33:37.350 --> 01:33:42.550
+<v Gast 1>Ihr beide habt ja auch einen Mastodon-Account, aber ihr seid ja beide auf der größten Instanz Mastodon The
+
+01:33:42.630 --> 01:33:42.950
+<v Gast 1>Social.
+
+01:33:44.310 --> 01:33:48.070
+<v Gast 1>Ich habe mir dann allerdings gleich mal das Leben besonders schwer gemacht und mir eine eigene
+
+01:33:48.150 --> 01:33:51.750
+<v Gast 1>Mastodon-Instanz aufgesetzt und bin dort auch tatsächlich der einzige User.
+
+01:33:51.990 --> 01:33:56.630
+<v Gast 1>Man kann jetzt natürlich darüber reden, ob das der beabsichtigte Use Case ist,
+
+01:33:56.790 --> 01:34:00.470
+<v Gast 1>aber das zeigt zumindest gewisse Grenzen dieses Modells auf.
+
+01:34:00.950 --> 01:34:07.830
+<v Gast 1>Denn durch diese Push Federation gibt es nicht wirklich eine konsistente
+
+01:34:07.910 --> 01:34:12.310
+<v Gast 1>globale Sicht auf das gesamte Fediverse, auf alle Posts dort,
+
+01:34:12.390 --> 01:34:18.790
+<v Gast 1>denn es ist tatsächlich so, dass Posts eigentlich vor allem dann auf deinem Server überhaupt landen,
+
+01:34:19.030 --> 01:34:25.750
+<v Gast 1>wenn irgendeiner der Nutzer auf dem Server sie abonniert hat.
+
+01:34:26.070 --> 01:34:29.670
+<v Gast 1>Denn sonst werden sie ja gar nicht überhaupt erst an diesen Server gesendet.
+
+01:34:30.070 --> 01:34:35.110
+<v Gast 1>Es gibt noch ein paar zusätzliche Verbesserungen, die zumindest in Mastodon implementiert wurden.
+
+01:34:35.590 --> 01:34:42.150
+<v Gast 1>Für andere Implementierungen kann ich da gerade nicht sagen, dass zum Beispiel Replies automatisch
+
+01:34:42.150 --> 01:34:47.830
+<v Gast 1>nachgezogen werden und man kann auch die URL von einem Post,
+
+01:34:48.150 --> 01:34:52.230
+<v Gast 1>die unter Mastodon interessanterweise tut's oder Tröts heißen.
+
+01:34:53.510 --> 01:34:59.350
+<v Gast 1>Man kann sie eben in das Suchfeld einfügen und dann wird eben exakt dieser Post nachgezogen,
+
+01:34:59.430 --> 01:35:01.830
+<v Gast 1>wenn man dann zum Beispiel darauf antworten will.
+
+01:35:02.310 --> 01:35:07.030
+<v Markus>Aber man hat keine Möglichkeit, irgendwie über Hashtag-Suche oder so Leute zu finden,
+
+01:35:07.190 --> 01:35:10.950
+<v Markus>die bisher einfach nicht gefetcht wurden von deinem Server.
+
+01:35:11.430 --> 01:35:17.270
+<v Gast 1>Denn man kann natürlich auch wiederum sagen, dass das aus der Noten eine Touring gemacht wird,
+
+01:35:17.350 --> 01:35:20.470
+<v Gast 1>denn man kann sich natürlich überlegen, auf welche Instanz möchte ich denn jetzt.
+
+01:35:20.550 --> 01:35:27.510
+<v Gast 1>Ihr seid ja einfach zu Mastodon Social gegangen und das ist halt die größte Instanz und da gehen halt Leute
+
+01:35:27.510 --> 01:35:34.230
+<v Gast 1>hin, die erstmal gedacht haben, ja, ich google mal Mastodon und da taucht da Mastodon.social auf.
+
+01:35:34.550 --> 01:35:37.990
+<v Gast 1>Es gibt aber auch die, es gibt zumindest manche Leute, die es so handhaben,
+
+01:35:38.070 --> 01:35:40.950
+<v Gast 1>dass es relativ themen- oder community-spezifische Instanzen gibt.
+
+01:35:41.110 --> 01:35:45.510
+<v Gast 1>Es gibt zum Beispiel Chaos.social, die halt von Leuten aus dem Chaos-Umfeld betrieben wird,
+
+01:35:45.830 --> 01:35:52.790
+<v Gast 1>und ja, wo dann halt auch eben so zu großen Teilen prominent so die deutschsprachige Hackerszene
+
+01:35:52.870 --> 01:35:53.830
+<v Gast 1>vertreten ist.
+
+01:35:56.070 --> 01:36:01.510
+<v Gast 1>Ja, es gibt auch themenzentrierte Instanzen,
+
+01:36:01.590 --> 01:36:03.670
+<v Gast 1>zum Beispiel Anticapitalist.party.
+
+01:36:04.230 --> 01:36:09.030
+<v Markus>Gibt es da Clients, mit denen ich angenehm mehrere Instanzen ansprechen kann?
+
+01:36:09.270 --> 01:36:15.670
+<v Markus>Oder habe ich dann letztendlich in meinem Browser oder in meiner Browser-Applikationsmanagement-App
+
+01:36:16.470 --> 01:36:18.390
+<v Markus>da X Tabs offen für jede Instanz ein?
+
+01:36:18.870 --> 01:36:20.710
+<v Gast 1>Ja, es gibt Clients, komme ich gleich dazu.
+
+01:36:20.950 --> 01:36:23.670
+<v Gast 1>Also erstmal nur noch, warum sie quasi aus der Not einen Tugend machen,
+
+01:36:23.750 --> 01:36:29.510
+<v Gast 1>denn im normalen Mach-Sodon-Interface gibt es jetzt eben auch mittlerweile die sogenannte Local Timeline,
+
+01:36:29.750 --> 01:36:34.310
+<v Gast 1>wo eben dann einfach alle Posts der eigenen Instanz gezeigt werden.
+
+01:36:34.390 --> 01:36:39.430
+<v Gast 1>Und wenn es natürlich eine themenzentrierte Instanz ist oder auch eine community-zentrierte Instanz,
+
+01:36:39.590 --> 01:36:42.950
+<v Gast 1>dann kann es natürlich schon durchaus interessant sein, sich diese lokale Timeline anzugucken.
+
+01:36:43.750 --> 01:36:49.030
+<v Gast 1>Bei mir tauchen halt nur exakt meine Posts da drin auf, weil ich eben der einzige Nutzer der Instanz bin.
+
+01:36:49.190 --> 01:36:52.310
+<v Markus>Du musst einfach all deine Kommilitonen zwingen, deine Instanz zu benutzen.
+
+01:36:52.550 --> 01:36:56.870
+<v Gast 1>Nee, will ich ja gar nicht, weil ich will die niemandem zumuten, weil ich sie relativ stiefmütterlich
+
+01:36:56.870 --> 01:36:57.190
+<v Gast 1>behandle.
+
+01:36:57.910 --> 01:37:03.270
+<v Gast 1>Und genau, und die Hashtag-Suche funktioniert eben auch nur bei allen Posts, die lokal vorliegen.
+
+01:37:04.150 --> 01:37:09.430
+<v Gast 1>Genau, es gibt, machst du dann halt halt auch eine API, mit Streaming-API,
+
+01:37:09.510 --> 01:37:13.750
+<v Gast 1>die halt auch mit sehr hoher Wahrscheinlichkeit nicht dicht gemacht wird?
+
+01:37:14.310 --> 01:37:21.270
+<v Gast 1>Und es gibt da diverse Mobilclients, also für Android gibt es Tasky zum Beispiel.
+
+01:37:21.430 --> 01:37:26.150
+<v Gast 1>Und es gibt aber auch Webclients, zum Beispiel Pinafor.social.
+
+01:37:27.270 --> 01:37:32.470
+<v Gast 1>Und das ist ein Webclient, der tatsächlich mehrere Accounts verwalten kann.
+
+01:37:32.710 --> 01:37:35.510
+<v Markus>Ist der dann, also wo landen dann die Account-Daten?
+
+01:37:35.830 --> 01:37:37.510
+<v Markus>Ist das eine App, die bei mir im Browser läuft?
+
+01:37:37.750 --> 01:37:38.630
+<v Markus>Oder hat der schon einen Auslief?
+
+01:37:39.830 --> 01:37:44.630
+<v Markus>Du musst dem JavaScript vertrauen, was ausgeliefert wird, aber der Rest passiert so per Und die kommunizieren
+
+01:37:44.630 --> 01:37:48.870
+<v Markus>dann sozusagen die Account-Daten nicht an ihren Server und loggen sich mit ihrem Server auf der Instanz ein,
+
+01:37:48.950 --> 01:37:53.590
+<v Markus>sondern das läuft über den JavaScript-Client, der von denen geladen bei mir im Browser läuft.
+
+01:37:54.550 --> 01:37:57.110
+<v Gast 1>Optimalerweise, wenn es so funktioniert, wie es sollte.
+
+01:37:58.070 --> 01:37:58.950
+<v Markus>Alles klar.
+
+01:37:59.270 --> 01:37:59.750
+<v Markus>Gut.
+
+01:37:59.910 --> 01:38:02.070
+<v Markus>Ja, krass, was da abgeht.
+
+01:38:02.310 --> 01:38:02.870
+<v Markus>Aber cool.
+
+01:38:02.950 --> 01:38:06.710
+<v Markus>Ich denke, wir müssen wieder mehr zu dezentralen Diensten.
+
+01:38:06.950 --> 01:38:07.270
+<v Markus>Genau.
+
+01:38:07.750 --> 01:38:09.830
+<v Gast 1>Nochmal zu diesem Problem dieser Push Federation.
+
+01:38:09.910 --> 01:38:12.310
+<v Gast 1>Es ist natürlich erstmal die Frage, ob man das überhaupt haben will,
+
+01:38:12.630 --> 01:38:17.430
+<v Gast 1>aber dadurch lässt, was halt so immer ganz gut noch an Twitter war,
+
+01:38:17.590 --> 01:38:23.190
+<v Gast 1>waren halt eben solche Event-Hashtags oder auch ja Echtzeitberichterstattung von irgendwelchen
+
+01:38:23.990 --> 01:38:30.150
+<v Gast 1>Demonstrationen, Revolutionen irgendwo auf dem Planeten, oder halt auch solche Hashtags wie eben Frostcon.
+
+01:38:30.870 --> 01:38:34.150
+<v Gast 1>Und das klappt halt derzeit nicht wirklich.
+
+01:38:35.190 --> 01:38:40.230
+<v Gast 1>Also ich kann es auf meiner Instanz eben nicht benutzen, da tauchen eben nur exakt die Tools auf,
+
+01:38:40.390 --> 01:38:42.230
+<v Gast 1>die ich auch so in der Timeline habe.
+
+01:38:42.390 --> 01:38:46.870
+<v Gast 1>Auf Größeninstanzen wie Master   ⁇  Social lässt sich da bestimmt schon was zusammensuchen,
+
+01:38:46.950 --> 01:38:49.350
+<v Gast 1>aber es ist halt eben, sind halt definitiv immer nicht alle.
+
+01:38:49.830 --> 01:38:53.270
+<v Gast 1>Und es gibt da die Idee, die auch schon bei Diaspora verwendet wird,
+
+01:38:53.350 --> 01:38:59.270
+<v Gast 1>dass eben ein Relay verwendet wird, wo dann einfach was optional ist,
+
+01:38:59.430 --> 01:39:05.030
+<v Gast 1>wo dann aber auch eben einfach Instanzen alle ihre öffentlichen Posts dann eben noch an dieses Relay schicken
+
+01:39:05.110 --> 01:39:09.750
+<v Gast 1>und das Relay sie dann einfach, das ist halt in einfach einer möglichst effizienten Programmiersprache
+
+01:39:09.750 --> 01:39:14.870
+<v Gast 1>geschrieben, Rust, C  ⁇ , was weiß ich, und bläst sie dann halt über eine fette Netzwerkanbindung einfach
+
+01:39:14.870 --> 01:39:16.630
+<v Gast 1>wieder an alle anderen Instanzen raus.
+
+01:39:16.950 --> 01:39:21.270
+<v Gast 1>Das Problem ist aber meiner Meinung nach skaliert es halt nicht wirklich,
+
+01:39:21.510 --> 01:39:24.070
+<v Gast 1>weil das ist halt so ein ganz oder gar nicht Ansatz.
+
+01:39:24.230 --> 01:39:29.510
+<v Gast 1>Das heißt, so eine kleine Instanz, die dann halt irgendwie auf einem Raspberry Pi oder auf einer gekochten
+
+01:39:29.590 --> 01:39:33.990
+<v Gast 1>Kartoffel betrieben wird, die hat dann halt auch Speicherplatz,
+
+01:39:34.150 --> 01:39:39.430
+<v Gast 1>Netzwerk und auch Processing-Limitierung.
+
+01:39:40.450 --> 01:39:42.770
+<v Gast 1>Die vielleicht derzeit noch benutzbar sind.
+
+01:39:42.850 --> 01:39:46.210
+<v Gast 1>Also das kann derzeit noch funktionieren, aber wenn das irgendwie doch nochmal größer wird,
+
+01:39:46.450 --> 01:39:50.930
+<v Gast 1>dann muss man halt wirklich gucken, ob das, wie gut das skalieren kann.
+
+01:39:51.010 --> 01:39:55.490
+<v Gast 1>Und man kann das natürlich auch nur für Posts machen, die in der Zukunft liegen.
+
+01:39:55.890 --> 01:39:58.610
+<v Gast 1>Weil diese Instanz natürlich aus gutem Grund nicht zwischenspeichert.
+
+01:39:58.690 --> 01:39:59.570
+<v Markus>Ja, klar.
+
+01:39:59.730 --> 01:40:00.690
+<v Markus>Ne, cool.
+
+01:40:02.610 --> 01:40:03.810
+<v Markus>Schick, schick.
+
+01:40:04.770 --> 01:40:05.090
+<v Markus>Ja.
+
+01:40:05.570 --> 01:40:08.690
+<v Markus>Gut, ich glaube, jetzt sind wir erstmal Fettiverse erschlagen.
+
+01:40:08.850 --> 01:40:09.010
+<v Markus>Ja.
+
+01:40:09.250 --> 01:40:10.930
+<v Markus>Und müssen es ausprobieren.
+
+01:40:11.730 --> 01:40:17.890
+<v Gast 1>Zum Ausprobieren könnt ihr natürlich auch auf solche wunderbaren Instanzen wie Dolphin.town geben gehen.
+
+01:40:18.210 --> 01:40:24.850
+<v Gast 1>Das ist aber so eine Special-Purpose-Instanz, wo Nachrichten ausschließlich aus großen und kleinen E'
+
+01:40:25.090 --> 01:40:25.970
+<v Gast 1>bestehen dürfen.
+
+01:40:26.930 --> 01:40:31.410
+<v Gast 1>Ansonsten, wenn ihr euch eine Instanz suchen wollt, dann kann ich euch empfehlen,
+
+01:40:31.490 --> 01:40:33.890
+<v Gast 1>dass ihr auf instances.social geht.
+
+01:40:34.130 --> 01:40:39.890
+<v Gast 1>Dort könnt ihr ein paar Vorlieben auswählen.
+
+01:40:40.050 --> 01:40:45.170
+<v Gast 1>Was nämlich recht interessant ist, es war, also die API war einer der Gründe, zu Masto dann zu gehen.
+
+01:40:45.490 --> 01:40:51.090
+<v Gast 1>Ein anderer Grund ist eben, dass eben Twitter ja teilweise
+
+01:40:53.010 --> 01:40:56.850
+<v Gast 1>eher widerstrebend beispielsweise Nazi-Content löscht.
+
+01:40:57.570 --> 01:40:59.650
+<v Gast 1>Es hatte sich dann zum Beispiel irgendwie alles an.
+
+01:41:00.450 --> 01:41:06.050
+<v Gast 1>Der letzte große Aufreger war zum Beispiel der Account von Alex Jones auf Twitter und damals Twitter eben das
+
+01:41:06.050 --> 01:41:10.690
+<v Gast 1>widerspricht nicht gegen unsere Richtlinien und bei Mastodon ist es natürlich einfach so,
+
+01:41:10.930 --> 01:41:15.570
+<v Gast 1>dass jede Instanz natürlich ihre eigenen Moderationsrichtlinien hat.
+
+01:41:15.810 --> 01:41:21.330
+<v l33tname>Ja, aber das finde ich voll das komische Argument, da dann irgendwie für Federation zu argumentieren und zu
+
+01:41:21.330 --> 01:41:25.810
+<v l33tname>sagen, ja, auf Twitter wird er nicht geblockt, aber wenn es föderiert wäre,
+
+01:41:25.890 --> 01:41:28.210
+<v l33tname>dann hätte er halt einfach seine eigene Nazi-Instanz.
+
+01:41:28.850 --> 01:41:31.890
+<v l33tname>Und dann wäre er halt drauf und ich meine, du kannst jetzt auf Twitter hingehen,
+
+01:41:31.970 --> 01:41:34.930
+<v l33tname>du kannst auf den Account gehen, du kannst sagen, blocken, du siehst es nicht mehr.
+
+01:41:35.090 --> 01:41:40.450
+<v Gast 1>Ja, nein, also du kannst Accounts natürlich blocken und muten und aber du kannst halt auch einfach,
+
+01:41:40.770 --> 01:41:44.130
+<v Gast 1>du kannst den natürlich auch erstmal reporten und wenn sie gegen die,
+
+01:41:44.690 --> 01:41:51.490
+<v Gast 1>wenn du ein aktives Moderationsteam hast und der Account eben auf deiner Instanz ist und gegen die
+
+01:41:51.490 --> 01:41:54.450
+<v Gast 1>Richtlinie verstößt, dann wird er halt gelöscht, gekickt.
+
+01:41:54.850 --> 01:41:57.570
+<v Gast 1>Und wenn er auf einer anderen Instanz ist, dann kann natürlich einerseits der,
+
+01:41:57.970 --> 01:42:02.610
+<v Gast 1>kann natürlich einerseits auch dieser Moderationsreport an die andere Instanz weitergeleitet werden.
+
+01:42:02.690 --> 01:42:07.250
+<v Gast 1>Und wenn aber die Instanz sagt, wir haben halt kein Problem damit, es gibt ja eine ganze Reihe an
+
+01:42:07.250 --> 01:42:11.410
+<v Gast 1>Free-Speech-Instanzen, dann kannst du halt auch einfach als Admin sagen,
+
+01:42:12.050 --> 01:42:14.210
+<v Gast 1>ich mute oder blocke halt ganze Instanzen.
+
+01:42:14.370 --> 01:42:16.290
+<v l33tname>Ja, aber das kannst du auf Twitter halt jetzt auch schon.
+
+01:42:17.250 --> 01:42:20.850
+<v l33tname>Ja, nicht ganze Instanzen, aber du kannst auch jetzt, es gibt diese Twitter-Blocklist,
+
+01:42:20.930 --> 01:42:25.570
+<v l33tname>du kannst block mir mal alle Leute, die irgendwie so ein bisschen,
+
+01:42:26.530 --> 01:42:28.130
+<v l33tname>die ich ein bisschen komisch finde.
+
+01:42:29.010 --> 01:42:33.170
+<v l33tname>Das finde ich halt voll das komische Argument, also versteh mich nicht falsch,
+
+01:42:33.250 --> 01:42:38.450
+<v l33tname>ich bin nicht dagegen, dass es geht, aber ich sehe das irgendwie voll nicht als Killer-Argument,
+
+01:42:38.530 --> 01:42:43.410
+<v l33tname>zu argumentieren, wir brauchen jetzt Federation, wo sie halt einfach ihre eigenen Instanzen aufmachen,
+
+01:42:43.490 --> 01:42:48.690
+<v l33tname>die du dann halt auch blocken kannst, genauso wie du jetzt halt auch einfach hingehen kannst und einen
+
+01:42:48.690 --> 01:42:52.850
+<v l33tname>einzelnen Twitter-Account oder halt eine Liste von Twitter-Accounts blocken kannst,
+
+01:42:53.010 --> 01:42:56.850
+<v l33tname>wo du findest, okay, diese Leute, denen muss ich jetzt halt keine Plattform geben,
+
+01:42:56.930 --> 01:42:58.370
+<v l33tname>die muss ich jetzt nicht mehr anhören.
+
+01:42:58.450 --> 01:43:01.010
+<v Gast 1>Ja, aber ich glaube, das skaliert halt alles insgesamt so ein bisschen besser,
+
+01:43:01.170 --> 01:43:05.890
+<v Gast 1>weil so solche Instanzen, wo du weißt, dass die so ein bisschen komisch riechen und du mit denen nicht
+
+01:43:05.890 --> 01:43:09.170
+<v Gast 1>föderieren willst, sind quasi so eine Art selbstpflegende Blocklisten.
+
+01:43:09.250 --> 01:43:16.210
+<v Gast 1>Also wenn natürlich, wenn natürlich irgendwie Leute, die eben halt Holocaust-Leugnung auch
+
+01:43:16.210 --> 01:43:23.010
+<v Gast 1>als Meinung kategorisieren, dann halt dann halt eben sich bei irgendwelchen
+
+01:43:23.010 --> 01:43:28.690
+<v Gast 1>Free-Speech-Instanzen anmelden, dann melden die sich halt dort an und du musst sie nicht noch extra blocken
+
+01:43:28.690 --> 01:43:32.850
+<v Gast 1>oder du musst die Blocklist nicht unbedingt nachpflegen, sondern es ist halt einfach die gesamte Instanz
+
+01:43:32.850 --> 01:43:34.450
+<v Gast 1>entweder gemutet oder sogar komplett geblockt.
+
+01:43:34.610 --> 01:43:38.770
+<v l33tname>Ja, aber das fühlt sich halt eine neue Instanz und dann musst du auch schon am gleichen Punkt,
+
+01:43:38.850 --> 01:43:39.970
+<v l33tname>dann musst du halt eine Instanz.
+
+01:43:40.210 --> 01:43:43.970
+<v Gast 1>Du kannst theoretisch auch Whitelists benutzen, das macht halt derzeit quasi niemand.
+
+01:43:44.050 --> 01:43:46.690
+<v Gast 1>Also es wird auf jeden Fall interessant zu sehen, wie das funktioniert,
+
+01:43:46.770 --> 01:43:53.650
+<v Gast 1>aber die Sache ist auf jeden Fall, es gibt auch die Moderationstools in Mastodon sind halt schon möglichst
+
+01:43:53.650 --> 01:43:57.330
+<v Gast 1>gut ausgebaut, um es halt auch den Moderatoren möglichst einfach zu machen.
+
+01:43:57.730 --> 01:44:01.570
+<v l33tname>Ja, also es ist sicher ein cooles Feature für die Plattform, aber ich.
+
+01:44:01.890 --> 01:44:05.170
+<v Gast 1>Es ist halt wieder ein soziales Problem, was du nicht ausschließlich durch Technik lösen kannst.
+
+01:44:05.490 --> 01:44:09.970
+<v Gast 1>Aber du kannst mit Technik natürlich versuchen, es einfacher zu machen.
+
+01:44:10.210 --> 01:44:11.970
+<v Gast 1>Und ja, schauen wir mal, wie sich das entwickelt.
+
+01:44:12.050 --> 01:44:15.810
+<v Gast 1>Also es gibt ja auch schon jetzt ja schon dieses Nazi-Twitter gap.ai.
+
+01:44:16.370 --> 01:44:16.930
+<v Gast 1>Ja, also.
+
+01:44:18.210 --> 01:44:23.970
+<v Gast 1>Oder auf 4chan schreiben halt natürlich Rassisten auch schon sich gegenseitig
+
+01:44:24.930 --> 01:44:25.490
+<v Gast 1>hoch.
+
+01:44:25.730 --> 01:44:31.570
+<v Gast 1>Aber es reicht halt, wenn sie irgendwie in ihrem eigenen Raum sind und nicht doch andere Leute damit nerven.
+
+01:44:31.650 --> 01:44:34.930
+<v Gast 1>Oder halt auch vor allem damit Leute irgendwie belästigen oder bedrohen.
+
+01:44:35.090 --> 01:44:36.130
+<v Gast 1>Darum geht es ja eben.
+
+01:44:38.690 --> 01:44:39.010
+<v Gast 1>Ja.
+
+01:44:42.850 --> 01:44:43.250
+<v Gast 1>Genau.
+
+01:44:43.410 --> 01:44:47.730
+<v Gast 1>Nur ja, benutzt ihr das oder guckt ihr ab und zu mal rein?
+
+01:44:48.130 --> 01:44:49.970
+<v Markus>Ich gucke ab und zu mal in Mastodon rein.
+
+01:44:51.570 --> 01:44:55.090
+<v l33tname>Tja, ich glaube, das ist wieder so ein bisschen das klassische Problem.
+
+01:44:55.170 --> 01:44:57.730
+<v l33tname>Also die Software ist eigentlich ganz okay, also ich benutze auch dieses,
+
+01:44:58.050 --> 01:45:04.370
+<v l33tname>vor allem aktuell dieses Mastodon, halt auch irgendwie auf der Hauptinstanz,
+
+01:45:04.450 --> 01:45:09.730
+<v l33tname>die damals irgendwie, als es rauskam, halt die erste war.
+
+01:45:10.370 --> 01:45:15.090
+<v l33tname>Und da habe ich ihm gedacht, ja, die wird sicher am längsten überleben,
+
+01:45:15.170 --> 01:45:21.090
+<v l33tname>weil das ja irgendwie vom Typ gemacht wird, der sich dieses Mastodon mal ausgedacht hat.
+
+01:45:23.250 --> 01:45:28.210
+<v l33tname>Und ja, ich schaue da gelegentlich rein, aber solange die Leute halt nicht da sind,
+
+01:45:28.850 --> 01:45:33.970
+<v l33tname>gehe ich halt trotzdem recht häufig wieder zurück zu Twitter, weil da halt die Leute sind.
+
+01:45:35.730 --> 01:45:41.250
+<v l33tname>Und solange dieses Problem irgendwie nicht gelöst ist, kann die Software halt noch so viel besser sein als
+
+01:45:41.250 --> 01:45:41.650
+<v l33tname>Twitter.
+
+01:45:41.810 --> 01:45:45.570
+<v l33tname>Wenn halt all die Leute immer noch bei Twitter sind und bei Twitter schreiben,
+
+01:45:45.890 --> 01:45:50.610
+<v l33tname>dann bringt die beste Software halt nichts.
+
+01:45:50.850 --> 01:45:56.130
+<v Markus>Ja, und für viele die Motivation der Sichtbarkeit halt auch dann eingeschränkt ist durch das,
+
+01:45:56.210 --> 01:45:59.890
+<v Markus>was wir eben diskutiert haben, dass sie einfach mit ihren Hashtags nicht global auffindbar sind,
+
+01:45:59.970 --> 01:46:01.330
+<v Markus>sondern nur auf der Instanz.
+
+01:46:01.570 --> 01:46:05.570
+<v Markus>Das ist ein Problem, was so diesen Use Case von Twitter für viele Leute,
+
+01:46:05.730 --> 01:46:08.290
+<v Markus>die auf Sichtbarkeit aus sind, einfach total einschränkt.
+
+01:46:08.370 --> 01:46:13.810
+<v Gast 1>Ja, aber ehrlich gesagt ist das auch tatsächlich so ein Ansatz von, zumindest von Mastodon.
+
+01:46:14.290 --> 01:46:17.810
+<v Gast 1>Es kann natürlich, andere Software kann das natürlich anders implementieren und anders handhaben,
+
+01:46:17.890 --> 01:46:21.570
+<v Gast 1>aber zum Beispiel bei Mastodon kannst du auch nicht, kannst du auch keine Volltextsuche machen,
+
+01:46:21.650 --> 01:46:25.330
+<v Gast 1>sondern nur nach Hashtag suchen und du kannst auch keine Tweets zitieren,
+
+01:46:25.490 --> 01:46:28.930
+<v Gast 1>also zumindest nicht so als integriert als Feature, einfach aus dem Grund,
+
+01:46:29.090 --> 01:46:35.570
+<v Gast 1>dass eben tatsächlich Abuse und Belästigung eben schon so ein bisschen vorgebeugt werden soll.
+
+01:46:35.890 --> 01:46:40.770
+<v Gast 1>Die Argumentation ist zum Beispiel, wenn du eben so ein Quote-Retweet machst,
+
+01:46:41.010 --> 01:46:45.970
+<v Gast 1>dann bist du dazu veranlagt, mehr über Leute zu sprechen, als mit ihnen.
+
+01:46:46.850 --> 01:46:53.570
+<v Gast 1>Oder halt auch im Zweifel mehr Kram, den du eigentlich scheiße findest, trotzdem noch weiter zu verbreiten.
+
+01:46:53.730 --> 01:46:56.050
+<v Gast 1>Und das schafft halt mehr so eine toxische Atmosphäre.
+
+01:46:56.450 --> 01:46:57.890
+<v Gast 1>Das sind so die Überlegungen.
+
+01:46:58.370 --> 01:47:02.770
+<v Gast 1>Und dementsprechend machst du dann vielleicht auch nicht unbedingt das Beste,
+
+01:47:02.850 --> 01:47:09.330
+<v Gast 1>um dir jetzt deine Brand aufzubauen und damit möglichst viele Werbekunden zu gewinnen.
+
+01:47:09.970 --> 01:47:12.690
+<v Gast 1>Sondern es ist vielleicht tatsächlich mehr das Social und Social Network.
+
+01:47:14.370 --> 01:47:16.290
+<v Markus>Naja, mal schauen, wie weit es kommt.
+
+01:47:16.690 --> 01:47:23.330
+<v l33tname>Zeigt es dann halt auch die User von einem Social Network und halt nicht nur irgendwie drei Leute,
+
+01:47:23.410 --> 01:47:27.490
+<v l33tname>wovon einer irgendwie alle zehn Tage mal was irgendwie was einschreibt.
+
+01:47:27.650 --> 01:47:34.130
+<v Gast 1>Also ich muss sagen, so tatsächlich sind da von Twitter jetzt schon relativ viele Leute
+
+01:47:34.130 --> 01:47:34.690
+<v Gast 1>rübergekommen.
+
+01:47:35.810 --> 01:47:38.130
+<v Markus>Moment, viele Leute haben es jetzt ausprobiert mit dem FBI-Track.
+
+01:47:38.290 --> 01:47:41.010
+<v Gast 1>Aber viele Leute sind auch nach anderthalb Wochen sogar immer noch da.
+
+01:47:41.490 --> 01:47:43.810
+<v Gast 1>Also so lange haben die Leute bisher nicht durchgehalten.
+
+01:47:44.530 --> 01:47:49.330
+<v Gast 1>Was noch ganz praktisch sein kann, um eben zumindest nicht komplett bei Null dazustehen,
+
+01:47:49.410 --> 01:47:54.610
+<v Gast 1>sondern zu versuchen, Leute von Twitter wiederzufinden, ist die Mastodon-Bridge,
+
+01:47:54.770 --> 01:47:59.010
+<v Gast 1>wo man sich eben mit seinem Twitter-Account und seinem Mastodon-Account authentifizieren kann und dann kann
+
+01:47:59.010 --> 01:48:04.610
+<v Gast 1>eben abgeglichen werden, wem folge ich bei Twitter und wer und haben die auch schon einen Mastodon-Account,
+
+01:48:04.690 --> 01:48:05.970
+<v Gast 1>den sie verknüpft haben.
+
+01:48:06.450 --> 01:48:06.770
+<v Gast 1>Ja.
+
+01:48:08.290 --> 01:48:09.810
+<v Markus>Ja, das ist cool.
+
+01:48:11.090 --> 01:48:13.170
+<v Gast 1>Dann war es das, glaube ich, erstmal.
+
+01:48:13.410 --> 01:48:14.850
+<v Gast 1>Aus dem Antiverse.
+
+01:48:15.010 --> 01:48:17.330
+<v Gast 1>Man kann dafür noch ganz viel erzählen, aber.
+
+01:48:17.730 --> 01:48:19.890
+<v Markus>Ein Deep Dive ins Fediverse, ja.
+
+01:48:21.330 --> 01:48:21.810
+<v Markus>Cool.
+
+01:48:22.050 --> 01:48:28.290
+<v Markus>Ja, ich finde vor allem auch interessant, sich dieses Activity-Pub anzuschauen und wenn man an Projekten,
+
+01:48:28.610 --> 01:48:33.170
+<v Markus>Open Source-Projekten arbeitet, anzuschauen, ob man das vielleicht irgendwie adaptieren kann.
+
+01:48:33.250 --> 01:48:37.010
+<v Markus>Dass man sich mit dem, was man als Projekt pflegt, dort einklinken kann.
+
+01:48:37.250 --> 01:48:37.490
+<v Markus>Genau.
+
+01:48:37.890 --> 01:48:43.490
+<v Gast 1>Letzter Nachtrag nochmal, da dieses Activity Pub ja doch noch relativ weit,
+
+01:48:43.570 --> 01:48:47.490
+<v Gast 1>äh, der Stand relativ weit formuliert ist, gibt es jetzt Bestrebungen,
+
+01:48:47.650 --> 01:48:53.410
+<v Gast 1>so aus der, insbesondere aus dem Pleroma-Umfeld und auch so eventuell ein bisschen Diaspora-Umfeld,
+
+01:48:53.570 --> 01:48:55.410
+<v Gast 1>ein Subset davon zu definieren.
+
+01:48:55.810 --> 01:49:01.010
+<v Gast 1>Das soll dann LightPub genannt werden, aber bisher haben sie außer einem Freenode-Channel noch nichts.
+
+01:49:01.730 --> 01:49:06.050
+<v Gast 1>Aber eben, das könnte dann vielleicht schauen wir mal, ob das vielleicht dafür sorgt,
+
+01:49:06.130 --> 01:49:11.010
+<v Gast 1>dass es einfach zu implementieren ist und dann zum Beispiel Diaspora doch noch damit flüderiert.
+
+01:49:11.250 --> 01:49:12.770
+<v Unbekannt>Ja, ein Freenode-Channel.
+
+01:49:12.850 --> 01:49:14.370
+<v Markus>Das gute alte EAC.
+
+01:49:15.330 --> 01:49:15.890
+<v Markus>Genau.
+
+01:49:16.450 --> 01:49:18.130
+<v Gast 1>Lesefuhr, haben wir diesmal nicht?
+
+01:49:18.370 --> 01:49:19.650
+<v Markus>Nee, wir lesen nicht mehr.
+
+01:49:19.810 --> 01:49:22.530
+<v l33tname>Wir kommen also direkt zum Rumwein.
+
+01:49:22.690 --> 01:49:23.090
+<v l33tname>Genau.
+
+01:49:23.170 --> 01:49:28.850
+<v Gast 1>Wie gesagt, es ist, glaube ich, ganz gut, dass ausschließlich ich auf meiner Mastodon-Instanz bin,
+
+01:49:29.010 --> 01:49:33.490
+<v Gast 1>denn ich habe das irgendwann mal aufgesetzt und hatte halt keine Lust,
+
+01:49:33.570 --> 01:49:36.050
+<v Gast 1>großartig mit Ruby rumzuspielen und mit Postgres.
+
+01:49:36.850 --> 01:49:41.330
+<v Gast 1>Und es gibt ein offizielles Docker-Image und dann habe ich das halt einfach mal aufgesetzt,
+
+01:49:41.730 --> 01:49:44.930
+<v Gast 1>hatte damals keine Ahnung von Docker und hab's immer noch nicht.
+
+01:49:45.570 --> 01:49:50.290
+<v Gast 1>Und was mir vor ein paar Wochen mal passiert ist,
+
+01:49:50.450 --> 01:49:55.090
+<v Gast 1>ist, dass ich tatsächlich, wenn ich nach einem Update wollte,
+
+01:49:55.170 --> 01:50:01.890
+<v Gast 1>ich einfach mal dann eben den Docker-Container neu starten, damit eben die upgedatete Version verwendet wird.
+
+01:50:02.370 --> 01:50:09.250
+<v Gast 1>Ja, das sah dann, das ist fehlgeschlagen und dieser Process-Tree sah danach
+
+01:50:09.250 --> 01:50:15.970
+<v Gast 1>sehr, sehr interessant aus, denn normalerweise startet halt der Docker-D dann irgendwie ein Container-D
+
+01:50:16.690 --> 01:50:23.410
+<v Gast 1>und der startet dann irgendeinen Init-Prozess und da hängen dann eben die ganzen Datenbank
+
+01:50:23.410 --> 01:50:25.250
+<v Gast 1>und Ruby-Worker dran.
+
+01:50:25.570 --> 01:50:30.450
+<v Gast 1>Nach dem Neustart waren der Docker-D und der Container-D verschwunden,
+
+01:50:31.010 --> 01:50:33.250
+<v Gast 1>aber die Ruby-Prozesse waren immer noch da.
+
+01:50:33.490 --> 01:50:38.050
+<v Gast 1>Und wenn ich versucht habe, sie als Root zu killen, wurde mir gesagt,
+
+01:50:38.130 --> 01:50:39.970
+<v Gast 1>dass ich dazu nicht genügend Berechtigung habe.
+
+01:50:40.210 --> 01:50:43.090
+<v Markus>Gehen Sie zurück zum LPI-Stand und machen Sie das Quiz von vorne.
+
+01:50:43.330 --> 01:50:43.730
+<v Markus>Genau.
+
+01:50:43.810 --> 01:50:49.250
+<v Gast 1>Und ja, ist interessanterweise, beim letzten Update ist es nicht passiert.
+
+01:50:49.410 --> 01:50:53.010
+<v Gast 1>Also dann musste ich dann halt, das hat dann halt das Resultat gehabt,
+
+01:50:53.090 --> 01:50:55.890
+<v Gast 1>dass ich einfach meinen gesamten Server neu starten musste.
+
+01:50:56.210 --> 01:50:59.010
+<v Gast 1>Mittlerweile funktioniert es gerade wieder.
+
+01:50:59.410 --> 01:51:00.130
+<v Gast 1>Mal gucken.
+
+01:51:00.450 --> 01:51:05.330
+<v Gast 1>Es könnte eventuell was mit App Armor zu tun haben oder auch mit anderen Dingen.
+
+01:51:05.570 --> 01:51:06.130
+<v Gast 1>Mit Sicherheit.
+
+01:51:06.210 --> 01:51:07.570
+<v Markus>Security ist immer schuld.
+
+01:51:07.890 --> 01:51:09.730
+<v Gast 1>Aber ja, es bleibt spannend und.
+
+01:51:10.130 --> 01:51:11.090
+<v Markus>Ist kaputt.
+
+01:51:13.650 --> 01:51:15.650
+<v l33tname>Was auch kaputt ist, ist Zeit.
+
+01:51:15.810 --> 01:51:16.050
+<v l33tname>Ja.
+
+01:51:16.450 --> 01:51:19.250
+<v l33tname>Wie wir alle wissen, ist ein beliebtes Thema.
+
+01:51:19.650 --> 01:51:24.450
+<v l33tname>Ich war ja in Ferien und so, in Island.
+
+01:51:24.770 --> 01:51:28.370
+<v l33tname>Und in Island ist es halt so, dass man nicht unbedingt immer Netz hat.
+
+01:51:29.170 --> 01:51:30.370
+<v Gast 1>Also wie Brandenburg.
+
+01:51:30.770 --> 01:51:32.290
+<v l33tname>Wie Brandenburg beispielsweise.
+
+01:51:32.370 --> 01:51:35.410
+<v l33tname>Es gibt so ein paar Orte auf der Welt, wo man halt nicht immer Netz hat.
+
+01:51:35.650 --> 01:51:39.490
+<v l33tname>Und Netz ist eigentlich noch ganz cool, weil über Netz, über dieses,
+
+01:51:40.050 --> 01:51:44.930
+<v l33tname>wenn man halt sich in Mobilfunknetz einwällt, da kommt halt die Timezone mit.
+
+01:51:45.090 --> 01:51:49.490
+<v l33tname>Also die broadcasten halt nicht nur irgendwie, wo ihre Antennen stehen und so,
+
+01:51:49.570 --> 01:51:54.530
+<v l33tname>da, wenn es irgendwie über, ich weiß gar nicht, ob sie es mitbroadcasten oder ob es erst auf dem,
+
+01:51:54.930 --> 01:51:56.930
+<v l33tname>wenn man sich dann damit connectet oder so.
+
+01:51:57.090 --> 01:52:01.970
+<v l33tname>Auf jeden Fall, wenn man mit so einem Mobilfunknetz connected ist,
+
+01:52:02.370 --> 01:52:08.130
+<v l33tname>dann weiß das halt, in welcher Timezone diese Massen stehen und kann das dem Handy ja auch mitteilen.
+
+01:52:08.290 --> 01:52:12.530
+<v l33tname>Und das Handy ist dann halt auch so gut, also in meinem Fall ein Android Phone,
+
+01:52:13.090 --> 01:52:16.850
+<v l33tname>ist dann halt auch so schlau und sagt, ja, ich sehe hier, du bist irgendwo anders,
+
+01:52:16.930 --> 01:52:20.530
+<v l33tname>du bist gerade nicht zu Hause, ich stelle dir mal die Timezone richtig ein.
+
+01:52:20.850 --> 01:52:21.890
+<v l33tname>Soweit, so gut.
+
+01:52:22.050 --> 01:52:27.330
+<v l33tname>Das Problem ist einfach, aus irgendeinem Grund hat sich irgendjemand überlegt,
+
+01:52:27.970 --> 01:52:33.650
+<v l33tname>wenn man das Netz verliert, dann nimmt man einfach die Home Time Zone wieder an.
+
+01:52:33.970 --> 01:52:37.170
+<v l33tname>Und das macht halt so absolut einfach keinen Sinn.
+
+01:52:37.330 --> 01:52:39.170
+<v l33tname>Ich verstehe es wirklich nicht.
+
+01:52:39.410 --> 01:52:43.970
+<v l33tname>Warum verändert man die Time Zone einfach nur, weil es ein Netzwerk ist?
+
+01:52:44.210 --> 01:52:50.530
+<v l33tname>The Wahrscheinlichkeit, dass when ein Netzwerk is, dass das heißt, dass man irgendwie wieder zu Hause in
+
+01:52:50.530 --> 01:52:55.330
+<v l33tname>seiner Home Time Zone is, ist irgendwie so, das kann ich mir irgendwie nicht vorstellen.
+
+01:52:55.410 --> 01:52:59.330
+<v l33tname>Die Wahrscheinlichkeit, dass man irgendwo halt is, wo man einfach gerade kein Netz hat,
+
+01:52:59.570 --> 01:53:00.930
+<v l33tname>ist irgendwie viel wahrscheinlicher.
+
+01:53:01.010 --> 01:53:04.290
+<v l33tname>Aber ich glaube, das ist irgendein Edge Case, den halt niemand getestet hat.
+
+01:53:04.770 --> 01:53:08.290
+<v l33tname>Und es ist halt super ärgerlich, weil man dann auf sein Phone schaut und denkt so,
+
+01:53:08.450 --> 01:53:11.330
+<v l33tname>uh, das ist ja schon voll spät.
+
+01:53:11.410 --> 01:53:15.250
+<v l33tname>Und dann sieht man so kein Netz und dann so, ah ja, ist vielleicht doch noch nicht so spät.
+
+01:53:15.410 --> 01:53:16.770
+<v Unbekannt>Doch nicht diese Mitternacht vorne.
+
+01:53:17.090 --> 01:53:17.490
+<v Unbekannt>Ja, genau.
+
+01:53:17.650 --> 01:53:19.010
+<v l33tname>Es ist so, ah, schön.
+
+01:53:19.330 --> 01:53:21.570
+<v l33tname>Jetzt habe ich mich mehrfach geärgert.
+
+01:53:22.130 --> 01:53:26.450
+<v l33tname>Das Schöne in Brandenburg ist ja, es ist gleich wie meine Hometime-Zone.
+
+01:53:26.610 --> 01:53:29.570
+<v l33tname>Darum fällt mir das hier nicht so auf, wenn ich hier bin.
+
+01:53:33.330 --> 01:53:35.810
+<v l33tname>Falls jemand weiß, vielleicht bediene ich auch meinen Phone falsch,
+
+01:53:35.890 --> 01:53:38.130
+<v l33tname>vielleicht gibt es irgendwo in den Untiefen von Android.
+
+01:53:38.850 --> 01:53:41.570
+<v Markus>Ich bin ja, ich glaube, du musst einfach zurück zu einem Feature Phone.
+
+01:53:41.730 --> 01:53:42.290
+<v Markus>Das ist ein Problem.
+
+01:53:43.570 --> 01:53:45.410
+<v l33tname>Ich weiß nicht, ob es zu smart das Phone ist.
+
+01:53:45.730 --> 01:53:47.250
+<v Markus>Doch, da gab es gar keine Timezones.
+
+01:53:49.570 --> 01:53:51.090
+<v Gast 1>Es gibt bestimmt eine Sonnenuhr-App.
+
+01:53:51.250 --> 01:53:51.730
+<v Gast 1>Ja, genau.
+
+01:53:51.810 --> 01:53:54.610
+<v l33tname>Vielleicht sollte ich einfach das benutzen.
+
+01:53:54.850 --> 01:53:56.930
+<v l33tname>Gut, dann kommen wir zu den Pix.
+
+01:53:58.850 --> 01:54:01.650
+<v l33tname>Man kann ja mittlerweile alles in Elektronen packen.
+
+01:54:02.370 --> 01:54:05.570
+<v l33tname>Jemand ist hingegangen und hat das mit Windows 95 gemacht.
+
+01:54:05.730 --> 01:54:07.730
+<v l33tname>Ihr werdet euch jetzt fragen, warum.
+
+01:54:08.210 --> 01:54:09.010
+<v l33tname>Weil es geht.
+
+01:54:09.250 --> 01:54:10.530
+<v l33tname>Weil es geht, genau.
+
+01:54:10.770 --> 01:54:17.250
+<v Gast 1>Das ist tatsächlich dieses JS Linux, was halt schon vor einer Weile mal irgendwie vom
+
+01:54:17.570 --> 01:54:24.450
+<v Gast 1>QEMO-Hauptentwickler gebastelt wurde und dann eben im Browser mit JavaScript einen Linux-Kernel booten
+
+01:54:24.610 --> 01:54:25.010
+<v Gast 1>konnte.
+
+01:54:25.250 --> 01:54:29.330
+<v Gast 1>Und das kann mittlerweile halt auch in Windows 95 booten und da es JavaScript ist,
+
+01:54:29.810 --> 01:54:31.410
+<v Gast 1>kann man es halt irgendwie echt dran packen.
+
+01:54:31.650 --> 01:54:31.970
+<v Gast 1>Genau.
+
+01:54:32.130 --> 01:54:39.010
+<v Markus>Und ich weiß nicht, ich finde, so richtig Use Cases hat es nicht,
+
+01:54:39.490 --> 01:54:45.970
+<v Markus>aber Wir hatten es ja vorhin schon von alten Windows-Architekturen und der
+
+01:54:45.970 --> 01:54:48.450
+<v Markus>Liebe zu Windows als Plattform.
+
+01:54:48.690 --> 01:54:51.170
+<v Markus>Hier haben wir einfach eine weitere Ausprägung davon.
+
+01:54:52.130 --> 01:54:54.290
+<v l33tname>Und vielleicht kann man alte Spiele damit spielen.
+
+01:54:54.370 --> 01:54:58.130
+<v l33tname>Das wäre vielleicht ganz cool, wenn man noch so uralte Spiele spielt, immer noch.
+
+01:55:00.210 --> 01:55:01.970
+<v Markus>Es gibt so viele coole Spiele daraus.
+
+01:55:02.050 --> 01:55:04.210
+<v Markus>Man muss nicht auf alle Ewigkeit die alten Spiele zu holen.
+
+01:55:04.370 --> 01:55:05.330
+<v l33tname>Man muss nicht, aber man kann.
+
+01:55:05.970 --> 01:55:09.010
+<v Gast 1>Hat schon versucht, da React Reacts drin laufen zu lassen?
+
+01:55:09.170 --> 01:55:12.290
+<v Markus>Ja, und da drin dann React.js.
+
+01:55:14.290 --> 01:55:14.850
+<v Markus>Genau.
+
+01:55:15.090 --> 01:55:21.490
+<v l33tname>Es ist eine lustige Idee, braucht man vermutlich nicht, aber wenn man es haben will, gibt es, ist verlinkt.
+
+01:55:22.050 --> 01:55:26.610
+<v l33tname>Und mein zweiter Pick ist der TP-Link M7350.
+
+01:55:27.410 --> 01:55:30.210
+<v l33tname>Das ist so ein kleiner mobiler Hotspot mit Akku.
+
+01:55:30.450 --> 01:55:34.370
+<v l33tname>Da packt man so eine SIM-Karte rein und das macht dann halt einfach Wi-Fi.
+
+01:55:36.130 --> 01:55:39.890
+<v l33tname>Ja, habe ich jetzt auch in den Ferien benutzt und ist eigentlich echt ganz praktisch,
+
+01:55:40.050 --> 01:55:45.890
+<v l33tname>wenn man gerade so noch ein iPad dabei hat und ein Phone und irgendwie nicht unbedingt seine
+
+01:55:45.890 --> 01:55:52.050
+<v l33tname>Home-Nummer wechseln möchte mit einer neuen SIM und aber kein Dual-SIM hat und vielleicht noch einen Laptop
+
+01:55:52.050 --> 01:55:53.410
+<v l33tname>dabei hat und so.
+
+01:55:54.210 --> 01:55:58.370
+<v l33tname>Das ist halt einfach so ein kleines Kästchen, packt da eine SIM rein.
+
+01:56:00.370 --> 01:56:03.970
+<v l33tname>Ist ein Top-Gerät, hat wunderbar für mich funktioniert.
+
+01:56:05.170 --> 01:56:06.370
+<v Gast 1>Dann ein Pick von mir.
+
+01:56:06.450 --> 01:56:11.330
+<v Gast 1>Ich interessiere mich ja nicht nur für obskure soziale Netzwerke und Messenger,
+
+01:56:11.810 --> 01:56:15.650
+<v Gast 1>sondern auch für Softwarelizenzen, zumindest für Open Source Lizenzen.
+
+01:56:15.730 --> 01:56:22.610
+<v Gast 1>Und da gibt es eine Podcast-Folge pluggen vom Free as in Freedom Podcast.
+
+01:56:22.930 --> 01:56:27.250
+<v Gast 1>Das sind so zwei US-Lawyer und die haben halt 2016,
+
+01:56:27.410 --> 01:56:32.290
+<v Gast 1>schon ein Weichen her, mal eine Podcast-Folge so als Einführung rausgebracht.
+
+01:56:32.690 --> 01:56:35.890
+<v Gast 1>Im Gegensatz zum Rest des Podcasts ist die auch durchaus einsteigertauglich.
+
+01:56:36.050 --> 01:56:41.010
+<v Gast 1>Nämlich ansonsten kann es durchaus schon mal ein paar Folgen dauern, bis man was versteht.
+
+01:56:41.250 --> 01:56:47.090
+<v Gast 1>Aber dafür hätte man gerade auch Zeit, weil der Podcast seit seit irgendwie einem knappen Jahr pausiert.
+
+01:56:47.330 --> 01:56:52.770
+<v Gast 1>Aber genau, die erläutert auf jeden Fall so ein bisschen die Grundlagen mit Copyleft und ja,
+
+01:56:53.010 --> 01:56:56.690
+<v Gast 1>was eben so verschiedene Open Source Lizenzen tun und was den Gedanken dahinter sind.
+
+01:56:57.010 --> 01:57:03.490
+<v Gast 1>Ein weiterer Podcast, den ich plugen möchte, ist was relativ Techfremdes, das ist Die Anachronistin.
+
+01:57:04.290 --> 01:57:10.850
+<v Gast 1>Das ist ein Blog, das Grimme Online-Award nominiert war, es ist aber nicht gewonnen hat.
+
+01:57:11.250 --> 01:57:16.850
+<v Gast 1>Und die vertonen auch all ihre Blogposts und es geht darum um
+
+01:57:19.090 --> 01:57:25.730
+<v Gast 1>eine Frau, die tatsächlich, sie ist die Enkelin von einem Widerstandskämpfer im Dritten Reich
+
+01:57:25.890 --> 01:57:29.330
+<v Gast 1>und recherchiert halt das Leben ihres Großvaters nach.
+
+01:57:29.490 --> 01:57:32.690
+<v Gast 1>Und es ist relativ interessant, auch sehr gut gemacht.
+
+01:57:34.130 --> 01:57:38.610
+<v Gast 1>Ja, sie spricht halt mit ihrem Vater, guckt,
+
+01:57:38.770 --> 01:57:45.490
+<v Gast 1>recherchiert in irgendwelchen Archiven nach und lässt auch Artikel von damals
+
+01:57:45.490 --> 01:57:46.370
+<v Gast 1>vorlesen.
+
+01:57:46.610 --> 01:57:51.570
+<v Gast 1>Und ja, die Parallelen zur aktuellen Zeit sind leider schon manchmal etwas beunruhigend.
+
+01:57:53.010 --> 01:57:59.010
+<v Gast 1>Und anlässlich des IPv6-Talks, den wir hier auf DeFroscon gesehen haben,
+
+01:57:59.090 --> 01:58:03.810
+<v Gast 1>möchte ich noch den Twitter-Account IPv6 Excuses pluggen.
+
+01:58:04.370 --> 01:58:09.250
+<v Gast 1>Der sagt einem, der gibt einem immer wieder ganz viele faule Ausreden,
+
+01:58:09.330 --> 01:58:12.770
+<v Gast 1>warum IPv6 denn überhaupt böse und des Teufels ist.
+
+01:58:13.650 --> 01:58:16.770
+<v Markus>Man kann auch einfach checken, wie viele man davon schon gehört hat.
+
+01:58:17.490 --> 01:58:18.370
+<v l33tname>Sehr geil.
+
+01:58:19.010 --> 01:58:23.570
+<v l33tname>Dann möchte ich hier noch Venmo public by default picken.
+
+01:58:23.730 --> 01:58:30.290
+<v l33tname>Ich habe irgendwie das Gefühl, ich habe schon mal drüber geredet, Venmo ist so ein Zahlungsdingsy-App,
+
+01:58:30.530 --> 01:58:34.370
+<v l33tname>wo man halt irgendwie sagen kann, ich schicke dir irgendwie 5 Dollar oder so.
+
+01:58:34.690 --> 01:58:40.290
+<v l33tname>Ist in den USA ein bisschen mehr verbreitet als hier und Transactions sind halt by default public.
+
+01:58:40.850 --> 01:58:47.330
+<v l33tname>Und da hat sich jemand mal den Spaß erlaubt und da halt diese Public Transaction Logs halt durchgeschaut und
+
+01:58:47.330 --> 01:58:52.130
+<v l33tname>da hat es halt so ein Kommentarfeld und Leute schreiben da halt lustige Dinge rein,
+
+01:58:52.210 --> 01:58:57.490
+<v l33tname>wenn sie irgendwie Gras verkaufen, irgendwie halt so,
+
+01:58:57.730 --> 01:59:02.130
+<v l33tname>wenn er seiner Freundin Geld schickt und sie ihm das dann wieder zurückschickt,
+
+01:59:02.210 --> 01:59:06.450
+<v l33tname>weil sie es nicht will und er es ihr dann wieder schickt und wieder zurück und so.
+
+01:59:06.530 --> 01:59:09.010
+<v l33tname>Und es ist ganz lustig, könnt ihr mal klicken.
+
+01:59:09.490 --> 01:59:10.130
+<v l33tname>Abgefahren.
+
+01:59:10.290 --> 01:59:13.730
+<v l33tname>Und wenn ihr Venmo benutzt, es gibt irgendwo so ein Häkchen, wo man sagen kann,
+
+01:59:13.810 --> 01:59:16.370
+<v l33tname>dass die Transaction nicht public sein soll.
+
+01:59:17.250 --> 01:59:19.730
+<v l33tname>Könnte man natürlich vielleicht ausmachen.
+
+01:59:19.970 --> 01:59:21.170
+<v Markus>Könnte man vielleicht.
+
+01:59:21.410 --> 01:59:24.290
+<v Markus>Aber dann ist ja der Spaß für die Leute von dieser Webseite weg.
+
+01:59:24.690 --> 01:59:28.770
+<v Markus>Ja, ich habe einen Pick mitgebracht, der mir im Netz über den Weg gelaufen ist,
+
+01:59:28.850 --> 01:59:35.090
+<v Markus>wo ein angeblicher ehemaliger Softwareingenieur von Tesla jetzt nicht mehr an seinen NDA gebunden ist und aus
+
+01:59:35.090 --> 01:59:36.610
+<v Markus>dem Nähkästchen plaudert.
+
+01:59:37.250 --> 01:59:43.810
+<v Markus>Ist ganz interessant zu lesen, diese Twitter-Nachrichtenfolge, und es laufen einem auch quasi die
+
+01:59:43.810 --> 01:59:45.890
+<v Markus>Schauer rein, weil sie den Rücken runter.
+
+01:59:46.210 --> 01:59:47.170
+<v Markus>Wenn es stimmt.
+
+01:59:47.410 --> 01:59:50.290
+<v Markus>Ist halt nicht validiert, aber ist lustig zu lesen.
+
+01:59:50.690 --> 01:59:52.370
+<v Markus>Gut, das waren die Picks.
+
+01:59:52.610 --> 01:59:54.290
+<v Markus>In zwei Minuten ist Verlosung.
+
+01:59:54.450 --> 01:59:58.290
+<v Markus>Deswegen noch kurz Upcoming Events.
+
+01:59:58.450 --> 01:59:59.090
+<v Markus>Am 8.
+
+01:59:59.250 --> 02:00:02.210
+<v Markus>September is Hackergarten in Dortmund.
+
+02:00:03.090 --> 02:00:05.010
+<v Markus>Link is in den Shownotes.
+
+02:00:05.170 --> 02:00:06.930
+<v Markus>Wäre cool, wenn jemand Lust hat, vorbeizukommen.
+
+02:00:07.010 --> 02:00:12.930
+<v Markus>Beim Hackergarten geht es darum, wie schon mal erwähnt, zusammen an Open Source-Projekten zu hacken.
+
+02:00:13.250 --> 02:00:15.570
+<v Markus>Mehr Infos unter Hackagarten.net.
+
+02:00:16.970 --> 02:00:23.130
+<v Markus>Und später im September ist der Software Freedom Day und dazu gibt es auch eine Veranstaltung in Köln.
+
+02:00:23.370 --> 02:00:24.570
+<v Markus>Link auch in den Shownotes.
+
+02:00:24.650 --> 02:00:27.930
+<v Markus>Ich denke, das Software Freedom Day ist eigentlich eine größere Geschichte,
+
+02:00:28.170 --> 02:00:31.850
+<v Markus>von daher wird es sicherlich auch an anderen Orten noch Veranstaltungen dazu geben.
+
+02:00:32.090 --> 02:00:34.090
+<v Gast 1>Genau, dann mein letzter kleiner Pick.
+
+02:00:34.410 --> 02:00:35.290
+<v Gast 1>Vom 22.
+
+02:00:35.450 --> 02:00:36.410
+<v Gast 1>bis zum 23.
+
+02:00:36.570 --> 02:00:39.370
+<v Gast 1>September finden in Dresden die Datenspuren statt.
+
+02:00:39.690 --> 02:00:42.970
+<v Gast 1>Das ist quasi das lokale Chaos-Event des C3D2.
+
+02:00:43.450 --> 02:00:48.010
+<v Gast 1>Eintritt ist frei und ja, kommt vorbei, wenn ihr wollt.
+
+02:00:48.330 --> 02:00:53.050
+<v Gast 1>Der Fokus ist wie immer größtenteils so ein bisschen auf Privatsphäre orientiert,
+
+02:00:53.290 --> 02:00:55.930
+<v Gast 1>aber ja, es ist sehr reichhaltig.
+
+02:00:56.010 --> 02:00:58.490
+<v Gast 1>Und dieses Jahr das erste Mal im Zentralwerk.
+
+02:00:58.570 --> 02:01:00.970
+<v Gast 1>Also neue Location, das kann nur gut werden.
+
+02:01:01.210 --> 02:01:01.530
+<v Gast 1>Cool.
+
+02:01:01.770 --> 02:01:04.570
+<v Markus>Alles klar, dann danke fürs Zuhören.
+
+02:01:04.810 --> 02:01:08.970
+<v Markus>Viele Grüße von der Froscon und wir sagen bis zum nächsten Mal.
+
+02:01:09.210 --> 02:01:11.850
+<v Markus>Gehabt euch wohl und habt Spaß am Gerät.
+
+02:01:13.210 --> 02:01:13.690
+<v Markus>Tschö.
+
+02:01:13.930 --> 02:01:14.330
+<v Markus>Tschö.

@@ -1,0 +1,4033 @@
+WEBVTT
+
+00:00:06.320 --> 00:00:12.880
+<v Markus>Binnärgewitter rund um Webtechnologie und um
+
+00:00:13.120 --> 00:00:19.840
+<v Markus>Source Hallo und herzlich willkommen zu Bitnergewitter
+
+00:00:20.000 --> 00:00:26.960
+<v Markus>Talk Nummer 197, heute in der Minimalbesetzung mit Felix und mich,
+
+00:00:27.120 --> 00:00:27.680
+<v Markus>dem Markus.
+
+00:00:28.000 --> 00:00:29.120
+<v Markus>Einen schönen guten Abend.
+
+00:00:29.200 --> 00:00:31.920
+<v Markus>Oder zu welcher Uhrzeit ihr uns auch immer gerade hört.
+
+00:00:33.040 --> 00:00:34.960
+<v l33tname>Ja, zumindest nicht live, ne?
+
+00:00:35.280 --> 00:00:40.160
+<v Markus>Zumindest nicht live, nee, da sind wir gerade dran gescheitert, weil wir beide haben das Livestreaming-Setup
+
+00:00:40.160 --> 00:00:46.560
+<v Markus>nicht, haben es gerade versucht hinzubasteln und natürlich, wie sich das für binärgewitter Talk gehört,
+
+00:00:46.720 --> 00:00:48.240
+<v Markus>hatten wir Audioprobleme.
+
+00:00:49.280 --> 00:00:51.760
+<v l33tname>Wir hatten uns auch gut vorbereitet und so.
+
+00:00:52.080 --> 00:00:58.880
+<v Markus>Wir geben uns grüßte Mühe, dass unsere Audio-Aufzeichnungen funktionieren und der Ingo hinterher was zum
+
+00:00:58.880 --> 00:01:00.080
+<v Markus>Zusammenschneiden hat.
+
+00:01:01.680 --> 00:01:02.640
+<v Markus>Zumindest das.
+
+00:01:02.720 --> 00:01:09.040
+<v Markus>Dann könnt ihr uns später irgendwo, wo es euch beliebt und immer wieder hören.
+
+00:01:10.160 --> 00:01:11.920
+<v Markus>Gut, Felix, was gibt's Neues?
+
+00:01:12.800 --> 00:01:15.200
+<v l33tname>Ostern war, habe ich gehört.
+
+00:01:15.600 --> 00:01:15.840
+<v l33tname>Ja.
+
+00:01:16.160 --> 00:01:17.120
+<v l33tname>Habe ich mir sagen lassen.
+
+00:01:17.200 --> 00:01:18.800
+<v l33tname>Ich habe gehört, du hast einen neuen Job.
+
+00:01:19.040 --> 00:01:20.240
+<v Markus>Oh ja, da richtig.
+
+00:01:20.320 --> 00:01:21.200
+<v Markus>Das ist passiert.
+
+00:01:21.440 --> 00:01:22.240
+<v Markus>Das ist passiert.
+
+00:01:22.320 --> 00:01:26.320
+<v Markus>Ich arbeite nicht mehr für die Canue, sondern jetzt für Karakun.
+
+00:01:27.440 --> 00:01:29.840
+<v Markus>Und ja, auf den neuen Ufern.
+
+00:01:29.920 --> 00:01:33.600
+<v Markus>Ja, es geht weiter um Softwareentwicklung, um Software Engineering und darum.
+
+00:01:34.480 --> 00:01:37.920
+<v l33tname>Ach so, ich dachte, du hast jetzt endlich die Chance gepackt und gesagt,
+
+00:01:38.000 --> 00:01:40.320
+<v l33tname>okay, cool, ich mach jetzt was mit Holz oder so.
+
+00:01:40.480 --> 00:01:43.280
+<v l33tname>Nicht mehr so mit dem Computer, dem immer kaputt gehen.
+
+00:01:43.840 --> 00:01:48.160
+<v Markus>Ja, wäre auch mal eine Chance gewesen, aber ich habe gehört,
+
+00:01:48.320 --> 00:01:52.160
+<v Markus>dass es mit dem Holz nicht so lukrativ ist, wie das mit dem Computern.
+
+00:01:52.320 --> 00:01:56.240
+<v Markus>Und da mir das halt immer noch hinreichend einfach fällt und ich da genügend Spaß bei habe,
+
+00:01:56.400 --> 00:01:58.640
+<v Markus>ist es eine Kombination, die ganz angenehm ist.
+
+00:01:59.440 --> 00:02:00.400
+<v l33tname>Sehr schön.
+
+00:02:00.720 --> 00:02:01.680
+<v Markus>Ja, genau.
+
+00:02:01.760 --> 00:02:04.560
+<v Markus>Also ich bleib dabei, ich bleibe der digitalen Welt erhalten.
+
+00:02:04.720 --> 00:02:08.640
+<v Markus>Oder ich quälle sie weiter, je nachdem, aus welcher Perspektive man das sehen will.
+
+00:02:10.560 --> 00:02:11.680
+<v Markus>Cool, cool.
+
+00:02:12.000 --> 00:02:13.840
+<v Markus>Ja, und Ostern, wie war es bei dir?
+
+00:02:13.920 --> 00:02:14.320
+<v Markus>So mit 1.
+
+00:02:14.560 --> 00:02:15.280
+<v Markus>April und so?
+
+00:02:16.000 --> 00:02:16.480
+<v Markus>Gut.
+
+00:02:17.680 --> 00:02:19.920
+<v l33tname>Durch das, dass Ostern und 1.
+
+00:02:20.160 --> 00:02:22.640
+<v l33tname>April so aufeinander fielen, ist der 1.
+
+00:02:23.040 --> 00:02:26.000
+<v l33tname>April irgendwie so ein bisschen untergegangen.
+
+00:02:26.240 --> 00:02:29.280
+<v l33tname>Hatten irgendwie so gefühlt nicht so viel mitbekommen.
+
+00:02:29.920 --> 00:02:34.400
+<v l33tname>Wir haben nachher auch nicht so viel, wir können das sonst mal kurz vorziehen.
+
+00:02:34.880 --> 00:02:36.320
+<v l33tname>Das Einzige, was ich so vom 1.
+
+00:02:36.560 --> 00:02:42.560
+<v l33tname>April mitbekommen habe, war dieses C  ⁇ -Blogger,
+
+00:02:42.800 --> 00:02:49.200
+<v l33tname>die gesagt haben, ja, diese Pointer und so sind voll doof und irgendwie bis C Plus plus 23
+
+00:02:49.520 --> 00:02:53.040
+<v l33tname>wollen wir die irgendwie alle abschaffen.
+
+00:02:53.360 --> 00:02:54.800
+<v l33tname>Das fand ich ganz gut.
+
+00:02:55.120 --> 00:03:00.800
+<v Markus>Ja, genau das hatte ich am Rande mitbekommen, aber ich habe es auch weitestgehend ignoriert, dass er 1.
+
+00:03:00.960 --> 00:03:01.680
+<v Markus>April war.
+
+00:03:02.160 --> 00:03:07.920
+<v Markus>Nur der Elon Musk, der ist durchgekommen durch meine Filter Firewall mit seinem Statement,
+
+00:03:08.080 --> 00:03:12.160
+<v Markus>dass er ja pleite sei und was er dann ganz, ganz schnell wieder zurückgenommen hat,
+
+00:03:12.240 --> 00:03:14.800
+<v Markus>als er gemerkt hat, dass es Leute gibt, die das ernst nehmen.
+
+00:03:15.040 --> 00:03:15.520
+<v Markus>Am 1.
+
+00:03:15.680 --> 00:03:16.160
+<v Markus>April.
+
+00:03:16.400 --> 00:03:17.680
+<v Markus>Unglaublich.
+
+00:03:20.560 --> 00:03:23.680
+<v Markus>Ja, so ging Ostern dann auch vorbei.
+
+00:03:24.880 --> 00:03:25.840
+<v Markus>Wer ist denn in der.
+
+00:03:26.160 --> 00:03:27.520
+<v Markus>Haben wir einen Toten der Woche?
+
+00:03:27.680 --> 00:03:31.840
+<v l33tname>Wir haben einen Toten der Woche und zwar die Steam-Maschinen von Valve.
+
+00:03:32.000 --> 00:03:33.600
+<v l33tname>Ich weiß nicht, kennst du die Dinger?
+
+00:03:33.680 --> 00:03:35.760
+<v l33tname>Das sind im Prinzip so Linux.
+
+00:03:36.000 --> 00:03:40.960
+<v l33tname>Das war ja, sie haben ja dieses Steam on Linux oder so gebaut und gesagt,
+
+00:03:41.120 --> 00:03:46.640
+<v l33tname>haha, unser Steam funktioniert das auch auf Linux, weil es ist ja nur so ein glorifizierter Webbrowser.
+
+00:03:46.880 --> 00:03:47.680
+<v Markus>Ja, genau.
+
+00:03:48.160 --> 00:03:53.440
+<v Markus>Das Ding war auch mal glorifiziert worden seinerzeit als der Durchbruch für Linux auf dem Desktop.
+
+00:03:54.160 --> 00:03:57.680
+<v Markus>Auch damit hat es nicht funktioniert und es ist jetzt ein bisschen schade zu sehen,
+
+00:03:57.760 --> 00:04:01.360
+<v Markus>dass sie das Ding einstellen oder dass es gar nicht so zum Fliegen kommt,
+
+00:04:01.600 --> 00:04:05.520
+<v Markus>weil die Idee mit Linux Spielekonsolen zu bauen, war eigentlich ganz cool.
+
+00:04:05.760 --> 00:04:10.880
+<v Markus>Im Endeffekt mit der Playstation hat Sony es ja erfolgreich getan, nur halt mit einem Closed-Source-System.
+
+00:04:11.360 --> 00:04:17.280
+<v Markus>Und die Valve Box soll relativ, oder diese Steam-Maschine war relativ
+
+00:04:17.920 --> 00:04:20.800
+<v Markus>offen, da auch andere Dinge mit zu tun, wenn ich das richtig nenne.
+
+00:04:20.960 --> 00:04:27.040
+<v l33tname>Also, weil, ja, das war irgendwie so halt ein Debian, glaube ich, was das so ein bisschen angepasst haben und
+
+00:04:27.040 --> 00:04:32.480
+<v l33tname>halt ihr, also sie haben ja so ein eigenes OS gemacht,
+
+00:04:32.640 --> 00:04:34.080
+<v l33tname>das ist eigentlich Steam OS.
+
+00:04:36.720 --> 00:04:40.960
+<v l33tname>Und ja, ich glaube, da war einfach irgendwie so ein Debian oder so drunter.
+
+00:04:41.360 --> 00:04:46.080
+<v l33tname>Und so von der Idee her eigentlich ganz geil, aber ich muss fairerweise sagen,
+
+00:04:46.160 --> 00:04:50.240
+<v l33tname>ich habe das auch nie selber wirklich so richtig probiert.
+
+00:04:50.400 --> 00:04:55.520
+<v l33tname>Oder jedes Mal, wenn ich so Steam auf Linux installiere, dann ist irgendwie so die
+
+00:04:56.800 --> 00:05:01.840
+<v l33tname>Grafikkartenperformance irgendwie von der gleichen Grafikkarte,
+
+00:05:01.920 --> 00:05:08.880
+<v l33tname>die unter Windows wunderbar funktioniert, irgendwie nicht so geil und das Ganze Spielhakelt oder ich weiß
+
+00:05:08.880 --> 00:05:10.080
+<v l33tname>nicht genau warum.
+
+00:05:10.400 --> 00:05:16.400
+<v l33tname>Und es ist dann immer so, ja, theoretisch funktioniert das wohl und es ist eigentlich auch ganz geil,
+
+00:05:16.720 --> 00:05:20.640
+<v l33tname>aber es hat sich irgendwie nicht so ganz durchgesetzt.
+
+00:05:21.200 --> 00:05:23.840
+<v l33tname>Es ist eigentlich wirklich schade.
+
+00:05:24.160 --> 00:05:27.520
+<v Markus>Ja, ich muss sagen, ich habe halt einfach, ich zocke zu wenig.
+
+00:05:27.680 --> 00:05:33.600
+<v Markus>Ich habe so eine Playstation wieder verstaubt und abgeleitet davon mich halt auch am Rechner dann oder auch
+
+00:05:33.600 --> 00:05:37.760
+<v Markus>mit diesem Steam viel zu wenig auseinandergesetzt, als dass ich da irgendeine Aussage treffen könnte.
+
+00:05:37.920 --> 00:05:41.680
+<v Markus>Ich hatte es gesehen, fand es eine coole Idee und schade, hat halt nicht funktioniert.
+
+00:05:42.560 --> 00:05:49.040
+<v l33tname>Wobei, wenn ich das richtig gesehen habe, ist so ein bisschen, sie haben es glaube ich auch nicht so
+
+00:05:49.040 --> 00:05:54.240
+<v l33tname>richtig abgekündigt, dass es einfach nicht so
+
+00:05:56.640 --> 00:06:01.120
+<v l33tname>die Geschichte, dass es einfach nicht mehr auf der Homepage drauf ist,
+
+00:06:01.200 --> 00:06:03.120
+<v l33tname>aber es kein Statement von Valve dazu gibt.
+
+00:06:03.360 --> 00:06:06.560
+<v l33tname>Genau, also sie haben dann irgendwie so ein Statement gemacht und gesagt,
+
+00:06:06.720 --> 00:06:13.280
+<v l33tname>ja, wir finden das immer noch sehr wichtig, aber es ist irgendwie nicht mehr so unser Hauptfokus gerade und
+
+00:06:13.280 --> 00:06:17.360
+<v l33tname>sie werden immer noch versuchen, dass es auch für Linux, ich hatte ja vor ein,
+
+00:06:17.520 --> 00:06:22.720
+<v l33tname>zwei Sendungen mal was in der, in der in der Sendung, wo wir auch Surprise,
+
+00:06:22.800 --> 00:06:25.760
+<v l33tname>Surprise, Audio-Probleme hatten, also besonders ich.
+
+00:06:26.640 --> 00:06:28.160
+<v Markus>Wo du rausgeschieden bist vor Clarity.
+
+00:06:28.400 --> 00:06:35.360
+<v l33tname>Genau, da hatte ich ja gepickt, dass sie zum Beispiel dieses Scaling für High DP
+
+00:06:36.720 --> 00:06:38.880
+<v l33tname>Displays gebaut haben.
+
+00:06:39.040 --> 00:06:40.880
+<v l33tname>Das funktioniert unter Linux auch.
+
+00:06:41.440 --> 00:06:46.560
+<v l33tname>Und so, also ich glaube, so Linux als Plattform wird bleiben,
+
+00:06:47.280 --> 00:06:54.240
+<v l33tname>ja, aber ich glaube, ja, ich sehe halt auch nicht, dass sich diese Steam-Machines groß irgendwie
+
+00:06:54.240 --> 00:06:56.320
+<v l33tname>Verbreitung gefunden haben oder so viel.
+
+00:06:57.200 --> 00:07:04.160
+<v l33tname>Weil ich glaube, das ist halt so ein Game, was man irgendwie so mit Controller spielt und auf
+
+00:07:04.160 --> 00:07:09.680
+<v l33tname>dem Fernseher muss halt für andere Dinge optimiert werden als so ein normales Computerspiel.
+
+00:07:10.960 --> 00:07:13.120
+<v l33tname>Wo man so mit Maus und Tastatur bedient.
+
+00:07:14.400 --> 00:07:18.240
+<v l33tname>Und das ist halt irgendwie schwierig, so ein Konzept zu machen, so ein Spiel,
+
+00:07:18.320 --> 00:07:20.320
+<v l33tname>das irgendwie für beides funktioniert.
+
+00:07:21.120 --> 00:07:23.520
+<v l33tname>Es geht bestimmt, aber es ist halt Aufwand.
+
+00:07:23.840 --> 00:07:30.720
+<v l33tname>Und wenn dann irgendwie in den Statistiken nur so rauskommt, dass irgendwie so sehr kleiner
+
+00:07:30.720 --> 00:07:35.680
+<v l33tname>Prozentsatz überhaupt irgendwie so auf Linux ist und
+
+00:07:38.720 --> 00:07:43.920
+<v l33tname>sehr kleiner Prozentsatz, das irgendwie überhaupt so spielt und alle anderen halt so ganz normal irgendwie
+
+00:07:43.920 --> 00:07:50.880
+<v l33tname>Windows-Rechner mit Maus und Tastatur, dann ja, dementsprechend viel
+
+00:07:51.040 --> 00:07:53.760
+<v l33tname>Zeit und Geld wird dann vermutlich auch investiert.
+
+00:07:56.320 --> 00:07:58.480
+<v Markus>Genau, so ein Rand-Thema halt nur noch.
+
+00:07:58.560 --> 00:07:59.120
+<v Markus>Schade.
+
+00:07:59.920 --> 00:08:02.080
+<v l33tname>Ist auch was von Google gestorben.
+
+00:08:03.360 --> 00:08:03.920
+<v l33tname>Echt?
+
+00:08:04.240 --> 00:08:05.600
+<v l33tname>Ja, steht da.
+
+00:08:05.760 --> 00:08:07.360
+<v l33tname>Ist glaube ich von dir, nicht?
+
+00:08:07.760 --> 00:08:10.400
+<v Markus>Ah, ich glaube, ist das jetzt ihr Mythos?
+
+00:08:10.960 --> 00:08:14.160
+<v Markus>Nee, ist nicht von mir, aber ich musste gerade dann diese News denken,
+
+00:08:14.320 --> 00:08:19.200
+<v Markus>dass es da das Aufbegehren gegen das Google-Engagement in Militärprojekten gibt.
+
+00:08:19.280 --> 00:08:25.200
+<v Markus>Und insofern ist ein zusätzliches Stück von ihrem Mythos Do not evil
+
+00:08:26.080 --> 00:08:27.040
+<v Markus>gestorben.
+
+00:08:27.680 --> 00:08:29.120
+<v Markus>Aber das ist nicht gemeint hier.
+
+00:08:29.440 --> 00:08:31.840
+<v Markus>Nee, das hat wahrscheinlich der Felix reingeschrieben.
+
+00:08:32.960 --> 00:08:35.040
+<v Markus>Der nicht, der jetzt doch nicht da sein kann.
+
+00:08:35.920 --> 00:08:41.280
+<v Markus>Und offensichtlich ist ReChapter Version 1 tot.
+
+00:08:42.880 --> 00:08:43.360
+<v Markus>Tja.
+
+00:08:43.600 --> 00:08:46.560
+<v l33tname>Ach, das waren diese, diese, ja.
+
+00:08:47.200 --> 00:08:50.560
+<v Markus>Genau, das waren die, das waren die ganz ersten ReChapters.
+
+00:08:50.640 --> 00:08:57.360
+<v Markus>Und zwar waren das Ausschnitte aus Büchern und man musste zwei Wörter eingeben und ein Wort kannte
+
+00:08:57.360 --> 00:09:01.360
+<v Markus>Google vorher schon und das zweite lernte Google darüber, dass man es eingegeben hat.
+
+00:09:01.680 --> 00:09:07.040
+<v Markus>Und das war so der Anbeginn dieser ganzen Rechapter-Geschichten.
+
+00:09:07.280 --> 00:09:12.480
+<v Markus>Mittlerweile blenden sie ja gerne Bilder ein und lassen einem alle Straßenschilder in einer Bildersammlung
+
+00:09:12.560 --> 00:09:13.680
+<v Markus>selektieren und so.
+
+00:09:14.000 --> 00:09:18.160
+<v l33tname>Da fragt man sich ja auch, was man gerade für eine AI trainiert für sie.
+
+00:09:18.880 --> 00:09:20.080
+<v Markus>Ja, ja, ja.
+
+00:09:20.480 --> 00:09:23.680
+<v l33tname>Für was das dann gebraucht wird und ob man wirklich begrüßen.
+
+00:09:24.240 --> 00:09:25.600
+<v l33tname>Ob man das wirklich will.
+
+00:09:26.320 --> 00:09:30.960
+<v l33tname>Ja, weiß ich jetzt nicht, ob ich das schade finde, dass das tot ist, aber.
+
+00:09:32.160 --> 00:09:33.840
+<v l33tname>Wir haben es erwähnt, es ist tot.
+
+00:09:34.080 --> 00:09:34.960
+<v l33tname>Wisst ihr jetzt.
+
+00:09:35.280 --> 00:09:35.840
+<v l33tname>Es ist tot.
+
+00:09:36.240 --> 00:09:38.480
+<v l33tname>Kommen wir zu den News, würde ich sagen.
+
+00:09:38.800 --> 00:09:39.840
+<v Markus>Ja, es ist besser.
+
+00:09:40.000 --> 00:09:42.800
+<v Markus>Ja, weil über Ostern hatten wir nicht nur den 1.
+
+00:09:42.960 --> 00:09:47.440
+<v Markus>April, sondern wir hatten auch den World Backup Day.
+
+00:09:48.800 --> 00:09:49.200
+<v Markus>Genau.
+
+00:09:49.280 --> 00:09:51.040
+<v l33tname>Hast du deine Backups gemacht?
+
+00:09:51.360 --> 00:09:52.880
+<v Markus>Ich mache ständig Backups.
+
+00:09:52.960 --> 00:09:58.480
+<v Markus>Ich habe mich auch um andere Leute Backups gekümmert und hatte dazu dann auch mal wieder die schöne Erfahrung,
+
+00:09:58.640 --> 00:10:01.440
+<v Markus>dass es nicht reicht, ein Backup zu haben.
+
+00:10:02.240 --> 00:10:05.440
+<v Markus>Man sollte da am besten auch die Passwörter dazu kennen.
+
+00:10:05.840 --> 00:10:11.280
+<v l33tname>Naja, ich würde jetzt ja mal argumentieren, wenn du das Passwort nicht zu Backup passt,
+
+00:10:11.440 --> 00:10:12.960
+<v l33tname>dann ist es kein Backup.
+
+00:10:13.680 --> 00:10:15.520
+<v Markus>Ja, gut, ja, das stimmt.
+
+00:10:15.680 --> 00:10:18.960
+<v Markus>Streng genommen ist es natürlich dann einfach kein Recoverable-Backup.
+
+00:10:19.120 --> 00:10:22.320
+<v Markus>Es ist ja schon ein Backup da, aber du kannst es nicht nutzen.
+
+00:10:22.560 --> 00:10:24.240
+<v Markus>Ist auch dumm gelaufen.
+
+00:10:24.480 --> 00:10:29.360
+<v Markus>Also Leute, mein Appell an euch, ich oder wir haben hier in der Sendung ja schon öfter mal über Messenger
+
+00:10:29.360 --> 00:10:32.240
+<v Markus>geredet und Trimer ist immer noch mein Forisierter.
+
+00:10:32.480 --> 00:10:35.440
+<v Markus>Und da muss man Backups von seiner ID machen, sonst hat man keine Chance,
+
+00:10:35.520 --> 00:10:39.840
+<v Markus>die ID, nachdem das Telefon kaputt gegangen ist oder man umgezogen ist auf ein neues Telefon,
+
+00:10:40.000 --> 00:10:45.040
+<v Markus>dazu zu bereden, mit der neuen, mit der alten ID in dem neuen Trima zu arbeiten.
+
+00:10:45.600 --> 00:10:49.520
+<v Markus>Und während man dieses Backup anlegt, vergibt man ein Passwort.
+
+00:10:49.760 --> 00:10:54.720
+<v Markus>Und das bringt halt wenig, wenn man sich jetzt ein Backup ablegt und in zwei Jahren nicht mehr weiß,
+
+00:10:54.800 --> 00:10:57.280
+<v Markus>wie dieses Passwort ist, wenn man dann mal dieses Backup braucht.
+
+00:10:57.440 --> 00:10:59.920
+<v Markus>Und es bringt auch nichts, sich zu denken, wenn man Backup macht, ja,
+
+00:11:00.000 --> 00:11:03.280
+<v Markus>ich brauche das nur jetzt, weil jetzt ziehe ich auf das neue Handy um.
+
+00:11:03.520 --> 00:11:06.720
+<v Markus>Nee, manchmal geht das neue Handy dann auch nach vier Wochen kaputt.
+
+00:11:06.800 --> 00:11:10.560
+<v Markus>Und dann wollt ihr dieses Kennwort immer noch kennen, weil dieses Backup ist nicht nur auf dem neuen Handy
+
+00:11:10.560 --> 00:11:13.760
+<v Markus>gelandet, sondern ihr habt es ja clevererweise auch noch in eure Cloud hochgeladen.
+
+00:11:14.000 --> 00:11:17.040
+<v Markus>Das war dann clever, wenn ihr das Passwort auch irgendwo gespeichert habt.
+
+00:11:17.120 --> 00:11:19.120
+<v Markus>Zum Beispiel in einem N-Pass-Container.
+
+00:11:19.360 --> 00:11:22.480
+<v Markus>Oder wie auch immer euer Passwort-Manager heißt.
+
+00:11:23.760 --> 00:11:28.640
+<v Markus>Ja, das ist so mein großes, äh, meine große Bitte an alle.
+
+00:11:28.800 --> 00:11:32.880
+<v Markus>Checkt eure Backups und vergesst die Passwörter nicht zum Thema World Backup Day.
+
+00:11:33.040 --> 00:11:35.600
+<v Markus>Ansonsten habe ich mich ein bisschen mit Rest-Deaks beschäftigt.
+
+00:11:36.000 --> 00:11:37.600
+<v Markus>Das wurde hier auch mal erwähnt.
+
+00:11:37.920 --> 00:11:40.560
+<v Markus>Ich bin aber noch nicht so weit, da ich da viel zu sagen kann.
+
+00:11:40.640 --> 00:11:42.080
+<v Markus>Ich schreibe es mal in die Shownotes.
+
+00:11:42.240 --> 00:11:45.920
+<v Markus>Ist ein ganz interessantes Kommandozeilentool, um Backups zu machen.
+
+00:11:46.160 --> 00:11:52.320
+<v Markus>Hat wirkt sehr ausgereift auf mich, aber ich erzähle da vielleicht einfach mal mehr drüber,
+
+00:11:52.400 --> 00:11:55.840
+<v Markus>wenn ich da auch mehr Backups mitgemacht habe und mehr Erfahrungen gesammelt habe.
+
+00:11:57.120 --> 00:11:59.120
+<v Markus>Was war dein World Backup Day?
+
+00:11:59.360 --> 00:12:00.480
+<v l33tname>Klingt gut, tja.
+
+00:12:01.440 --> 00:12:06.400
+<v l33tname>Dreimal darfst du raten, ich benutze ja so ein File-System, habe ich noch nie drüber geredet über dieses
+
+00:12:06.400 --> 00:12:06.800
+<v l33tname>File-System.
+
+00:12:07.040 --> 00:12:08.320
+<v l33tname>Es nennt sich ja ZFS.
+
+00:12:08.480 --> 00:12:10.800
+<v Markus>Du hast ein ZFS-Erlebnis am World Backup Day gehabt.
+
+00:12:11.040 --> 00:12:15.040
+<v l33tname>Ich habe einen ZFS, nee, ich hatte kein Erlebnis, weil es funktioniert halt.
+
+00:12:19.520 --> 00:12:26.240
+<v l33tname>Wobei mir letztens aufgefallen ist, dass ich habe für ZFS benutze ich auch
+
+00:12:26.800 --> 00:12:33.760
+<v l33tname>so einen automatischen Snapshotter, der im Prinzip über alle meine Datasets drüber geht
+
+00:12:33.760 --> 00:12:40.240
+<v l33tname>und schaut und so viertelstündlich, also vierviertelstündliche Snapshots macht,
+
+00:12:40.320 --> 00:12:46.320
+<v l33tname>irgendwie, ich glaube, 24-stündliche Snahots und irgendwie so
+
+00:12:46.960 --> 00:12:53.520
+<v l33tname>sechs Wochen Snapshots und so, dass du so sehr granular zurückrollen könntest.
+
+00:12:54.240 --> 00:13:00.480
+<v l33tname>Und da ist mir aufgefallen, dass ich irgendwann mal den Pool umgezogen habe und das Property,
+
+00:13:00.720 --> 00:13:05.760
+<v l33tname>was sagt, welche denn automatisch gesnapshottet werden sollen in diesem Schema,
+
+00:13:06.800 --> 00:13:08.800
+<v l33tname>irgendwie nicht mehr gesetzt war.
+
+00:13:09.200 --> 00:13:14.720
+<v l33tname>Darum, ja, auch von meiner Seite, Backups sind halt nur Backups,
+
+00:13:14.880 --> 00:13:18.800
+<v l33tname>wenn ihr auch mal ausprobiert habt, ob ihr von den Dingern wieder restoren könnt,
+
+00:13:18.880 --> 00:13:25.200
+<v l33tname>weil sonst könnt ihr es auch nach Dev0 backuppen im Zweifelsfall und habt dann halt gleich viel davon.
+
+00:13:25.440 --> 00:13:30.160
+<v l33tname>Das gute Gewissen, dass ihr was gemacht habt, aber es bringt halt nicht so viel.
+
+00:13:32.000 --> 00:13:36.080
+<v l33tname>Genau, aber ja, ich benutze ZFS, ich habe das glaube ich auch schon mal verlinkt.
+
+00:13:36.640 --> 00:13:42.640
+<v l33tname>Da gibt es so Send und Receive, das kann man dann einfach in SSH reinpipen und irgendwie an seine
+
+00:13:42.640 --> 00:13:49.520
+<v l33tname>Offside-Server-NAS-Systeme senden und da auf der anderen Seite halt wieder ein ZFS reindumpen und fertig.
+
+00:13:49.920 --> 00:13:52.320
+<v Markus>Ich muss ehrlich sagen, mir ist das zu low level.
+
+00:13:52.640 --> 00:13:59.040
+<v Markus>Ich will eigentlich applikationsbezogen Backup und nicht so ein, also abgesehen jetzt von meiner Workstation,
+
+00:13:59.120 --> 00:14:03.840
+<v Markus>da bin ich ganz froh, um die Time-Maschinen.
+
+00:14:03.920 --> 00:14:07.280
+<v Markus>Da würde ich auch, okay, auf eine Workstation, dann würde ich auch auf ZFS zurückgreifen,
+
+00:14:07.360 --> 00:14:10.080
+<v Markus>weil da will ich tatsächlich einfach einen Snapshot von meinem User-Home haben.
+
+00:14:10.240 --> 00:14:12.000
+<v Markus>Fertig und das stimmt natürlich.
+
+00:14:12.240 --> 00:14:15.440
+<v Markus>Aber in allen anderen Szenarien, wo ich mich um Backups kümmern möchte,
+
+00:14:15.680 --> 00:14:21.600
+<v Markus>möchte ich meistens nur einen Subdirectory Tree sichern und kein ganzes Dateisystem.
+
+00:14:22.160 --> 00:14:23.360
+<v l33tname>Das kannst du ja.
+
+00:14:23.920 --> 00:14:24.560
+<v l33tname>Also.
+
+00:14:24.960 --> 00:14:28.960
+<v Markus>Ah, ich hatte jetzt gedacht, dass du in ZFS wird sich immer auf die Volumes beziehen.
+
+00:14:29.600 --> 00:14:35.280
+<v l33tname>Es bezieht sich auf, lass mich nichts Falsches erzählen.
+
+00:14:37.200 --> 00:14:41.920
+<v l33tname>Naja, diese Volumes sind halt im Prinzip ja auch,
+
+00:14:42.080 --> 00:14:44.480
+<v l33tname>also du hast du hast ja dein Pool.
+
+00:14:46.640 --> 00:14:51.520
+<v l33tname>Und in einem Pool machst du ja im Prinzip einfach nur solche Mount Points.
+
+00:14:53.440 --> 00:14:58.960
+<v l33tname>Und so ein Mount Point, mir fallen natürlich jetzt gerade die richtigen Begriffe nicht ein,
+
+00:14:59.040 --> 00:15:00.400
+<v l33tname>wie das richtig heißt.
+
+00:15:02.640 --> 00:15:07.360
+<v l33tname>Aber so ein Mount Point, da kannst du sehr granular hingehen und sagen,
+
+00:15:07.520 --> 00:15:10.720
+<v l33tname>ich mache mir jetzt ein, nennen sie es Volumes?
+
+00:15:11.360 --> 00:15:14.160
+<v l33tname>Bin ich mir gerade gar nicht sicher, vielleicht nennen sie es Volumes.
+
+00:15:14.320 --> 00:15:21.280
+<v l33tname>Naja, auf jeden Fall kannst du da sehr granular hingehen und im Prinzip diese Ordner und halt
+
+00:15:21.280 --> 00:15:27.280
+<v l33tname>für diese Ordner musst du dann halt einfach so ein Data Sets,
+
+00:15:27.520 --> 00:15:28.400
+<v l33tname>nennen sie das.
+
+00:15:29.200 --> 00:15:35.040
+<v l33tname>Machst du dann halt einfach so ein Dataset und jedes dieser Datasets kannst du dann gesondert
+
+00:15:36.800 --> 00:15:43.760
+<v l33tname>backuppen, beziehungsweise halt Snapshotten und so ein Snapshot ist halt dann immer auf Dataset Level.
+
+00:15:44.000 --> 00:15:48.880
+<v l33tname>Aber es ist halt ziemlich einfach, so ein Dataset zu erzeugen.
+
+00:15:49.120 --> 00:15:53.840
+<v l33tname>Es ist halt nicht, du kannst halt nicht in deiner GUI-Applikation vermutlich einfach so einen neuen Ordner
+
+00:15:53.840 --> 00:15:57.360
+<v l33tname>anlegen, aber es ist halt irgendwie so, wenn du das irgendwie auf der Konsole machst oder so,
+
+00:15:57.440 --> 00:15:58.160
+<v l33tname>ist es halt einfach.
+
+00:15:58.320 --> 00:16:04.160
+<v l33tname>Statt MKD ist es dann irgendwie halt ZFS, Create Dataset und dann Pfad.
+
+00:16:05.520 --> 00:16:09.920
+<v l33tname>Also das ist geht eigentlich ganz gut.
+
+00:16:10.160 --> 00:16:16.800
+<v l33tname>Und für mein Use Case ist es halt so, ich habe halt so ein paar Datasets thematisch,
+
+00:16:16.880 --> 00:16:22.240
+<v l33tname>irgendwie so, das sind meine Fotos, das sind meine so allgemeinen Dokument,
+
+00:16:22.400 --> 00:16:24.160
+<v l33tname>Daten, Kram, Zeug.
+
+00:16:24.960 --> 00:16:31.440
+<v l33tname>Und ich habe zum Beispiel auch verschiedene Richtlinien, wie viel mein Kram gebackup wird.
+
+00:16:31.520 --> 00:16:38.240
+<v l33tname>Also beispielsweise so die Dinge, die mir wichtig sind, die habe ich irgendwie so zweimal Offsite.
+
+00:16:38.800 --> 00:16:44.080
+<v l33tname>Und gewisse Dinge, die mir so ein bisschen egal sind, habe ich so ein Script,
+
+00:16:45.760 --> 00:16:52.480
+<v l33tname>was sie einfach auf meinen Build-Server, wo ich einfach auch nochmal einen ZFS-Pool drin habe,
+
+00:16:52.880 --> 00:16:57.840
+<v l33tname>der aber gar nicht die ganze Zeit läuft zum Beispiel, wo ich dann einfach nur von Hand anschluss und sage,
+
+00:16:58.000 --> 00:17:03.040
+<v l33tname>ja, diesen Kram hier kannst du mal noch auf die Platten da drüben schreiben,
+
+00:17:03.440 --> 00:17:09.120
+<v l33tname>wenn ich dran denke, aber ist halt nicht so wichtig und das habe ich genau dann halt zweimal zu Hause.
+
+00:17:11.840 --> 00:17:14.000
+<v l33tname>Aber ich bin immer noch großer Fan von.
+
+00:17:16.640 --> 00:17:19.200
+<v l33tname>Geht natürlich aber nur, wenn man ZFS hat.
+
+00:17:19.280 --> 00:17:22.880
+<v l33tname>Und ich glaube, mit ButfS und so könnte man sich das alles auch bauen,
+
+00:17:22.960 --> 00:17:25.280
+<v l33tname>habe ich jetzt persönlich aber halt einfach nie gemacht.
+
+00:17:28.880 --> 00:17:31.360
+<v Markus>Ich meine auch, dass Ingo mal sowas erwähnt hätte.
+
+00:17:32.480 --> 00:17:33.360
+<v l33tname>Bestimmt.
+
+00:17:33.920 --> 00:17:38.880
+<v l33tname>Das geht bestimmt in zwei, drei Jahren, wenn es dann nicht mehr kaputt ist.
+
+00:17:45.360 --> 00:17:46.240
+<v Markus>Nice, nice.
+
+00:17:46.320 --> 00:17:47.040
+<v Markus>Ja, genau.
+
+00:17:47.200 --> 00:17:48.320
+<v Markus>Backup, all the things.
+
+00:17:48.400 --> 00:17:55.280
+<v Markus>Was ich auch in der, in dieser ganzen, im Kontext dieser angeschnittenen Prima-Restore-Diskussion
+
+00:17:55.600 --> 00:17:59.440
+<v Markus>wieder mal festgestellt habe, ist, dass Android zu Backup ein echt ein Pain ist.
+
+00:17:59.520 --> 00:18:03.600
+<v Markus>Also ich bin immer noch begeisterter Android-Nutzer, aber ich bin halt auch jemand,
+
+00:18:03.680 --> 00:18:06.880
+<v Markus>der sich darüber wusstest, was er da alles wo, wie einstellen muss.
+
+00:18:10.000 --> 00:18:13.360
+<v Markus>Es ist einfach ein Graus, weil man jeder App einzeln betrachten muss, wirklich.
+
+00:18:13.520 --> 00:18:20.240
+<v Markus>Und da muss ich sagen, das ist, das kriegen die iOS-Jungs oder Apple, kriegt das da besser hin.
+
+00:18:20.320 --> 00:18:23.440
+<v Markus>Da ist es halt einfach ein, hier stöpselt das ein oder sagt er im Telefon,
+
+00:18:23.600 --> 00:18:28.320
+<v Markus>es soll sich auf iCloud sichern und dann bekommt man ein neues iPhone,
+
+00:18:28.480 --> 00:18:30.960
+<v Markus>dann restort der fast alles daher.
+
+00:18:32.240 --> 00:18:34.480
+<v Markus>Das kriegen die besser hin, dann muss Google dran arbeiten.
+
+00:18:34.560 --> 00:18:39.680
+<v Markus>Oder besser noch, so ein alternatives System wie das,
+
+00:18:39.760 --> 00:18:45.280
+<v Markus>was der Ingo da so gerne nutzt, Yolla, die sollen mal hinkriegen, dass die ordentlich Backups machen.
+
+00:18:45.360 --> 00:18:50.560
+<v Markus>Dann sollen die Leute sich darüber bewusst werden, dass sie das eigentlich wollen und deswegen alle zu Jolla
+
+00:18:50.720 --> 00:18:51.040
+<v Markus>wechseln.
+
+00:18:51.200 --> 00:18:52.080
+<v l33tname>Das wäre natürlich geil.
+
+00:18:52.320 --> 00:18:58.960
+<v l33tname>Lustigerweise, wenn ich das richtig im Kopf habe, benutzen sie ja bei Joller ja auch ein Butterfest drunter.
+
+00:18:59.200 --> 00:19:06.160
+<v l33tname>Das heißt, sie könnten sich eigentlich die ganze Magic mit Snapshotting und du
+
+00:19:06.160 --> 00:19:11.520
+<v l33tname>kannst diese Snapshots dann irgendwie inkrementell gerade zu deinem Server schicken und so.
+
+00:19:11.840 --> 00:19:16.960
+<v l33tname>Das könnten sie vermutlich verhältnismäßig einfach hinhacken,
+
+00:19:17.040 --> 00:19:19.760
+<v l33tname>ohne dass jetzt viel Logik implementiert wird.
+
+00:19:19.920 --> 00:19:22.960
+<v Markus>Das ist vielleicht auch die Motivation dafür, dass sie da auf ButterFS gesetzt haben.
+
+00:19:23.120 --> 00:19:26.560
+<v Markus>Von Android hat man ja so irgendwann im vergangenen Jahr, ich glaube,
+
+00:19:26.640 --> 00:19:32.240
+<v Markus>wir hatten es auch mal kurz hier im Binärgebitter, dass Android überlegt,
+
+00:19:32.320 --> 00:19:33.520
+<v Markus>zu ButterFS zu wechseln.
+
+00:19:33.600 --> 00:19:38.480
+<v Markus>Und da habe ich ja schon mal die Vermutung geäußert, dass das vielleicht dahin führen könnte,
+
+00:19:38.560 --> 00:19:40.720
+<v Markus>dass sie endlich vernünftig Backups machen können.
+
+00:19:41.920 --> 00:19:47.120
+<v l33tname>Und du hast halt, sobald du so ein Filesystem hast, hast du halt auch so ein paar lustige Dinge wie,
+
+00:19:47.280 --> 00:19:49.760
+<v l33tname>du kannst beispielsweise vor jedem App
+
+00:19:50.750 --> 00:19:55.710
+<v l33tname>Dass du installierst, kannst du halt einen Snapshot machen und wenn du irgendwie nicht happy bist mit der App,
+
+00:19:55.790 --> 00:20:01.150
+<v l33tname>kannst du den Snapshots einfach zurückcrollen und dann hast du sicher alles wieder weg und so kramm.
+
+00:20:01.310 --> 00:20:04.830
+<v l33tname>Das wäre halt eigentlich schon ganz cool.
+
+00:20:05.550 --> 00:20:07.230
+<v l33tname>Die Frage ist halt, ob es passiert.
+
+00:20:07.630 --> 00:20:10.670
+<v Markus>Ja, und die Frage wäre, wir finden das cool.
+
+00:20:10.830 --> 00:20:16.350
+<v Markus>Kriegen die das in UI verpackt oder kriegen es den Leuten so erklärt, dass es die Leute auch cool finden?
+
+00:20:16.990 --> 00:20:18.910
+<v l33tname>Tja, das ist die Frage.
+
+00:20:18.990 --> 00:20:20.590
+<v l33tname>Das ist die große Frage.
+
+00:20:21.070 --> 00:20:22.350
+<v Markus>Wir werden es erleben.
+
+00:20:22.510 --> 00:20:27.630
+<v Markus>Oder auch nicht, weil irgendein Produktmanager entscheidet, gehört nicht auf die Urlaub,
+
+00:20:27.790 --> 00:20:31.550
+<v Markus>weil wir verwirren die Leute nur damit, wenn wir ihnen nahelegen, dass Backups wichtig sind,
+
+00:20:31.710 --> 00:20:36.430
+<v Markus>weil dann glauben die ja nachher doch, das System wäre unsicher und das darf ja nicht sein.
+
+00:20:38.350 --> 00:20:44.670
+<v l33tname>Also zusammenfassend kann man, glaube ich, sagen, macht Backups und zum Backup-Backen gehört halt auch mal ein
+
+00:20:44.670 --> 00:20:45.310
+<v l33tname>Restore.
+
+00:20:45.630 --> 00:20:47.470
+<v Markus>Probiert das Restore aus, genau.
+
+00:20:47.550 --> 00:20:50.910
+<v Markus>Und nicht erst, wenn ihr wirklich, wenn ihr es wirklich braucht.
+
+00:20:51.230 --> 00:20:54.910
+<v l33tname>Genau, weil wenn ihr es wirklich braucht, dann ist es vermutlich kaputt.
+
+00:20:56.830 --> 00:20:58.590
+<v l33tname>Wie das halt immer so ist.
+
+00:21:00.110 --> 00:21:02.510
+<v Markus>Immer wieder gern gesehen, genau.
+
+00:21:02.910 --> 00:21:04.830
+<v l33tname>Dann Linux auf dem Desktop.
+
+00:21:04.990 --> 00:21:09.070
+<v l33tname>Linux auf dem Desktop, äh, 2018 ist der Linux auf dem Desktop.
+
+00:21:10.510 --> 00:21:17.310
+<v l33tname>Und zwar Linux auf dem Desktop, auf dem Windows Desktop, logischerweise.
+
+00:21:17.790 --> 00:21:19.470
+<v l33tname>Weil die sind halt überall.
+
+00:21:20.830 --> 00:21:24.510
+<v l33tname>Und da haben sie so ein, also ich habe das glaube ich ja auch schon mal vorgestellt,
+
+00:21:24.590 --> 00:21:27.390
+<v l33tname>das Windows Subsystem for Linux, was eigentlich ganz nett ist.
+
+00:21:27.470 --> 00:21:31.230
+<v l33tname>Das ist halt so ein, ich glaube mittlerweile ist es einfach nur so ein Feature,
+
+00:21:31.310 --> 00:21:36.510
+<v l33tname>was du halt in deinen Windows anmachst und dann hast du halt so eine Bash und da kannst du ganz normal
+
+00:21:36.670 --> 00:21:40.830
+<v l33tname>irgendwie so Upget-Install und deine Pakete installieren und so.
+
+00:21:41.630 --> 00:21:43.390
+<v l33tname>Was eigentlich schon ganz gut ist.
+
+00:21:43.630 --> 00:21:50.350
+<v l33tname>Und jetzt haben sie so ein Windows Subsystem for Linux Distro Launcher gebaut.
+
+00:21:50.830 --> 00:21:55.870
+<v l33tname>Wo man sich wirklich im Prinzip, glaube ich, nur noch so ein, ich habe es jetzt selber noch nicht ausprobiert,
+
+00:21:55.950 --> 00:22:00.990
+<v l33tname>aber es sieht so ein bisschen aus, als könnte man sich jetzt wirklich einfach so ein auf Windows ein Linux
+
+00:22:00.990 --> 00:22:02.990
+<v l33tname>doppelklicken und dann hat man Linux.
+
+00:22:03.550 --> 00:22:05.870
+<v l33tname>Und ich finde das Gewinn.
+
+00:22:06.750 --> 00:22:07.950
+<v Markus>Das ist cool, ja.
+
+00:22:10.190 --> 00:22:16.110
+<v Markus>Man könnte jetzt schon sagen, es ist halt nur so halbcool, weil es die Leute weniger dazu stresst,
+
+00:22:16.350 --> 00:22:20.670
+<v Markus>wirklich umzusteigen und Microsoft weiter mit ihren komischen Lizenzmodellen Geld verdienen lässt,
+
+00:22:20.750 --> 00:22:22.110
+<v Markus>aber es ist ein erster Schritt.
+
+00:22:23.550 --> 00:22:27.870
+<v l33tname>Wobei sie ja, glaube ich, mit ihrem Windows auch nicht mehr so viel Geld verdienen.
+
+00:22:28.030 --> 00:22:29.390
+<v Markus>Doch, businessmäßig schon noch.
+
+00:22:29.470 --> 00:22:30.350
+<v l33tname>Ja, businessmäßig.
+
+00:22:30.430 --> 00:22:35.630
+<v l33tname>Aber ich meine, Business wird nicht, ich glaube nicht, dass Business,
+
+00:22:36.590 --> 00:22:42.590
+<v l33tname>all diese Businessmenschen zu Linux wechseln würden.
+
+00:22:43.230 --> 00:22:46.430
+<v l33tname>Oder ich glaube jetzt auch nicht, dass sie weniger zu Linux wechseln,
+
+00:22:46.750 --> 00:22:49.630
+<v l33tname>weil es jetzt ein Windows-Subsystem for Linux gibt, dass sie irgendein,
+
+00:22:49.790 --> 00:22:55.310
+<v l33tname>dass halt irgendein Feature, dass die Administratoren halt für die 100.000 Office-PCs,
+
+00:22:55.390 --> 00:22:59.230
+<v l33tname>die sie betreuen, einfach schon mal gar nicht enablen und fertig.
+
+00:23:01.710 --> 00:23:05.150
+<v Markus>Was wieder für die armen Desktop-User an diesen Rechnern schade ist,
+
+00:23:05.310 --> 00:23:08.750
+<v Markus>weil die vielleicht ist unter den Millionen, vielleicht ist da einer,
+
+00:23:08.830 --> 00:23:12.190
+<v Markus>der es gerne nutzen würde und der kann dann nicht, weil seine Armen es ihm verboten hat.
+
+00:23:12.990 --> 00:23:16.510
+<v l33tname>Der seine Arbeit gerne kurz irgendwie in Shell scripten möchte.
+
+00:23:16.990 --> 00:23:23.870
+<v l33tname>Anstelle von irgendwie PowerShell oder VB-Script oder was es
+
+00:23:23.870 --> 00:23:25.230
+<v l33tname>da alles Lustiges gibt.
+
+00:23:25.630 --> 00:23:26.430
+<v l33tname>Genau.
+
+00:23:26.830 --> 00:23:27.310
+<v l33tname>Tja.
+
+00:23:27.870 --> 00:23:33.710
+<v l33tname>Aber ich finde das, ich habe das, das Subsystem von Linux habe ich mal ausprobiert und das ist also
+
+00:23:34.670 --> 00:23:36.830
+<v l33tname>ja, ich finde das echt okay.
+
+00:23:36.990 --> 00:23:42.990
+<v l33tname>Das kann man echt mal bringen und sagen, ja, weil dieses, wenn man eh schon auf Windows isst,
+
+00:23:43.150 --> 00:23:46.030
+<v l33tname>wenn man dieses, äh, wie heißt denn das andere SSH-Programm, Putti,
+
+00:23:46.190 --> 00:23:49.950
+<v l33tname>glaube ich, oder so, das halt echt auch zum Davonlaufen.
+
+00:23:50.030 --> 00:23:54.110
+<v l33tname>Also es ist cool, dass es überhaupt geht und so und das kleines GUI-Ding-Sy,
+
+00:23:54.270 --> 00:23:56.270
+<v l33tname>musst du nicht wirklich installieren und so.
+
+00:23:56.590 --> 00:24:03.550
+<v l33tname>Ist ganz nett, aber es ist halt schon geil, wenn du so eine richtige Shell hast und das auf
+
+00:24:03.550 --> 00:24:03.790
+<v l33tname>jeden Fall.
+
+00:24:04.190 --> 00:24:08.350
+<v l33tname>Mal kurz einen Pfeil beispielsweise runterladen kannst vom einen Server und dann irgendwie auf den nächsten
+
+00:24:08.350 --> 00:24:14.590
+<v l33tname>Server hochschieben kannst, ohne dass du irgendwie jetzt gleich dann wieder umdenken musst und sagen musst,
+
+00:24:14.670 --> 00:24:20.990
+<v l33tname>ja, kann ich überhaupt irgendwie mit SCP jetzt hier was hinkopieren oder ist das dann
+
+00:24:20.990 --> 00:24:22.030
+<v l33tname>verkrebelt?
+
+00:24:22.990 --> 00:24:23.470
+<v l33tname>Tja.
+
+00:24:23.870 --> 00:24:25.230
+<v l33tname>Ich finde das gut.
+
+00:24:26.750 --> 00:24:32.750
+<v l33tname>Gibt es jetzt, ähm, kann man irgendwie, ich glaube, aus dem Windows Store herunterladen.
+
+00:24:32.830 --> 00:24:35.470
+<v l33tname>Also wenn ihr einen Windows habt, könnt ihr das tun.
+
+00:24:35.950 --> 00:24:37.790
+<v l33tname>Und sonst könnt ihr ganz normal euer Linux-System.
+
+00:24:38.110 --> 00:24:40.430
+<v Markus>Vorher müsst ihr schon brav wie Windows-Updates installieren.
+
+00:24:40.590 --> 00:24:40.910
+<v Markus>Alle.
+
+00:24:41.870 --> 00:24:42.350
+<v Markus>Alle.
+
+00:24:46.750 --> 00:24:52.430
+<v l33tname>Dann haben wir was, was auch unter dem 1.
+
+00:24:52.750 --> 00:24:56.030
+<v l33tname>April hätten führen können, aber ist halt kein Witz.
+
+00:24:57.390 --> 00:25:03.950
+<v l33tname>Und zwar Cloudflare hat sich die
+
+00:25:03.950 --> 00:25:10.110
+<v l33tname>IP-Adresse 1111 geschnappt und da halt ein DNS drauf gebaut.
+
+00:25:10.990 --> 00:25:15.630
+<v l33tname>Und sie sagen, ja, ist irgendwie Privacy First, Consumer, DNS-Service.
+
+00:25:16.670 --> 00:25:21.950
+<v l33tname>Und was die ersten, die Leute, das schon benutzt haben und so,
+
+00:25:22.190 --> 00:25:24.190
+<v l33tname>sagen, es ist wohl echt schnell.
+
+00:25:25.390 --> 00:25:29.550
+<v l33tname>Aber es ist halt so, ja, sie sagen jetzt so Privacy, bla blub.
+
+00:25:30.270 --> 00:25:36.830
+<v l33tname>Aber müsst euch halt trotzdem irgendwie bewusst sein, alle eure DNS-Abfragen gehen dann halt zu
+
+00:25:36.830 --> 00:25:37.710
+<v l33tname>Cloudflare.
+
+00:25:38.270 --> 00:25:40.190
+<v l33tname>Das ist halt aber das gleiche Problem, was halt.
+
+00:25:40.350 --> 00:25:47.310
+<v l33tname>Ich meine, Google sagt halt auch, dass sie das vertraulich behandeln und Privacy First und so.
+
+00:25:49.230 --> 00:25:56.190
+<v l33tname>Ja, ich habe da nicht so in die Details geschaut, wie vertrauensmittel
+
+00:25:56.430 --> 00:25:57.310
+<v l33tname>das Ganze ist.
+
+00:25:57.550 --> 00:26:04.270
+<v Markus>Ich meine, bei Google muss man sich immer fragen, die haben mittlerweile die Benutzerkonten und
+
+00:26:04.270 --> 00:26:09.150
+<v Markus>pflegen dahinter mit Sicherheit Profile, die sie nutzen, um ihre Werbung darauf zu matchen.
+
+00:26:11.390 --> 00:26:13.790
+<v Markus>Das hat Cloudfare meines Wissens nach nicht gehalten.
+
+00:26:13.950 --> 00:26:18.990
+<v Markus>Jetzt ist die Frage, ob Cloudfare diese Daten denn sammeln möchte, um sie hinterher zu verkaufen oder ob sie
+
+00:26:18.990 --> 00:26:22.110
+<v Markus>tatsächlich einfach nur Interesse an den statistischen Daten haben,
+
+00:26:22.670 --> 00:26:26.190
+<v Markus>welche Domains wurde wie oft zugegriffen und solche Sachen.
+
+00:26:26.350 --> 00:26:28.110
+<v Markus>Was ja unkritische Daten sind.
+
+00:26:28.350 --> 00:26:32.510
+<v Markus>Die Frage ist halt, passiert ein Matching gegen Persönlichkeitsprofile oder nicht.
+
+00:26:33.150 --> 00:26:35.390
+<v l33tname>Tja, das weiß man halt nie so genau.
+
+00:26:35.470 --> 00:26:39.550
+<v l33tname>Das ist aber irgendwie ein Problem, was halt immer, was man ja eigentlich immer hat,
+
+00:26:39.630 --> 00:26:42.830
+<v l33tname>wenn andere Leute Infrastrukturverein betreiben.
+
+00:26:43.070 --> 00:26:47.550
+<v Markus>Das ist so, die Frage ist aber, ob man dann nicht doch besser bei seinem Local-Provider bleibt.
+
+00:26:47.790 --> 00:26:48.110
+<v Markus>Ja.
+
+00:26:48.430 --> 00:26:50.670
+<v l33tname>Also muss halt jeder für sich selber wissen.
+
+00:26:50.750 --> 00:26:56.590
+<v l33tname>Aber so performancemäßig ist das Ding wohl echt cool und ich finde es auch gut aus dem
+
+00:26:57.870 --> 00:27:04.750
+<v l33tname>aus dem Blickwinkel betrachtet, dass es wohl ganz viele so Legacy-Blödsinn
+
+00:27:04.750 --> 00:27:11.150
+<v l33tname>gibt, wo diese IP halt irgendwie falsch geroutet wurde und so.
+
+00:27:11.550 --> 00:27:13.150
+<v l33tname>Und das geht jetzt halt alles weg.
+
+00:27:13.230 --> 00:27:19.550
+<v l33tname>Oder irgendwie Leute, die in ihrem internen Netz das gebraucht haben und ja.
+
+00:27:21.390 --> 00:27:25.710
+<v l33tname>Oder das irgendwie nicht vor worden oder all so ein Blödsinn.
+
+00:27:25.870 --> 00:27:30.350
+<v l33tname>Und das ist aus diesem Blickwinkel betrachten, finde ich das eigentlich ganz nett,
+
+00:27:30.510 --> 00:27:33.150
+<v l33tname>weil die sind jetzt alle so ein bisschen gezwungen.
+
+00:27:33.470 --> 00:27:39.630
+<v l33tname>Gerade wenn so ein großer Player kommt und sagt, hey, wir machen jetzt aber hier Service auf dieser IP,
+
+00:27:39.950 --> 00:27:43.790
+<v l33tname>ihr könnt es nicht einfach hingehen und sagen, ja, pff, uns egal.
+
+00:27:46.030 --> 00:27:46.590
+<v l33tname>Genau.
+
+00:27:48.750 --> 00:27:50.110
+<v l33tname>Das könnt ihr ausprobieren.
+
+00:27:54.670 --> 00:27:58.830
+<v Markus>Genau, einfach mal oder in die Fritzbox hacken und das also DNS setzen.
+
+00:28:01.230 --> 00:28:02.990
+<v Markus>Es geht weiter mit dem Internet.
+
+00:28:05.550 --> 00:28:06.190
+<v Markus>Was haben wir noch?
+
+00:28:06.430 --> 00:28:06.830
+<v Markus>News?
+
+00:28:06.990 --> 00:28:07.870
+<v Markus>25 Jahre.
+
+00:28:08.510 --> 00:28:10.750
+<v l33tname>25 Jahre und zwar Red Hat.
+
+00:28:12.190 --> 00:28:16.830
+<v l33tname>Gibt es seit 25 Jahren und die wirtschaften wohl immer noch ganz gut.
+
+00:28:17.630 --> 00:28:19.710
+<v Markus>Zum Geburtstag einen Umsatzrekord.
+
+00:28:21.950 --> 00:28:25.310
+<v l33tname>Freut mich persönlich, weil ich Fedora benutze.
+
+00:28:26.590 --> 00:28:33.470
+<v l33tname>Finde ich das sehr gut, wenn es der Firma dahinter gut geht, dann werden sie da auch weiter Dinge sponsern.
+
+00:28:35.470 --> 00:28:38.430
+<v Markus>Ja, Red Hat macht ja eine Menge cooles Zeug mittlerweile.
+
+00:28:38.510 --> 00:28:39.150
+<v Markus>Also die haben.
+
+00:28:39.790 --> 00:28:41.870
+<v l33tname>System D zum Beispiel, genau.
+
+00:28:42.510 --> 00:28:48.910
+<v Markus>Auch außerhalb von dem direkten Linux-Umfeld, die sind ja auch mit ihrem Open Shift-Engagement
+
+00:28:49.230 --> 00:28:54.750
+<v Markus>und in dieser ganzen Container- und Cloud-Szene sind sie sehr aktiv.
+
+00:28:55.790 --> 00:29:00.990
+<v Markus>Ich habe diesen Podcast gepickt vor vorletzte Sendung, die sie machen,
+
+00:29:01.230 --> 00:29:06.030
+<v Markus>um so die ganze IT-Historie mal und die aktuellen Themen aufzubereiten.
+
+00:29:06.190 --> 00:29:07.390
+<v Markus>Der ist ganz cool zu hören.
+
+00:29:07.470 --> 00:29:13.230
+<v Markus>Also sie tun auch für diese ganzen Developer-Relations mittlerweile eine Menge und das alles immer mit dem
+
+00:29:13.230 --> 00:29:19.950
+<v Markus>Grundsatz, dass Zeug, was sie bauen, Open Source ist, das ist extrem sympathisch.
+
+00:29:20.830 --> 00:29:26.350
+<v l33tname>Und es ist halt cool, dass es Firmen gibt, die es irgendwie schaffen, mit Linux halt Geld zu verdienen.
+
+00:29:26.750 --> 00:29:32.190
+<v l33tname>Und dann halt auch, dass diese Firmen dann halt auch verstehen,
+
+00:29:32.590 --> 00:29:38.030
+<v l33tname>dass die Community halt wichtig ist und nicht einfach irgendwie so eigenbrütlerisch.
+
+00:29:38.270 --> 00:29:42.750
+<v l33tname>Gerade so bei Ubuntu-Leuten, wie heißt die Firma dahinter?
+
+00:29:42.910 --> 00:29:48.510
+<v l33tname>Canonical hat sich zwar jetzt auch wieder so ein,
+
+00:29:48.670 --> 00:29:53.070
+<v l33tname>sie haben so ein bisschen wieder zurückgerudert, aber so vor ein paar Jahren war alles so,
+
+00:29:53.470 --> 00:29:58.670
+<v l33tname>hat so ein bisschen den Eindruck gemacht, dass hätten sie alles irgendwie neu erfinden wollen ohne die
+
+00:29:58.670 --> 00:30:03.710
+<v l33tname>Community und ja, das ist dann halt immer so ein bisschen schade.
+
+00:30:04.030 --> 00:30:10.910
+<v l33tname>Es halt verschwendete Zeit, also ihr Upstart und wie hieß
+
+00:30:10.990 --> 00:30:12.670
+<v l33tname>denn diese Desktop Unity?
+
+00:30:12.990 --> 00:30:14.590
+<v Markus>Ja, der Unity, genau, ja.
+
+00:30:14.990 --> 00:30:17.950
+<v l33tname>Was jetzt ja auch irgendwie auslaufen lassen und so.
+
+00:30:18.030 --> 00:30:23.470
+<v l33tname>Das ist halt, das ist halt irgendwie voll schade, weil da floss halt voll viel Zeit und Arbeit rein.
+
+00:30:24.670 --> 00:30:29.470
+<v l33tname>Für nicht so viel, statt dass man irgendwie versucht hätte,
+
+00:30:29.550 --> 00:30:35.870
+<v l33tname>irgendwie mit der Community was zu machen und halt dann irgendwie Entwicklung zu
+
+00:30:35.870 --> 00:30:36.670
+<v l33tname>sponsern.
+
+00:30:37.550 --> 00:30:38.590
+<v Markus>Das wäre schon besser gewesen.
+
+00:30:38.830 --> 00:30:42.350
+<v l33tname>Oder halt Entwickler einfach einzustellen und zu sagen, ja, wir sind da,
+
+00:30:42.430 --> 00:30:48.030
+<v l33tname>du baust da irgendwie, weiß ich was, was für irgendwie Container und so und das passt in unsere Business
+
+00:30:48.030 --> 00:30:48.830
+<v l33tname>Strategie.
+
+00:30:49.150 --> 00:30:53.630
+<v l33tname>Wir finden das Tool cool, irgendwie, wir bezahlen dich jetzt einfach mal,
+
+00:30:53.950 --> 00:30:56.270
+<v l33tname>dass du an dem Ding weiterarbeiten kannst.
+
+00:30:57.550 --> 00:30:58.350
+<v l33tname>Genau.
+
+00:31:01.550 --> 00:31:04.990
+<v l33tname>Dann OpenBSD.
+
+00:31:05.550 --> 00:31:07.470
+<v Markus>Nein, ne BSD News, wie kommt das hin?
+
+00:31:07.630 --> 00:31:09.710
+<v l33tname>Eine BSD News, wir hatten die gepickt.
+
+00:31:09.870 --> 00:31:12.430
+<v l33tname>Und zwar OpenBSD 6.3.
+
+00:31:14.430 --> 00:31:21.230
+<v l33tname>Ja, haben sie released, hat so die guten Meltdown und Spectre Fixes
+
+00:31:21.230 --> 00:31:21.870
+<v l33tname>drin.
+
+00:31:23.230 --> 00:31:27.790
+<v l33tname>Multiprozessor Support für ARM 64, das ist recht cool,
+
+00:31:27.870 --> 00:31:33.950
+<v l33tname>weil das heißt, Raspberry Pi 3 läuft jetzt wohl ganz gut mit dem Ding.
+
+00:31:34.270 --> 00:31:40.030
+<v l33tname>Und das ist auch das, was ich dann hoffentlich, wenn ich Zeit finde, gerne mal ausprobieren würde.
+
+00:31:40.990 --> 00:31:47.790
+<v l33tname>Weil gerade so für irgendwie so Kleinkram oder irgendwie so ein
+
+00:31:47.790 --> 00:31:54.430
+<v l33tname>SSH-Jump-Host wäre es halt ganz geil, wenn du da einfach so ein Raspberry Pi hinhängen könntest.
+
+00:31:55.870 --> 00:32:02.590
+<v l33tname>Und wenn da halt irgendwie so ein so ein schlankes OpenBSD draufläuft mit irgendwie halt
+
+00:32:02.830 --> 00:32:09.710
+<v l33tname>dem aktuellsten Open SSH
+
+00:32:09.870 --> 00:32:14.590
+<v l33tname>und so, dann ist das bestimmt gut.
+
+00:32:15.070 --> 00:32:15.870
+<v l33tname>Klingt nach einem Leben.
+
+00:32:16.430 --> 00:32:18.910
+<v l33tname>Außerdem mehr BSD, mehr Gewinn, ne?
+
+00:32:20.670 --> 00:32:21.870
+<v l33tname>Ist recht einfach.
+
+00:32:22.430 --> 00:32:25.230
+<v Markus>Egal, was vorne dran steht, Stern BSD und gutes.
+
+00:32:25.550 --> 00:32:26.270
+<v Markus>Genau.
+
+00:32:27.070 --> 00:32:32.350
+<v l33tname>Was ich auch ganz interessant finde, dass sie jetzt auch irgendwie so einen eigenen Hypervisor gebaut haben
+
+00:32:32.350 --> 00:32:36.910
+<v l33tname>und der wohl, ähm, ich habe ihn jetzt noch nie ausprobiert,
+
+00:32:36.990 --> 00:32:39.870
+<v l33tname>aber es sieht ganz interessant aus, was sie da machen.
+
+00:32:40.110 --> 00:32:44.270
+<v l33tname>Und der hat dann halt auch so genauso die Features, die ich mir halt so vorstelle,
+
+00:32:44.430 --> 00:32:50.990
+<v l33tname>beispielsweise, dass man VMs stoppen kann, diese streamen kann und dann einfach irgendwie durch
+
+00:32:50.990 --> 00:32:54.910
+<v l33tname>irgendwas pipen kann und auf der anderen Seite die wieder empfangen kann,
+
+00:32:54.990 --> 00:32:56.910
+<v l33tname>wieder starten kann und los geht's.
+
+00:32:58.430 --> 00:33:03.310
+<v l33tname>Es sind halt einfach so, das sind so kleine Convenience-Dinger,
+
+00:33:03.630 --> 00:33:07.470
+<v l33tname>die ich halt einfach echt cool finde, wenn das halt einfach geht.
+
+00:33:07.790 --> 00:33:10.190
+<v Markus>Ja, die machen den Umgang damit einfacher.
+
+00:33:10.430 --> 00:33:16.030
+<v l33tname>Genau, und man kann sich dann halt einfach so, so blöd sind einfach mal kurz hinscripten, wenn man will.
+
+00:33:16.590 --> 00:33:16.910
+<v l33tname>Ja.
+
+00:33:18.430 --> 00:33:21.630
+<v l33tname>Und das ist halt, das ist halt echt cool, wenn es geht.
+
+00:33:21.950 --> 00:33:27.390
+<v l33tname>Genau, und die AM64 Unterstützung ist halt auch für andere,
+
+00:33:27.550 --> 00:33:33.310
+<v l33tname>also sie listen da sonst noch so ein paar auf, die dann halt so für diese kleinen Boards.
+
+00:33:33.870 --> 00:33:40.670
+<v Markus>Das heißt, man kann jetzt auch auf dem Raspberry Pi 3 die CPU voll ausnutzen mit OpenBSD.
+
+00:33:40.990 --> 00:33:41.790
+<v Markus>Genau.
+
+00:33:44.670 --> 00:33:46.350
+<v Unbekannt>Das ist schon praktisch.
+
+00:33:46.910 --> 00:33:51.070
+<v l33tname>Tja, ich habe jetzt noch keine gesehen, wie gut das Ding performt und so,
+
+00:33:51.150 --> 00:33:56.830
+<v l33tname>aber ich nehme an, halt so gleich gut wie so ein Linux, wird das schon sein.
+
+00:33:56.990 --> 00:33:57.790
+<v l33tname>Von dem her.
+
+00:33:58.590 --> 00:34:02.510
+<v l33tname>Und es ist jetzt ja normalerweise auch nicht so, dass man sich so ein Raspberry Pi hinstellt,
+
+00:34:02.590 --> 00:34:04.670
+<v l33tname>wenn man jetzt super viel Performance braucht.
+
+00:34:05.790 --> 00:34:08.350
+<v Markus>Nein, dafür baut man dann ein Raspberry Pi Cluster.
+
+00:34:08.590 --> 00:34:09.470
+<v l33tname>Genau.
+
+00:34:10.110 --> 00:34:12.510
+<v l33tname>Da nimmt man dann einfach mehr davon.
+
+00:34:12.830 --> 00:34:13.470
+<v l33tname>Mehr.
+
+00:34:15.230 --> 00:34:16.110
+<v Markus>Richtig.
+
+00:34:16.430 --> 00:34:16.990
+<v Markus>Genau.
+
+00:34:17.550 --> 00:34:19.470
+<v l33tname>Ja, ist da, könnt ihr installieren.
+
+00:34:19.550 --> 00:34:23.070
+<v l33tname>Ist irgendwie, glaube ich, zwei Wochen früher ist geplant gekommen.
+
+00:34:26.030 --> 00:34:26.590
+<v l33tname>Cool.
+
+00:34:27.630 --> 00:34:28.670
+<v Markus>Nein, das geht doch nicht.
+
+00:34:28.750 --> 00:34:30.910
+<v Markus>Man kann doch nicht früher releasen als geplant.
+
+00:34:31.790 --> 00:34:34.270
+<v Markus>Die haben wohl ihre Schedules nicht im Griff.
+
+00:34:34.590 --> 00:34:36.270
+<v Markus>Haben nichts zu tun, oder was?
+
+00:34:37.550 --> 00:34:43.150
+<v l33tname>Ich weiß nicht so genau, was sie sich überlegt haben, aber vielleicht haben sie nichts zu tun.
+
+00:34:43.390 --> 00:34:47.390
+<v l33tname>Vielleicht war es auch wegen den Metan und Spectrogram, dass sie gesagt haben,
+
+00:34:47.470 --> 00:34:50.590
+<v l33tname>okay, wir wollen das jetzt schneller, lieber früher als später.
+
+00:34:50.830 --> 00:34:54.270
+<v Markus>Ja, das wäre ja eine sehr ehrenwerte Motivation.
+
+00:34:54.350 --> 00:34:56.670
+<v l33tname>Wobei, ich habe das glaube ich auch gepickt.
+
+00:34:56.750 --> 00:35:03.630
+<v l33tname>Sie haben das glaube ich auch auf alle supporteten OpenBSDs gebackportet und
+
+00:35:03.630 --> 00:35:04.510
+<v l33tname>released.
+
+00:35:04.830 --> 00:35:09.310
+<v l33tname>Also von dem her, ja, muss man einfach updaten.
+
+00:35:09.630 --> 00:35:15.150
+<v l33tname>Naja, gibt's auf alle Fälle, könnt ihr jetzt auf einen, wenn ihr mal mit BSD rumspielen wollt,
+
+00:35:15.230 --> 00:35:21.070
+<v l33tname>könnt ihr jetzt auf einem Raspberry Pi 3 beispielsweise könnt ihr euch mal einen OpenBSD installieren.
+
+00:35:21.230 --> 00:35:27.870
+<v l33tname>Gefahrlos, ohne dass ihr euch gerade euren großen Server irgendwie mit BSD verkrebeln müsst.
+
+00:35:28.030 --> 00:35:31.630
+<v Markus>Und dann zieht ihr nach und nach alles von dem großen Server auf den Raspberry Pi um,
+
+00:35:31.710 --> 00:35:35.230
+<v Markus>weil OpenBSD so gut performt, könnt ihr dann irgendwann den großen Server wegschmeißen.
+
+00:35:35.390 --> 00:35:36.110
+<v Markus>Genau.
+
+00:35:36.590 --> 00:35:37.790
+<v l33tname>Soweit der Plan.
+
+00:35:37.870 --> 00:35:38.270
+<v l33tname>Oder so.
+
+00:35:38.590 --> 00:35:39.630
+<v Markus>Oder so ähnlich.
+
+00:35:40.030 --> 00:35:42.190
+<v Markus>Schnell weiter, bevor ich mir Quatsch erzähle.
+
+00:35:43.390 --> 00:35:47.950
+<v Markus>Holyboli, mit einem einfachen Beep bekommt man neuerdings Root-Rechte.
+
+00:35:48.510 --> 00:35:54.510
+<v l33tname>Genau, ich habe es mir nicht so genau angeschaut, aber es klingt halt nur schon mal lustig.
+
+00:35:54.750 --> 00:35:59.150
+<v l33tname>Ich glaube, aktuell ist auch noch gar nicht ganz klar,
+
+00:35:59.310 --> 00:36:04.270
+<v l33tname>was, also klar schon, aber noch nicht published, was genau kaputt ist.
+
+00:36:04.430 --> 00:36:08.030
+<v l33tname>Auf alle Fälle gibt es ja auf Linux dieses Kommandozahlentool Beep.
+
+00:36:09.070 --> 00:36:12.510
+<v l33tname>Und da ist wohl eine Sicherheitslücke drin.
+
+00:36:12.830 --> 00:36:18.670
+<v l33tname>Und das ist ein bisschen problematisch, weil dieses Beep halt irgendwie auf einen Lautsprecher zugreifen muss
+
+00:36:18.670 --> 00:36:24.030
+<v l33tname>und darum so ein bisschen mehr Rechte braucht, weil es dann mit Hardware sprechen will.
+
+00:36:26.270 --> 00:36:31.070
+<v l33tname>Ja, und es gibt wohl ein Source-Code-Patch.
+
+00:36:33.070 --> 00:36:37.870
+<v Markus>Überrascht mich jetzt ein wenig, weil normalerweise ist alle Hardware doch ein etwas unter Slash Dev,
+
+00:36:38.030 --> 00:36:39.390
+<v Markus>in dem man Rechte geben kann.
+
+00:36:39.630 --> 00:36:40.670
+<v Markus>Warum muss dieses?
+
+00:36:40.910 --> 00:36:41.790
+<v Markus>Naja, okay.
+
+00:36:41.950 --> 00:36:43.870
+<v Markus>Ich bin auf die Details gespannt.
+
+00:36:44.190 --> 00:36:45.870
+<v l33tname>Das ist eine gute Frage.
+
+00:36:46.030 --> 00:36:50.350
+<v l33tname>Auf jeden Fall hat sich jemand dann halt irgendwie den Spaß gegönnt und
+
+00:36:53.230 --> 00:36:59.470
+<v l33tname>halt ein Logo kreiert und eine Webseite und das Ding dann Holy Beep genannt.
+
+00:36:59.950 --> 00:37:03.390
+<v l33tname>Ja, es ist ganz lustig, ob es das wirklich braucht.
+
+00:37:04.190 --> 00:37:05.070
+<v l33tname>Weiß ich nicht.
+
+00:37:05.710 --> 00:37:11.230
+<v l33tname>Genau, und es gibt ein Patch, also ihr könnt euch das patchen oder ihr könnt es auch einfach deinstallieren,
+
+00:37:11.470 --> 00:37:17.390
+<v l33tname>weil es gibt, glaube ich, wenige Use Cases, wo man wirklich dieses Peep braucht.
+
+00:37:18.990 --> 00:37:19.310
+<v l33tname>Ja.
+
+00:37:20.510 --> 00:37:24.030
+<v Markus>Oftmals erschreckt man sich auch mehr, wenn der Rechner dann auf einmal piept.
+
+00:37:24.510 --> 00:37:29.310
+<v Markus>Oder dass nass unkontrolliert anfängt zu piepen und man nicht nachvollziehen kann, warum.
+
+00:37:29.630 --> 00:37:31.710
+<v Markus>Weil in die Loks nicht ordentlich was geschrieben wurde.
+
+00:37:31.790 --> 00:37:33.870
+<v Markus>Aber vielleicht hat sich da jemand Gut-Rechte verschafft.
+
+00:37:35.790 --> 00:37:36.190
+<v Markus>Wir hoffen.
+
+00:37:38.910 --> 00:37:39.870
+<v Unbekannt>Richtig.
+
+00:37:40.990 --> 00:37:42.830
+<v Markus>Was ist GDPR?
+
+00:37:43.070 --> 00:37:44.590
+<v l33tname>Genau, das habe ich mich auch gefragt.
+
+00:37:44.670 --> 00:37:49.390
+<v l33tname>Dass wir heute das eigentlich vielleicht wissen,
+
+00:37:49.550 --> 00:37:52.990
+<v l33tname>weil die General Data Protection Regulation.
+
+00:37:53.390 --> 00:37:56.190
+<v Markus>Ja, ah, das hat einfach auf Deutsch ein anderes Kürzel.
+
+00:37:56.430 --> 00:37:57.790
+<v l33tname>Ah, das ist gut möglich, ja.
+
+00:37:57.950 --> 00:37:59.550
+<v l33tname>Wir heißen das auf Deutsch.
+
+00:37:59.950 --> 00:38:01.630
+<v Markus>Das ist, oh Gott.
+
+00:38:01.950 --> 00:38:06.110
+<v Markus>Da reden auch im Moment alle von, das ist diese neue Grundrechtsverordnung.
+
+00:38:06.190 --> 00:38:06.510
+<v Markus>Nee.
+
+00:38:08.190 --> 00:38:09.550
+<v Markus>Ja, wir sollten das wissen.
+
+00:38:09.630 --> 00:38:11.710
+<v Markus>Wir sollten da vielleicht mal ausführlich drüber reden.
+
+00:38:12.510 --> 00:38:14.750
+<v l33tname>Genau, wirst du das zusammenfassen, oder?
+
+00:38:15.550 --> 00:38:16.910
+<v Markus>Was, worum es da jetzt geht?
+
+00:38:17.150 --> 00:38:20.990
+<v Markus>Ich kann kurz, worum es mach du mal weiter.
+
+00:38:22.110 --> 00:38:27.390
+<v l33tname>Also es gibt eben diese General Data Protection Regulation,
+
+00:38:27.710 --> 00:38:33.390
+<v l33tname>dieses GDPR und ja,
+
+00:38:33.790 --> 00:38:39.950
+<v l33tname>da stehen halt wohl so ein paar Regeln drin und das 25.
+
+00:38:40.190 --> 00:38:42.670
+<v l33tname>Mai, seit dem 25.
+
+00:38:42.830 --> 00:38:43.790
+<v l33tname>Mai ist das aktiv.
+
+00:38:44.830 --> 00:38:50.350
+<v l33tname>Und es führt beispielsweise dazu, dass bei einem Who ist
+
+00:38:52.750 --> 00:38:55.950
+<v l33tname>eigentlich fast nichts mehr angezeigt werden sollte.
+
+00:38:56.590 --> 00:39:01.550
+<v l33tname>Also das Who ist es dann eigentlich mehr oder weniger leer.
+
+00:39:02.190 --> 00:39:07.710
+<v l33tname>Und ich habe das jetzt irgendwie mitbekommen, weil sich ganz viele dieser Security-Forscher,
+
+00:39:08.110 --> 00:39:13.550
+<v l33tname>beispielsweise Krebs on Security, sich halt irgendwie so ein bisschen
+
+00:39:15.230 --> 00:39:22.190
+<v l33tname>am Rumheulen sind, dass es ja dieses Who ist halt voll wichtig ist und dass sie das halt voll für
+
+00:39:22.190 --> 00:39:26.030
+<v l33tname>ihre Arbeit brauchen und dass es dazu führen wird, dass irgendwie mehr Spam,
+
+00:39:26.510 --> 00:39:31.150
+<v l33tname>mehr Scam irgendwie passieren wird, weil sehr viel
+
+00:39:33.630 --> 00:39:39.550
+<v l33tname>dieser Arbeit, diese Leute zu identifizieren und zu schauen, wer diese Botnets betreibt,
+
+00:39:40.270 --> 00:39:45.870
+<v l33tname>halt irgendwie bei Security Researchern gemacht wird und nicht irgendwie bei Law Enforcement.
+
+00:39:47.790 --> 00:39:54.350
+<v l33tname>Und die dann halt damit ein sehr mächtiges Tool verlieren, weil sie jetzt halt im Prinzip einfach jede Domain
+
+00:39:55.230 --> 00:39:56.110
+<v l33tname>anschauen können.
+
+00:39:56.270 --> 00:40:01.310
+<v l33tname>Und logischerweise werden die Leute, die halt irgendwie Spam oder Botnetze betreiben,
+
+00:40:01.390 --> 00:40:06.030
+<v l33tname>da nicht ihren richtigen Namen reinschreiben und man kann halt dann einfach ein Hueys machen und schauen,
+
+00:40:06.110 --> 00:40:07.390
+<v l33tname>ah, okay, das war der.
+
+00:40:08.030 --> 00:40:13.870
+<v l33tname>Aber es führt halt dazu, dass sie da was reinschreiben müssen und dass man das nachschauen kann.
+
+00:40:13.950 --> 00:40:18.270
+<v l33tname>Es ist häufig so, dass man halt irgendwie irgendwelche Pattern sieht oder.
+
+00:40:20.350 --> 00:40:20.670
+<v l33tname>Ja.
+
+00:40:21.390 --> 00:40:27.950
+<v l33tname>Beispielsweise immer irgendwie mit der gleichen die gleiche Fake-Adresse
+
+00:40:27.950 --> 00:40:32.190
+<v l33tname>verwendet wird und so und man über das dann halt irgendwie so ein bisschen tracken kann,
+
+00:40:32.270 --> 00:40:36.270
+<v l33tname>welche Domains gehören jetzt gerade zu diesem Botnetz oder so.
+
+00:40:39.790 --> 00:40:46.590
+<v l33tname>Ja, ich persönlich sehe den Punkt,
+
+00:40:46.750 --> 00:40:53.150
+<v l33tname>aber ich sehe irgendwie nicht ein, warum man damit die Privatsphäre irgendwie aller
+
+00:40:53.150 --> 00:40:54.510
+<v l33tname>einschränken muss.
+
+00:40:55.310 --> 00:40:56.670
+<v l33tname>Das sehe ich halt irgendwie nicht ganz.
+
+00:40:56.750 --> 00:41:01.870
+<v l33tname>Und darum finde ich diese, klingt dieses, was die EU jetzt halt gemacht hat und gesagt hat,
+
+00:41:02.030 --> 00:41:08.830
+<v l33tname>ja, das ist halt irgendwie, ja, das ist halt Privatsphäre und darum muss das halt
+
+00:41:08.830 --> 00:41:10.510
+<v l33tname>nicht einfach drinstehen.
+
+00:41:12.190 --> 00:41:18.990
+<v l33tname>Finde ich eigentlich auch der richtige Ansatz, wo man dann irgendwie ein
+
+00:41:18.990 --> 00:41:21.790
+<v l33tname>mehrstufiges System machen muss,
+
+00:41:25.870 --> 00:41:32.270
+<v l33tname>um irgendwie gerade so Security Researchern irgendwie den Zugriff wieder zu erlauben oder dass sie irgendwie
+
+00:41:32.590 --> 00:41:34.590
+<v l33tname>Botnets tracken können.
+
+00:41:37.390 --> 00:41:41.870
+<v l33tname>Ja, müsste man sicher darüber diskutieren, aber irgendwie hat sich auch
+
+00:41:44.190 --> 00:41:51.150
+<v l33tname>niemand aus dieser Szene so darum gekümmert, dass es irgendwie ein besseres System als das Who is
+
+00:41:51.230 --> 00:41:51.470
+<v l33tname>System.
+
+00:41:51.630 --> 00:41:55.550
+<v l33tname>Also was ich zum Beispiel auch einsehe, dass da eine E-Mail-Adresse drin steht.
+
+00:41:55.630 --> 00:41:57.790
+<v l33tname>Irgendeine Möglichkeit, jemanden zu kontaktieren.
+
+00:41:58.270 --> 00:42:04.510
+<v l33tname>Gerade so irgendwie, oh, irgendwie das WordPress ist gerade eine Spam-Schleuder.
+
+00:42:04.590 --> 00:42:08.030
+<v l33tname>Ich schaue mal ins Who is und schreibe dem Typ halt eine Mail und sag, hey.
+
+00:42:10.430 --> 00:42:13.870
+<v l33tname>Dein Ding ist irgendwie geownt und spammt rum.
+
+00:42:15.790 --> 00:42:20.030
+<v l33tname>Das sehe ich ja zum Beispiel total ein, aber ich sehe zum Beispiel nicht so ganz ein,
+
+00:42:20.110 --> 00:42:26.030
+<v l33tname>warum da irgendwie eine Adresse drinstehen muss.
+
+00:42:27.630 --> 00:42:32.270
+<v Markus>Ja gut, und was macht ihr, wenn da Leute E-Mail-Adressen angeben, die nicht erreichbar sind?
+
+00:42:32.350 --> 00:42:36.750
+<v Markus>Also dann finde ich, sollte schon ein Zwang dabei sein, dass sie, dass darauf reagiert werden muss.
+
+00:42:37.550 --> 00:42:39.870
+<v l33tname>Ja, aber das, ich meine, du kannst.
+
+00:42:41.070 --> 00:42:47.470
+<v l33tname>Was machst du bei einer Telefonnummer und einer richtigen Adresse, gehst du da vorbei und sagst dem Typen
+
+00:42:47.470 --> 00:42:48.510
+<v l33tname>persönlich oder?
+
+00:42:50.270 --> 00:42:52.030
+<v l33tname>Ich meine, das passiert ja auch nicht.
+
+00:42:52.110 --> 00:42:54.990
+<v l33tname>Also das sehe ich nicht.
+
+00:42:55.550 --> 00:43:00.590
+<v l33tname>Wenn es nur darum geht, jemanden zu kontaktieren, dann reicht halt eine E-Mail-Adresse.
+
+00:43:00.990 --> 00:43:02.030
+<v l33tname>Im Prinzip.
+
+00:43:02.270 --> 00:43:09.070
+<v l33tname>Und ich möchte nicht von irgendjemandem angerufen werden, selbst wenn mein Server
+
+00:43:09.070 --> 00:43:10.270
+<v l33tname>gehackt ist oder so.
+
+00:43:10.430 --> 00:43:13.470
+<v Markus>Bei DE-Domains sollten wir da eine DE-Mail-Adresse nehmen.
+
+00:43:14.030 --> 00:43:15.230
+<v l33tname>Ah, eine D-E-Mail, genau.
+
+00:43:15.470 --> 00:43:18.510
+<v Markus>Ja, einfach weil sicher und erreichbar und viel besser.
+
+00:43:18.750 --> 00:43:21.790
+<v Markus>Das Spannende mit Who ist es ja auch, dass die DNI, wenn du Who ist,
+
+00:43:21.950 --> 00:43:26.190
+<v Markus>Abfragen machst, dir schön dahin schreibt, hier für DNIC-Adressen siehst du hier keine Details,
+
+00:43:26.270 --> 00:43:28.750
+<v Markus>dann musst du schön über unsere Webabfrage gehen.
+
+00:43:30.030 --> 00:43:32.110
+<v l33tname>Ja, sehr schön.
+
+00:43:32.430 --> 00:43:37.870
+<v l33tname>Und den Use Case, wenn halt irgendwo Scheiß passiert,
+
+00:43:38.190 --> 00:43:42.590
+<v l33tname>dass man die runternehmen kann und so das,
+
+00:43:42.750 --> 00:43:48.670
+<v l33tname>das kann man ja unabhängig davon zu wissen, werden das ist.
+
+00:43:49.630 --> 00:43:55.790
+<v l33tname>Also ohne die Hohes-Informationen, da kann man ja trotzdem noch zum Registrar gehen und sagen,
+
+00:43:56.350 --> 00:44:03.230
+<v l33tname>Domain XY beteiligt sich irgendwie an diesem
+
+00:44:03.310 --> 00:44:09.710
+<v l33tname>und diesen Verhalten, ist irgendwie Teil eines Botnetzes oder so, ist ein Controlserver von Botnets oder so,
+
+00:44:09.790 --> 00:44:10.910
+<v l33tname>wir wollen das abschalten.
+
+00:44:12.030 --> 00:44:14.430
+<v l33tname>Und das geht ja auch.
+
+00:44:14.990 --> 00:44:19.070
+<v l33tname>Es geht ja unabhängig davon, ob dann da ja ein Namen drinsteht.
+
+00:44:19.630 --> 00:44:20.670
+<v l33tname>Darum, ja.
+
+00:44:23.230 --> 00:44:28.430
+<v l33tname>Die Idee ist eigentlich ja ganz nett und so, aber die Umsetzung ist halt scheiße und es hat sich halt
+
+00:44:28.430 --> 00:44:33.390
+<v l33tname>irgendwie niemand aus dieser Security-Szene,
+
+00:44:33.470 --> 00:44:37.550
+<v l33tname>die jetzt voll irgendwie am Rumheulen ist, zumindest gefühlt in meinem Twitter,
+
+00:44:37.710 --> 00:44:43.390
+<v l33tname>darum gekümmert, dass es was Besseres gibt und jetzt gibt es dann halt jetzt ist halt die EU irgendwann mal
+
+00:44:43.390 --> 00:44:47.470
+<v l33tname>hingegangen und hat gesagt, ja, aber die Privatsphäre der Leute ist halt auch wichtig.
+
+00:44:48.350 --> 00:44:54.430
+<v l33tname>Und jetzt gibt es halt einfach nur Privatsphäre für Leute und nichts mehr für die
+
+00:44:54.430 --> 00:44:55.470
+<v l33tname>Security-Menschen.
+
+00:44:58.910 --> 00:45:03.150
+<v l33tname>Irgendwie so als Privatperson ist das dann halt so.
+
+00:45:04.030 --> 00:45:08.190
+<v l33tname>Eher so ein Sie-Problem und nicht so ein Ich-Problem, weil ich halt nicht zu den Leuten gehöre,
+
+00:45:08.350 --> 00:45:14.750
+<v l33tname>die irgendwie jetzt regelmäßig Dinge in Who's Records nachlesen müssen wollen.
+
+00:45:15.070 --> 00:45:20.430
+<v l33tname>Auch wenn ich natürlich, also ich sehe den Punkt total, dass es halt Sinn macht und dass man darüber Dinge
+
+00:45:20.430 --> 00:45:21.710
+<v l33tname>tracken kann und so.
+
+00:45:22.590 --> 00:45:26.830
+<v l33tname>Aber dafür irgendwie dann die Privatsphäre aller Leute aufgeben.
+
+00:45:27.470 --> 00:45:30.030
+<v Markus>Nein, man sieht auf, man schützt sie.
+
+00:45:31.630 --> 00:45:36.750
+<v Markus>Das Informationsbedürfnis aller Leute, das ignoriert man, oder nicht?
+
+00:45:40.990 --> 00:45:42.990
+<v l33tname>Also so wie es vorher war.
+
+00:45:43.310 --> 00:45:44.430
+<v Markus>Oder habe ich es jetzt verdreht?
+
+00:45:44.990 --> 00:45:47.070
+<v l33tname>Ja, so wie es vorher war.
+
+00:45:48.750 --> 00:45:50.270
+<v l33tname>Way too complicated.
+
+00:45:51.630 --> 00:45:54.510
+<v l33tname>So wie es vorher war, hat man halt einfach irgendwie das.
+
+00:45:57.950 --> 00:46:00.030
+<v Markus>Who es nutzen können, um die Daten nachzugucken.
+
+00:46:00.190 --> 00:46:04.270
+<v Markus>Die EU hat jetzt gesagt, das ist zu detailreich und es ist eingeschränkt.
+
+00:46:04.590 --> 00:46:11.470
+<v Markus>Und damit das Informationsbedürfnis der normalen Leute hinten angestellt und das Datenschutzbedürfnis nach
+
+00:46:11.470 --> 00:46:12.350
+<v Markus>vorne gebracht.
+
+00:46:12.510 --> 00:46:13.150
+<v Markus>Ja, genau.
+
+00:46:13.790 --> 00:46:17.070
+<v Markus>Und damit aber für alle normalen Leute ist verkompliziert.
+
+00:46:18.110 --> 00:46:19.470
+<v Markus>Zum Schutze aller.
+
+00:46:20.350 --> 00:46:21.870
+<v l33tname>Warum verkompliziert?
+
+00:46:22.110 --> 00:46:27.950
+<v Markus>Ja, weil du ja jetzt schwieriger an die Daten kommst, die du vorher einfach per Hues abrufen konntest.
+
+00:46:28.110 --> 00:46:34.510
+<v l33tname>Ja, aber ich glaube nicht, dass viele normale Leute in Anführungszeichen irgendwie
+
+00:46:34.510 --> 00:46:36.350
+<v l33tname>Hues-Abfragen gemacht haben.
+
+00:46:36.510 --> 00:46:38.910
+<v l33tname>Also ich glaube, das ist schon eher so ein.
+
+00:46:39.230 --> 00:46:46.110
+<v l33tname>Also ich weiß nicht, wie viele Hues-Abfragen du so deinem täglichen Arbeitstag irgendwie machst.
+
+00:46:46.190 --> 00:46:47.310
+<v l33tname>Ich mach das irgendwie.
+
+00:46:47.550 --> 00:46:49.230
+<v l33tname>Ich brauche das nicht zum Arbeiten.
+
+00:46:49.390 --> 00:46:51.230
+<v Markus>Nein, in meinem Arbeitstag gar nicht.
+
+00:46:51.550 --> 00:46:58.030
+<v l33tname>Aber ich track halt natürlich auch keine Botnets oder schau
+
+00:46:58.190 --> 00:47:02.830
+<v l33tname>irgendwie mit welchen Domains sich malware connectet und welche.
+
+00:47:03.150 --> 00:47:05.710
+<v Markus>Wenn natürlich, der Punkt ist eigentlich ein anderer.
+
+00:47:05.870 --> 00:47:09.790
+<v Markus>Der Punkt ist doch vielmehr noch, dass, und das, glaube ich, meinte sogar eben mit dem,
+
+00:47:09.870 --> 00:47:14.910
+<v Markus>was du, was über Twitter rüber geschwappt ist, dass sie letztendlich einen Bärendienst erwiesen haben,
+
+00:47:15.070 --> 00:47:19.070
+<v Markus>den Leuten, die gegen die Botnetze vorgehen wollen, indem sie sie analysieren,
+
+00:47:19.390 --> 00:47:21.630
+<v Markus>weil sie jetzt die Analyse schwieriger machen.
+
+00:47:21.950 --> 00:47:24.270
+<v l33tname>Das, das, ja, das ist halt eben genauso.
+
+00:47:24.510 --> 00:47:30.750
+<v l33tname>Das ist halt echt für sie ein Rechtsproblem und darum sind sie alle irgendwie nicht so ganz
+
+00:47:30.750 --> 00:47:31.550
+<v l33tname>happy.
+
+00:47:32.430 --> 00:47:39.070
+<v l33tname>Aber ja, ich persönlich wette meine Privatsphäre dann halt irgendwie auch höher.
+
+00:47:39.630 --> 00:47:45.470
+<v l33tname>Und es kommt dann halt auch häufig irgendwie so das Argument, ja, es gibt ja diese Who is Protection und blau
+
+00:47:45.470 --> 00:47:46.030
+<v l33tname>und blub.
+
+00:47:48.350 --> 00:47:52.750
+<v l33tname>Ja, finde ich aber irgendwie auch so ein Pseudo-Argument, weil ich finde,
+
+00:47:52.830 --> 00:47:58.670
+<v l33tname>das sollte halt by Default privat sein und
+
+00:48:01.390 --> 00:48:08.030
+<v l33tname>nicht irgendwie, ja, du musst dann irgendwie nochmal für 99 irgend so eine Who is Protection dazu
+
+00:48:08.110 --> 00:48:08.670
+<v l33tname>klicken.
+
+00:48:08.990 --> 00:48:11.870
+<v Markus>Oh, doch, mehr Umsatz, mehr Einnahmequellen.
+
+00:48:11.950 --> 00:48:14.270
+<v Markus>Man braucht mehr Wirtschaftszweige.
+
+00:48:14.590 --> 00:48:20.830
+<v l33tname>Ja, also das sehe ich irgendwie auch nicht so ganz ein, warum das so eine
+
+00:48:20.830 --> 00:48:22.750
+<v l33tname>akzeptable Lösung sein soll.
+
+00:48:22.830 --> 00:48:25.630
+<v l33tname>Also nur weil es geht, ja, stimmt.
+
+00:48:26.350 --> 00:48:32.350
+<v l33tname>Kann man natürlich für die meisten Domains und so, kann man irgendwie hingehen und viele Registrare und so ist
+
+00:48:32.350 --> 00:48:35.950
+<v l33tname>das sogar gratis, da ist am Anfang so ein Hackchen, das man setzen muss.
+
+00:48:36.270 --> 00:48:39.310
+<v l33tname>Aber ich finde, das sollte irgendwie bei Default so sein.
+
+00:48:39.630 --> 00:48:41.390
+<v Markus>Also eher ein Opt-out als ein Opt-in.
+
+00:48:41.870 --> 00:48:42.510
+<v Markus>Genau.
+
+00:48:42.830 --> 00:48:48.350
+<v l33tname>Und ja, dass man vielleicht eben genau so eine E-Mail-Adresse oder so oder halt so einen Weg,
+
+00:48:48.510 --> 00:48:50.910
+<v l33tname>um kontaktiert zu werden, angibt.
+
+00:48:51.310 --> 00:48:52.670
+<v Markus>Und ein zuverlässiger Weg.
+
+00:48:52.750 --> 00:48:57.710
+<v Markus>Also wo da geht alle drei Monate Mail hin und da musst du innerhalb von zwei Tagen draufklicken.
+
+00:48:57.870 --> 00:48:58.110
+<v Markus>Ja.
+
+00:48:59.950 --> 00:49:01.630
+<v Markus>Sonst wird deine Domain freigegeben.
+
+00:49:01.790 --> 00:49:05.870
+<v Markus>Ich habe nämlich so einen Fall, also jetzt privat, ich würde gerne an eine Domain drankommen,
+
+00:49:05.950 --> 00:49:11.230
+<v Markus>aber ich habe keine Ahnung, wie ich an den Eigentümer kommen soll, weil die Hohestaten sind dürftig.
+
+00:49:11.470 --> 00:49:17.630
+<v Markus>Die Namensvettern von denjenigen, die eingetragen sind, also die man dann über Xing findet,
+
+00:49:17.710 --> 00:49:21.390
+<v Markus>weil wenn man nach dem Namen sucht, haben alle gesagt, sie sind es nicht.
+
+00:49:22.030 --> 00:49:22.670
+<v Markus>Und jetzt?
+
+00:49:23.070 --> 00:49:23.630
+<v Markus>Super.
+
+00:49:26.030 --> 00:49:26.910
+<v l33tname>Kannst du halt eine Mail.
+
+00:49:27.070 --> 00:49:31.230
+<v l33tname>Gut, ne, nur weil du deine Mail hinschreiben kannst, heißt das ja noch lange nicht,
+
+00:49:31.310 --> 00:49:33.950
+<v l33tname>dass er dann auch auf deine Mail antworten muss und so.
+
+00:49:34.190 --> 00:49:34.830
+<v l33tname>So ist das.
+
+00:49:35.310 --> 00:49:40.270
+<v l33tname>Da kann man halt trotzdem noch sagen, ja, interessiert mich jetzt halt nicht, schreibe ich nicht zurück.
+
+00:49:40.750 --> 00:49:43.710
+<v Markus>Diese ignoranten Menschen, gerade bei E-Mail.
+
+00:49:45.630 --> 00:49:48.190
+<v Markus>Lass uns schnell das Thema wechseln, sonst fange ich an.
+
+00:49:49.550 --> 00:49:51.550
+<v Markus>E-Mail-Kommunikation loszulegen.
+
+00:49:52.990 --> 00:49:56.190
+<v Markus>Aber bei E-Mail-Kommunikation, more Scams and Spams.
+
+00:49:57.150 --> 00:50:00.670
+<v l33tname>Achso, das gehört dazu, das ist einfach noch so ein zweiter Titel.
+
+00:50:01.150 --> 00:50:07.150
+<v l33tname>Ich habe da zweimal Crips on Security verlinkt, der nicht so happy ist,
+
+00:50:08.670 --> 00:50:11.870
+<v l33tname>dass die EU jetzt halt gekommen ist.
+
+00:50:12.430 --> 00:50:16.350
+<v l33tname>Gerade für ihn ist es natürlich ein sehr wichtiges Tool.
+
+00:50:16.430 --> 00:50:21.790
+<v l33tname>Und jetzt kommt halt einfach die EU und sagt, ja, gibt es jetzt halt nicht mehr.
+
+00:50:22.830 --> 00:50:27.870
+<v l33tname>Privatsphäre unserer Leute ist halt wichtiger als dein Interesse,
+
+00:50:27.950 --> 00:50:29.950
+<v l33tname>irgendwie Botnets zu tracken.
+
+00:50:31.230 --> 00:50:37.950
+<v l33tname>Und er sagt da halt eben, dass es zu mehr irgendwie Scam und
+
+00:50:38.190 --> 00:50:39.870
+<v l33tname>Fraud und so führen wird.
+
+00:50:42.350 --> 00:50:43.550
+<v l33tname>Ja, ja.
+
+00:50:45.150 --> 00:50:47.390
+<v l33tname>Sehe ich persönlich eher kritisch, aber.
+
+00:50:47.790 --> 00:50:48.110
+<v l33tname>Ja.
+
+00:50:48.750 --> 00:50:50.510
+<v Markus>Wo wir bei Security sind.
+
+00:50:50.830 --> 00:50:56.110
+<v Markus>Ich bin da über eine nette Sache gestolpert, um Security-Informationen einfacher zugänglich zu machen,
+
+00:50:56.190 --> 00:50:58.830
+<v Markus>wenn wir jetzt auf der einen Seite Who's nicht mehr richtig nutzen können.
+
+00:51:00.430 --> 00:51:05.550
+<v Markus>Es gibt ja das Projekt securitytxt.org und die schlagen vor,
+
+00:51:06.270 --> 00:51:12.830
+<v Markus>dass man genauso wie die Robots-Txt in das Root-Verzeichnis von seinem Webserver eine
+
+00:51:12.830 --> 00:51:17.230
+<v Markus>Security-Txt legt und da sind Informationen darüber drin, wie man kontaktieren kann,
+
+00:51:17.310 --> 00:51:21.790
+<v Markus>wenn man Security-Input hat, über welchen Weg man verschlüsseln kann.
+
+00:51:21.870 --> 00:51:26.510
+<v Markus>Also man verlinkt dann seinen PGP-Key und man verlinkt auch Informationen darüber,
+
+00:51:26.670 --> 00:51:29.870
+<v Markus>welche Security Policy diese Domain vertritt.
+
+00:51:30.430 --> 00:51:34.430
+<v Markus>Und so haben Leute, die an dieser Security-Informationen interessiert sind,
+
+00:51:34.590 --> 00:51:37.630
+<v Markus>direkt alles auf einen Schlag sichtbar.
+
+00:51:39.710 --> 00:51:45.870
+<v Markus>Auf securitytxt.org gibt es einen Generator und so kann man das schnell auch auf der eigenen Website
+
+00:51:45.870 --> 00:51:46.910
+<v Markus>implementieren.
+
+00:51:48.510 --> 00:51:49.950
+<v l33tname>Ja, klingt gut.
+
+00:51:50.110 --> 00:51:52.190
+<v l33tname>Die Frage ist, ob es sich durchsetzen wird.
+
+00:51:52.430 --> 00:51:52.750
+<v l33tname>Ja.
+
+00:51:54.510 --> 00:52:00.110
+<v l33tname>Cool an so einem Ding ist natürlich, wenn es halt einfach mehr oder weniger auf jeder Seite du das einfach
+
+00:52:00.110 --> 00:52:02.350
+<v l33tname>eingeben kannst und funktioniert es halt.
+
+00:52:03.390 --> 00:52:05.710
+<v l33tname>Und solange es keinen Zwang gibt.
+
+00:52:06.670 --> 00:52:10.590
+<v Markus>Ja, wird sich das nur sehr oder auch keine Motivation, das zu nutzen,
+
+00:52:11.070 --> 00:52:12.590
+<v Markus>die das nur sehr schleichend durchsetzen.
+
+00:52:12.670 --> 00:52:15.790
+<v Markus>Andererseits gibt es ja auch Seiten, die ein explizites Interesse daran haben,
+
+00:52:15.870 --> 00:52:20.750
+<v Markus>über Security-Dinge informiert zu werden, wenn jemand sie findet und es gibt ja eben auch die
+
+00:52:20.750 --> 00:52:25.470
+<v Markus>White-Hat-Hackers, die da gerne drüber reden, bevor sie es publizieren,
+
+00:52:26.830 --> 00:52:29.630
+<v Markus>dann muss man halt auch den Kanal zur Verfügung stellen.
+
+00:52:29.790 --> 00:52:34.750
+<v Markus>Und wenn man jetzt als Website eine Seite hat, wo man das vielleicht nicht gerade auf die Frontseite
+
+00:52:34.750 --> 00:52:39.230
+<v Markus>mitschreiben möchte und auch nicht ins Impressum schreiben möchte, weil dann die ganzen Leute,
+
+00:52:40.590 --> 00:52:46.590
+<v Markus>die sich mit der Technik nicht auseinandersetzen wollen, das fragwürdig interpretieren,
+
+00:52:46.670 --> 00:52:51.950
+<v Markus>dann hat man so zumindest noch so einen anderen Kanal, die Informationen zur Verfügung zu stellen.
+
+00:52:52.990 --> 00:52:56.270
+<v l33tname>Ist auf alle Fälle eine gute Sache, kann man ja mal machen.
+
+00:52:56.590 --> 00:53:00.350
+<v l33tname>Sieht jetzt auch nicht nach viel Aufwand aus, so einen Textfile anzulegen.
+
+00:53:00.510 --> 00:53:00.830
+<v l33tname>Ja.
+
+00:53:01.150 --> 00:53:03.070
+<v l33tname>Wenn es sogar einen Generator gibt.
+
+00:53:05.390 --> 00:53:07.950
+<v l33tname>Dinge in Textfile zu schreiben, finde ich gut.
+
+00:53:08.190 --> 00:53:12.510
+<v Markus>Ja, das Nette an diesem Generator ist halt, dass er ein Formular drumherum ist mit Beschreibungen,
+
+00:53:12.670 --> 00:53:16.990
+<v Markus>damit die Leute, damit man auch den Background dazu bekommt,
+
+00:53:17.070 --> 00:53:18.990
+<v Markus>warum dieses Feld jetzt gerade abgefragt wird.
+
+00:53:19.950 --> 00:53:20.910
+<v l33tname>Sehr praktisch.
+
+00:53:21.150 --> 00:53:22.910
+<v Markus>Ja, auf jeden Fall.
+
+00:53:23.150 --> 00:53:27.390
+<v Markus>Genau, damit sind wir schon mittendrin in den Themen.
+
+00:53:27.790 --> 00:53:28.350
+<v Markus>Themen.
+
+00:53:28.510 --> 00:53:33.390
+<v l33tname>Genau, ich mache so gelegentlich so Fotos, so mit Farben und so.
+
+00:53:33.630 --> 00:53:34.990
+<v Markus>Ja, so mache ich auch eben.
+
+00:53:36.190 --> 00:53:43.150
+<v l33tname>Somit digital und dann ist ja die interessante Frage, ja, so Post-Processing.
+
+00:53:43.470 --> 00:53:50.430
+<v l33tname>So Fotos bearbeiten, wenn man Raw-Fotos macht, vielleicht mal so ein bisschen noch an Farben
+
+00:53:50.430 --> 00:53:57.390
+<v l33tname>rumspielen und vielleicht irgendwo mal noch was rauseditieren und braucht halt
+
+00:53:57.390 --> 00:54:03.950
+<v l33tname>irgendwie alles Zeit und ist alles aufwendig, aber mache ich das Foto meistens dann halt auch
+
+00:54:03.950 --> 00:54:08.350
+<v l33tname>nochmal so schon so noch so ein bisschen besser.
+
+00:54:08.750 --> 00:54:12.350
+<v l33tname>Kann man halt einfach noch viel aus Bildern rausholen.
+
+00:54:14.590 --> 00:54:20.190
+<v l33tname>Ja, ich habe das jetzt so ein Zeitchen unter Linux probiert.
+
+00:54:21.470 --> 00:54:24.750
+<v l33tname>Das funktioniert grundsätzlich auch.
+
+00:54:25.470 --> 00:54:32.270
+<v l33tname>Es gibt mit GIMP und Raw Therapy und Darktable gibt es
+
+00:54:32.270 --> 00:54:38.270
+<v l33tname>all diese Dinge, die irgendwie so ein Lightroom und so ein Photoshop leistet für Linux.
+
+00:54:40.430 --> 00:54:46.990
+<v l33tname>Ich weiß jetzt nicht so, Feature für Feature, ob das irgendwie wirklich alle
+
+00:54:47.070 --> 00:54:48.430
+<v l33tname>Features genau gleich hat.
+
+00:54:48.830 --> 00:54:50.190
+<v Markus>Die braucht man normalerweise aber auch nicht.
+
+00:54:50.430 --> 00:54:57.230
+<v l33tname>Genau, so auf dem Level, wo ich es benutze, können die grundsätzlich die gleichen
+
+00:54:57.230 --> 00:54:57.870
+<v l33tname>Dinge.
+
+00:55:00.110 --> 00:55:06.750
+<v l33tname>Aber jetzt so aus dem Usability-Standpunkt kann man halt einfach nicht viel gegen so ein
+
+00:55:06.750 --> 00:55:13.150
+<v l33tname>Lightroom und gegen so einen Photoshop sagen, während bei den Linux-Tools so ein GIMP zu bedienen,
+
+00:55:13.230 --> 00:55:18.910
+<v l33tname>halt einfach schon so irgendwie so zwei, drei Jahre Erfahrung benötigt,
+
+00:55:19.070 --> 00:55:19.630
+<v l33tname>so gefühlt.
+
+00:55:19.950 --> 00:55:21.230
+<v Markus>Nein, so schlimm ist es echt nicht.
+
+00:55:21.390 --> 00:55:26.670
+<v Markus>Also erstreichend, wenn man Photoshop wirklich mal nicht nur zu benutzen gelernt hat,
+
+00:55:26.750 --> 00:55:29.870
+<v Markus>also nicht gemerkt, wo ist der Button, den ich klicken muss, sondern verstanden hat,
+
+00:55:29.950 --> 00:55:32.910
+<v Markus>was man da tut, dann wird GIMP schon sehr schnell einfach.
+
+00:55:33.390 --> 00:55:36.510
+<v Markus>Und an der Gimp UI ist ja auch einiges gedreht worden.
+
+00:55:36.590 --> 00:55:39.390
+<v Markus>Ich finde, die haben da deutliche Fortschritte gemacht.
+
+00:55:39.630 --> 00:55:45.950
+<v Markus>Und das Dritte ist, dass es mittlerweile auch auf YouTube quasi zu jeder GIMP-Frage,
+
+00:55:46.590 --> 00:55:51.150
+<v Markus>ich habe das mal so an vier, fünf Fragestellungen ausprobiert, Videos gibt,
+
+00:55:51.230 --> 00:55:52.990
+<v Markus>die haben erklärt, wie man es macht.
+
+00:55:53.230 --> 00:56:00.030
+<v Markus>Das heißt, so diese grundsätzlichen Zuschneiden, Skalieren, Farbanpassungen,
+
+00:56:00.190 --> 00:56:05.950
+<v Markus>Fragestellungen lassen sich da mit einer Viertelstunde Zeit und ein bisschen Aufnahmebereitschaft durchaus
+
+00:56:05.950 --> 00:56:06.750
+<v Markus>erschlagen.
+
+00:56:07.070 --> 00:56:11.950
+<v l33tname>Ja, das Ding ist halt so, wenn ich einen Photoshop aufmache, erschließt sich mir intuitiv,
+
+00:56:12.190 --> 00:56:13.550
+<v l33tname>wie ich das jetzt machen muss.
+
+00:56:13.790 --> 00:56:14.990
+<v l33tname>In den meisten Fällen.
+
+00:56:15.230 --> 00:56:17.310
+<v l33tname>Für so die einfachen Dinge.
+
+00:56:17.870 --> 00:56:21.150
+<v l33tname>Und das fehlt mir halt bei Gimp total.
+
+00:56:21.310 --> 00:56:25.550
+<v l33tname>Ich weiß nicht, ob das an mir liegt, das möchte ich auch nicht ganz ausschließen.
+
+00:56:27.470 --> 00:56:32.190
+<v l33tname>Oder halt einfach damit, dass ich, dass ich früher halt auch schon mal irgendwie so ein bisschen mehr mit
+
+00:56:32.190 --> 00:56:35.790
+<v l33tname>Photoshop gemacht habe, als dass ich mit Gimp jemals gemacht habe.
+
+00:56:36.670 --> 00:56:40.510
+<v Markus>Ich unterstelle, dass dieses Meer damit gemacht haben, ein ganz wesentlicher Teil ist.
+
+00:56:41.070 --> 00:56:44.510
+<v Markus>Weil Photoshop ist kein einfaches Tool.
+
+00:56:45.230 --> 00:56:45.950
+<v Markus>Das ist so.
+
+00:56:47.870 --> 00:56:52.270
+<v Markus>Das bekannt das Ding zu viel und macht auch zu viel, wenn man da wild drin rumklickt,
+
+00:56:52.350 --> 00:56:53.870
+<v Markus>glaube ich, verliert man sich das sehr, sehr schnell.
+
+00:56:54.030 --> 00:56:55.550
+<v Markus>Oder habe ich auch schon die Erfahrung gemacht.
+
+00:56:55.630 --> 00:57:01.790
+<v Markus>Und ich bin sehr froh, dass ich zu Hochschulzeiten so verschiedene Photoshop-Workshops mitmachen durfte und
+
+00:57:01.790 --> 00:57:02.430
+<v Markus>konnte.
+
+00:57:03.790 --> 00:57:07.150
+<v Markus>Und dadurch dieses Grundlagenwissen irgendwann mal mitbekommen habe.
+
+00:57:08.750 --> 00:57:12.830
+<v Markus>Aber du hast recht, dadurch kann man natürlich sehr viel schlechter jetzt mitreden,
+
+00:57:12.910 --> 00:57:18.110
+<v Markus>was da eigentlich wirklich wie auf einen normal unbedarften Benutzer wirkt.
+
+00:57:18.430 --> 00:57:23.310
+<v l33tname>Ja, also ich meine, die Sicht ist, glaube ich, sowieso schwierig zu haben.
+
+00:57:23.710 --> 00:57:25.790
+<v l33tname>Müsste man wirklich einfach noch gar nie.
+
+00:57:26.350 --> 00:57:32.590
+<v l33tname>Naja, auf jeden Fall gibt es halt dieses Lightroom, dieses Photoshop halt nur für Windows.
+
+00:57:34.190 --> 00:57:39.790
+<v l33tname>Ja, und ich habe da halt wieder mal ein bisschen mit rumgespielt und ich überlege mir halt immer noch,
+
+00:57:40.110 --> 00:57:42.110
+<v l33tname>ob ich mir das leisten will.
+
+00:57:44.190 --> 00:57:48.590
+<v l33tname>Dieses, dieses, diese, mittlerweile nennen sie es ja irgendwie Creative Cloud.
+
+00:57:48.750 --> 00:57:49.230
+<v l33tname>Ja, genau.
+
+00:57:50.750 --> 00:57:52.670
+<v Markus>Ich kann ja auch ein bisschen aus dem Nerdkästchen plaudern.
+
+00:57:52.750 --> 00:57:55.950
+<v Markus>Ich habe jetzt seit etwas mehr als einem Jahr habe ich das Creative Cloud Abo.
+
+00:57:58.350 --> 00:58:01.070
+<v Markus>Es ist, wir sind gerade ein bisschen im Umbruch.
+
+00:58:01.150 --> 00:58:07.790
+<v Markus>Es gibt das Lightroom Classic CC und das ist der, was früher einfach Lightroom war,
+
+00:58:07.950 --> 00:58:09.870
+<v Markus>und es gibt das neue Lightroom CC.
+
+00:58:09.950 --> 00:58:14.990
+<v Markus>Und dieses neue CC, das zielt komplett auf Cloud-Plattformen ab.
+
+00:58:15.150 --> 00:58:20.350
+<v Markus>Und das greift auch am weitesten ineinander mit der Mobile-App, die sie haben.
+
+00:58:20.590 --> 00:58:27.470
+<v Markus>Die Mobile-App ist ganz respektabel, hat viele Funktionen leicht zugänglich und wirklich gut für die
+
+00:58:27.470 --> 00:58:29.230
+<v Markus>Mobile-Screens optimiert.
+
+00:58:29.710 --> 00:58:32.110
+<v Markus>Gibt es sowohl für Tablets als auch für die Handys.
+
+00:58:32.190 --> 00:58:36.510
+<v Markus>Und zwar in der Mehrzahl, weil sowohl Android als auch iOS.
+
+00:58:37.310 --> 00:58:43.150
+<v Markus>Und wenn man dann dafür bezahlt, bekommt man auch einen Cloud-Kontingent,
+
+00:58:43.310 --> 00:58:49.870
+<v Markus>worüber zwischen den Lightroom-Instanzen auf dem Desktop und den Mobilgeräten gesüngt wird.
+
+00:58:50.030 --> 00:58:55.310
+<v Markus>Und das funktioniert recht zuverlässig und es ist echt angenehm zu benutzen.
+
+00:58:57.550 --> 00:59:02.030
+<v Markus>Diese Integration mit dem Tablet war damals auch für mich die Motivation, es eigentlich zu klicken.
+
+00:59:02.190 --> 00:59:06.750
+<v Markus>Ich habe eigentlich, als ich mich nach einem neuen Tablet umgeguckt hatte,
+
+00:59:07.230 --> 00:59:10.830
+<v Markus>danach gesucht, ich glaube, ich habe das auch irgendwann schon mal angerissen,
+
+00:59:11.470 --> 00:59:16.110
+<v Markus>danach gesucht, nach einer guten Möglichkeit, meine Fotos auf dem Tablet sortieren zu können und dann auf NAS
+
+00:59:16.190 --> 00:59:20.590
+<v Markus>wieder ablegen zu können, mein ganzes Fotoworkflow vom Bildschirm wegzukriegen,
+
+00:59:20.670 --> 00:59:22.190
+<v Markus>auf den tragbaren Bildschirm.
+
+00:59:22.510 --> 00:59:25.630
+<v Markus>Einfach weil ich, da ich den ganzen Tag schon am Bildschirm arbeite,
+
+00:59:25.710 --> 00:59:27.630
+<v Markus>von diesem Schreibtisch irgendwann mal wegkommen möchte.
+
+00:59:27.790 --> 00:59:32.990
+<v Markus>Auf der anderen Seite aber für die Fotonachbearbeitung immer wieder zurück an den Schreibtisch muss.
+
+00:59:34.030 --> 00:59:39.950
+<v Markus>So, und die Alternativen, die sich dann da so geboten haben, waren nicht viele.
+
+00:59:40.350 --> 00:59:45.790
+<v Markus>Und ja, ich finde es schade, dass Adobe da so ein dermaßen Platzhirsch ist,
+
+00:59:45.870 --> 00:59:49.870
+<v Markus>aber wenn man was Benutzbares haben will, landet man zwangsläufig dort.
+
+00:59:51.630 --> 00:59:54.510
+<v Markus>Zu den Schwächen ist ganz klar, dass.
+
+00:59:56.110 --> 01:00:00.350
+<v Markus>Größte Manko aus meiner Sicht, das so mit mehreren Benutzern den Katalog zu benutzen,
+
+01:00:00.510 --> 01:00:02.270
+<v Markus>ist nicht so wirklich vorgesehen.
+
+01:00:02.590 --> 01:00:08.430
+<v Markus>Was schade ist, wenn man Familie hat und gerne die Fotos nicht für sich behalten möchte und auf der anderen
+
+01:00:08.430 --> 01:00:13.870
+<v Markus>Seite aber auch nicht die Zeit hat, jedes Fotoset durchzugehen und ein richtiges Album draus zu machen,
+
+01:00:13.950 --> 01:00:19.790
+<v Markus>sondern eigentlich so die Fotosammlung teilen möchte, sodass auch jemand anders die durchsuchen kann und mit
+
+01:00:19.790 --> 01:00:24.030
+<v Markus>den Fotos dann was Kreatives anstellen kann, ohne dass man selbst involviert sein muss.
+
+01:00:25.950 --> 01:00:30.270
+<v Markus>Das ist so das, was am meisten stört.
+
+01:00:30.510 --> 01:00:36.910
+<v Markus>Ein bisschen schade ist auch, dass das Vorabladen oder Cachen auf den Mobilgeräten nicht möglich,
+
+01:00:37.070 --> 01:00:38.190
+<v Markus>nicht vorgesehen ist.
+
+01:00:38.350 --> 01:00:43.150
+<v Markus>Also der lädt zwar Dinge, aber es ist nicht so ganz eindeutig, was er wann geladen hat.
+
+01:00:43.310 --> 01:00:48.190
+<v Markus>Wenn ich also am Flughafen sitze und weiß, ich verbringe die nächsten vier Stunden im Flugzeug und wird gern
+
+01:00:48.190 --> 01:00:52.430
+<v Markus>die Fotos durchsortieren, die in meiner Creative Cloud liegen,
+
+01:00:52.750 --> 01:00:58.350
+<v Markus>kann ich das nicht veranlassen, dass das Tablet dann die Sachen alle runterlädt und auch präsent hat.
+
+01:00:58.510 --> 01:01:01.950
+<v Markus>Oder er müsste ja nur diese Smart-Previews präsent haben.
+
+01:01:02.990 --> 01:01:07.230
+<v Markus>Beziehungsweise es müsste eigentlich einstellbar sein, was er runterlädt und cached,
+
+01:01:07.390 --> 01:01:11.710
+<v Markus>weil wenn ich intensiv bearbeiten will, will ich ja nicht das komplette Bild auf dem Device haben.
+
+01:01:14.030 --> 01:01:18.830
+<v Markus>Genau, da gibt es noch so ein paar Spezialsachen, die hoffentlich bald kommen.
+
+01:01:18.990 --> 01:01:24.590
+<v Markus>Das eine ist das Sünken von Text zwischen der Mobilvariante und der Desktop-Variante.
+
+01:01:24.670 --> 01:01:26.590
+<v Markus>Das funktioniert nicht ganz zuverlässig.
+
+01:01:26.830 --> 01:01:29.390
+<v Markus>Bewertungen werden mittlerweile ganz gut gesünkt.
+
+01:01:30.830 --> 01:01:34.590
+<v Markus>Dynamische Alben kann man in Lightroom Classic auf dem Desktop super benutzen,
+
+01:01:34.670 --> 01:01:40.670
+<v Markus>um die Sammlung zu organisieren und sich so gezielt aus seinen,
+
+01:01:40.910 --> 01:01:44.990
+<v Markus>sagen wir mal, man hat da so fünf Jahre Fotos drin liegen, sich da gezielt was rauszusuchen.
+
+01:01:45.070 --> 01:01:48.030
+<v Markus>Dafür sind diese dynamischen Alben super.
+
+01:01:48.510 --> 01:01:53.310
+<v Markus>Aber wenn man dieses Album dann auf den Desktop eingerichtet hat und dann gerne auf die Couch gehen möchte,
+
+01:01:53.390 --> 01:01:57.310
+<v Markus>um die Fotos, die da gefunden wurden, zu sortieren und durchzugehen,
+
+01:01:57.550 --> 01:02:03.230
+<v Markus>dann stellt man fest, dass der Sync dieses dynamischen Albums auf das Tablet nicht funktioniert.
+
+01:02:04.590 --> 01:02:05.870
+<v Markus>Nicht vorgesehen ist einfach.
+
+01:02:05.950 --> 01:02:08.750
+<v Markus>Es gibt da ein Plugin für, was ich nicht ausprobiert habe.
+
+01:02:10.270 --> 01:02:13.870
+<v Markus>Ich hoffe, dass das einfach vervollständigt wird.
+
+01:02:14.030 --> 01:02:17.470
+<v Markus>Und das ist das, was ich eingangs dann meinte mit dem Umbruch.
+
+01:02:18.750 --> 01:02:22.110
+<v Markus>Man merkt irgendwie, dass dieses alte Lightroom noch weiter gepflegt wird,
+
+01:02:22.190 --> 01:02:24.670
+<v Markus>weil das ist so das Power-User-Tool, das kann alles.
+
+01:02:24.990 --> 01:02:28.910
+<v Markus>Und dass das CC gepusht wird, weil sie das für die Zukunft halten.
+
+01:02:29.070 --> 01:02:33.150
+<v Markus>Aber der Funktionsumfang von dem CC ist noch nicht da, wo das Classic ist.
+
+01:02:33.710 --> 01:02:39.070
+<v Markus>Und sie versuchen es beieinander zu halten, dadurch, dass man effektiv einen Cloud-Katalog hat.
+
+01:02:39.390 --> 01:02:44.510
+<v Markus>Das ist ganz cool, weil so kann man eben die Mobile-Apps mit dem Classic auf dem Desktop zusammen nutzen.
+
+01:02:44.670 --> 01:02:49.230
+<v Markus>Aber auf der anderen Seite wird einem daraus darüber die Diskrepanz zwischen den beiden auch immer wieder
+
+01:02:49.230 --> 01:02:49.870
+<v Markus>deutlich.
+
+01:02:50.910 --> 01:02:55.150
+<v l33tname>Ja, und du musst, was für mich auch noch so ein bisschen ein Problem ist,
+
+01:02:55.550 --> 01:03:01.470
+<v l33tname>du musst halt dieses Online, du musst ihre Cloud benutzen.
+
+01:03:01.630 --> 01:03:08.510
+<v l33tname>Und ich will das eigentlich nicht auf, ich will meine Fotos nicht auf ihrer Cloud liegen
+
+01:03:08.510 --> 01:03:08.830
+<v l33tname>haben.
+
+01:03:09.470 --> 01:03:14.270
+<v Markus>Ja, genau, das hat mich auch genervt, weil eigentlich möchte ich eine Lösung haben,
+
+01:03:14.430 --> 01:03:16.030
+<v Markus>wo ich sage, wo die Fotos liegen.
+
+01:03:16.110 --> 01:03:18.110
+<v Markus>Und das ist vorzugsweise auf meinem Nass.
+
+01:03:18.510 --> 01:03:24.670
+<v Markus>Und die Foto-Apps auf den Nassis sind grausam,
+
+01:03:24.910 --> 01:03:26.910
+<v Markus>um es mal vorsichtig auszudrücken.
+
+01:03:27.150 --> 01:03:30.670
+<v Markus>Und ja, das ist halt ein Kompromiss.
+
+01:03:30.750 --> 01:03:32.350
+<v Markus>Und jetzt habe ich drei Orte, wo sie liegen.
+
+01:03:32.430 --> 01:03:37.630
+<v Markus>Jetzt habe ich mein Nass, wo die Fotos liegen, ich habe die Adobe-Cloud,
+
+01:03:37.710 --> 01:03:43.550
+<v Markus>wo die Fotos liegen, und ich habe zum Teil dann auch noch die Apple-Cloud,
+
+01:03:43.710 --> 01:03:48.110
+<v Markus>weil die Fotos, die ich von der Kamera direkt aufs iPad sünke, um sie dann,
+
+01:03:48.270 --> 01:03:53.070
+<v Markus>weil ich gerade nicht zu Hause an meinem Rechner bin, um sie dann ins Lightroom auf dem Tablet zu laden,
+
+01:03:53.150 --> 01:03:58.110
+<v Markus>die liegen dann auch noch als Kopien in den Fotos auf dem iPad.
+
+01:03:58.430 --> 01:04:04.030
+<v Markus>Und da wächst ein Wust an, das ist unglaublich.
+
+01:04:04.910 --> 01:04:08.990
+<v l33tname>Vielleicht können wir das positiv framen und sagen, das ist eine Backup-Strategie,
+
+01:04:09.070 --> 01:04:10.910
+<v l33tname>dass es an drei Orten liegt.
+
+01:04:11.870 --> 01:04:12.910
+<v Markus>Ich weiß ja nicht.
+
+01:04:13.070 --> 01:04:14.990
+<v Markus>Ja, kann man versuchen.
+
+01:04:15.790 --> 01:04:20.430
+<v l33tname>Kann man ja mal so behaupten.
+
+01:04:20.910 --> 01:04:27.790
+<v l33tname>Ja, aber ich bin mir jetzt halt echt auch am überlegen, was halt wirklich auch sehr
+
+01:04:27.790 --> 01:04:32.270
+<v l33tname>uncool ist, dass es halt nicht, also gerade dieses Creative Cloud-Zeug,
+
+01:04:32.430 --> 01:04:39.310
+<v l33tname>dass ihre alten Apps, also ihre Lightroom Classic irgendwie nicht
+
+01:04:39.310 --> 01:04:41.470
+<v l33tname>auf Linux läuft, okay.
+
+01:04:42.750 --> 01:04:43.790
+<v l33tname>Kann ja sein.
+
+01:04:44.590 --> 01:04:51.470
+<v l33tname>Aber was ich halt nicht verstehe, warum ihre neuen Creative Cloud-Dingen halt nicht einfach
+
+01:04:51.470 --> 01:04:53.310
+<v l33tname>dann auf allen Plattformen laufen.
+
+01:04:53.950 --> 01:04:55.950
+<v l33tname>Das finde ich halt echt schade.
+
+01:04:56.670 --> 01:05:02.430
+<v l33tname>Weil das wäre dann so ein Ding, das und dass ich selber bestimmen kann,
+
+01:05:02.510 --> 01:05:05.230
+<v l33tname>wo meine Bilder liegen, was man im Classic ja kann.
+
+01:05:05.550 --> 01:05:08.910
+<v l33tname>Also das Classic kannst du ja irgendwie sagen, wo dein Kram liegt.
+
+01:05:09.550 --> 01:05:15.550
+<v l33tname>Was halt nicht genau züngt mit Apps und so, aber zumindest das wäre jetzt etwas,
+
+01:05:15.630 --> 01:05:19.310
+<v l33tname>wo ich darauf verzichten kann, beziehungsweise wo ich, wenn ich sagen kann,
+
+01:05:19.470 --> 01:05:25.230
+<v l33tname>so bestimmte Bilder, diese möchte ich jetzt gerade irgendwie mit meinen Mobile-Devices zünden,
+
+01:05:25.550 --> 01:05:27.390
+<v l33tname>das wäre gut genug für mich.
+
+01:05:27.630 --> 01:05:29.150
+<v Markus>Das ist die Strategie, die ich fahre.
+
+01:05:29.310 --> 01:05:35.230
+<v Markus>Ich ziehe die Bilder oder ich versuche mich dran zu halten, dass ich nur so wenige wie möglich direkt auf dem
+
+01:05:35.230 --> 01:05:40.670
+<v Markus>Tablet in Lightroom reinziehe, sondern normalerweise ziehe ich sie am Rechner aufs Dateisystem,
+
+01:05:40.830 --> 01:05:47.790
+<v Markus>was dann wahlweise der Rechner selbst ist oder das Nass und ziehe sie von da aus dann ins
+
+01:05:47.790 --> 01:05:54.510
+<v Markus>Lightroom und dann selektive Alben oder Subcollections davon landen dann in der
+
+01:05:54.510 --> 01:05:56.830
+<v Markus>Cloud, wo sie dann mit dem Tablet synchronisiert werden.
+
+01:05:57.630 --> 01:06:00.670
+<v Markus>Und dadurch liegen die eigentlichen Dateien liegen immer noch auf meinem Nass.
+
+01:06:01.710 --> 01:06:08.110
+<v Markus>Und was ganz okay ist, wenn man unterwegs ist und den Laptop dabei hat und
+
+01:06:08.830 --> 01:06:14.270
+<v Markus>den Import nach Lightroom dann von der lokalen Platte macht und die Bilder später aufs NAS verschiebt.
+
+01:06:14.510 --> 01:06:16.590
+<v Markus>Damit kommt Lightroom ganz gut klar.
+
+01:06:16.750 --> 01:06:20.190
+<v Markus>Also dann merkt Lightroom halt, ob die Bilder liegen nicht da, wo ich sie erwartet habe,
+
+01:06:20.270 --> 01:06:21.310
+<v Markus>sag mir mal, wo sie sind.
+
+01:06:21.470 --> 01:06:24.830
+<v Markus>Und dann sagt man ihnen das zu einem Bild und dann realisiert er, ah,
+
+01:06:24.910 --> 01:06:28.670
+<v Markus>ich habe hier noch 34 andere Bilder aus dem Verzeichnis, die liegen dann ja jetzt auch da.
+
+01:06:28.830 --> 01:06:31.470
+<v Markus>Und das ist schon ganz zuverlässig.
+
+01:06:33.630 --> 01:06:38.270
+<v Markus>Was immer noch ein Manko ist zu Apercha, was ich früher benutzt habe,
+
+01:06:38.590 --> 01:06:44.510
+<v Markus>ist die, dass Lightroom die Kombination des Out-of-Cam JPEGs mit dem RAW
+
+01:06:45.070 --> 01:06:47.070
+<v Markus>überhaupt gar nicht bietet.
+
+01:06:48.910 --> 01:06:49.550
+<v Markus>In Apercher.
+
+01:06:49.870 --> 01:06:54.110
+<v Markus>In Apercha hatte ich die Möglichkeit, der hat die als Kombinationen abgelegt.
+
+01:06:54.430 --> 01:06:58.430
+<v l33tname>Ja, aber warum hast du das dann deine Kamera überhaupt so eingestellt?
+
+01:06:59.070 --> 01:07:03.870
+<v Markus>Ich mache das, weil die Out-of-Cam-JPs ganz oft mir reichen.
+
+01:07:04.030 --> 01:07:06.350
+<v Markus>Ich mache die bevor ich.
+
+01:07:06.990 --> 01:07:11.950
+<v Markus>Genau, so war das, bevor ich jetzt so viel Lightroom benutzt habe, weil mittlerweile gucke ich dann natürlich
+
+01:07:11.950 --> 01:07:18.910
+<v Markus>alle Offs an, alle Rohdaten, und exportiere dann das komplette Album und habe dann wieder
+
+01:07:18.910 --> 01:07:19.710
+<v Markus>komplett JPEGs.
+
+01:07:19.790 --> 01:07:23.390
+<v Markus>Das heißt, ich bräuchte jetzt nicht mehr die JPEGs mitspeichern, das ist korrekt.
+
+01:07:23.950 --> 01:07:27.950
+<v Markus>Vorher war es so, dass ich, ich habe mir dann einfach die Bilder angeguckt,
+
+01:07:28.030 --> 01:07:31.550
+<v Markus>die out of Cam waren und war mit 80% davon zufrieden.
+
+01:07:31.630 --> 01:07:37.790
+<v Markus>Und bei den 20% wollte ich aber die Möglichkeit haben, aus den Rohdaten zu entwickeln.
+
+01:07:38.030 --> 01:07:40.670
+<v Markus>Und habe sie deswegen immer mitgezogen.
+
+01:07:40.990 --> 01:07:45.790
+<v Markus>Und im Erpercher bin ich dann halt hingegangen und habe bei denen, die mir nicht gepasst haben,
+
+01:07:45.950 --> 01:07:49.950
+<v Markus>gesagt, nutze für das hier bitte das Rohdatenbild mit den Anpassungen,
+
+01:07:50.030 --> 01:07:51.150
+<v Markus>die ich jetzt von Hand mache.
+
+01:07:51.230 --> 01:07:57.150
+<v Markus>Und beim nächsten Export hat er halt bei den JPEGs einfach nur die JPEGs kopiert und bei den Rohdatenbildern
+
+01:07:57.150 --> 01:07:59.070
+<v Markus>dann das JPEG daraus erzeugt.
+
+01:07:59.150 --> 01:08:01.230
+<v Markus>Und das fand ich eigentlich ganz cool.
+
+01:08:02.110 --> 01:08:08.030
+<v Markus>Jetzt benutze ich nur die nur und ausschließlich die Rohdatenbilder.
+
+01:08:08.190 --> 01:08:13.230
+<v Markus>Was dadurch verloren geht, ist halt die Qualität der Out-of-Cam-JPEGs,
+
+01:08:13.710 --> 01:08:18.430
+<v Markus>die bei meiner Kamera schon extrem hoch ist und ich manchmal mit dem,
+
+01:08:18.510 --> 01:08:22.750
+<v Markus>was Lightroom macht, nicht zufrieden bin und von Hand da auch nicht hinkomme.
+
+01:08:23.070 --> 01:08:26.030
+<v Markus>Einfach weil mir wahrscheinlich die Übung fehlt und das Know-how.
+
+01:08:27.070 --> 01:08:30.590
+<v l33tname>Gut, da gäbe es bestimmt so Profile.
+
+01:08:32.110 --> 01:08:35.630
+<v Markus>Stimmt, aber die Kamera, also das ist dann wieder Aufwand, den ich eigentlich nicht treiben müsste,
+
+01:08:35.710 --> 01:08:37.550
+<v Markus>weil die Kamera das ja schon richtig gemacht hat.
+
+01:08:38.510 --> 01:08:41.070
+<v l33tname>Ja, keine Ahnung, ist irgendwie.
+
+01:08:41.390 --> 01:08:46.190
+<v l33tname>Ja, ich hab das nicht, ist nicht so überhaupt nicht mein Workflow,
+
+01:08:46.270 --> 01:08:48.910
+<v l33tname>dass ich irgendwie das beides mache, sondern ich mache halt immer die RAW.
+
+01:08:49.150 --> 01:08:55.230
+<v l33tname>Und dann, ja, manchmal bin ich irgendwie zu Fall, da irgendwie groß von Hand was nachzueditieren und dann sage
+
+01:08:55.230 --> 01:09:00.190
+<v l33tname>ich halt einfach, ja, rendere mir die halt einfach mal alles JPEG und fertig.
+
+01:09:01.630 --> 01:09:04.830
+<v l33tname>Aber das ist dann gut genug für mich.
+
+01:09:05.550 --> 01:09:09.310
+<v Markus>Man darf sich einfach nicht, also mittlerweile mache ich das auch immer weniger,
+
+01:09:09.470 --> 01:09:11.790
+<v Markus>man darf sich das nicht mehr angucken, die Unterschiede dann.
+
+01:09:12.030 --> 01:09:15.950
+<v Markus>Weil dann fällt mir wieder auf, ach, jetzt hätte ich aber eigentlich schon lieber noch bei einem Drittel von
+
+01:09:15.950 --> 01:09:18.030
+<v Markus>den Bildern lieber die aus der Kamera gehabt.
+
+01:09:18.350 --> 01:09:19.310
+<v Unbekannt>Aber gut.
+
+01:09:20.510 --> 01:09:23.710
+<v l33tname>Tja, das, ja, keine Ahnung.
+
+01:09:24.350 --> 01:09:28.030
+<v l33tname>War ich jetzt noch nie so unzufrieden, beziehungsweise wenn ich was machen will,
+
+01:09:28.270 --> 01:09:34.750
+<v l33tname>dann habe ich dann irgendwie selber einen Look und Fe im Kopf,
+
+01:09:34.910 --> 01:09:36.110
+<v l33tname>was ich dann erreichen will.
+
+01:09:36.190 --> 01:09:40.350
+<v l33tname>Und dann ist das meistens sowieso nicht das, was aus der Kamera fallen würde.
+
+01:09:41.550 --> 01:09:43.150
+<v l33tname>Dann ist es auch egal.
+
+01:09:44.670 --> 01:09:49.150
+<v l33tname>Ja, das Abo-Modell ist halt echt auch fies mit irgendwie,
+
+01:09:49.310 --> 01:09:52.030
+<v l33tname>ich glaube, 10, 11 Euro pro Monat.
+
+01:09:52.350 --> 01:09:56.430
+<v Markus>Ja, das ist, dafür muss es einem schon ein wertvolles Hobby sein.
+
+01:09:56.590 --> 01:10:02.510
+<v Markus>Also ich finde auch, das habe ich mich am Anfang auch sehr drüber
+
+01:10:02.590 --> 01:10:03.630
+<v Markus>geärgert.
+
+01:10:04.190 --> 01:10:05.870
+<v Markus>Im Moment ist es halt einfach da.
+
+01:10:05.950 --> 01:10:09.710
+<v Markus>Und ich versuche es viel zu nutzen, so dass ich mir selbst gegenüber rechtfertigen kann,
+
+01:10:09.790 --> 01:10:11.310
+<v Markus>da ich das Geld ausgebe.
+
+01:10:11.950 --> 01:10:12.270
+<v Markus>Ja.
+
+01:10:15.070 --> 01:10:19.310
+<v l33tname>Dann habe ich noch so was Kleines gepickt hier.
+
+01:10:19.550 --> 01:10:23.550
+<v l33tname>Und zwar den Fast Picture Viewer Codec Pack.
+
+01:10:24.030 --> 01:10:24.990
+<v Markus>Was macht der?
+
+01:10:25.390 --> 01:10:26.350
+<v l33tname>Der macht.
+
+01:10:28.030 --> 01:10:32.190
+<v l33tname>Dieses Windows ist ja alles ein bisschen zum Davonlaufen.
+
+01:10:32.510 --> 01:10:33.310
+<v l33tname>Aber dazu.
+
+01:10:34.190 --> 01:10:35.470
+<v Markus>Nochmal zurück zu den Windows.
+
+01:10:35.550 --> 01:10:38.110
+<v Markus>Du hast jetzt, damit du Lightroom vernünftig benutzen und testen kannst,
+
+01:10:38.190 --> 01:10:39.790
+<v Markus>hast du dir extra in Windows installiert?
+
+01:10:40.030 --> 01:10:44.750
+<v l33tname>Nee, ich habe mir nicht extra in Windows installiert, ich habe halt ein Dual-Boot mit Windows,
+
+01:10:45.070 --> 01:10:51.470
+<v l33tname>weil ich halt auch so gelegentlich so Computerspiele in nicht ruckelig
+
+01:10:51.950 --> 01:10:56.670
+<v l33tname>spielen will und das geht auf meinem Linux mit der gleichen Grafikkarte irgendwie nicht.
+
+01:10:57.150 --> 01:10:58.030
+<v l33tname>Warum?
+
+01:10:58.670 --> 01:11:00.670
+<v l33tname>Ja, gute Frage.
+
+01:11:02.270 --> 01:11:05.150
+<v l33tname>Dementsprechend, und dann gibt es halt, dann habe ich halt auch Spiele,
+
+01:11:05.230 --> 01:11:08.270
+<v l33tname>die ich spiele, die halt, die es halt gar nicht für Linux gibt.
+
+01:11:10.350 --> 01:11:15.870
+<v l33tname>Und darum habe ich halt so ein Dual-Boot, da habe ich einfach nochmal so eine kleine SSD drin.
+
+01:11:16.750 --> 01:11:19.870
+<v l33tname>Und da ist halt so ein Windows 10 drauf.
+
+01:11:20.430 --> 01:11:26.430
+<v l33tname>Und das boote ich halt so gelegentlich und da drauf habe ich das dann mal jetzt Lightroom installiert und
+
+01:11:26.430 --> 01:11:27.550
+<v l33tname>Photoshop und so.
+
+01:11:29.470 --> 01:11:36.030
+<v l33tname>Jetzt aus irgendeinem Grund, es gibt zwar so ein RAW-Package,
+
+01:11:36.670 --> 01:11:42.030
+<v l33tname>was RA-Fotos dann gleich im Explorer und so mit Preview anzeigt.
+
+01:11:43.550 --> 01:11:47.550
+<v l33tname>Es funktioniert aber irgendwie nicht für alle Kameras und es sieht nicht so aus,
+
+01:11:47.710 --> 01:11:51.070
+<v l33tname>als hätte Windows ein Interesse dran, das irgendwie zu updaten.
+
+01:11:52.030 --> 01:11:55.230
+<v l33tname>Das ich auch ein bisschen seltsam finde, aber nun gut.
+
+01:11:56.110 --> 01:12:00.910
+<v l33tname>Und was dieses Codex-Pack macht,
+
+01:12:01.390 --> 01:12:08.270
+<v l33tname>ist halt einfach diese RAW-Fotos zum Beispiel im Explorer halt
+
+01:12:08.270 --> 01:12:11.230
+<v l33tname>dann einfach als Preview darzustellen.
+
+01:12:11.870 --> 01:12:18.830
+<v l33tname>Und es macht das halt irgendwie dann für alle RAW-Formate, die man sich halt so vorstellen kann.
+
+01:12:19.550 --> 01:12:24.510
+<v l33tname>Irgendwie dann aus Kennen Nikon, Olympus, Sony, Fuji Kameras,
+
+01:12:24.670 --> 01:12:27.070
+<v l33tname>Panes Neunie, das ist dann im Prinzip egal.
+
+01:12:27.390 --> 01:12:28.910
+<v l33tname>Und es funktioniert einfach.
+
+01:12:30.270 --> 01:12:36.030
+<v l33tname>Und was ich persönlich jetzt zwar nicht unbedingt brauche, aber schon eigentlich ganz cool ist,
+
+01:12:36.270 --> 01:12:42.110
+<v l33tname>es macht halt auch irgendwie Previews für solche Dinge wie PSD,
+
+01:12:42.190 --> 01:12:43.710
+<v l33tname>also Photoshop-Files.
+
+01:12:44.910 --> 01:12:49.150
+<v l33tname>Und das finde ich halt eigentlich wirklich echt geil.
+
+01:12:50.110 --> 01:12:55.950
+<v l33tname>Weil du gerade so, wenn du so ein paar Files hast und du dir jetzt vielleicht mal nicht super Mühe gegeben
+
+01:12:55.950 --> 01:13:02.910
+<v l33tname>hast beim Benamsten der Dinger, dann heißen sie halt dann irgendwie Project One und Project Two und
+
+01:13:02.910 --> 01:13:04.910
+<v l33tname>Project Three oder so.
+
+01:13:05.630 --> 01:13:10.750
+<v l33tname>Und du weißt dann natürlich irgendwie eine halbe Woche später nicht mehr, was jetzt was war.
+
+01:13:11.230 --> 01:13:15.550
+<v l33tname>Und dann hast du halt einfach so ein kleines Preview vom Bild.
+
+01:13:17.310 --> 01:13:18.990
+<v l33tname>Ja, das ist halt so ein kleines Ding.
+
+01:13:19.390 --> 01:13:23.790
+<v l33tname>Das ist irgendwie so ein Codec-Package, was man sich dann halt installieren kann.
+
+01:13:24.990 --> 01:13:29.550
+<v l33tname>Wofür man dann halt aber auch irgendwie wieder 10 Dollar ausgibt oder so.
+
+01:13:30.270 --> 01:13:31.230
+<v l33tname>Was halt auch einfach so.
+
+01:13:31.630 --> 01:13:33.070
+<v Markus>Softwareentwickler wollen auch leben.
+
+01:13:33.230 --> 01:13:35.150
+<v Markus>Das ist nicht schlimm für Software Geld zu bezahlen.
+
+01:13:35.310 --> 01:13:35.870
+<v Markus>Genau.
+
+01:13:36.190 --> 01:13:40.430
+<v l33tname>Aber es ist so, ja, es ist irgendwie so ein Feature, was eigentlich so ein OS ist.
+
+01:13:40.750 --> 01:13:46.910
+<v l33tname>Also jetzt diese PSD-Dateien vielleicht nicht, aber jetzt so Normal-RAW-Fotos anzeigen.
+
+01:13:47.070 --> 01:13:49.950
+<v l33tname>Und sie können es auch für gewisse Kameras funktioniert das.
+
+01:13:50.110 --> 01:13:51.150
+<v l33tname>Lustigerweise.
+
+01:13:51.790 --> 01:13:54.110
+<v l33tname>Aber genau für meine funktioniert es natürlich nicht.
+
+01:13:54.270 --> 01:13:56.750
+<v l33tname>Da habe ich halt geschaut, ja, was kann man dagegen machen.
+
+01:13:58.030 --> 01:14:04.910
+<v l33tname>Und so die allgemein akzeptierte Lösung ist wohl, man gibt halt irgendwie mal 10 Dollar aus und kauft
+
+01:14:04.990 --> 01:14:08.110
+<v l33tname>sich halt dieses Codec-Package und installiert sich das halt einfach.
+
+01:14:09.630 --> 01:14:15.710
+<v l33tname>Funktioniert dann halt auch wunderbar, aber dachte ich, kann man dann mal ausgeben.
+
+01:14:15.950 --> 01:14:17.230
+<v l33tname>Finde ich auch okay.
+
+01:14:17.550 --> 01:14:23.150
+<v l33tname>So für das, was es dann alles macht, finde ich so 10 Dollar einmalig.
+
+01:14:23.470 --> 01:14:28.750
+<v l33tname>Und irgendwie bekommt dann, glaube ich, auch für gewisse Dinge noch Update ein Momentchen lang.
+
+01:14:29.150 --> 01:14:33.230
+<v Markus>Ja, und dann funktioniert das Zeug, was man gerne benutzen will, funktioniert dann einfach und gut ist.
+
+01:14:34.990 --> 01:14:35.790
+<v l33tname>Finde ich jetzt okay.
+
+01:14:35.950 --> 01:14:42.750
+<v l33tname>Finde ich jetzt okay scher als irgendwie jeden Monat gleich viel für
+
+01:14:42.990 --> 01:14:44.510
+<v l33tname>das Photoshop-Zeug.
+
+01:14:45.470 --> 01:14:46.030
+<v l33tname>Naja.
+
+01:14:47.230 --> 01:14:50.190
+<v Markus>Ja, das stimmt absolut.
+
+01:14:50.510 --> 01:14:54.910
+<v Markus>Aber es gibt nicht immer noch die Möglichkeiten, Lightroom auch zu kaufen.
+
+01:14:55.790 --> 01:15:00.350
+<v Markus>Dann hat man zwar dieses CC-Zeug nicht, aber man kann tatsächlich immer noch eine Box kaufen.
+
+01:15:01.230 --> 01:15:06.030
+<v l33tname>Ja, das ist wohl so, das Classic kann man sich irgendwie,
+
+01:15:06.350 --> 01:15:10.190
+<v l33tname>Version 6 oder so, glaube ich, kann man sich immer noch kaufen.
+
+01:15:12.350 --> 01:15:12.670
+<v l33tname>Ja.
+
+01:15:14.830 --> 01:15:17.950
+<v l33tname>Weiß halt nicht, wie lange das dann auch irgendwie supportet wird und so.
+
+01:15:19.390 --> 01:15:21.390
+<v Markus>Das ist dann halt.
+
+01:15:21.870 --> 01:15:26.350
+<v Markus>Das ist, genau, wenn man aber mit dem Status Quo zufrieden ist und das zwei Jahre erstmal nutzen will,
+
+01:15:26.430 --> 01:15:27.710
+<v Markus>dann kann sich das lohnen.
+
+01:15:29.630 --> 01:15:30.110
+<v Markus>Kann.
+
+01:15:32.590 --> 01:15:35.150
+<v l33tname>Ja, muss man sich dann halt überlegen.
+
+01:15:35.230 --> 01:15:41.790
+<v l33tname>Ich bin es mir auch noch am überlegen, ob ich das, ob ich mir das wirklich antun will.
+
+01:15:42.990 --> 01:15:45.790
+<v l33tname>Weil es dann halt auch beispielsweise immer bedeutet, dass ich dann halt,
+
+01:15:45.870 --> 01:15:51.470
+<v l33tname>sobald ich mal ein Foto bearbeiten will oder so, halt im Prinzip immer erstmal mein Windows-booten muss.
+
+01:15:51.710 --> 01:15:56.110
+<v Markus>Oder du nimmst dein Mobile-Phone raus und benutzt die App-Variante.
+
+01:15:59.230 --> 01:16:05.550
+<v l33tname>Das wäre halt auch so ein Feature, was irgendwie mit Open Source Dingen irgendwie so ein bisschen hinten
+
+01:16:05.550 --> 01:16:06.590
+<v l33tname>runterfällt.
+
+01:16:08.510 --> 01:16:14.990
+<v l33tname>Aber ja, ich habe mich noch nicht so ganz entschieden, aber ich tendiere aktuell halt schon irgendwie so
+
+01:16:14.990 --> 01:16:19.950
+<v l33tname>Richtung Adobe, Lightroom CC mit Photoshop,
+
+01:16:20.030 --> 01:16:26.670
+<v l33tname>was man ja dann irgendwie trotzdem noch in der CC-Version irgendwie dazu bekommt und das Classic und Ja.
+
+01:16:28.190 --> 01:16:32.910
+<v Markus>Ich versuche trotzdem immer noch Augen und Ohren, auch wenn ich das Abo jetzt habe,
+
+01:16:33.150 --> 01:16:36.510
+<v Markus>immer noch Augen und Ohren offen zu halten und Alternativen zu pushen.
+
+01:16:37.470 --> 01:16:43.710
+<v Markus>Es gibt ja diese gepushte Software Infinity, die für
+
+01:16:43.710 --> 01:16:48.670
+<v Markus>Bildbearbeitung sehr viel Lorbeeren abräumt.
+
+01:16:48.990 --> 01:16:50.990
+<v Markus>Ah, Affinity, nicht Infinity.
+
+01:16:54.270 --> 01:16:56.110
+<v Markus>Die lohnt sich anzuschauen.
+
+01:16:56.350 --> 01:17:01.550
+<v Markus>Also so immer mal wieder die Alternativen anschauen.
+
+01:17:01.870 --> 01:17:06.190
+<v Markus>Das ist einfach, um sich nicht einfach dieses,
+
+01:17:08.670 --> 01:17:12.350
+<v Markus>diesen Adobe hinzugeben.
+
+01:17:12.670 --> 01:17:17.310
+<v l33tname>Also Affinity Photos hätte ich jetzt hier auch nur für einen Mac kaufen und für Windows kaufen.
+
+01:17:17.950 --> 01:17:21.230
+<v Markus>Ja, also ich rede nicht zwangsläufig davon, Open Source-Alternativen,
+
+01:17:21.310 --> 01:17:24.350
+<v Markus>sondern generell Alternativen, einfach damit der Markt lebendig bleibt,
+
+01:17:24.430 --> 01:17:26.350
+<v Markus>damit nicht alles einfach Adobe ist.
+
+01:17:26.510 --> 01:17:31.550
+<v l33tname>Also es muss ja nicht unbedingt Open Source sein, aber Linux wäre schon
+
+01:17:33.630 --> 01:17:34.830
+<v l33tname>so ein, also ja.
+
+01:17:36.430 --> 01:17:39.790
+<v l33tname>Wenn ich dann irgendwo Kompromisse eingehen muss.
+
+01:17:40.430 --> 01:17:44.910
+<v Markus>Genau, als RAW-Entwickler on-Run gibt es noch, aber ich, weil da habe ich,
+
+01:17:44.990 --> 01:17:50.510
+<v Markus>ich habe außen Augen verloren, ob es da Linux-Clients gibt.
+
+01:17:50.830 --> 01:17:57.470
+<v Markus>Wod ich da sich Linux-Clients nur noch sehr selektiv einsetze.
+
+01:17:58.430 --> 01:17:58.750
+<v Markus>Ja.
+
+01:17:59.870 --> 01:18:05.550
+<v Markus>Ja, genau, und ich versuche gerade nach dem Namen von einem anderen Tool,
+
+01:18:05.710 --> 01:18:10.590
+<v Markus>was mir kürzlich noch runtergekommen ist, die auch sehr schick aussahen.
+
+01:18:13.390 --> 01:18:15.390
+<v l33tname>Kann ich dir leider nicht weiterhelfen?
+
+01:18:15.550 --> 01:18:18.030
+<v Markus>Nee, habe ich auch nicht mit dir drüber redet.
+
+01:18:18.190 --> 01:18:18.750
+<v Markus>Schade.
+
+01:18:19.950 --> 01:18:20.430
+<v Markus>Tja.
+
+01:18:20.750 --> 01:18:24.350
+<v l33tname>Aber es gibt Alternativen, aber eben gerade so.
+
+01:18:25.710 --> 01:18:30.350
+<v l33tname>Irgendwie, ich komme halt irgendwie mit leider, leider so schlimm,
+
+01:18:30.750 --> 01:18:34.190
+<v l33tname>wie ich das finde, halt mit Matobe-Kram einfach am besten zurecht.
+
+01:18:35.230 --> 01:18:41.310
+<v l33tname>Das ärgert mich halt auch so ein bisschen, weil ich würde eigentlich gern den Kram halt auf meinem Linux
+
+01:18:41.630 --> 01:18:42.270
+<v l33tname>machen.
+
+01:18:42.590 --> 01:18:46.670
+<v l33tname>Und nicht irgendwie, weil das halt auch so workflow-mäßig halt voll dumm,
+
+01:18:46.750 --> 01:18:50.670
+<v l33tname>wenn du immer irgendwie Rechner runterfahren, Rechner wieder hochfahren,
+
+01:18:50.830 --> 01:18:55.070
+<v l33tname>Windows booten, Windows sagt erstmal, ja, lol, ich habe hier Updates.
+
+01:18:57.150 --> 01:19:00.510
+<v l33tname>Es macht halt einfach nicht so viel Spaß.
+
+01:19:02.830 --> 01:19:08.190
+<v l33tname>Und dann kostet dich das dann halt irgendwie auch noch so ein Zehner im Monat.
+
+01:19:08.830 --> 01:19:11.230
+<v l33tname>Was es dann irgendwie nicht besser macht.
+
+01:19:12.910 --> 01:19:13.230
+<v l33tname>Ja.
+
+01:19:14.030 --> 01:19:18.910
+<v Markus>Das Gesamtpaket ist mittlerweile halt mehr, was man da für den Zehner im Monat bekommt,
+
+01:19:19.230 --> 01:19:21.470
+<v Markus>als nur die Box Lightroom.
+
+01:19:21.550 --> 01:19:24.190
+<v Markus>Also das muss man schon zugeben.
+
+01:19:25.150 --> 01:19:30.190
+<v Markus>Dass das nicht so cool ist, eigentlich dem stimme ich vollkommen zu.
+
+01:19:30.350 --> 01:19:34.430
+<v Markus>Das ist eigentlich, wenn man möglichst wenig wiederkerne Kosten haben.
+
+01:19:34.670 --> 01:19:35.310
+<v Markus>Aber gut.
+
+01:19:37.950 --> 01:19:39.150
+<v Markus>Alles nicht so einfach.
+
+01:19:40.990 --> 01:19:44.990
+<v l33tname>Gut, dann würde ich sagen, wollen wir das Thema abschließen, außer dir fällt noch ein.
+
+01:19:45.310 --> 01:19:48.590
+<v Markus>Nein, ich glaube, ist jetzt genug über Foto für heute.
+
+01:19:48.910 --> 01:19:54.430
+<v l33tname>Sonst kannst du das ja noch den Link einfach in die Shownotes passen, wenn dir das noch einfällt.
+
+01:19:55.310 --> 01:19:57.950
+<v l33tname>Sonst gibt Alternativen da draußen.
+
+01:20:02.430 --> 01:20:05.070
+<v l33tname>Dann würde ich sagen, kommen wir zu Mimimi der Woche.
+
+01:20:05.310 --> 01:20:06.910
+<v Markus>Endlich mal wieder jammern.
+
+01:20:08.030 --> 01:20:11.790
+<v l33tname>Nicht, dass wir beim Thema würden wir nie jammern.
+
+01:20:11.950 --> 01:20:12.750
+<v l33tname>Ist alles perfekt.
+
+01:20:12.910 --> 01:20:13.790
+<v l33tname>Heile Welt.
+
+01:20:15.870 --> 01:20:16.270
+<v l33tname>Genau.
+
+01:20:16.430 --> 01:20:20.910
+<v l33tname>Und zwar geht es bei Mimimi der Woche um Mail und GPG.
+
+01:20:22.350 --> 01:20:25.630
+<v l33tname>Auch ein Thema, wo wir noch nie drüber gejammert haben.
+
+01:20:26.510 --> 01:20:28.670
+<v Markus>Nein, aber es wird bestimmt irgendwann besser.
+
+01:20:28.830 --> 01:20:33.790
+<v Markus>Eine Hoffnung, die ich ja habe, ist, dass Keybase vielleicht, es gibt schon ein paar Jähchen jetzt,
+
+01:20:34.110 --> 01:20:38.350
+<v Markus>dass aber tatsächlich so viele Leute langsam anfangen, Keybase zu nutzen,
+
+01:20:40.110 --> 01:20:42.830
+<v Markus>dass es einfacher wird, den richtigen Schlüssel zu finden.
+
+01:20:43.470 --> 01:20:45.310
+<v l33tname>Siehst du, dass viele Leute nutzen?
+
+01:20:45.870 --> 01:20:51.870
+<v Markus>Meine Filterblase hat mir in letzter Zeit sehr oft Links zu Keybase um die Ohren gehauen.
+
+01:20:52.830 --> 01:20:56.270
+<v Markus>Ich fand es interessant, aber es ist wahrscheinlich nur lokal begrenzt.
+
+01:20:56.510 --> 01:21:01.550
+<v l33tname>Ich glaube schon, weil in meiner Realität findet das irgendwie aktuell nicht statt, aber ja.
+
+01:21:01.790 --> 01:21:07.870
+<v l33tname>Also ich erinnere mich, wie das alle geklickt haben, als es irgendwie neu und cool war.
+
+01:21:08.670 --> 01:21:12.030
+<v l33tname>Und seitdem habe ich halt irgendwie nichts mehr gesehen davon.
+
+01:21:12.270 --> 01:21:12.830
+<v l33tname>Oh, okay.
+
+01:21:13.870 --> 01:21:19.150
+<v l33tname>Mein Key ist zwar auch da und es ist auch der gleiche, der auf den anderen Key-Servern ist und so.
+
+01:21:20.750 --> 01:21:26.110
+<v l33tname>Und ich finde die Idee auch ganz cool und so, aber ich sehe es nicht bei mir,
+
+01:21:26.830 --> 01:21:32.110
+<v l33tname>dass es irgendwie benutzt wird oder dass es jetzt irgendwie dazu geführt hätte,
+
+01:21:32.190 --> 01:21:37.390
+<v l33tname>dass es Dabei ist es doch recht einfach zu benutzen.
+
+01:21:38.190 --> 01:21:41.470
+<v Markus>Also man muss halt, man muss das mit dem Schlüsselaustausch hinkriegen,
+
+01:21:41.630 --> 01:21:45.390
+<v Markus>dass man einfach mal einen funktionierenden Schlüssel von seinem Kommunikationspartner hat.
+
+01:21:46.670 --> 01:21:49.310
+<v Markus>Was ja aber im Normalfall auch nicht so ein Hexenwerk ist.
+
+01:21:49.390 --> 01:21:50.670
+<v Markus>Und danach ist easy.
+
+01:21:50.750 --> 01:21:54.030
+<v Markus>Also die Plugins funktionieren, meiner Wahrnehmung nach funktionieren die einfach.
+
+01:21:54.510 --> 01:21:55.790
+<v l33tname>Das ist cool, ja.
+
+01:21:56.110 --> 01:21:59.390
+<v l33tname>Aber man muss sie dann halt auch benutzen.
+
+01:21:59.630 --> 01:21:59.950
+<v l33tname>Ja.
+
+01:22:01.150 --> 01:22:01.950
+<v l33tname>Genau.
+
+01:22:03.150 --> 01:22:05.390
+<v l33tname>Ja, warum steht das drauf?
+
+01:22:05.550 --> 01:22:09.550
+<v l33tname>Wir wollten ja einen Livestream machen eigentlich und dann dachten wir,
+
+01:22:09.630 --> 01:22:14.750
+<v l33tname>ja, so YouTube und ich habe halt die Credentials, wie man auf unser YouTube-Dings streamt.
+
+01:22:15.150 --> 01:22:17.630
+<v l33tname>Und Markus hat sich halt das installiert.
+
+01:22:18.110 --> 01:22:21.710
+<v l33tname>Ja, wie bekommen wir jetzt diese Credentials sicher von A nach B?
+
+01:22:21.950 --> 01:22:23.630
+<v l33tname>Ja, so Mail und so.
+
+01:22:24.270 --> 01:22:25.150
+<v Unbekannt>GPG.
+
+01:22:25.790 --> 01:22:29.710
+<v l33tname>Da benutze ich irgendwie Thunderbird mit diesem Enigma-Mail.
+
+01:22:31.790 --> 01:22:37.950
+<v l33tname>Und irgendwie die ersten, also einerseits diese Mail-Server machen ja so Graylisting und so.
+
+01:22:38.190 --> 01:22:39.710
+<v l33tname>Das ist auch schon mal sehr geil.
+
+01:22:39.870 --> 01:22:43.870
+<v l33tname>Da wartet man dann halt einfach so einen Moment, bis diese Mails überhaupt ankommen.
+
+01:22:45.230 --> 01:22:48.510
+<v l33tname>Irgendwie alles ein bisschen so unpraktisch, wenn man irgendwie sagt,
+
+01:22:48.670 --> 01:22:54.110
+<v l33tname>ja, okay, wir möchten jetzt einfach nur mal schnell Dinge austauschen und Live-Sendung machen.
+
+01:22:54.750 --> 01:22:57.310
+<v l33tname>Aber nun gut, ist halt so.
+
+01:22:57.550 --> 01:23:03.230
+<v l33tname>Und dann so, ja, hat eine Mail geschickt, hat die auch mit einem Key verschlüsselt,
+
+01:23:03.310 --> 01:23:06.910
+<v l33tname>aber irgendwie halt nur mit meinem eigenen Key, warum auch immer.
+
+01:23:08.510 --> 01:23:13.150
+<v l33tname>Und ja, wir haben irgendwie so zwei, drei Versuche gebraucht,
+
+01:23:14.190 --> 01:23:17.550
+<v l33tname>bis ich irgendwie eine GPG-verschlüsselte Mail.
+
+01:23:19.790 --> 01:23:23.310
+<v Markus>Aber das kannst du jetzt nicht nur auf GPG schieben.
+
+01:23:26.110 --> 01:23:28.590
+<v l33tname>Ja, nein, das ist richtig.
+
+01:23:28.830 --> 01:23:32.590
+<v l33tname>Aber das ganze Ökosystem rundherum ist halt einfach.
+
+01:23:33.470 --> 01:23:37.230
+<v Markus>Mail an sich ist ja, ich meine, dass wir allein ein Graylisting brauchen.
+
+01:23:37.470 --> 01:23:41.310
+<v Markus>Zeigt schon mal, dass Mail kränkelt, sage ich jetzt mal.
+
+01:23:43.230 --> 01:23:48.190
+<v Markus>Hätten wir das natürlich auch einfach über Trima schicken können.
+
+01:23:49.150 --> 01:23:51.790
+<v Markus>Dann hätte ich es wieder abtippen müssen, aber gut.
+
+01:23:52.270 --> 01:23:53.150
+<v l33tname>Ja, nun gut.
+
+01:23:53.230 --> 01:23:56.510
+<v l33tname>Ja, das wäre natürlich eine Lösung, aber irgendwie ist es auch nicht so.
+
+01:23:56.670 --> 01:23:58.270
+<v l33tname>Das kann doch alles nicht sein.
+
+01:23:58.750 --> 01:24:04.510
+<v l33tname>Aber irgendwie diese Integration von GPG in Mail-Clients und so,
+
+01:24:04.910 --> 01:24:06.110
+<v l33tname>es funktioniert.
+
+01:24:06.590 --> 01:24:08.670
+<v l33tname>Wir haben es auch hinbekommen und so.
+
+01:24:09.070 --> 01:24:13.630
+<v l33tname>Aber ich denke dann halt einfach immer, ich glaube halt nicht, dass das jemand,
+
+01:24:13.710 --> 01:24:19.150
+<v l33tname>der irgendwie jetzt nicht so computeraffin ist, das hinbekommt.
+
+01:24:19.870 --> 01:24:23.150
+<v Markus>Damit sie schon sich selbst einrichten nicht, und das ist das Schlimme.
+
+01:24:24.030 --> 01:24:30.030
+<v l33tname>Ja, also ich meine, das Plugin installieren ist ja auch nicht so ein Hexenwerk.
+
+01:24:30.910 --> 01:24:37.470
+<v l33tname>Aber ich meine eben nur schon so der Selbstversuch, dass ich jetzt irgendwie dir drei Mails schicken musste,
+
+01:24:37.950 --> 01:24:43.230
+<v l33tname>bis ich es geschafft habe, dass es sowohl irgendwie,
+
+01:24:43.390 --> 01:24:47.870
+<v l33tname>dass es dein Key nimmt und dass es auch mit deinem Key verschlüsselt ist und so.
+
+01:24:50.190 --> 01:24:51.710
+<v l33tname>Ja, weiß ich nicht.
+
+01:24:51.870 --> 01:24:55.710
+<v l33tname>Ich glaube, da würden viele Leute halt einfach aufgeben und sagen, ja,
+
+01:24:55.790 --> 01:24:58.670
+<v l33tname>okay, dann check ich es halt einfach ohne.
+
+01:24:59.070 --> 01:24:59.310
+<v l33tname>Ja.
+
+01:24:59.470 --> 01:25:00.430
+<v l33tname>Und gut ist.
+
+01:25:02.190 --> 01:25:03.870
+<v Markus>IT is broken, still.
+
+01:25:04.350 --> 01:25:05.630
+<v Markus>Es ist immer noch einfach.
+
+01:25:06.030 --> 01:25:06.590
+<v Markus>Oh no.
+
+01:25:06.910 --> 01:25:11.150
+<v Markus>Und wir basieren halt alles, was wir tun als Gesellschaft da drauf.
+
+01:25:11.310 --> 01:25:13.550
+<v Markus>Es ist Digitalisierung und so.
+
+01:25:15.070 --> 01:25:15.390
+<v Markus>Genau.
+
+01:25:15.470 --> 01:25:22.350
+<v l33tname>Und ich finde es halt einfach irgendwie schade, dass es irgendwie immer noch nicht halt irgendein
+
+01:25:22.510 --> 01:25:28.510
+<v l33tname>Plugin gibt, was halt einfach irgendwie installieren und irgendwie halt so zwei,
+
+01:25:28.590 --> 01:25:31.150
+<v l33tname>drei Klicks ist und es funktioniert halt einfach.
+
+01:25:31.870 --> 01:25:37.150
+<v l33tname>Weil nur wenn es so weit ist, kann man das halt auch einfach allen Leuten aufdrücken und sagen,
+
+01:25:37.310 --> 01:25:39.950
+<v l33tname>hey, benutzt das mal.
+
+01:25:40.110 --> 01:25:45.870
+<v l33tname>Weil in dem Zustand, wie es halt jetzt ist, kann ich auch nicht mit gutem Gewissen irgendwie Leuten sagen,
+
+01:25:46.190 --> 01:25:50.830
+<v l33tname>ja, schick mir halt mal eine GPG-verschlüsselte E-Mail.
+
+01:25:52.030 --> 01:25:54.350
+<v l33tname>Weil, ja, ich selber halt auch nicht.
+
+01:25:54.590 --> 01:25:57.950
+<v Markus>Wenn es nicht wichtig ist, schicken die schon so oft, bis sie dann ankommt.
+
+01:25:58.670 --> 01:26:04.670
+<v l33tname>Ja, genau, wenn es halt irgendwie wichtig ist oder wenn man halt mal ein bisschen Zeit hat oder Spaß dran hat.
+
+01:26:05.070 --> 01:26:09.470
+<v l33tname>Aber jetzt so für so ganz normale Kommunikation.
+
+01:26:10.990 --> 01:26:16.270
+<v l33tname>Ja, logisch, wenn man jetzt irgendwie wirklich was hat, was besonders schützenswert ist oder so.
+
+01:26:16.350 --> 01:26:21.390
+<v l33tname>Und wenn man irgendwie Private, SSH-Private-Keys per Mail rumschickt und so.
+
+01:26:22.190 --> 01:26:26.670
+<v l33tname>Dann lohnt es sich auch die Zeit, sich zu nehmen und zu schauen, dass der Kram irgendwie ordentlich
+
+01:26:26.670 --> 01:26:27.870
+<v l33tname>verschlüsselt wird und so.
+
+01:26:28.110 --> 01:26:32.590
+<v l33tname>Aber um jetzt irgendwie kurz eine Mail zu schreiben,
+
+01:26:32.670 --> 01:26:36.510
+<v l33tname>um zu fragen, ob man irgendwie wieder mal zusammen essen gehen will oder so,
+
+01:26:39.390 --> 01:26:44.990
+<v l33tname>ist es im aktuellen Zustand, kann man das halt einfach nicht guten Gewissensleuten zumuten,
+
+01:26:45.070 --> 01:26:46.430
+<v l33tname>dass sie das benutzen sollen.
+
+01:26:47.550 --> 01:26:53.310
+<v l33tname>Und das ist halt eigentlich schade, weil es wäre halt schon cool, wenn man das dann für alles einfach benutzt.
+
+01:26:54.910 --> 01:26:55.790
+<v l33tname>Genau.
+
+01:26:56.430 --> 01:26:57.870
+<v l33tname>Das ist mein Mimimi.
+
+01:26:58.990 --> 01:26:59.630
+<v l33tname>Cool.
+
+01:27:00.910 --> 01:27:02.750
+<v Markus>Ich habe ja da teilweise mitgeholt.
+
+01:27:02.830 --> 01:27:05.070
+<v Markus>Ich heule dann jetzt einmal nicht separat rum.
+
+01:27:05.630 --> 01:27:07.470
+<v Markus>Ich habe ein Pick mitgebracht.
+
+01:27:07.710 --> 01:27:09.950
+<v Markus>Und zwar IMAP Sync.
+
+01:27:11.150 --> 01:27:14.910
+<v Markus>Wie der Name sagt, geht es darum, iMac-Konten zu synchronisieren.
+
+01:27:15.230 --> 01:27:15.630
+<v Markus>Nein.
+
+01:27:17.310 --> 01:27:23.950
+<v Markus>Und das kann man natürlich einerseits machen, um auch in einem anderen E-Mail-Account die Mails zu haben,
+
+01:27:24.110 --> 01:27:29.390
+<v Markus>die in dem einen E-Mail-Account sind, als Backup oder als Zugriffsvereinfachung oder
+
+01:27:30.990 --> 01:27:32.430
+<v Markus>eben als Migration.
+
+01:27:32.670 --> 01:27:36.910
+<v Markus>Und das was mich wirklich erfreut hat,
+
+01:27:36.990 --> 01:27:41.950
+<v Markus>ist, dass er sogar einen Docker-Container bereitstellt, wo man dann sich nicht damit rumschlagen muss,
+
+01:27:42.030 --> 01:27:45.070
+<v Markus>wo man das jetzt installiert ist, sondern einfach den Docker-Container hernimmt,
+
+01:27:45.230 --> 01:27:49.310
+<v Markus>da die Parameter reinkippt und dann das Sync ausgefüllt wird.
+
+01:27:49.950 --> 01:27:56.670
+<v Markus>Das Lustige ist, dass der IMAP-Sync und der Source-Code und die Read Meme mit
+
+01:27:56.670 --> 01:28:01.950
+<v Markus>dem Hinweis auf den Docker-Container, das liegt alles auf GitHub, ist alles einsehbar und verfügbar.
+
+01:28:02.190 --> 01:28:03.950
+<v Markus>Und es gibt eine Homepage dazu.
+
+01:28:04.110 --> 01:28:11.070
+<v Markus>Und auf der Homepage bittet der Autor doch darum, dass man ihm erst 50 Euro überweist und dann das Ding
+
+01:28:11.070 --> 01:28:11.550
+<v Markus>nutzt.
+
+01:28:11.870 --> 01:28:16.270
+<v Markus>Lizenziert ist das Ganze aber unter der No-Limit Public License.
+
+01:28:16.430 --> 01:28:22.110
+<v Markus>Das ist kurz gesagt eine Do whatever you want with it License.
+
+01:28:22.830 --> 01:28:29.550
+<v Markus>Und ja, dementsprechend in der Kombination mit dieser Lizenz ist diese
+
+01:28:29.550 --> 01:28:33.630
+<v Markus>50 Euro auf der Homepage eher eine freundliche Bitte, dass wenn man das Ding kommerziell nutzt,
+
+01:28:33.710 --> 01:28:35.550
+<v Markus>man noch ein bisschen dafür bezahlen soll.
+
+01:28:37.950 --> 01:28:40.670
+<v Markus>Ja, würde ich es öfter nutzen, würde ich das sicherlich tun.
+
+01:28:40.750 --> 01:28:42.670
+<v Markus>Dann gäbe es halt wahrscheinlich auch einen kommerziellen Grund für.
+
+01:28:42.830 --> 01:28:46.270
+<v Markus>Ich hatte da jetzt mal spontan das Bedürfnis zu.
+
+01:28:47.790 --> 01:28:48.990
+<v Markus>Und es hat funktioniert.
+
+01:28:49.070 --> 01:28:49.550
+<v Markus>Einfach so.
+
+01:28:49.630 --> 01:28:55.310
+<v Markus>Deswegen, wenn ihr iMap Sync braucht, ein Konto auf ein anderes kopieren wollt,
+
+01:28:55.630 --> 01:28:57.710
+<v Markus>iMap Sync ist euer Freund.
+
+01:28:57.950 --> 01:29:00.750
+<v l33tname>Ist das dann so continuous, also dass man irgendwie.
+
+01:29:01.230 --> 01:29:04.350
+<v Markus>Du kannst es mehrfach hintereinander ausführen und der aktualisiert dann.
+
+01:29:04.590 --> 01:29:06.990
+<v l33tname>Achso, aber das ist nicht so vorgesehen, dass.
+
+01:29:07.390 --> 01:29:11.470
+<v l33tname>Also du kannst einfach halt so, ja, du kannst es in den Cront packen und sagen,
+
+01:29:11.790 --> 01:29:14.670
+<v l33tname>für den Scheiß mal alle X Minuten aus.
+
+01:29:14.910 --> 01:29:18.670
+<v Markus>Wenn du das andere willst, dann kannst du dir Filter auf den Mail-Servern einrichten,
+
+01:29:18.750 --> 01:29:20.830
+<v Markus>die automatisch E-Mails hinterherschicken.
+
+01:29:21.390 --> 01:29:23.710
+<v Markus>Das wäre, also wenn du wirklich synchst.
+
+01:29:24.910 --> 01:29:26.910
+<v l33tname>Ich habe den Use Case jetzt nicht, aber.
+
+01:29:28.750 --> 01:29:30.510
+<v l33tname>Ja, ist gut.
+
+01:29:31.790 --> 01:29:33.550
+<v l33tname>Freie Software ist gut.
+
+01:29:35.790 --> 01:29:37.950
+<v Markus>Ich war ernsthaft überrascht über diese Lizenz.
+
+01:29:39.710 --> 01:29:43.630
+<v Markus>Hatte erst ein schlechtes Gewissen, als ich dann feststellte, siehe Docker-Container liegt halt in der
+
+01:29:43.630 --> 01:29:44.990
+<v Markus>Docker-Registrie, kannst du benutzen.
+
+01:29:45.070 --> 01:29:46.910
+<v Markus>Und dann, der will ja doch 50 Euro haben.
+
+01:29:46.990 --> 01:29:47.390
+<v Markus>Warum?
+
+01:29:47.550 --> 01:29:51.630
+<v Markus>Naja, und dann haben wir nach der Lizenz gesucht in einem GitHub Repository.
+
+01:29:51.870 --> 01:29:55.230
+<v Markus>War sogar eine drin und dann war es so eine, mir doch egal, was er mit dem Zeug macht.
+
+01:29:55.310 --> 01:29:56.190
+<v Markus>Oh, okay.
+
+01:29:57.070 --> 01:29:57.310
+<v Markus>Jo.
+
+01:29:58.190 --> 01:30:01.550
+<v l33tname>Das finde ich eigentlich auch ein okayes Business Model.
+
+01:30:01.710 --> 01:30:02.030
+<v l33tname>Ja.
+
+01:30:03.310 --> 01:30:10.030
+<v l33tname>Wenn man, ich meine, wenn man das Ding dann irgendwie kommerziell benutzt,
+
+01:30:10.110 --> 01:30:12.670
+<v l33tname>dann sind halt irgendwie 50 Euro eigentlich auch nix.
+
+01:30:12.990 --> 01:30:13.950
+<v Markus>Nein, absolut nicht.
+
+01:30:14.030 --> 01:30:18.590
+<v Markus>Also wie gesagt, wenn ich jetzt 15 Accounts migrieren müsste oder so,
+
+01:30:18.670 --> 01:30:21.710
+<v Markus>dann wäre das auf jeden Fall eine valide Investition.
+
+01:30:22.990 --> 01:30:28.110
+<v l33tname>Das, ähm, sogar mit.
+
+01:30:31.550 --> 01:30:34.750
+<v Markus>Ja, oder nicht Investition, sondern einfach nur Wertschätzung gegenüber denen,
+
+01:30:34.830 --> 01:30:36.270
+<v Markus>der mir da viel Arbeit erspart hat.
+
+01:30:36.350 --> 01:30:41.310
+<v Markus>Oder ein Tool zur Verfügung gestellt hat, damit ich das Ding, was ich gerade brauche, erledigen kann.
+
+01:30:41.630 --> 01:30:42.910
+<v Markus>Alles legitim.
+
+01:30:50.190 --> 01:30:52.430
+<v Markus>Ja, ja, damit sind wir fast.
+
+01:30:52.590 --> 01:30:53.150
+<v Markus>Hast du noch was?
+
+01:30:53.230 --> 01:30:54.270
+<v Markus>Du hast noch was, ne?
+
+01:30:55.070 --> 01:30:57.150
+<v l33tname>Ah, ich hab doch, ich habe noch was.
+
+01:30:57.390 --> 01:31:00.670
+<v l33tname>Wir haben ja so viel über Fotos gesprochen.
+
+01:31:00.910 --> 01:31:07.230
+<v l33tname>Und ich habe hier noch so einen Flickr-Account gepickt von einem User
+
+01:31:07.390 --> 01:31:10.510
+<v l33tname>namens Masashi Wakui.
+
+01:31:11.230 --> 01:31:14.750
+<v l33tname>Ich hoffe, ich habe das bestimmt nicht richtig ausgesprochen.
+
+01:31:14.830 --> 01:31:15.790
+<v l33tname>Es tut mir leid.
+
+01:31:17.390 --> 01:31:20.190
+<v l33tname>Auf jeden Fall sind das sehr hübsche Bilder.
+
+01:31:21.150 --> 01:31:24.990
+<v l33tname>Flickr ist zum selber klicken, könnt ihr euch anschauen oder auch nicht.
+
+01:31:25.390 --> 01:31:26.670
+<v l33tname>Ich finde die Bilder cool.
+
+01:31:27.870 --> 01:31:28.270
+<v l33tname>Cool.
+
+01:31:29.070 --> 01:31:31.150
+<v Markus>Flickr es zum selber klicken, ist ein schöner Spruch.
+
+01:31:32.190 --> 01:31:33.790
+<v l33tname>Flickr zum selber klicken.
+
+01:31:33.950 --> 01:31:34.270
+<v l33tname>Ja.
+
+01:31:34.990 --> 01:31:35.550
+<v l33tname>Genau.
+
+01:31:35.870 --> 01:31:36.910
+<v Markus>Tipptop.
+
+01:31:37.870 --> 01:31:38.510
+<v Markus>Cool.
+
+01:31:39.470 --> 01:31:40.750
+<v l33tname>Dann wären wir am Ende.
+
+01:31:40.990 --> 01:31:41.470
+<v l33tname>Wir sind durch.
+
+01:31:43.550 --> 01:31:47.070
+<v Markus>Doch, eine kleine, nette Sendung mit zwei Stimmen.
+
+01:31:47.390 --> 01:31:48.990
+<v Markus>Neigt sich dem Ende zu.
+
+01:31:49.630 --> 01:31:52.590
+<v Markus>Ja, dann würde ich sagen, vielen Dank fürs Zuhören.
+
+01:31:53.870 --> 01:31:54.990
+<v l33tname>Jo, vielen Dank.
+
+01:31:55.710 --> 01:31:57.630
+<v l33tname>Und habt Spaß.
+
+01:31:57.870 --> 01:31:58.670
+<v Markus>Am Gerät.
+
+01:31:58.830 --> 01:31:59.870
+<v l33tname>Am Gerät, genau.
+
+01:32:00.750 --> 01:32:01.150
+<v l33tname>Tschüss.
+
+01:32:01.870 --> 01:32:02.030
+<v l33tname>Tschüss.
