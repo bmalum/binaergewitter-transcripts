@@ -21,6 +21,14 @@ Weil Namen und Aufbau den vorhandenen Dateien entsprechen, können sie direkt ne
 `transcript:` im Front Matter der Blogposts verlinkt werden. `manifest.json` listet jede Folge mit Dauer,
 Wortzahl und Redezeit je Sprecher.
 
+`corrections/` enthält Korrekturen für Folgen, die schon ein Auphonic-Transkript haben. Bisher ist das
+Talk #227: Auphonic hat dort 79 Minuten mit dem gemeinsamen Sprecher „IngoundFelix“ markiert. In der korrigierten
+Datei sind sie auf Ingo (38,8 min) und Felix (40,2 min) verteilt, nach derselben Stimmgruppierung wie unten. Text und
+Zeiten sind die von Auphonic. Weil die Datei keine Wortzeiten hat, bekommt jedes Auphonic-Segment einen Sprecher;
+bei Segmenten, in denen beide sprechen, ist das nur einer der beiden (85 von 396 Segmenten sind gemischt oder ohne
+Stimmbeleg). Auf den Segmenten, die Auphonic selbst l33tname zuordnet, erkennt das Verfahren 96,9 % der Sekunden
+richtig. Zum Austausch der Datei auf `download.binaergewitter.de` müssen die Maintainer die Dateien ersetzen.
+
 ## Qualität
 
 Die Transkripte sind vollautomatisch erstellt und nicht von Hand korrigiert.

@@ -21,7 +21,7 @@ def esc(t):
 
 
 def cues(seg):
-    words = seg["timestamps"]
+    words = seg.get("timestamps")
     if not words or (seg["end"] - seg["start"] <= MAX_S and len(seg["text"]) <= MAX_C):
         return [(seg["start"], seg["end"], seg["text"])]
     out, cur = [], []
