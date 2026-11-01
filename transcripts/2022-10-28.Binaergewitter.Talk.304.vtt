@@ -1675,7 +1675,7 @@ WEBVTT
 <v Markus>Es ist also nie so krass, wie man sich das, wenn man sich ein bisschen mit Mikroprozessoren und die Arduino
 
 00:29:45.490 --> 00:29:50.530
-<v Markus>und die SP32 und so beschäftigt hat, dann hat man immer gedacht, das Mainzdorf ist aber hinten dran.
+<v Markus>und die ESP32 und so beschäftigt hat, dann hat man immer gedacht, das Mainzdorf ist aber hinten dran.
 
 00:29:50.850 --> 00:29:56.290
 <v Markus>Aber die haben halt schon sehr darauf geachtet, dass es so Industriestandard,
@@ -1789,7 +1789,7 @@ WEBVTT
 <v Felix>Robotertechnik.
 
 00:31:55.490 --> 00:31:58.130
-<v Felix>Und zwar Xiaomi Mew heißen die.
+<v Felix>Und zwar Xiaomi Mitu heißen die.
 
 00:31:58.290 --> 00:31:59.250
 <v Felix>Und das ist auch so.
@@ -2221,7 +2221,7 @@ WEBVTT
 <v Ingo>Ich weiß nicht, ob DNS-Mask besser skaliert oder weniger gut skaliert als jetzt der
 
 00:40:53.870 --> 00:40:54.830
-<v Ingo>DRCPD.
+<v Ingo>DHCPD.
 
 00:40:54.910 --> 00:40:55.790
 <v Ingo>Keine Ahnung.
@@ -2242,7 +2242,7 @@ WEBVTT
 <v Ingo>Jut, wisst ihr Bescheid, guckt euch nach dem Nachfolger um.
 
 00:41:14.190 --> 00:41:17.950
-<v Felix>Genau, es gibt ja noch ein paar andere DRCP-Server, die irgendwie da.
+<v Felix>Genau, es gibt ja noch ein paar andere DHCP-Server, die irgendwie da.
 
 00:41:18.190 --> 00:41:18.830
 <v Felix>Was gibt's da?
@@ -2251,7 +2251,7 @@ WEBVTT
 <v Ingo>Da gibt es noch andere.
 
 00:41:21.310 --> 00:41:23.390
-<v Ingo>Ich kenne nur DRCPD.
+<v Ingo>Ich kenne nur DHCPD.
 
 00:41:24.910 --> 00:41:26.110
 <v Felix>Welcher ist denn der eine?
@@ -2281,7 +2281,7 @@ WEBVTT
 <v Felix>Ne, ne?
 
 00:41:46.590 --> 00:41:50.510
-<v Ingo>Also wahrscheinlich hat Windows noch einen TRCP-Server, den eigenen,
+<v Ingo>Also wahrscheinlich hat Windows noch einen DHCP-Server, den eigenen,
 
 00:41:50.670 --> 00:41:54.190
 <v Ingo>aber ansonsten, keine Ahnung.
@@ -2296,52 +2296,52 @@ WEBVTT
 <v Felix>Weiß ja auch nicht, was er benutzt.
 
 00:42:09.950 --> 00:42:14.670
-<v Ingo>Ja, also kannst du natürlich System D nehmen.
+<v Ingo>Ja, also kannst du natürlich systemd nehmen.
 
 00:42:15.630 --> 00:42:17.550
-<v Ingo>System Dann kann ja DRCP sein, oder?
+<v Ingo>System Dann kann ja DHCP sein, oder?
 
 00:42:18.350 --> 00:42:22.350
-<v Ingo>Die System D-Network, die hat wohl den DRCP-Server dran.
+<v Ingo>Die systemd-Network, die hat wohl den DHCP-Server dran.
 
 00:42:22.830 --> 00:42:24.350
 <v Felix>Versehentlich mit eingebaut, oder?
 
 00:42:25.630 --> 00:42:28.590
-<v Ingo>Naja, weil weiß der Pöttering hat alles Mögliche mit eingebaut.
+<v Ingo>Naja, weil weiß der Poettering hat alles Mögliche mit eingebaut.
 
 00:42:29.070 --> 00:42:29.630
 <v Ingo>Genau.
 
 00:42:30.430 --> 00:42:34.750
-<v Felix>Höchstpersönlich hat er sich da quasi eingesetzt, dass da ein DRCP-Server reinkommt,
+<v Felix>Höchstpersönlich hat er sich da quasi eingesetzt, dass da ein DHCP-Server reinkommt,
 
 00:42:34.830 --> 00:42:39.310
-<v Felix>damit er, weil er es gewusst hat, dass IC DRCP jetzt hier mal ausläuft.
+<v Felix>damit er, weil er es gewusst hat, dass ISC DHCP jetzt hier mal ausläuft.
 
 00:42:39.470 --> 00:42:39.710
 <v Felix>Naja.
 
 00:42:40.190 --> 00:42:43.790
-<v Ingo>Also System D Network D ist ein DRCP-Server.
+<v Ingo>Also systemd Network D ist ein DHCP-Server.
 
 00:42:45.950 --> 00:42:49.950
-<v Felix>Okay, darauf könnte da quasi full System D gehen.
+<v Felix>Okay, darauf könnte da quasi full systemd gehen.
 
 00:42:50.190 --> 00:42:50.510
 <v Felix>Ja.
 
-00:42:51.150 --> 00:42:57.870
-<v Ingo>Also KEA, der Nachfolger von dem ISC-DACP D System
+00:42:51.150 --> 00:42:56.830
+<v Ingo>Also KEA, der Nachfolger von dem ISC-DHCPD
 
-00:42:58.030 --> 00:43:00.110
-<v Ingo>D Network D oder DNS-Mask.
+00:42:57.470 --> 00:43:00.110
+<v Ingo>systemd Network D oder DNS-Mask.
 
 00:43:00.190 --> 00:43:02.030
 <v Ingo>Sucht euch was aus, ihr findet was.
 
 00:43:02.510 --> 00:43:08.430
-<v Felix>Also ich muss sagen, DACP per Systemd sieht ganz nice aus, es sieht sehr easy aus.
+<v Felix>Also ich muss sagen, DHCP per Systemd sieht ganz nice aus, es sieht sehr easy aus.
 
 00:43:08.590 --> 00:43:12.750
 <v Felix>Du sagst mir quasi nur, hier bitte einmal IP-Adressen verteilen und fertig.
@@ -4996,7 +4996,7 @@ WEBVTT
 <v Ingo>zumindest keins, was noch irgendwie supportet werden würde.
 
 01:37:33.810 --> 01:37:37.650
-<v Ingo>Ich habe auf Selfish einen Client ausprobiert.
+<v Ingo>Ich habe auf Sailfish einen Client ausprobiert.
 
 01:37:40.770 --> 01:37:44.850
 <v Ingo>Der hat funktioniert, aber ich habe ihn, wie gesagt, nicht lang genug verwendet.
@@ -5008,7 +5008,7 @@ WEBVTT
 <v Ingo>Ja, mehr kann ich da, glaube ich, gerade nicht zu sagen.
 
 01:37:52.130 --> 01:37:54.370
-<v Ingo>Also es gibt auf Selfish Clients dafür.
+<v Ingo>Also es gibt auf Sailfish Clients dafür.
 
 01:37:58.770 --> 01:37:59.250
 <v Ingo>Genau.
@@ -5737,16 +5737,16 @@ WEBVTT
 <v Ingo>Habe ich letztes schon festgestellt, seitdem geht Audacity bei mir nicht mehr richtig.
 
 01:53:27.390 --> 01:53:30.910
-<v Ingo>Ich habe die letzten zwei Sendungen deswegen mit Ardu geschnitten.
+<v Ingo>Ich habe die letzten zwei Sendungen deswegen mit Ardour geschnitten.
 
 01:53:31.870 --> 01:53:34.510
-<v Ingo>Ardu ist jetzt auch in der neuen Version, glaube ich, rausgekommen.
+<v Ingo>Ardour ist jetzt auch in der neuen Version, glaube ich, rausgekommen.
 
 01:53:34.670 --> 01:53:37.630
 <v Ingo>Schon sieben oder so war, ist mir mir gerade nicht sicher.
 
 01:53:39.150 --> 01:53:45.470
-<v Ingo>Ardo ist halt so eine richtige DRW, ein bisschen oder schon wesentlich komplexer als Audacity ist,
+<v Ingo>Ardour ist halt so eine richtige DAW, ein bisschen oder schon wesentlich komplexer als Audacity ist,
 
 01:53:45.630 --> 01:53:49.390
 <v Ingo>aber ich hatte irgendwie auch keinen Bock, mich mit Audacity auseinanderzusetzen,
@@ -5761,7 +5761,7 @@ WEBVTT
 <v Ingo>Und dann habe ich gedacht, naja, habe ich schon länger nicht mehr ausprobiert.
 
 01:54:01.710 --> 01:54:02.350
-<v Ingo>Ardur.
+<v Ingo>Ardour.
 
 01:54:03.550 --> 01:54:09.790
 <v Ingo>Und nach ein bisschen Einarbeitung habe ich das aber
@@ -5770,7 +5770,7 @@ WEBVTT
 <v Ingo>wieder entdeckt und bin damit klargekommen.
 
 01:54:12.990 --> 01:54:18.430
-<v Ingo>Und die letzten zwei Sendungen, die ihr gehört habt, sind schon mit Ardu geschnitten und wahrscheinlich wird
+<v Ingo>Und die letzten zwei Sendungen, die ihr gehört habt, sind schon mit Ardour geschnitten und wahrscheinlich wird
 
 01:54:18.430 --> 01:54:22.830
 <v Ingo>das jetzt wieder so passieren, weil ich auch mit Audacity vorhin hier auf Ubuntu einmal kurz aufgemacht habe
@@ -5881,10 +5881,10 @@ WEBVTT
 <v Ingo>Ha.
 
 01:56:17.950 --> 01:56:20.590
-<v Markus>Ich hätte einen Lesefu.
+<v Markus>Ich hätte einen Lesefoo.
 
 01:56:21.070 --> 01:56:24.190
-<v Ingo>Ah, ein Lesefu, ja, hat aber keiner eingetragen.
+<v Ingo>Ah, ein Lesefoo, ja, hat aber keiner eingetragen.
 
 01:56:24.270 --> 01:56:28.030
 <v Markus>Ich hab's richtig, richtig, weil mir kommt das gerade spontan in den Sinn.
@@ -6010,13 +6010,13 @@ WEBVTT
 <v Markus>So, so, so.
 
 01:59:16.110 --> 01:59:16.910
-<v Markus>Lesefu.
+<v Markus>Lesefoo.
 
 01:59:19.470 --> 01:59:22.190
 <v Markus>Genau, das schreibe ich da rein und ja.
 
 01:59:24.590 --> 01:59:28.270
-<v Ingo>Gut, dann kommen wir zu den Pix oder Felix, hast du noch ein Lesefuch?
+<v Ingo>Gut, dann kommen wir zu den Pix oder Felix, hast du noch ein Lesefoo?
 
 01:59:29.630 --> 01:59:34.190
 <v Ingo>Ist dir noch was eingefallen in den letzten paar Minuten?

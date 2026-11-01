@@ -601,13 +601,13 @@ WEBVTT
 <v Markus>Pat, ich hatte noch so eine Idee für eine News und zwar,
 
 00:09:42.000 --> 00:09:45.120
-<v Markus>dass Dino jetzt auch ganz viele NPM-Pakete unterstützt.
+<v Markus>dass Deno jetzt auch ganz viele NPM-Pakete unterstützt.
 
 00:09:45.360 --> 00:09:48.000
 <v Felix>Wir sind nämlich schon der Sendung, ich weiß nicht, was Video bekommen ist, aber es ist nice.
 
 00:09:49.040 --> 00:09:52.240
-<v Markus>Wenn ich die News bringe, dann muss ich auch erzählen, was Dino ist.
+<v Markus>Wenn ich die News bringe, dann muss ich auch erzählen, was Deno ist.
 
 00:09:53.920 --> 00:09:55.760
 <v Felix>Das kannst du ja jetzt einfach gleich machen.
@@ -3508,10 +3508,10 @@ WEBVTT
 <v Markus>Aber wir können darüber direkt zur nächsten News kommen, weil wenn man TypeScript in schnell haben will,
 
 01:03:42.410 --> 01:03:45.210
-<v Markus>dann lohnt es sich, einen Blick auf Dino zu werfen.
+<v Markus>dann lohnt es sich, einen Blick auf Deno zu werfen.
 
 01:03:45.770 --> 01:03:52.330
-<v Markus>Und Dino ist sowas wie Note von dem Macher von Note nur neu
+<v Markus>Und Deno ist sowas wie Node von dem Macher von Node nur neu
 
 01:03:52.330 --> 01:03:53.050
 <v Markus>implementiert.
@@ -3598,7 +3598,7 @@ WEBVTT
 <v Markus>Nee, verstanden.
 
 01:05:09.930 --> 01:05:15.530
-<v Markus>Okay, ja, gut, dann Dino ist also eine JavaScript-TypeScript-Runtime und
+<v Markus>Okay, ja, gut, dann Deno ist also eine JavaScript-TypeScript-Runtime und
 
 01:05:16.810 --> 01:05:22.810
 <v Markus>hat den großen Vorteil, dass es nicht vorab gebaut werden muss.
@@ -3625,19 +3625,19 @@ WEBVTT
 <v Markus>Und warum der Computer damit schneller ist, liegt vermutlich an Rust, weil es ist einfach Sachen schnell.
 
 01:05:49.370 --> 01:05:56.170
-<v Markus>Und Dino hat aber, das ist die News, bisher so ein bisschen
+<v Markus>Und Deno hat aber, das ist die News, bisher so ein bisschen
 
 01:05:56.170 --> 01:05:58.410
 <v Markus>Probleme gehabt, NPM-Module einzubinden.
 
 01:05:58.490 --> 01:06:02.010
-<v Markus>Weil Dino einen neuen Ansatz in der API, nein, keinen neuen Ansatz,
+<v Markus>Weil Deno einen neuen Ansatz in der API, nein, keinen neuen Ansatz,
 
 01:06:02.090 --> 01:06:08.410
 <v Markus>sondern einen anderen Ansatz als Node verfolgt in der System-API, also in der eigenen API.
 
 01:06:09.610 --> 01:06:16.170
-<v Markus>Und zwar hat Dino im Unterstrich, im Unterschied zu Node gesagt, sie unterstützen das Browser-API.
+<v Markus>Und zwar hat Deno im Unterstrich, im Unterschied zu Node gesagt, sie unterstützen das Browser-API.
 
 01:06:16.330 --> 01:06:21.290
 <v Markus>Und nur an den Stellen, wo es wirklich keinen Sinn ergibt für eine Runtime,
@@ -3655,7 +3655,7 @@ WEBVTT
 <v Markus>Und das führte eben dazu, dass die Modules, die Bibliotheken, die es gab, nicht kompatibel waren.
 
 01:06:36.170 --> 01:06:40.410
-<v Markus>Und an dem Punkt hat Dino jetzt aber aufgeholt.
+<v Markus>Und an dem Punkt hat Deno jetzt aber aufgeholt.
 
 01:06:40.650 --> 01:06:45.850
 <v Markus>Ich vermute, weil sie gesehen haben, dass sie einfach gegen das Ökosystem von Node,
@@ -3664,7 +3664,7 @@ WEBVTT
 <v Markus>dass es einfach viel zu lange dauert, bis sie da aufgeholt haben.
 
 01:06:49.610 --> 01:06:55.770
-<v Markus>Und mit dem letzten Release von Dino, mit der Version 1.2.8, unterstützen sie jetzt auf einmal sehr,
+<v Markus>Und mit dem letzten Release von Deno, mit der Version 1.2.8, unterstützen sie jetzt auf einmal sehr,
 
 01:06:55.850 --> 01:06:58.970
 <v Markus>sehr, sehr viele mehr NPM-Module.
@@ -3691,7 +3691,7 @@ WEBVTT
 <v Markus>wahrscheinlich wird es funktionieren, wenn du ein Modul auf NPM kommen,
 
 01:07:28.490 --> 01:07:34.970
-<v Markus>also im NPM-Repository dir suchst und das mit Dino lädst und
+<v Markus>also im NPM-Repository dir suchst und das mit Deno lädst und
 
 01:07:34.970 --> 01:07:36.250
 <v Markus>benutzen möchtest.
@@ -3703,7 +3703,7 @@ WEBVTT
 <v Felix>da gestiegt Shit Supporten ist immer ein Riesenschritt.
 
 01:07:45.370 --> 01:07:48.330
-<v Markus>Das andere Feature, was ich vielleicht noch erwähnen will zu Dino, ist,
+<v Markus>Das andere Feature, was ich vielleicht noch erwähnen will zu Deno, ist,
 
 01:07:48.410 --> 01:07:52.970
 <v Markus>es gibt kein Package-JSON, sondern man referenziert Dinge direkt über URL.
@@ -3727,7 +3727,7 @@ WEBVTT
 <v Markus>Aber das Interessante ist, es gibt kein NPM-Install.
 
 01:08:12.810 --> 01:08:19.290
-<v Markus>Dino lädt die Sachen natürlich selber runter, wenn man es ausführt und packt das Ganze in einem lokalen
+<v Markus>Deno lädt die Sachen natürlich selber runter, wenn man es ausführt und packt das Ganze in einem lokalen
 
 01:08:19.450 --> 01:08:26.250
 <v Markus>Cache, damit man es nicht jedes Mal aufs Neue tut, das ja, aber man hat nicht mehr für jedes Projekt ein
@@ -3892,7 +3892,7 @@ WEBVTT
 <v Markus>Und dann hat er sich in den Jahren, oder er hat dann wahrscheinlich,
 
 01:11:51.130 --> 01:11:53.690
-<v Markus>ich glaube, ein halbes Jahr später hat er da mit Dino angefangen.
+<v Markus>ich glaube, ein halbes Jahr später hat er da mit Deno angefangen.
 
 01:11:53.770 --> 01:11:59.930
 <v Markus>Und das ist ja auch so ein Prozess, den er dann geteilt hat, was schon für sich schon mal sehr
@@ -4009,13 +4009,13 @@ WEBVTT
 <v Ingo>Ja, doch, auswendig, natürlich.
 
 01:14:02.650 --> 01:14:08.090
-<v Ingo>Weil ich bin auch der große C  ⁇  Programmierer und deswegen kenne ich die natürlich alle.
+<v Ingo>Weil ich bin auch der große C++ Programmierer und deswegen kenne ich die natürlich alle.
 
 01:14:09.770 --> 01:14:14.890
-<v l33tname>Ist nicht Ingo der Schreckliche, ist Ingo der große C  ⁇  programmierer.
+<v l33tname>Ist nicht Ingo der Schreckliche, ist Ingo der große C++ programmierer.
 
 01:14:17.690 --> 01:14:22.890
-<v Ingo>Ich glaube, ich habe das letzte Beispiel C  ⁇  programmiert im Studium.
+<v Ingo>Ich glaube, ich habe das letzte Beispiel C++ programmiert im Studium.
 
 01:14:23.130 --> 01:14:26.010
 <v Ingo>Seitdem brauchte ich das nie wieder.
@@ -4117,16 +4117,16 @@ WEBVTT
 <v l33tname>Das ist eine gute Frage.
 
 01:16:16.810 --> 01:16:18.250
-<v Ingo>Kommen wir zum C  ⁇ .
+<v Ingo>Kommen wir zum C++ .
 
 01:16:21.130 --> 01:16:22.570
 <v l33tname>Genau, um was geht es?
 
 01:16:22.650 --> 01:16:26.490
-<v l33tname>Es geht hier um ein C  ⁇  Proposal.
+<v l33tname>Es geht hier um ein C++ Proposal.
 
 01:16:26.570 --> 01:16:31.690
-<v l33tname>Also C  ⁇  ist ja so ein ISO-Standard und da, wie das halt funktioniert,
+<v l33tname>Also C++ ist ja so ein ISO-Standard und da, wie das halt funktioniert,
 
 01:16:31.770 --> 01:16:37.050
 <v l33tname>Leute machen halt Proposals und dann wird da irgendwie drüber gesprochen und dann werden so Papers geschrieben
@@ -4156,7 +4156,7 @@ WEBVTT
 <v l33tname>der das irgendwie geschrieben hat, sagt so sind so ungefähr 10% aller CVs
 
 01:17:28.410 --> 01:17:33.450
-<v l33tname>gegen Dinge in C  ⁇ , sind halt funktionieren halt,
+<v l33tname>gegen Dinge in C++ , sind halt funktionieren halt,
 
 01:17:33.610 --> 01:17:39.610
 <v l33tname>weil Dinge auf dem Stack halt noch rumliegen und du die dann halt accessen kannst.
@@ -4171,7 +4171,7 @@ WEBVTT
 <v l33tname>Warum?
 
 01:17:52.490 --> 01:17:58.730
-<v l33tname>Gute Sache, vielleicht dann mit was ist nächste C  ⁇ , ich weiß es gar nicht so genau.
+<v l33tname>Gute Sache, vielleicht dann mit was ist nächste C++ , ich weiß es gar nicht so genau.
 
 01:17:59.210 --> 01:18:00.730
 <v l33tname>22, 23.
@@ -4219,7 +4219,7 @@ WEBVTT
 <v Felix>Wollen mit dem Legacy Crab.
 
 01:18:40.810 --> 01:18:41.610
-<v Felix>Weg mit C  ⁇ .
+<v Felix>Weg mit C++ .
 
 01:18:42.250 --> 01:18:43.690
 <v Ingo>Weg mit C plus plus.
@@ -4240,10 +4240,10 @@ WEBVTT
 <v Felix>Ich will Scheiße immer machen können.
 
 01:19:03.610 --> 01:19:05.210
-<v Markus>Kannst du übrigens mit Dino nicht mehr.
+<v Markus>Kannst du übrigens mit Deno nicht mehr.
 
 01:19:05.290 --> 01:19:07.130
-<v Markus>Dino läuft per Default in der Sandbox.
+<v Markus>Deno läuft per Default in der Sandbox.
 
 01:19:07.210 --> 01:19:07.770
 <v Markus>Nicht wie Note.
@@ -4258,7 +4258,7 @@ WEBVTT
 <v Felix>Ich will jetzt wieder zurück.
 
 01:19:12.250 --> 01:19:18.010
-<v Felix>Es gibt übrigens unter Dino gibt es keine, wie heißt das, Package JSON, aber dafür gibt es eine Depths.ts.
+<v Felix>Es gibt übrigens unter Deno gibt es keine, wie heißt das, Package JSON, aber dafür gibt es eine deps.ts.
 
 01:19:18.810 --> 01:19:21.450
 <v Markus>Ja, aber die ist ja unter deiner eigenen Kontrolle.
@@ -4723,7 +4723,7 @@ WEBVTT
 <v Markus>Ich kann aber sagen.
 
 01:27:42.950 --> 01:27:43.830
-<v Felix>Das ist eine Tandori, oder?
+<v Felix>Das ist eine Tandoor, oder?
 
 01:27:43.910 --> 01:27:45.110
 <v Felix>Ist doch dieses Tandori-P.
@@ -5233,7 +5233,7 @@ WEBVTT
 <v Ingo>Es ist immer Production Ready.
 
 01:37:39.510 --> 01:37:45.110
-<v l33tname>Aber dieses Tandor sieht so ein bisschen
+<v l33tname>Aber dieses Tandoor sieht so ein bisschen
 
 01:37:45.750 --> 01:37:49.190
 <v l33tname>ähnlich aus, aber halt, die sind schon ein bisschen weiter.
@@ -6403,7 +6403,7 @@ WEBVTT
 <v l33tname>Viel mehr geht nicht, leider.
 
 01:59:11.210 --> 01:59:16.090
-<v Ingo>Ab und zu kannst du auch noch was lesen, kommen wir zu unserer nächsten Kategorie Laserfu.
+<v Ingo>Ab und zu kannst du auch noch was lesen, kommen wir zu unserer nächsten Kategorie Lesefoo.
 
 01:59:17.370 --> 01:59:18.330
 <v Ingo>Wer hat was gelesen?
@@ -6442,7 +6442,7 @@ WEBVTT
 <v Markus>Na dann.
 
 01:59:35.050 --> 01:59:39.050
-<v Felix>Okay, also ich habe hier einen wunderbaren Lesefu von 2016.
+<v Felix>Okay, also ich habe hier einen wunderbaren Lesefoo von 2016.
 
 01:59:39.210 --> 01:59:45.210
 <v Felix>Und zwar, es ist quasi nur ein Reminder, und zwar be careful with Python New Style Stringformat.
@@ -6514,7 +6514,7 @@ WEBVTT
 <v l33tname>Kannst du natürlich auch.
 
 02:01:00.510 --> 02:01:07.150
-<v l33tname>Aber ich habe hier als Lesefu hier
+<v l33tname>Aber ich habe hier als Lesefoo hier
 
 02:01:07.390 --> 02:01:11.470
 <v l33tname>Power, Power Usage, Trackdown, Stromsparen durch Hinschauen gepickt,
@@ -6823,7 +6823,7 @@ WEBVTT
 <v Felix>was eigentlich ein Container ist und was quasi, wie das nicht nur so quasi als
 
 02:06:55.390 --> 02:07:01.310
-<v Felix>Docker-File funktioniert, sondern was quasi so einen Container ausmacht und da gibt es quasi ein Lesefu
+<v Felix>Docker-File funktioniert, sondern was quasi so einen Container ausmacht und da gibt es quasi ein Lesefoo
 
 02:07:01.710 --> 02:07:06.190
 <v Felix>Containers from Scratch und der beschreibt so ein, genau,
@@ -7243,7 +7243,7 @@ WEBVTT
 <v Markus>Sehr schön anzuschauen.
 
 02:15:42.350 --> 02:15:44.350
-<v Markus>Deswegen packe ich es in den Lesefu.
+<v Markus>Deswegen packe ich es in den Lesefoo.
 
 02:15:44.830 --> 02:15:46.350
 <v l33tname>Habe ich auch mal geschaut.
@@ -7549,7 +7549,7 @@ WEBVTT
 <v Markus>Das ist nicht Java pur.
 
 02:21:07.210 --> 02:21:11.690
-<v Felix>Ja, apropos Aces, Ash Catchum ist nach keine Ahnung,
+<v Felix>Ja, apropos Aces, Ash Ketchum ist nach keine Ahnung,
 
 02:21:11.770 --> 02:21:14.730
 <v Felix>wie vielen Jahren, nach 15 Jahren oder sowas, jetzt endlich Pokémon-Meister geworden.
@@ -7582,7 +7582,7 @@ WEBVTT
 <v Felix>Ja, na gut, dann.
 
 02:21:32.890 --> 02:21:37.210
-<v Ingo>Kann ich mir als Java-Profi auch VS Code-Pads holen?
+<v Ingo>Kann ich mir als Java-Profi auch VS Code Pets holen?
 
 02:21:37.450 --> 02:21:41.290
 <v l33tname>Bestimmt, weil du kannst ja also.
@@ -7600,7 +7600,7 @@ WEBVTT
 <v Felix>Genau.
 
 02:21:49.210 --> 02:21:55.050
-<v l33tname>Nee, du brauchst keine NFTs, du holst dir, wenn du VS Code hast, holst du diese VS Code-Pads.
+<v l33tname>Nee, du brauchst keine NFTs, du holst dir, wenn du VS Code hast, holst du diese VS Code Pets.
 
 02:21:57.610 --> 02:21:57.850
 <v l33tname>Ja.
@@ -7669,7 +7669,7 @@ WEBVTT
 <v Ingo>Ja, ja, wer vier Minuten Spaß braucht, installiert sich die VS Code Pets und alle
 
 02:22:58.330 --> 02:23:00.330
-<v Ingo>anderen gucken sich Snack an.
+<v Ingo>anderen gucken sich Snek an.
 
 02:23:00.730 --> 02:23:05.690
 <v l33tname>Ja, das ist ein Video über Schlangen.

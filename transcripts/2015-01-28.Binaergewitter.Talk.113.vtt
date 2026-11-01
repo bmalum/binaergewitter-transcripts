@@ -54,11 +54,11 @@ WEBVTT
 00:01:35.760 --> 00:01:37.600
 <v Felix>Blast from the past.
 
-00:01:37.920 --> 00:01:44.640
-<v Felix>Und zwar, der erste Blast ist, Core OS wechselt von ButFS zu X4 plus
+00:01:37.920 --> 00:01:44.267
+<v Felix>Und zwar, der erste Blast ist, Core OS wechselt von btrfs zu ext4
 
-00:01:44.640 --> 00:01:45.600
-<v Felix>Overlay FS.
+00:01:44.267 --> 00:01:45.600
+<v Felix>plus OverlayFS.
 
 00:01:45.840 --> 00:01:50.560
 <v Mat>Das wäre jetzt, wenn Ingo nicht in der Thematik drin wäre, der Moment würde er sagen würde, Gesundheit.
@@ -97,7 +97,7 @@ WEBVTT
 <v Felix>und kann klein sein und diese Sachen tun.
 
 00:02:28.960 --> 00:02:33.120
-<v Felix>Und die haben gesagt, okay, wir machen jetzt Butterfest, also letztes Jahr noch.
+<v Felix>Und die haben gesagt, okay, wir machen jetzt btrfs, also letztes Jahr noch.
 
 00:02:34.080 --> 00:02:40.160
 <v Felix>Und dann haben die das quasi in ihrer, quasi an die Leute ausgerollt und die ganzen Leute,
@@ -109,7 +109,7 @@ WEBVTT
 <v Felix>Und es deckt sich auch ein bisschen mit meiner, quasi mit dem,
 
 00:02:51.440 --> 00:02:53.120
-<v Felix>was ich mit Butterfest ausprobiert habe.
+<v Felix>was ich mit btrfs ausprobiert habe.
 
 00:02:53.200 --> 00:02:55.600
 <v Felix>Das war nämlich auch langsam und kaputt.
@@ -127,7 +127,7 @@ WEBVTT
 <v Felix>Und wo du dann quasi ganz viele andere Sachen drauf hast, die da alle auf deine Festplatte schreiben.
 
 00:03:13.360 --> 00:03:18.560
-<v Felix>Und die haben dann ja auch quasi alle ButterFS als unterliegendes Dateisystem.
+<v Felix>Und die haben dann ja auch quasi alle btrfs als unterliegendes Dateisystem.
 
 00:03:18.640 --> 00:03:20.880
 <v Felix>Und wenn es dann kaputt ist, ist es nicht gut.
@@ -154,7 +154,7 @@ WEBVTT
 <v Felix>Du hast dein echtes Betriebs, äh, dein echtes Image und dann legst du darüber,
 
 00:03:56.000 --> 00:04:01.680
-<v Felix>zum Beispiel in die RAM-Disks, legst du dir dein aktuelles Pfeilsystem und dann schreibst du da was drauf und
+<v Felix>zum Beispiel in die RAM-Disks, legst du dir dein aktuelles Dateisystem und dann schreibst du da was drauf und
 
 00:04:01.680 --> 00:04:05.680
 <v Felix>wenn es im RAM ist, dann ist es beim nächsten Neustarten einfach wieder weg.
@@ -163,7 +163,7 @@ WEBVTT
 <v Felix>Du kannst es weiter so verwenden.
 
 00:04:07.920 --> 00:04:12.080
-<v Felix>Aber du kannst drauf schreiben und es fühlt sich an wie ein echtes Fallsystem.
+<v Felix>Aber du kannst drauf schreiben und es fühlt sich an wie ein echtes Dateisystem.
 
 00:04:12.240 --> 00:04:12.400
 <v Felix>Okay.
@@ -190,10 +190,10 @@ WEBVTT
 <v Felix>Deswegen Overlay.
 
 00:04:30.480 --> 00:04:35.200
-<v Felix>Und das ist jetzt, haben sie jetzt hergenommen zusammen mit X4, anstatt ButterFS,
+<v Felix>Und das ist jetzt, haben sie jetzt hergenommen zusammen mit ext4, anstatt btrfs,
 
 00:04:35.440 --> 00:04:40.800
-<v Felix>weil X4 schnell ist und Overlay FS quasi kein Overhead hat, sondern einfach nur diese eine Funktionalität
+<v Felix>weil ext4 schnell ist und OverlayFS quasi kein Overhead hat, sondern einfach nur diese eine Funktionalität
 
 00:04:40.800 --> 00:04:41.920
 <v Felix>bereitstellt, die sie brauchen.
@@ -202,7 +202,7 @@ WEBVTT
 <v Mat>Nämlich, und damit sind sie jetzt sozusagen feature-technisch genau an der gleichen Stelle wie mit dem,
 
 00:04:47.200 --> 00:04:50.000
-<v Mat>was sie von ButterFS hätten haben wollen, aber schneller.
+<v Mat>was sie von btrfs hätten haben wollen, aber schneller.
 
 00:04:50.400 --> 00:04:53.200
 <v Felix>Genau, und Stable halt, das ist ja das Interessante.
@@ -796,7 +796,7 @@ WEBVTT
 <v Mat>Ja, auf jeden Fall.
 
 00:14:14.000 --> 00:14:19.360
-<v Mat>Gleichzeitig ist es natürlich, also speziell, wenn Leute wie wir jetzt irgendwie so sich so nass zulegen,
+<v Mat>Gleichzeitig ist es natürlich, also speziell, wenn Leute wie wir jetzt irgendwie so sich so NAS zulegen,
 
 00:14:19.520 --> 00:14:22.480
 <v Mat>es ist natürlich verlockend oder es ist eigentlich das Normalste der Welt,
@@ -2077,7 +2077,7 @@ WEBVTT
 <v Mat>Wir hatten, glaube ich, schon über alle möglichen Dinge geredet, die so mit Windows 10 neu sein sollen.
 
 00:34:47.170 --> 00:34:53.730
-<v Mat>Mit ja, okay, diese Metro-Oberfläche, die wird jetzt verkleinert und wird das neue Start-Müten links und
+<v Mat>Mit ja, okay, diese Metro-Oberfläche, die wird jetzt verkleinert und wird das neue Start-Menü links und
 
 00:34:53.730 --> 00:34:55.890
 <v Mat>ansonsten ist wieder alles irgendwie so wie früher.
@@ -2338,7 +2338,7 @@ WEBVTT
 <v Mat>Nee, du nicht, weil du hier so Linux hast.
 
 00:39:03.970 --> 00:39:06.130
-<v Felix>Ich habe dieses Lunx-Frickel-System, das würde eh nichts.
+<v Felix>Ich habe dieses Linux-Frickel-System, das würde eh nichts.
 
 00:39:06.690 --> 00:39:12.450
 <v Mat>Kannst mal einfach eine Mail schicken und sagen, hier, also ich hätte gern gern quasi.
@@ -3121,7 +3121,7 @@ WEBVTT
 <v Mat>die noch nicht mal Standard sind, also in der lokalen, in der Kommunikation mit dem Telefon.
 
 00:52:16.550 --> 00:52:20.950
-<v Mat>Dann der Schmidtlauch erwähnt gerade im Chat, die machen User Agent Sniffing.
+<v Mat>Dann der Schmittlauch erwähnt gerade im Chat, die machen User Agent Sniffing.
 
 00:52:21.110 --> 00:52:24.310
 <v Mat>Das heißt, es funktioniert nur, wenn du hast es im Chromium.
@@ -3136,7 +3136,7 @@ WEBVTT
 <v Mat>Hast du deinen User-Agent irgendwie verändert?
 
 00:52:29.430 --> 00:52:33.430
-<v Mat>Weil der Schmidtlauch erwähnt gerade im Chat, dass man, wenn man Chromium benutzt,
+<v Mat>Weil der Schmittlauch erwähnt gerade im Chat, dass man, wenn man Chromium benutzt,
 
 00:52:33.510 --> 00:52:36.310
 <v Mat>dass es nicht geht und wenn man dann den User Agent auf Chrome umsetzt,
@@ -3175,7 +3175,7 @@ WEBVTT
 <v Felix>Na gut, so ist es halt.
 
 00:52:52.550 --> 00:52:55.190
-<v Mat>Okay, vielleicht hat sich der Schmidtlauch da auch nicht mehr so gut.
+<v Mat>Okay, vielleicht hat sich der Schmittlauch da auch nicht mehr so gut.
 
 00:52:55.830 --> 00:52:56.870
 <v Felix>Nee, nee, ist genau richtig.
@@ -3319,7 +3319,7 @@ WEBVTT
 <v Felix>Was jetzt dabei die Besonderheit ist, die Schwachstelle gibt es, äh,
 
 00:55:32.870 --> 00:55:37.110
-<v Felix>ist vor zwei Jahren im Könner gepatcht worden, aber alle
+<v Felix>ist vor zwei Jahren im Kernel gepatcht worden, aber alle
 
 00:55:37.430 --> 00:55:42.630
 <v Felix>Long-Term-Support-Distributionen, so wie Red Hat 5,
@@ -3370,7 +3370,7 @@ WEBVTT
 <v Felix>Aber es ist quasi schlimm genug, dass alle Services, die gegen die Gilip
 
 00:56:46.070 --> 00:56:51.030
-<v Felix>Cebind, also quasi die Gilip C hernehmen,
+<v Felix>Cebind, also quasi die glibc hernehmen,
 
 00:56:51.270 --> 00:56:53.510
 <v Felix>dass die potenziell angreifbar sind.
@@ -3385,10 +3385,10 @@ WEBVTT
 <v Felix>Das heißt, jetzt musst du dafür sorgen, dass diese ganzen Services,
 
 00:57:09.270 --> 00:57:16.150
-<v Felix>die alle Digilibc hernehmen, dass die entweder neu gestartet werden oder und du
+<v Felix>die alle glibc hernehmen, dass die entweder neu gestartet werden oder und du
 
 00:57:16.150 --> 00:57:19.990
-<v Felix>hast das Problem, dass dein Kernel ja quasi auch noch gegen Digilibc bindet.
+<v Felix>hast das Problem, dass dein Kernel ja quasi auch noch gegen glibc bindet.
 
 00:57:20.070 --> 00:57:22.310
 <v Felix>Das heißt, eigentlich musst du ihn neu starten, komplett.
@@ -3433,7 +3433,7 @@ WEBVTT
 <v Mat>Bist safe da, aber hast du andere Probleme.
 
 00:58:11.510 --> 00:58:14.710
-<v Felix>Der Schmidtloch meint, dass der Körner vielleicht die GDPC nicht hernimmt,
+<v Felix>Der Schmittlauch meint, dass der Kernel vielleicht die glibc nicht hernimmt,
 
 00:58:15.030 --> 00:58:16.710
 <v Felix>aber es bin mir gar nicht so sicher.
@@ -3481,7 +3481,7 @@ WEBVTT
 <v Felix>Wenn ihr zum Beispiel einen Laptop habt, dann wird das garantiert kein Problem von euch sein,
 
 00:59:00.710 --> 00:59:05.830
-<v Felix>außer ihr habt einen ATS-Kernel oder ein ATS-Distribution.
+<v Felix>außer ihr habt einen LTS-Kernel oder ein LTS-Distribution.
 
 00:59:07.270 --> 00:59:09.030
 <v Felix>Und tja.
@@ -3508,7 +3508,7 @@ WEBVTT
 <v Felix>Oh ja, wir haben noch mehr Sachen, die kaputt sind.
 
 00:59:24.550 --> 00:59:27.590
-<v Felix>Erst der Linux-Körner, jetzt haben wir das Blackphone.
+<v Felix>Erst der Linux-Kernel, jetzt haben wir das Blackphone.
 
 00:59:27.750 --> 00:59:32.070
 <v Felix>Das Blackphone war dieser super Security Android-Phone,
@@ -4624,7 +4624,7 @@ WEBVTT
 <v Felix>Genau.
 
 01:18:29.210 --> 01:18:29.930
-<v Felix>Laserfu.
+<v Felix>Lesefoo.
 
 01:18:30.410 --> 01:18:32.570
 <v Felix>Oh, wir haben keine Themen diesmal.
@@ -5161,7 +5161,7 @@ WEBVTT
 <v Felix>So, was haben wir als nächstes?
 
 01:28:14.130 --> 01:28:15.170
-<v Mat>So, jetzt Lesefu.
+<v Mat>So, jetzt Lesefoo.
 
 01:28:15.490 --> 01:28:17.010
 <v Mat>Also Themen haben wir jetzt durch.
@@ -5404,7 +5404,7 @@ WEBVTT
 <v Mat>So, also GitHub-Blogposts, cooles Thema.
 
 01:32:57.410 --> 01:33:04.210
-<v Felix>So, ich habe auch noch ein Lesefuch und zwar nennt er sich Super Resolution from a Single
+<v Felix>So, ich habe auch noch ein Lesefoo und zwar nennt er sich Super Resolution from a Single
 
 01:33:04.210 --> 01:33:04.770
 <v Felix>Image.

@@ -10,7 +10,7 @@ WEBVTT
 <v Marc>Mit mir, Marc, und mit Fley.
 
 00:00:26.080 --> 00:00:28.720
-<v Pfleidi>Ich bin der FlyD, wie immer aus Seattle.
+<v Pfleidi>Ich bin der Pfleidi, wie immer aus Seattle.
 
 00:00:29.120 --> 00:00:31.920
 <v Pfleidi>Marc sitzt immer noch im schönen Menlo Park.
@@ -76,7 +76,7 @@ WEBVTT
 <v Marc>was Docker, ich sag mal, am Leben hält.
 
 00:01:36.800 --> 00:01:38.080
-<v Marc>Warum denn, FlyDy?
+<v Marc>Warum denn, Pfleidi?
 
 00:01:38.320 --> 00:01:39.200
 <v Marc>Du hast es vorgeschlagen.
@@ -535,7 +535,7 @@ WEBVTT
 <v Marc>irgendeiner Bash oder sowas in der Art, wenn du nicht per SSH einloggst.
 
 00:12:25.360 --> 00:12:30.720
-<v Marc>Und du kannst dem Linux-Körner halt sagen, okay, wenn jemand fragt,
+<v Marc>Und du kannst dem Linux-Kernel halt sagen, okay, wenn jemand fragt,
 
 00:12:30.960 --> 00:12:35.600
 <v Marc>unterhalb von dieser Bash-Shell, mit der sich gerade der Benutzer eingeloggt hat oder unterhalb von diesem
@@ -820,7 +820,7 @@ WEBVTT
 <v Marc>geändert.
 
 00:18:40.400 --> 00:18:46.320
-<v Marc>Das geht von AUFS über ButterFS, VFS, Device Mapper.
+<v Marc>Das geht von AUFS über btrfs, VFS, Device Mapper.
 
 00:18:46.880 --> 00:18:50.160
 <v Marc>Also gibt es verschiedene Möglichkeiten, das Ganze so einzurichten.
@@ -835,7 +835,7 @@ WEBVTT
 <v Marc>Die sind teilweise ist es einfach nur so, wie sichtbar sie wirklich für ein Kernel sind.
 
 00:19:04.960 --> 00:19:10.560
-<v Marc>Also ButterFS ist halt so standardneues Dateisystem und es kann auch diese Snapshots und Overlay-Geschichten
+<v Marc>Also btrfs ist halt so standardneues Dateisystem und es kann auch diese Snapshots und Overlay-Geschichten
 
 00:19:10.560 --> 00:19:11.760
 <v Marc>quasi ganz gut machen.
@@ -1027,7 +1027,7 @@ WEBVTT
 <v Pfleidi>wir haben eine, keine Ahnung, einen WordPress.
 
 00:23:30.970 --> 00:23:35.530
-<v Pfleidi>Und dieses WordPress greift auf eine ISQL-Datenbank zu, die in einem anderen Container läuft.
+<v Pfleidi>Und dieses WordPress greift auf eine MySQL-Datenbank zu, die in einem anderen Container läuft.
 
 00:23:35.850 --> 00:23:40.330
 <v Pfleidi>Dann kann es halt passieren, dass man irgendwie vielleicht dagegen irgendwelche Tests direkt laufen lassen
@@ -1195,7 +1195,7 @@ WEBVTT
 <v Pfleidi>Clinken.
 
 00:27:45.450 --> 00:27:48.170
-<v Marc>Like Muscle oder Mulib C.
+<v Marc>Like musl oder Mulib C.
 
 00:27:48.490 --> 00:27:50.250
 <v Marc>Ich glaube, sie haben BusyBox, haben sie.
@@ -2428,16 +2428,16 @@ WEBVTT
 <v Marc>Ich glaube, die sind da auch hinterher, dass sie so Lösungen haben wollen.
 
 00:54:48.050 --> 00:54:52.130
-<v Pfleidi>Genau, also keine Ahnung, eine Sache, die ich vielleicht noch ansprechen wollte, ist Doku.
+<v Pfleidi>Genau, also keine Ahnung, eine Sache, die ich vielleicht noch ansprechen wollte, ist Dokku.
 
 00:54:53.810 --> 00:54:54.530
 <v Pfleidi>Ist ziemlich cool.
 
 00:54:54.690 --> 00:54:55.490
-<v Pfleidi>Was ist denn Doku?
+<v Pfleidi>Was ist denn Dokku?
 
 00:54:55.890 --> 00:55:00.530
-<v Pfleidi>Doku ist ein ganz nettes Projekt, was irgendwie total abgefahrene Dinge tut.
+<v Pfleidi>Dokku ist ein ganz nettes Projekt, was irgendwie total abgefahrene Dinge tut.
 
 00:55:00.610 --> 00:55:04.290
 <v Pfleidi>Und zwar ist es so, sag mal, du hast jetzt hier so einen VPS laufen,
@@ -2454,11 +2454,14 @@ WEBVTT
 00:55:15.010 --> 00:55:17.250
 <v Pfleidi>Willst da irgendwelche Apps drauf laufen lassen?
 
-00:55:17.490 --> 00:55:22.690
-<v Pfleidi>Dann kannst du sagen, ach ja, ich schieße mir da jetzt irgendwie Linux-VPS, ich installiere mir da Doku drauf.
+00:55:17.490 --> 00:55:20.690
+<v Pfleidi>Dann kannst du sagen, ach ja, ich schieße mir da jetzt irgendwie Linux-VPS,
+
+00:55:20.770 --> 00:55:22.690
+<v Pfleidi>ich installiere mir da Dokku drauf.
 
 00:55:23.490 --> 00:55:28.770
-<v Pfleidi>Was Doku dann macht, ist, es installiert irgendwie die Dependencies, die es braucht.
+<v Pfleidi>Was Dokku dann macht, ist, es installiert irgendwie die Dependencies, die es braucht.
 
 00:55:29.090 --> 00:55:33.570
 <v Pfleidi>Es bietet dir dann irgendwie einen Git-Endpunkt an und solche Dinge.
@@ -2479,7 +2482,7 @@ WEBVTT
 <v Pfleidi>Was du dann machst, ist, du kannst dann irgendwie über einen Command-Date-Utility sagen,
 
 00:55:51.250 --> 00:55:53.410
-<v Pfleidi>auch jetzt hier Doku, erstell mir doch mal eine App.
+<v Pfleidi>auch jetzt hier Dokku, erstell mir doch mal eine App.
 
 00:55:53.650 --> 00:56:00.130
 <v Pfleidi>Gib mir mal eine App, dann kriegst du da irgendwie ein Git, eine Git-URL, womit du dann Dinge tun kannst.
@@ -2494,13 +2497,13 @@ WEBVTT
 <v Pfleidi>Und dann kannst du da quasi relativ ähnlich wie das jetzt bei zum Beispiel bei Services wie Heroku passiert,
 
 00:56:13.330 --> 00:56:18.930
-<v Pfleidi>kannst du da sagen, du fügst jetzt irgendwie als weiteres Git Remote fügst du dein Doku-Remote hinzu.
+<v Pfleidi>kannst du da sagen, du fügst jetzt irgendwie als weiteres Git Remote fügst du dein Dokku-Remote hinzu.
 
 00:56:19.250 --> 00:56:24.050
-<v Pfleidi>Du kannst dann den Content da committen, du pushst dein Git Repository an Doku.
+<v Pfleidi>Du kannst dann den Content da committen, du pushst dein Git Repository an Dokku.
 
 00:56:24.610 --> 00:56:29.730
-<v Pfleidi>Doku erkennt das und triggert dann quasi durch diesen Push
+<v Pfleidi>Dokku erkennt das und triggert dann quasi durch diesen Push
 
 00:56:32.210 --> 00:56:34.530
 <v Pfleidi>einen Deployment von deiner Applikation.
@@ -2518,22 +2521,22 @@ WEBVTT
 <v Marc>Ruby weiß ich, ich ist immer Bundler install und dann mache ich irgendwie Rake DBMigrate oder so.
 
 00:56:49.810 --> 00:56:50.530
-<v Marc>Wie macht es Doku?
+<v Marc>Wie macht es Dokku?
 
 00:56:50.690 --> 00:56:51.970
-<v Marc>Kann Doku irgendwie was unterstützen?
+<v Marc>Kann Dokku irgendwie was unterstützen?
 
 00:56:52.690 --> 00:56:57.090
-<v Pfleidi>Doku unterstützt Heroku Builds, äh, wie heißen die Buildpacks?
+<v Pfleidi>Dokku unterstützt Heroku Builds, äh, wie heißen die Buildpacks?
 
 00:56:57.650 --> 00:56:59.650
-<v Pfleidi>Ich glaube, das unterstützt Doku.
+<v Pfleidi>Ich glaube, das unterstützt Dokku.
 
 00:56:59.890 --> 00:57:03.010
 <v Pfleidi>Und soweit ich weiß, sind diese, sind diese Buildpacks Open Source.
 
 00:57:03.810 --> 00:57:09.330
-<v Pfleidi>Und Doku benutzt ein weiteres Utility, das nennt sich Heroku-Isch.
+<v Pfleidi>Und Dokku benutzt ein weiteres Utility, das nennt sich Herokuish.
 
 00:57:09.890 --> 00:57:13.170
 <v Pfleidi>Und das unterstützt quasi diese Buildpacks genauso.
@@ -2563,13 +2566,13 @@ WEBVTT
 <v Marc>Und das standardmäßig ist es als HTTP, also als HTTP-Stat-System.
 
 00:57:57.730 --> 00:58:03.250
-<v Pfleidi>Ja, also Doku ist sehr stark darauf optimiert, dass da Webanwendungen drauf laufen.
+<v Pfleidi>Ja, also Dokku ist sehr stark darauf optimiert, dass da Webanwendungen drauf laufen.
 
 00:58:03.330 --> 00:58:04.370
 <v Pfleidi>Das muss man vielleicht auch sagen.
 
 00:58:04.450 --> 00:58:07.730
-<v Pfleidi>Ich glaube, das habe ich auch schon als Kritik Doku gegenüber gehört,
+<v Pfleidi>Ich glaube, das habe ich auch schon als Kritik Dokku gegenüber gehört,
 
 00:58:07.810 --> 00:58:12.930
 <v Pfleidi>dass wenn du jetzt irgendwelche Sachen bauen willst, die jetzt nicht als HTTP-Endpunkt agieren,
@@ -2590,7 +2593,7 @@ WEBVTT
 <v Pfleidi>Du sagst dann halt hier irgendwie, du installierst dir das Plugin, du sagst,
 
 00:58:27.330 --> 00:58:32.930
-<v Pfleidi>ja, ich hätte jetzt übrigens gerne SSL für diese Apps und Doku
+<v Pfleidi>ja, ich hätte jetzt übrigens gerne SSL für diese Apps und Dokku
 
 00:58:34.290 --> 00:58:39.970
 <v Pfleidi>macht dann gleich die notwendige Let's Encrypt-Magik, um dir dein, lädt dir deine SSL-Zertifikate runter,
@@ -2752,7 +2755,7 @@ WEBVTT
 <v Marc>Ihr macht es eh den ganzen Tag, dann macht es doch auch so.
 
 01:01:46.370 --> 01:01:49.810
-<v Marc>Und dann weiß ich noch, Doku war dann irgendwie auf Hackenews kannst du halt auch hoch,
+<v Marc>Und dann weiß ich noch, Dokku war dann irgendwie auf Hackenews kannst du halt auch hoch,
 
 01:01:49.890 --> 01:01:53.090
 <v Marc>so ja, Heroku, aber ich glaube, damit hat es manchmal ein Shell-Skript.
@@ -2763,17 +2766,17 @@ WEBVTT
 01:01:55.890 --> 01:01:56.850
 <v Marc>Ja, jetzt ein bisschen größer.
 
-01:01:57.170 --> 01:02:03.490
-<v Pfleidi>Also es gibt, glaube ich, dann auch noch ein Doku alt, was dann irgendwie nochmal vielleicht ein paar neu mehr
+01:01:57.170 --> 01:02:03.250
+<v Pfleidi>Also es gibt, glaube ich, dann auch noch ein Dokku alt, was dann irgendwie nochmal vielleicht ein paar neu
 
-01:02:03.490 --> 01:02:04.290
-<v Pfleidi>Features hat oder so.
+01:02:03.250 --> 01:02:04.290
+<v Pfleidi>mehr Features hat oder so.
 
 01:02:04.370 --> 01:02:06.290
 <v Pfleidi>Ich habe mir das noch gar nicht so genau angeguckt.
 
 01:02:06.690 --> 01:02:10.210
-<v Pfleidi>Ich glaube, Doku selber wird jetzt nicht mehr so super aktiv weiterentwickelt.
+<v Pfleidi>Ich glaube, Dokku selber wird jetzt nicht mehr so super aktiv weiterentwickelt.
 
 01:02:11.170 --> 01:02:11.490
 <v Pfleidi>Ja.
@@ -2995,7 +2998,7 @@ WEBVTT
 <v Pfleidi>und du musst halt jetzt nicht irgendwie zwei Tage rummachen, um irgendwie Abhängigkeiten zu installieren und
 
 01:06:33.410 --> 01:06:40.290
-<v Pfleidi>dann die richtige Version von LibxML auf deinem Computer zu haben, um dann irgendwie Nokugiri in einer
+<v Pfleidi>dann die richtige Version von LibxML auf deinem Computer zu haben, um dann irgendwie Nokogiri in einer
 
 01:06:40.290 --> 01:06:41.970
 <v Pfleidi>alten Rails-Applikation.
@@ -3010,7 +3013,7 @@ WEBVTT
 <v Pfleidi>Ja, wir müssten noch.
 
 01:06:53.170 --> 01:06:56.930
-<v Marc>Nokugiri besonders, weil LibXSLT und LibXML waren immer.
+<v Marc>Nokogiri besonders, weil LibXSLT und LibXML waren immer.
 
 01:06:57.970 --> 01:06:59.410
 <v Pfleidi>Es waren schon immer unsere Freunde.
@@ -3289,7 +3292,7 @@ WEBVTT
 <v Marc>Und ich hoffe jetzt mal, dieses Mal wird es besser.
 
 01:11:13.810 --> 01:11:14.610
-<v Marc>Lesefu.
+<v Marc>Lesefoo.
 
 01:11:18.130 --> 01:11:20.130
 <v Pfleidi>Das ist jetzt natürlich so ein bisschen ungeordnet.
@@ -4297,7 +4300,7 @@ WEBVTT
 <v Marc>Es kommt am 7.
 
 01:32:51.410 --> 01:32:55.170
-<v Marc>Oktober rauf, heißt Seeking SRI im ORADI-Verlag.
+<v Marc>Oktober rauf, heißt Seeking SRE im O'Reilly-Verlag.
 
 01:32:55.250 --> 01:32:59.890
 <v Marc>Es gab ja dieses SRI-Buch, das im Grunde bei O'Radi rauskam und größte das beschrieben hat,

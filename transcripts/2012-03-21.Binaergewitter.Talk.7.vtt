@@ -124,7 +124,7 @@ WEBVTT
 <v Ingo>Hallo.
 
 00:01:35.600 --> 00:01:36.160
-<v Ingo>Fleidi.
+<v Ingo>Pfleidi.
 
 00:01:36.560 --> 00:01:36.800
 <v Ingo>Hallo.
@@ -928,7 +928,7 @@ WEBVTT
 <v Felix>MM kommt jetzt auch auf GitHub.
 
 00:14:27.680 --> 00:14:29.200
-<v Pfleidi>M  ⁇ M kommt auch auf GitHub.
+<v Pfleidi>M&amp;M kommt auch auf GitHub.
 
 00:14:29.840 --> 00:14:30.880
 <v Ingo>Wir packen alles auf GitHub.
@@ -1021,7 +1021,7 @@ WEBVTT
 <v Ingo>jeder einbauen.
 
 00:16:18.080 --> 00:16:22.080
-<v Pfleidi>Ja, und dann wäre es halt immer noch ein schlechterer Stand, ein schlechterer Codik als H264,
+<v Pfleidi>Ja, und dann wäre es halt immer noch ein schlechterer Stand, ein schlechterer Codec als H264,
 
 00:16:22.160 --> 00:16:23.040
 <v Pfleidi>das ist halt das Problem.
@@ -1042,7 +1042,7 @@ WEBVTT
 <v Pfleidi>Also ich habe da auch gelernt, dieses Projekt zu hassen, als ich da mal eine Präsentation dazu vorbereitet
 
 00:16:39.920 --> 00:16:46.240
-<v Pfleidi>habe, weil wir mussten halt auch irgendwie verstehen, wie dieser Codik funktioniert und die Dokumentation
+<v Pfleidi>habe, weil wir mussten halt auch irgendwie verstehen, wie dieser Codec funktioniert und die Dokumentation
 
 00:16:46.560 --> 00:16:52.000
 <v Pfleidi>besteht quasi nur aus Code-Schnipseln von ihrem handoptimierten C-Code und ein bisschen Text außenrum.
@@ -1447,7 +1447,7 @@ WEBVTT
 <v Ingo>Bunsenbrenner.
 
 00:23:07.590 --> 00:23:10.870
-<v Ingo>Flyy packt jetzt seinen Bunsen, seinen Mini-Bunsenbrenner aus.
+<v Ingo>Pfleidi packt jetzt seinen Bunsen, seinen Mini-Bunsenbrenner aus.
 
 00:23:11.110 --> 00:23:11.750
 <v Ingo>Passt schon.
@@ -2638,7 +2638,7 @@ WEBVTT
 <v Ingo>Muss ich Testing anmachen.
 
 00:42:02.110 --> 00:42:03.390
-<v Marc>ButterFS haben sie ein bisschen.
+<v Marc>Btrfs haben sie ein bisschen.
 
 00:42:03.870 --> 00:42:10.190
 <v Pfleidi>Genau, also man kann jetzt Restriping performanter machen und Debugging-Tools und so.
@@ -2650,7 +2650,7 @@ WEBVTT
 <v Pfleidi>da haben sie ein bisschen über ZFS geredet.
 
 00:42:18.510 --> 00:42:23.630
-<v Pfleidi>Und ButterFS ist ja quasi auch ähnlich strukturiert, nur dass es halt auf
+<v Pfleidi>Und btrfs ist ja quasi auch ähnlich strukturiert, nur dass es halt auf
 
 00:42:25.150 --> 00:42:28.350
 <v Pfleidi>Copy and Write-fähigen Binary-Trees aufbaut.
@@ -2734,13 +2734,13 @@ WEBVTT
 <v Felix>Kann ich dir das haben.
 
 00:43:34.830 --> 00:43:38.830
-<v Marc>Das ist aber, also wie gesagt, Sven, also normalerweise brauchst du ja so FSTK-Sachen,
+<v Marc>Das ist aber, also wie gesagt, Sven, also normalerweise brauchst du ja so fsck-Sachen,
 
 00:43:38.990 --> 00:43:44.990
 <v Marc>wenn der dir im Replay-Log irgendwie so in einem halb komisch konsistenten Zustand ist.
 
 00:43:45.310 --> 00:43:50.750
-<v Marc>Aber da bei ButterFS niemals Daten überschrieben werden, kannst du ja nicht auch davon ausgehen,
+<v Marc>Aber da bei btrfs niemals Daten überschrieben werden, kannst du ja nicht auch davon ausgehen,
 
 00:43:50.830 --> 00:43:54.190
 <v Marc>dass diese eine atomare Operation das Einzige ist, was kaputt gehen kann.
@@ -2776,7 +2776,7 @@ WEBVTT
 <v Pfleidi>weil normalerweise haben die damit Probleme.
 
 00:44:26.430 --> 00:44:29.790
-<v Pfleidi>Und darauf basiert halt alles in ButterFS.
+<v Pfleidi>Und darauf basiert halt alles in btrfs.
 
 00:44:30.110 --> 00:44:31.070
 <v Pfleidi>Also wirklich alles.
@@ -2791,7 +2791,7 @@ WEBVTT
 <v Felix>Sehr schön.
 
 00:44:37.070 --> 00:44:39.230
-<v Felix>Und achso, kann man jetzt ButterFS schon benutzen?
+<v Felix>Und achso, kann man jetzt btrfs schon benutzen?
 
 00:44:39.310 --> 00:44:42.190
 <v Felix>Das hatten wir schon wieder vor zwei Jahren oder so, hatten wir es ja bestimmt schon mal angesprochen.
@@ -2827,7 +2827,7 @@ WEBVTT
 <v Pfleidi>Okay.
 
 00:45:00.670 --> 00:45:03.550
-<v Felix>Aber ButterFS, wenn die es benutzen, dann muss es gut sein.
+<v Felix>Aber btrfs, wenn die es benutzen, dann muss es gut sein.
 
 00:45:03.710 --> 00:45:09.790
 <v Ingo>Also sonst, ich glaube, Fedora hat sich dagegen entschieden, das jetzt zu benutzen als Standarddateisystem.
@@ -2839,13 +2839,13 @@ WEBVTT
 <v Felix>Das heißt, das ist schon relativ weit, dass man das quasi überlegen kann.
 
 00:45:15.390 --> 00:45:18.350
-<v Marc>Das Coolste ist natürlich, dass du ButterfS gar nicht erneu aufsetzen musst,
+<v Marc>Das Coolste ist natürlich, dass du btrfs gar nicht erneu aufsetzen musst,
 
 00:45:18.430 --> 00:45:22.590
 <v Marc>sondern du kannst ein vorhandenes X3- oder X4-Dateisystem on the fly,
 
 00:45:22.670 --> 00:45:29.070
-<v Marc>X2, ja klar, ist ja auch on the fly in ButterFS umwandeln und der behält deinen originalen
+<v Marc>X2, ja klar, ist ja auch on the fly in btrfs umwandeln und der behält deinen originalen
 
 00:45:29.710 --> 00:45:32.990
 <v Marc>Stand von deinem Originalsystem quasi als ersten Snapshot zurück.
@@ -2862,11 +2862,11 @@ WEBVTT
 00:45:44.030 --> 00:45:44.830
 <v Marc>Das ist ein super Talk.
 
-00:45:44.990 --> 00:45:49.070
-<v Marc>Auf jeden Fall kannst du dann quasi sagen, ich will es ButterFS machen und nach drei Tagen hast du so ein
+00:45:44.990 --> 00:45:49.390
+<v Marc>Auf jeden Fall kannst du dann quasi sagen, ich will es btrfs machen und nach drei Tagen hast du so ein Ziepen
 
-00:45:49.070 --> 00:45:52.990
-<v Marc>Ziepen in der Leiste entgegen und sagst, ah, Butter FS, mag ich nicht mehr.
+00:45:49.470 --> 00:45:52.990
+<v Marc>in der Leiste entgegen und sagst, ah, btrfs, mag ich nicht mehr.
 
 00:45:53.230 --> 00:45:55.870
 <v Marc>Dann kannst du quasi alles, was du in den letzten drei Tagen gemacht hast,
@@ -2887,7 +2887,7 @@ WEBVTT
 <v Felix>Ich glaube, ich brauche das auch.
 
 00:46:09.310 --> 00:46:14.430
-<v Ingo>Aber ich meine so, so ButterFS eigentlich, also auf dem Laptop bräuchte ich es jetzt zum Beispiel nicht.
+<v Ingo>Aber ich meine so, so btrfs eigentlich, also auf dem Laptop bräuchte ich es jetzt zum Beispiel nicht.
 
 00:46:14.910 --> 00:46:16.510
 <v Felix>Snapshots, Snapshots sind so.
@@ -3082,7 +3082,7 @@ WEBVTT
 <v Marc>Ja.
 
 00:49:07.310 --> 00:49:09.550
-<v Felix>Jedenfalls ButterFS ist super awesome.
+<v Felix>Jedenfalls btrfs ist super awesome.
 
 00:49:09.630 --> 00:49:10.750
 <v Felix>Ich brauche das, glaube ich, einfach.
@@ -3091,7 +3091,7 @@ WEBVTT
 <v Felix>Ja.
 
 00:49:11.470 --> 00:49:15.310
-<v Marc>Wobei, ich habe, leider gibt es keinen Migrationsfall XFS nach ButterFS,
+<v Marc>Wobei, ich habe, leider gibt es keinen Migrationsfall XFS nach btrfs,
 
 00:49:15.390 --> 00:49:17.310
 <v Marc>sonst hätte ich es mir auf dem Heimserver einfach mal drauf gemacht,
@@ -3121,7 +3121,7 @@ WEBVTT
 <v Ingo>Ja, aber du willst alles in einem haben.
 
 00:49:34.110 --> 00:49:36.990
-<v Ingo>LVM, Raid und Fallsystem zusammen.
+<v Ingo>LVM, Raid und Dateisystem zusammen.
 
 00:49:37.230 --> 00:49:37.550
 <v Ingo>Genau.
@@ -3172,7 +3172,7 @@ WEBVTT
 <v Marc>Das ist ja wahrscheinlich auch gar nicht, dass die das nicht wollen, sondern das halt einfach nicht können.
 
 00:50:30.030 --> 00:50:36.510
-<v Felix>Also ich glaube, du kannst plus X3 und X4 Handlauern fixen mit Butterfest.
+<v Felix>Also ich glaube, du kannst plus X3 und X4 Handlauern fixen mit btrfs.
 
 00:50:36.670 --> 00:50:37.390
 <v Felix>Ich habe es gerade nochmal gelesen.
@@ -3331,7 +3331,7 @@ WEBVTT
 <v Marc>Cebo.
 
 00:52:45.150 --> 00:52:47.550
-<v Felix>Oder er macht doch jetzt ButterFS drauf, wo das jetzt super stable ist.
+<v Felix>Oder er macht doch jetzt btrfs drauf, wo das jetzt super stable ist.
 
 00:52:47.790 --> 00:52:48.750
 <v Pfleidi>Das läuft aber halt auf dem Mac.
@@ -3378,11 +3378,11 @@ WEBVTT
 00:53:18.030 --> 00:53:20.670
 <v Ingo>Naja, der Steve Jobs hat gesagt, wenn, dann musst du hier aber dein Problem.
 
-00:53:21.710 --> 00:53:27.630
-<v Pfleidi>Ja, der wollte den halt als Kernel-Entwickler für MacOS 10 einstellen und der Torwals hat halt ein Problem mit
+00:53:21.710 --> 00:53:27.470
+<v Pfleidi>Ja, der wollte den halt als Kernel-Entwickler für MacOS 10 einstellen und der Torvalds hat halt ein Problem
 
-00:53:27.630 --> 00:53:29.630
-<v Pfleidi>dem Mach-Kernel, der hat da keine Lust drauf.
+00:53:27.470 --> 00:53:29.630
+<v Pfleidi>mit dem Mach-Kernel, der hat da keine Lust drauf.
 
 00:53:32.110 --> 00:53:38.830
 <v Pfleidi>Ja, genau, und der Mac-Kernel ist halt so ein Hybrid-System aus einem Mach-Microkernel und einem BSD-Kernel,
@@ -3394,7 +3394,7 @@ WEBVTT
 <v Marc>Das ist, er hat eben ein Problem nicht direkt mit Mach, sondern mit Mikrokernels generell.
 
 00:53:42.270 --> 00:53:43.870
-<v Marc>Da gab es diese Tannenbaum-Torwals.
+<v Marc>Da gab es diese Tannenbaum-Torvalds.
 
 00:53:44.590 --> 00:53:45.790
 <v Ingo>So wie es angefangen hat.
@@ -3493,7 +3493,7 @@ WEBVTT
 <v Marc>Roundcube sieht ganz okay aus.
 
 00:55:23.550 --> 00:55:27.790
-<v Pfleidi>Oder man hat halt irgendwie dieses Zaraffergeraffel, was dann wiederum aussieht wie Outlook.
+<v Pfleidi>Oder man hat halt irgendwie dieses Zarafa-Geraffel, was dann wiederum aussieht wie Outlook.
 
 00:55:27.870 --> 00:55:28.990
 <v Pfleidi>Und das möchte man ja auch nicht.
@@ -3595,7 +3595,7 @@ WEBVTT
 <v Marc>Auf jeden Fall kann man das dann machen und die sehen ganz nett aus und dann findest du raus,
 
 00:57:14.190 --> 00:57:19.790
-<v Marc>dass Kalda von Kartav nicht über SSL gehen und fängst dich an, ein wenig zu übergeben und sagst dann,
+<v Marc>dass CalDAV und CardDAV nicht über SSL gehen und fängst dich an, ein wenig zu übergeben und sagst dann,
 
 00:57:19.870 --> 00:57:22.670
 <v Marc>nee, dann würde ich hier dann auch gern wieder weg.
@@ -3757,7 +3757,7 @@ WEBVTT
 <v Marc>Also mit
 
 01:00:00.730 --> 01:00:07.130
-<v Marc>iCal, wenn du CalDAV verwenden willst auf OSX-Line, dieses SaberDAF hat ein Implementationsproblem,
+<v Marc>iCal, wenn du CalDAV verwenden willst auf OSX-Line, dieses SabreDAV hat ein Implementationsproblem,
 
 01:00:07.290 --> 01:00:09.770
 <v Marc>habe ich mich irgendwie mit denen jetzt schon eine Stunde gut am Telefon unterhalten,
@@ -3907,7 +3907,7 @@ WEBVTT
 <v Marc>der mir SMTP macht.
 
 01:02:50.650 --> 01:02:54.890
-<v Marc>Bedeutet, dann habe ich mir mal zwei angeschaut, nämlich Sandgrid und Amazon SES.
+<v Marc>Bedeutet, dann habe ich mir mal zwei angeschaut, nämlich SendGrid und Amazon SES.
 
 01:02:55.210 --> 01:03:00.570
 <v Marc>Beide sind eigentlich so Bulk-E-Mail-Anbieter, wo du halt, wenn du wirklich einen Web-Service hast,
@@ -3919,7 +3919,7 @@ WEBVTT
 <v Marc>dass du darüber drauf zugreifen kannst.
 
 01:03:07.050 --> 01:03:12.170
-<v Marc>Sandgrid ist recht schön eigentlich, sieht ganz nett aus, aber ich habe mich dann im Endeffekt doch für Amazon
+<v Marc>SendGrid ist recht schön eigentlich, sieht ganz nett aus, aber ich habe mich dann im Endeffekt doch für Amazon
 
 01:03:12.170 --> 01:03:13.290
 <v Marc>SES entschieden.
@@ -4897,7 +4897,7 @@ WEBVTT
 <v Pfleidi>das ist hier in Gherkin geschrieben, was so eine Sprache ist, um eigentlich Acceptance
 
 01:19:26.650 --> 01:19:31.290
-<v Pfleidi>Testing in einem Framework namens QCumber zu machen, was wir so auch in Ruby einsetzen.
+<v Pfleidi>Testing in einem Framework namens Cucumber zu machen, was wir so auch in Ruby einsetzen.
 
 01:19:31.450 --> 01:19:38.330
 <v Pfleidi>Und da sagt man halt hier, wenn I visit diese Domain, then the page should download in
@@ -4981,7 +4981,7 @@ WEBVTT
 <v Felix>Richtig.
 
 01:21:02.730 --> 01:21:07.450
-<v Marc>Also das Girlkin kann ich mir noch halbwegs vorstellen, dass du da dein Business-Hinds auch ein bisschen die
+<v Marc>Also das Gherkin kann ich mir noch halbwegs vorstellen, dass du da dein Business-Hinds auch ein bisschen die
 
 01:21:07.450 --> 01:21:09.770
 <v Marc>Likik zeigen kannst, hier so, so monitoren wir.
@@ -5230,7 +5230,7 @@ WEBVTT
 <v Pfleidi>Nee, die in ihrem Bereich alles kann.
 
 01:24:42.330 --> 01:24:48.490
-<v Pfleidi>Also es gibt so Geschichten wie Stats D oder Kakti oder Collect D, die irgendwie Metriken aufzeichnen können
+<v Pfleidi>Also es gibt so Geschichten wie Stats D oder Cacti oder Collect D, die irgendwie Metriken aufzeichnen können
 
 01:24:48.490 --> 01:24:50.330
 <v Pfleidi>und rendern können und darstellen können.
@@ -5371,7 +5371,7 @@ WEBVTT
 <v Marc>Ich habe mir das Glück.
 
 01:27:03.290 --> 01:27:06.810
-<v Ingo>Bei Nagio gibt es dann wieder einen Nagios Graph, der baut dann da wieder Graphen draus.
+<v Ingo>Bei Nagios gibt es dann wieder einen Nagios Graph, der baut dann da wieder Graphen draus.
 
 01:27:08.090 --> 01:27:10.410
 <v Marc>Alles, was in RADs schreibt, ist bei mir eh unten durch.
@@ -5644,10 +5644,10 @@ WEBVTT
 <v Pfleidi>Richtig.
 
 01:31:31.530 --> 01:31:36.810
-<v Marc>Da halt hänge ich mich dann direkt hinten dran an Monad, nämlich mit God.RB.
+<v Marc>Da halt hänge ich mich dann direkt hinten dran an Monit, nämlich mit God.RB.
 
 01:31:37.450 --> 01:31:43.850
-<v Marc>God.rB hatte irgendwann mal so einen coolen Slogan, irgendwie like Monad only right oder irgend sowas in der
+<v Marc>God.rB hatte irgendwann mal so einen coolen Slogan, irgendwie like Monit only right oder irgend sowas in der
 
 01:31:43.850 --> 01:31:44.250
 <v Marc>Art.
@@ -6202,7 +6202,7 @@ WEBVTT
 <v Pfleidi>Das sollte man auch noch dazu sagen, also Munin hat auch Plugins für SNMP und damit kann man dann halt auch.
 
 01:42:22.250 --> 01:42:24.170
-<v Ingo>Und am schlimmsten ist Kakti, da kommen wir gleich zu tun.
+<v Ingo>Und am schlimmsten ist Cacti, da kommen wir gleich zu tun.
 
 01:42:25.530 --> 01:42:30.730
 <v Pfleidi>TD ist auch so eine furchtbare Software, die ich habe ich mal versucht aufzusetzen und hab dann Munin
@@ -6214,10 +6214,10 @@ WEBVTT
 <v Pfleidi>Ja, ja.
 
 01:42:32.970 --> 01:42:39.050
-<v Ingo>Ich habe auch mal Kakti und Nagios verwendet und Kakti ist einfach, boah, das ist einfach katastrophal.
+<v Ingo>Ich habe auch mal Cacti und Nagios verwendet und Cacti ist einfach, boah, das ist einfach katastrophal.
 
 01:42:39.290 --> 01:42:43.530
-<v Ingo>Also wenn ihr noch Kakti am Laufen habt und meint, ihr seid glücklich damit,
+<v Ingo>Also wenn ihr noch Cacti am Laufen habt und meint, ihr seid glücklich damit,
 
 01:42:43.610 --> 01:42:45.050
 <v Ingo>dann installiert bitte meinen Munin.
@@ -6268,7 +6268,7 @@ WEBVTT
 <v Pfleidi>man führt jetzt so sowas, was die Monitors-Txt hat.
 
 01:43:30.490 --> 01:43:36.490
-<v Pfleidi>Führt man jetzt irgendwie zum Beispiel mit Capy Barra für Ruby aus oder mit Selenium WebDriver oder sowas.
+<v Pfleidi>Führt man jetzt irgendwie zum Beispiel mit Capybara für Ruby aus oder mit Selenium WebDriver oder sowas.
 
 01:43:36.570 --> 01:43:36.730
 <v Pfleidi>Genau.
@@ -6364,7 +6364,7 @@ WEBVTT
 <v Ingo>Also ich habe es noch nicht.
 
 01:45:04.090 --> 01:45:07.850
-<v Marc>Wenn XMMP down ist, dann würde ich gerne über Java meine Nachricht dafür bekommen.
+<v Marc>Wenn XMPP down ist, dann würde ich gerne über Java meine Nachricht dafür bekommen.
 
 01:45:08.090 --> 01:45:08.650
 <v Marc>Ist ja auch schön.
@@ -6472,7 +6472,7 @@ WEBVTT
 <v Pfleidi>Also das, was wir jetzt auch schon hatten, zählt da ja schon ein bisschen dazu.
 
 01:46:19.130 --> 01:46:24.570
-<v Pfleidi>Also zumindest Munin zählt da ein bisschen dazu, Kacti auch.
+<v Pfleidi>Also zumindest Munin zählt da ein bisschen dazu, Cacti auch.
 
 01:46:25.050 --> 01:46:30.170
 <v Pfleidi>Die machen optional noch andere Dinge, aber es gibt ja auch so Lösungen, die nur Graphen machen.
@@ -6505,7 +6505,7 @@ WEBVTT
 <v Marc>Wer hat denn Graphite reingeschrieben?
 
 01:46:54.890 --> 01:46:55.610
-<v Marc>Der FlyDy.
+<v Marc>Der Pfleidi.
 
 01:46:55.770 --> 01:46:58.890
 <v Felix>Oh, ich habe es mir anversucht, aber es ist irgendwie ist es ein Riesenpain.
@@ -6598,7 +6598,7 @@ WEBVTT
 <v Marc>Nee, nee, nee, nee, nee, nee.
 
 01:48:30.090 --> 01:48:31.930
-<v Felix>Ach, das war sogar Statsy, was ich mir angeschaut habe.
+<v Felix>Ach, das war sogar StatsD, was ich mir angeschaut habe.
 
 01:48:32.010 --> 01:48:32.810
 <v Felix>Genau, das ist der Pen.
@@ -6622,7 +6622,7 @@ WEBVTT
 <v Pfleidi>Richtig.
 
 01:48:43.210 --> 01:48:47.210
-<v Pfleidi>Und die haben auch Statsy geschrieben, wo man halt mit dem Protokoll,
+<v Pfleidi>Und die haben auch StatsD geschrieben, wo man halt mit dem Protokoll,
 
 01:48:47.290 --> 01:48:51.610
 <v Pfleidi>was Felix so furchtbar findet, einfach per UDP-Daten hinschicken kann.
@@ -6910,7 +6910,7 @@ WEBVTT
 <v Marc>Wobei es Planck irgendwie dann auch eine Lizenz hat, die irgendwie komisch ist, und eine Million Euro kostet.
 
 01:54:21.690 --> 01:54:25.690
-<v Marc>Und dann mein neuer Liebling, Grey Log 2, die Überschrift auf der Seite,
+<v Marc>Und dann mein neuer Liebling, Graylog2, die Überschrift auf der Seite,
 
 01:54:25.930 --> 01:54:30.650
 <v Marc>manage your logs in the dark and have lasers going and make it look like you're from space.
@@ -7036,7 +7036,7 @@ WEBVTT
 <v Pfleidi>Das ist kein Web-Service, das ist tatsächlich Open Source Software, die du dir selber installieren kannst.
 
 01:56:27.930 --> 01:56:33.770
-<v Pfleidi>Du benutzt Ruby, benutzt Lucine, benutzt Elasticsearch, ist unter Apache 2.0 lizenziert.
+<v Pfleidi>Du benutzt Ruby, benutzt Lucene, benutzt Elasticsearch, ist unter Apache 2.0 lizenziert.
 
 01:56:33.930 --> 01:56:37.450
 <v Marc>Also das Graylog ist auch, der Service in Java geschrieben ist Webinterface,
@@ -7303,7 +7303,7 @@ WEBVTT
 <v Pfleidi>So ein Performance Monitoring werde ich auch demnächst mal was ansprechen, sobald es fertig ist.
 
 02:01:52.690 --> 02:01:54.050
-<v Marc>Achso, der Flydy Boat, ja.
+<v Marc>Achso, der Pfleidi Boat, ja.
 
 02:01:54.370 --> 02:01:56.210
 <v Pfleidi>Ja, Blitz.io habe ich auch schon ausprobiert.
@@ -7720,7 +7720,7 @@ WEBVTT
 <v Marc>Und der hat auch so einen Work-Faktor, der anpassbar ist.
 
 02:07:49.010 --> 02:07:53.730
-<v Marc>Bedeutet, bevor du B-Crypt verwendest, verwend doch Pival 2.
+<v Marc>Bedeutet, bevor du bcrypt verwendest, verwend doch PBKDF2.
 
 02:07:54.770 --> 02:07:57.810
 <v Marc>Der wurde schon zumindest mal angeschaut und da kann man recht sicher davon ausgehen,
@@ -7900,7 +7900,7 @@ WEBVTT
 <v Felix>Ich bin für A-Script.
 
 02:10:52.050 --> 02:10:53.170
-<v Ingo>Okay, Flydy.
+<v Ingo>Okay, Pfleidi.
 
 02:10:53.490 --> 02:11:00.450
 <v Pfleidi>Was ganz anderes, ich habe einen Blogpost von John McCutcheon, würde ich den jetzt mal aussprechen.
@@ -7924,7 +7924,7 @@ WEBVTT
 <v Pfleidi>ein paar lustige Bilder, wie denn das Protokoll aufgebaut ist.
 
 02:11:22.930 --> 02:11:28.770
-<v Pfleidi>Und gut, die Codebeispiele sind C  ⁇ , aber das ist irgendwie, beschreibt auch nur die Datentypen,
+<v Pfleidi>Und gut, die Codebeispiele sind C++ , aber das ist irgendwie, beschreibt auch nur die Datentypen,
 
 02:11:29.090 --> 02:11:32.450
 <v Pfleidi>wie man die Nachrichten hin und her schickt und so, ist eigentlich nichts Großes.
@@ -8218,7 +8218,7 @@ WEBVTT
 <v Ingo>Ich war am Wochenende bei meinen Eltern und ihr wisst ja, meine Eltern ganz, ganz langsames Internet.
 
 02:17:24.130 --> 02:17:26.050
-<v Ingo>Flydi hat so dasselbe Probleme mit seinen Eltern.
+<v Ingo>Pfleidi hat so dasselbe Probleme mit seinen Eltern.
 
 02:17:26.370 --> 02:17:28.610
 <v Pfleidi>Mein Internet bei meinen Eltern ist schneller als deins.
@@ -9007,10 +9007,10 @@ WEBVTT
 <v Marc>Weiß das jemand von euch aus, wenn nicht, was es ist?
 
 02:30:20.770 --> 02:30:21.490
-<v Marc>Das ist ein WebDAF.
+<v Marc>Das ist ein WebDAV.
 
 02:30:21.650 --> 02:30:25.330
-<v Pfleidi>Ich habe gerade in der Wikipedia nachgeguckt, dass du ein WebDAF gedönst, was XML erwartet.
+<v Pfleidi>Ich habe gerade in der Wikipedia nachgeguckt, dass du ein WebDAV gedönst, was XML erwartet.
 
 02:30:25.410 --> 02:30:26.210
 <v Pfleidi>Das ist total gut, ne?
@@ -9025,7 +9025,7 @@ WEBVTT
 <v Marc>Und HTTP207 ist Multistatus.
 
 02:30:33.570 --> 02:30:37.890
-<v Marc>WebDAF hat so die Geschichte, wir haben einen Statuscode, der für mehrere Statuscodes steht.
+<v Marc>WebDAV hat so die Geschichte, wir haben einen Statuscode, der für mehrere Statuscodes steht.
 
 02:30:38.130 --> 02:30:38.690
 <v Marc>Multistatus.
@@ -9043,7 +9043,7 @@ WEBVTT
 <v Marc>der so wie mehrere Sachen passiert und wir packen es in XML und du musst es verarbeiten.
 
 02:30:48.130 --> 02:30:51.330
-<v Pfleidi>Wobei man muss halt dazu sagen, das ist eine Erweiterung, die aus WebDAF kommt,
+<v Pfleidi>Wobei man muss halt dazu sagen, das ist eine Erweiterung, die aus WebDAV kommt,
 
 02:30:51.410 --> 02:30:52.610
 <v Pfleidi>aber es ist trotzdem irgendwie komisch.
@@ -9652,7 +9652,7 @@ WEBVTT
 <v Ingo>Genau, ich wollte mal Mumble picken.
 
 02:40:08.330 --> 02:40:13.690
-<v Ingo>Das ist so ein Open Source Voib-Teilchen.
+<v Ingo>Das ist so ein Open Source VoIP-Teilchen.
 
 02:40:14.410 --> 02:40:17.450
 <v Pfleidi>Also es ist im Endeffekt sowas wie TeamSpeak, wenn man das noch kennt.
@@ -10066,10 +10066,10 @@ WEBVTT
 <v Marc>Zwar war ich auf dem E-Mail-Trip und war dann auch auf diesem ganzen Sync-Typ-Trip und die sind alle ein
 
 02:47:31.210 --> 02:47:36.330
-<v Marc>bisschen Pain, so die ganzen WebDAF, CalDAF und KartDAF-Geschichten.
+<v Marc>bisschen Pain, so die ganzen WebDAV, CalDAF und KartDAF-Geschichten.
 
 02:47:36.410 --> 02:47:38.490
-<v Marc>Und dieser Bikal sieht für mich zumindest nett aus.
+<v Marc>Und dieser Baikal sieht für mich zumindest nett aus.
 
 02:47:38.650 --> 02:47:42.090
 <v Marc>Er ist auf GitHub, er hat einen Markdown-File, bedeutet, das kann gar nicht so schlecht sein.
@@ -10090,7 +10090,7 @@ WEBVTT
 <v Marc>Keine Ahnung, Jerome Schneider hat es geschrieben, aber ja.
 
 02:47:56.410 --> 02:47:57.770
-<v Marc>Genau, auf jeden Fall Bikal.
+<v Marc>Genau, auf jeden Fall Baikal.
 
 02:47:58.090 --> 02:48:00.970
 <v Felix>Es gibt auch solche super Dinger über seinem Namen.
@@ -10099,7 +10099,7 @@ WEBVTT
 <v Marc>Ja, der ist aber Franzose.
 
 02:48:02.650 --> 02:48:05.770
-<v Marc>Nee, also der ist egal, Bikal.
+<v Marc>Nee, also der ist egal, Baikal.
 
 02:48:06.090 --> 02:48:06.730
 <v Marc>Das könnte Russisch sein.
@@ -10125,11 +10125,11 @@ WEBVTT
 02:48:25.290 --> 02:48:30.250
 <v Marc>Was dann prinzipiell gar nicht mehr so ist, also SQLite ich eine gute Sache dafür.
 
-02:48:30.570 --> 02:48:36.970
-<v Marc>Und der sieht nach einem netten, recht leichten Drop-in-Calda-Card
+02:48:30.570 --> 02:48:35.450
+<v Marc>Und der sieht nach einem netten, recht leichten
 
-02:48:37.050 --> 02:48:41.770
-<v Marc>Duff-Server aus, der eventuell ein bisschen abseits von dem Saber-Duff.
+02:48:35.450 --> 02:48:41.770
+<v Marc>Drop-in-CalDAV-CardDAV-Server aus, der eventuell ein bisschen abseits von dem SabreDAV.
 
 02:48:42.810 --> 02:48:43.690
 <v Marc>Saber-Rive.
@@ -10678,10 +10678,10 @@ WEBVTT
 <v Felix>Und auf jeden Fall der Talk ist ziemlich cool.
 
 02:58:15.050 --> 02:58:16.810
-<v Felix>Der kann auch eigentlich zu Lesefuhr hoch.
+<v Felix>Der kann auch eigentlich zu Lesefoo hoch.
 
 02:58:18.650 --> 02:58:20.410
-<v Felix>Also quasi Lesefuhr.
+<v Felix>Also quasi Lesefoo.
 
 02:58:20.970 --> 02:58:22.090
 <v Felix>Fakt man nicht weit genug.
@@ -10690,7 +10690,7 @@ WEBVTT
 <v Ingo>Aber eindeutig bei dem Egal.
 
 02:58:25.370 --> 02:58:26.730
-<v Pfleidi>Es ist ja nicht direkt Lesefu.
+<v Pfleidi>Es ist ja nicht direkt Lesefoo.
 
 02:58:27.130 --> 02:58:28.490
 <v Felix>Aber man kann sich es quasi.

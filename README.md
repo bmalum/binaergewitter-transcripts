@@ -35,7 +35,9 @@ Die Transkripte sind vollautomatisch erstellt und nicht von Hand korrigiert.
 
 - **Text:** Im Vergleich mit den vorhandenen Auphonic-Transkripten weichen etwa 12–13 % der Wörter ab. Auphonic ist
   ebenfalls maschinell, die Zahl ist also eine Abweichung zwischen zwei Erkennern, keine echte Fehlerrate.
-  Typische Fehler sind Eigennamen und Fachbegriffe, zum Beispiel „Binary Gewitter“.
+  Typische Fehler sind Eigennamen und Fachbegriffe. Die häufigsten davon sind nachträglich korrigiert (siehe
+  „Textkorrekturen“), zum Beispiel „ButterFS“ → btrfs, „System D“ → systemd, „Lesefu“ → Lesefoo. Es bleiben
+  Fehler, die niemand gefunden hat, vor allem Verhörer, die wie ein echtes deutsches Wort aussehen.
 - **Sprecher:** Jede Stimme ist namentlich zugeordnet (siehe unten). Getestet an Folgen mit Auphonic-Sprecherzuordnung
   waren im Schnitt etwa 92–93 % der Wörter dem richtigen Sprecher zugeordnet, in der schlechtesten Folge 88,8 %.
   Für die frühen Folgen mit Pfleidi, Marc und Mat gibt es keine solche Referenz. Dort stützen sich die Namen auf
@@ -84,6 +86,27 @@ So wurden die Namen gefunden:
 - Auch in den Folgen, in denen vorher nur Ingo, Felix oder Markus erkannt wurden, hat sich einiges geändert: In
   frühen Folgen steckte oft Pfleidi unter „Ingo“, und in einigen Folgen von 2017 lief Ingo als „Gast 1“.
 
+## Textkorrekturen
+
+Die Spracherkennung hört Eigennamen und Fachbegriffe oft falsch („ButterFS“ statt btrfs, „System D“ statt systemd,
+„Lesefu“ statt Lesefoo, „Pürzen“ statt Fürzen). Nachträglich sind rund 12.400 Stellen in allen 327 Folgen korrigiert:
+
+- **Regeln** (`tools/fix_terms.py`, rund 7.400 Stellen): Verhörer, die überall gleich falsch sind, etwa Produkt- und
+  Personennamen (McAfee, Tizen, ownCloud, Torvalds, Stallman), die Rubrik „Lesefoo“, „Heise“ (oft als „heiße“ erkannt)
+  und das Zeichen „⁇“, das die Erkennung für `+` und `&` ausgibt („C ⁇“ → C++, „AT ⁇ T“ → AT&T). Wörter, die es auch
+  als normales Deutsch gibt („Nass“ für NAS, „Skala“ für Scala, „Wim“ für Vim), werden nur ersetzt, wenn der Kontext
+  passt. Die Wortzeiten bleiben dabei passend zum Text.
+- **Durchsicht pro Folge** (`tools/term_fixes/episode_review.json` und `second_check.json`, rund 5.000 Stellen): Pro
+  Folge wurden die Sätze mit Wörtern, die kein Wörterbuch und keine Shownotes kennen, zusammen mit den Shownotes
+  durchgesehen; Begriffe aus den Shownotes, die im Transkript nie vorkommen, wurden gesucht. Vorschläge, bei denen sich
+  die erste Durchsicht nicht ganz sicher war, hat ein zweiter Durchgang unabhängig geprüft (671 von 719 bestätigt, 13
+  mit geänderter Schreibweise, 35 verworfen). Jede Korrektur steht mit Folge, Satznummer, altem und neuem Text in den
+  Dateien.
+- **Nicht korrigiert** sind Verhörer in Sätzen, die niemand beanstandet hat, Wörter, bei denen unklar bleibt, was
+  gemeint war („Nupsi“, „Blafu“), und Scherze der Hosts („Wolgograd“, „Premiärquelle“, „Dingsi“).
+
+Es ist keine Vollkorrektur. Wer in einer Folge etwas findet, kann es gern als Issue oder Pull Request melden.
+
 ## Wie sie entstanden sind
 
 - **Spracherkennung:** [nvidia/parakeet-tdt-0.6b-v3](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3) über
@@ -108,6 +131,7 @@ Die Skripte liegen in `tools/`:
 | `worker.py` | Holt Folgen aus einer gemeinsamen Warteschlange in S3 (bedingte Schreibzugriffe als Sperre), transkribiert sie und berechnet die Stimmabdrücke |
 | `name_speakers.py` | Sprecherzuordnung der ersten Runde und Export der `-speech.json`; läuft ohne GPU |
 | `relabel.py` | Sprecherzuordnung der zweiten Runde: Stimmen je Folge gruppieren, zu Personen zusammenfassen, benennen. Die Namen und ihre Belege stehen im Skript |
+| `fix_terms.py` | Textkorrekturen: Regeln für falsch erkannte Begriffe und Einspielen der Einzelkorrekturen aus `term_fixes/` (`--manual`) |
 | `make_vtt.py` | Erzeugt die `.vtt` aus den `-speech.json` |
 
 `name_speakers.py` und `relabel.py` brauchen die Stimmabdrücke der Sätze. Sie sind nicht veröffentlicht, weil es

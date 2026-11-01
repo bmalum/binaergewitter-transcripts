@@ -262,7 +262,7 @@ WEBVTT
 <v Jörg>benutzen will, kann ich das halt entweder über ein Programm,
 
 00:05:59.840 --> 00:06:02.800
-<v Jörg>was ich Nixnv nennt, installieren.
+<v Jörg>was ich nix-env nennt, installieren.
 
 00:06:02.880 --> 00:06:05.120
 <v Jörg>Oder wenn ich es einfach bloß mal ausprobieren will, da gibt es was,
@@ -289,7 +289,7 @@ WEBVTT
 <v Jörg>selber bauen, weil das braucht viel zu viel CPU und so weiter.
 
 00:06:45.520 --> 00:06:48.640
-<v Ingo>Genau, also man will kein Gento machen, man will nicht einen auf Gento.
+<v Ingo>Genau, also man will kein Gentoo machen, man will nicht einen auf Gentoo.
 
 00:06:49.200 --> 00:06:53.760
 <v Jörg>Sondern in der Regel will man eigentlich alles aus dem sogenannten Binär-Cache installieren,
@@ -370,7 +370,7 @@ WEBVTT
 <v Jörg>Programme, also dieser Zustand, dass es jetzt irgendwas installiert ist,
 
 00:08:42.160 --> 00:08:47.600
-<v Jörg>das ist halt weniger vagil, weil wenn man zum Beispiel bei Upt irgendwas installiert,
+<v Jörg>das ist halt weniger vagil, weil wenn man zum Beispiel bei apt irgendwas installiert,
 
 00:08:47.920 --> 00:08:53.680
 <v Jörg>man installiert zum Beispiel, man ersetzt seine Lib C und dann bricht das Programm ab aus irgendeinem Grund.
@@ -409,7 +409,7 @@ WEBVTT
 <v Jörg>Hash-Summe und dann Endcurses minus die Versionsnummer und das ist dann halt ein anderer Pfad.
 
 00:09:52.720 --> 00:09:57.840
-<v Jörg>Und das Bildsystem von Nix funktioniert halt so,
+<v Jörg>Und das Buildsystem von Nix funktioniert halt so,
 
 00:09:57.920 --> 00:10:02.800
 <v Jörg>dass das in dem Binary dann, also dass das Programm dann weiß,
@@ -1027,7 +1027,7 @@ WEBVTT
 <v Jörg>wenn man irgendwie Touch Touch Touch-Bases gemacht hat.
 
 00:23:29.010 --> 00:23:31.330
-<v Felix>Es gibt ein Linus Torwalz.
+<v Felix>Es gibt ein Linus Torvalds.
 
 00:23:32.770 --> 00:23:35.650
 <v Ingo>Das ist der Erfinder von Nix, oder wie?
@@ -1546,7 +1546,7 @@ WEBVTT
 <v Jörg>Und dann kann man, das spuckt dann so ein Pfad aus, den man ausführen kann.
 
 00:35:44.770 --> 00:35:50.130
-<v Jörg>Und das startet dann ein Quemo und da dran ist dann halt die aktuelle Systemkonfiguration.
+<v Jörg>Und das startet dann ein QEMU und da dran ist dann halt die aktuelle Systemkonfiguration.
 
 00:35:50.210 --> 00:35:53.970
 <v Jörg>Und da kann man sich dann halt angucken, ob alle Dienste wieder so starten, wie sie starten sollen.
@@ -1663,7 +1663,7 @@ WEBVTT
 <v Ingo>Almost got me.
 
 00:38:29.410 --> 00:38:33.090
-<v Jörg>Man kann dann halt sein WIM oder sein Emacs halt auch schon mit den ganzen Plugins installieren.
+<v Jörg>Man kann dann halt sein Vim oder sein Emacs halt auch schon mit den ganzen Plugins installieren.
 
 00:38:33.170 --> 00:38:37.970
 <v Jörg>Also ich weiß zum Beispiel, dass bei Emacs diese ganzen Pakete, die es irgendwie für E-Mails gibt,
@@ -1855,10 +1855,10 @@ WEBVTT
 <v Felix>Okay.
 
 00:42:31.610 --> 00:42:37.690
-<v Jörg>Und ja, die Hydra ist halt ein sogenanntes Continuous Indication System,
+<v Jörg>Und ja, die Hydra ist halt ein sogenanntes Continuous Integration System,
 
 00:42:37.770 --> 00:42:40.330
-<v Jörg>also so wie Jenkins oder Bildbot.
+<v Jörg>also so wie Jenkins oder Buildbot.
 
 00:42:41.610 --> 00:42:48.330
 <v Jörg>Aber dann mit dem Schwerpunkt auf Nix, also dass man dort seine Nix-Expressions mit
@@ -1909,7 +1909,7 @@ WEBVTT
 <v Jörg>Und das kann man dann halt direkt über seinen eigenen privaten Binär Cache sich dann runterladen.
 
 00:43:53.290 --> 00:44:00.250
-<v Felix>Und aber also prinzipiell können alle Continuous Integration Systeme oder alle Bildsysteme auch
+<v Felix>Und aber also prinzipiell können alle Continuous Integration Systeme oder alle Buildsysteme auch
 
 00:44:00.410 --> 00:44:05.850
 <v Felix>Nix bauen und zwar einfach weil, wenn du den Nix,
@@ -2368,7 +2368,7 @@ WEBVTT
 <v Jörg>Also man kann davon auch schon viel wieder ausschalten, aber es wird schon mal ein bisschen was installiert,
 
 00:53:38.490 --> 00:53:45.450
-<v Jörg>also es ist zum Beispiel ein System D ist halt immer dabei und ein DACP
+<v Jörg>also es ist zum Beispiel ein systemd ist halt immer dabei und ein DHCP
 
 00:53:45.450 --> 00:53:50.250
 <v Jörg>ist halt auch steinmäßig da, das Netzwerk funktioniert und was gibt es noch?
@@ -2452,7 +2452,7 @@ WEBVTT
 <v Jörg>Genau.
 
 00:55:32.410 --> 00:55:37.210
-<v Felix>Aber wenn man natürlich die komplette Abstraktion von System D nachbauen würde,
+<v Felix>Aber wenn man natürlich die komplette Abstraktion von systemd nachbauen würde,
 
 00:55:38.250 --> 00:55:44.490
 <v Felix>quasi so die Konfiguration, man sagt, okay, System B kann Services ordnen.
@@ -2509,7 +2509,7 @@ WEBVTT
 <v Jörg>Genau.
 
 00:56:51.210 --> 00:56:55.930
-<v Jörg>Also es gab auch mal, es gibt auch irgendwie Leute, die das unter Syquin benutzt haben.
+<v Jörg>Also es gab auch mal, es gibt auch irgendwie Leute, die das unter Cygwin benutzt haben.
 
 00:56:56.970 --> 00:57:00.250
 <v Jörg>Natives Windows, habe ich jetzt noch nie so viel gesehen.
@@ -2818,7 +2818,7 @@ WEBVTT
 <v Jörg>häufig irgendwie ein anderes Projekt schnappen, was ja zu ähnlich ist,
 
 01:03:34.650 --> 01:03:36.810
-<v Jörg>vielleicht von einem Bildsystem oder so.
+<v Jörg>vielleicht von einem Buildsystem oder so.
 
 01:03:36.970 --> 01:03:41.450
 <v Jörg>Gruppiert sich das einfach und muss dann sich eigentlich über diese Programmiersprache erstmal gar nicht so
@@ -3274,7 +3274,7 @@ WEBVTT
 <v Ingo>Aber Nixos ist ja jetzt nicht nix.
 
 01:14:09.850 --> 01:14:14.090
-<v Ingo>Das heißt, und wir hatten ja das Beispiel mit Ngin X,
+<v Ingo>Das heißt, und wir hatten ja das Beispiel mit nginx,
 
 01:14:14.330 --> 01:14:19.850
 <v Ingo>also es gibt halt eine feste Version Nginx in der 17.09 dann.
@@ -4126,7 +4126,7 @@ WEBVTT
 <v Jörg>dann ist das meistens so, dass die Programme einen eigenen Parfum haben.
 
 01:33:35.310 --> 01:33:38.110
-<v Jörg>Also da gibt es so einen Frepper, so einen Shelf-Frepper drum rum.
+<v Jörg>Also da gibt es so einen Wrapper, so einen Shell-Wrapper drum rum.
 
 01:33:38.350 --> 01:33:40.750
 <v Jörg>Und dann wird das auch wirklich wieder aus Nix benutzt.
@@ -4267,7 +4267,7 @@ WEBVTT
 <v Jörg>du musst dir noch was angeben.
 
 01:36:40.190 --> 01:36:43.310
-<v Jörg>Ich will hier entweder Gruppe oder System D-Boot haben oder so weiter.
+<v Jörg>Ich will hier entweder Gruppe oder systemd-Boot haben oder so weiter.
 
 01:36:43.470 --> 01:36:45.790
 <v Felix>Oder du sagst, dass du wirklich nicht willst, weil du weißt, was du tust.
@@ -4414,7 +4414,7 @@ WEBVTT
 <v Felix>entweder dass einer fixt, fixt es selber, oder man nimmt halt für immer die alte Version.
 
 01:39:58.290 --> 01:40:03.250
-<v Jörg>Es war aber bei Archinux so, dass dieses DKMS, dass man das irgendwie so manuell machen musste,
+<v Jörg>Es war aber bei Arch Linux so, dass dieses DKMS, dass man das irgendwie so manuell machen musste,
 
 01:40:03.490 --> 01:40:06.130
 <v Jörg>weil dieser Pac-Man halt keine Hooks beherrscht hat.
@@ -4426,7 +4426,7 @@ WEBVTT
 <v Jörg>Und ich habe halt schon immer irgendwie ZFS als meine Root-Position.
 
 01:40:13.570 --> 01:40:18.370
-<v Jörg>Und dann stand ich dann halt so da mit meinem Archinux-System, hab den Konnel aktualisiert.
+<v Jörg>Und dann stand ich dann halt so da mit meinem Arch Linux-System, hab den Konnel aktualisiert.
 
 01:40:19.410 --> 01:40:20.610
 <v Felix>Äh, it's gone.
@@ -4462,10 +4462,10 @@ WEBVTT
 <v Jörg>Genau, genau.
 
 01:40:54.210 --> 01:40:58.370
-<v Ingo>Oder einfach ButterFS nehmen und kein ZFS und keinen DKMS nehmen, dann geht es auch.
+<v Ingo>Oder einfach btrfs nehmen und kein ZFS und keinen DKMS nehmen, dann geht es auch.
 
 01:40:58.530 --> 01:41:01.490
-<v Jörg>Also man braucht dann, es ist dann auch kein DKMS, es ist halt ein richtiges Könnel-Modul,
+<v Jörg>Also man braucht dann, es ist dann auch kein DKMS, es ist halt ein richtiges Kernel-Modul,
 
 01:41:01.570 --> 01:41:06.610
 <v Jörg>es ist schon vorgebaut von auf der Hydra und es hat dann halt was noch runtergeladen.
@@ -5290,7 +5290,7 @@ WEBVTT
 <v Jörg>Es gibt dann auch so Profile, zum Beispiel wenn man eine VM hat, gibt es halt ein,
 
 02:00:06.510 --> 02:00:11.630
-<v Jörg>in Nix-Packages gibt es halt ein Profil für Coemo oder Maschinen,
+<v Jörg>in Nix-Packages gibt es halt ein Profil für QEMU oder Maschinen,
 
 02:00:11.710 --> 02:00:13.550
 <v Jörg>die in einer virtualisierten Umgebung laufen.
